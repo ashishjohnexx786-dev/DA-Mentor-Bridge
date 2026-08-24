@@ -1,1 +1,1 @@
-{"name": "DA Mentor Bridge", "short_name": "DA Bridge", "start_url": "./index.html", "display": "standalone", "background_color": "#0b0e14", "theme_color": "#0b0e14"}
+{"name":"DA Mentor Bridge","short_name":"DA Bridge","description":"Fast-track Data Analyst to Data Engineering study mentor","start_url":"./index.html","scope":"./","display":"standalone","background_color":"#090d14","theme_color":"#000000","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
