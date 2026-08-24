@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DA Mentor Bridge</title>
+<link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css">
+</head><body>
+<header><div><h1>DA Mentor Bridge</h1><p>Fast-track: Data Analyst → Data Engineering</p></div><button id="theme">Theme</button></header>
+<main>
+<section class="card"><h2>Progress</h2><div class="progress"><span id="bar"></span></div><p id="progressText"></p></section>
+<section class="card"><div class="toolbar"><input id="search" placeholder="Search lessons"><select id="filter"><option value="all">All</option><option value="todo">To do</option><option value="done">Done</option></select></div><div id="lessons"></div></section>
+<section class="card"><h2>Focus Timer</h2><div class="timer"><span id="timerText">25:00</span><button id="timerStart">Start</button><button id="timerReset">Reset</button></div></section>
+<section class="card"><h2>Backup / Restore</h2><div class="toolbar"><button id="backup">Export Progress</button><label class="button">Restore<input id="restore" type="file" accept="application/json" hidden></label><button id="reset">Reset Progress</button></div></section>
+</main>
+<footer>Required videos: 0 · Use the Bridge books and practice files as the required source.</footer>
+<script src="curriculum.js"></script><script src="app.js"></script>
+</body></html>
