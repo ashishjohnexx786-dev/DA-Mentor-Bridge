@@ -1,17 +1,1 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>DA Mentor Bridge</title>
-<link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css">
-</head><body>
-<header><div><h1>DA Mentor Bridge</h1><p>Fast-track: Data Analyst → Data Engineering</p></div><button id="theme">Theme</button></header>
-<main>
-<section class="card"><h2>Progress</h2><div class="progress"><span id="bar"></span></div><p id="progressText"></p></section>
-<section class="card"><div class="toolbar"><input id="search" placeholder="Search lessons"><select id="filter"><option value="all">All</option><option value="todo">To do</option><option value="done">Done</option></select></div><div id="lessons"></div></section>
-<section class="card"><h2>Focus Timer</h2><div class="timer"><span id="timerText">25:00</span><button id="timerStart">Start</button><button id="timerReset">Reset</button></div></section>
-<section class="card"><h2>Backup / Restore</h2><div class="toolbar"><button id="backup">Export Progress</button><label class="button">Restore<input id="restore" type="file" accept="application/json" hidden></label><button id="reset">Reset Progress</button></div></section>
-</main>
-<footer>Required videos: 0 · Use the Bridge books and practice files as the required source.</footer>
-<script src="curriculum.js"></script><script src="app.js"></script>
-</body></html>
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DA Mentor Bridge</title><link rel="stylesheet" href="styles.css"><link rel="manifest" href="manifest.webmanifest"></head><body data-theme="dark"><div class="wrap"><div class="top"><div><b>DA Mentor Bridge</b><div class="muted">Course 2 Bridge - Data Analyst -> Data Engineering</div></div><div><button id="theme">Theme</button><button id="backup">Backup</button><button id="restore">Restore</button><input id="file" type="file" hidden></div></div><section class="card"><h1>Fast track to Course 3</h1><p class="muted">Only DE prerequisites. Full Course 2 remains optional.</p><div class="row"><b id="pct">0%</b><span id="count"></span></div><div class="progress"><i id="bar"></i></div></section><div class="grid"><main><section class="card"><div class="row"><h2 id="phase"></h2><select id="phaseSel"></select></div><div id="lessons"></div></section></main><aside><section class="card"><h2>Focus timer</h2><div class="timer" id="clock">25:00</div><div class="row"><button class="primary" id="start">Start</button><button id="reset">Reset</button></div></section><section class="card"><h2>Course 3 readiness</h2><p id="ready" class="muted"></p><label><input id="capstone" type="checkbox"> Bridge capstone complete</label><br><label><input id="gate" type="checkbox"> Entry gate passed</label></section></aside></div></div><script src="curriculum.js"></script><script src="app.js"></script></body></html>
