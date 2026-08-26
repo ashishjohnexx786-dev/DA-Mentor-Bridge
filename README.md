@@ -17,10 +17,10 @@ Course 2B companion app for the **Data Analyst → Data Engineering fast-track b
 - installable offline-first PWA with real asset caching
 
 ## Purpose
-Bridge is an optional fast route between Course 1 and Course 3. Full Course 2 remains a separate Senior / BI Analyst pathway and is not duplicated here.
+Course 2B Bridge is the primary accelerated route from working Data Analyst to Course 3 Data Engineering. Course 2A Senior / BI Analyst remains a separate optional branch and is not duplicated here.
 
 ## Mentor family
-`DA Mentor Launch → DA Mentor Advance / DA Mentor Bridge → DA Mentor Engineering`
+`DA Mentor Launch → DA Mentor Bridge (2B accelerated) → DA Mentor Engineering`, with `DA Mentor Advance (2A)` retained as an optional Senior/BI branch.
 
 Bridge now shares the same study-tool language and comfort features as the other Mentors while keeping only DE-relevant curriculum controls.
 
