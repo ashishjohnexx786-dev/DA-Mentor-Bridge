@@ -1,31 +1,12 @@
-# DA Mentor Bridge
+# DA Mentor Bridge - C2B canonical synchronization
 
-Course 2B companion app for the **Data Analyst → Data Engineering fast-track bridge**.
+Generated against the rebuilt B01-B06 course modules.
 
-## Bridge scope
-- 6 phases focused only on Course 3 prerequisites
-- lesson mastery and Course 3 readiness gate
-- Bridge capstone tracking
-- mentor guidance, daily tasks and notes
-- focus / short break / long break timer
-- configurable daily focus target, reports and streak
-- Error & Repair Center
-- sanitized engineering Evidence Vault
-- JSON backup/restore and CSV exports
-- seven restrained themes including true AMOLED Black
-- backup reminders
-- installable offline-first PWA with real asset caching
+Lesson mastery is **study/practice -> save genuine attempt -> open protected review -> changed transfer -> mastery**.
+Module mastery is all lessons -> Mini-Lab/Capstone -> independent Gate. Repair never auto-unlocks Gate B/C.
 
-## Purpose
-Course 2B Bridge is the primary accelerated route from working Data Analyst to Course 3 Data Engineering. Course 2A Senior / BI Analyst remains a separate optional branch and is not duplicated here.
+Course 3 requires B06 Final Gate PASS plus the eight documented evidence floors. 51/51 lessons alone does not unlock C3.
 
-## Mentor family
-`DA Mentor Launch → DA Mentor Bridge (2B accelerated) → DA Mentor Engineering`, with `DA Mentor Advance (2A)` retained as an optional Senior/BI branch.
+The historical local-storage key `daMentorBridge.v2` is preserved. Schema-3 migration keeps legacy checkmarks as **LEGACY - VERIFY** instead of silently promoting them.
 
-Bridge now shares the same study-tool language and comfort features as the other Mentors while keeping only DE-relevant curriculum controls.
-
-## Data safety
-Progress is stored locally in your browser. Never store confidential employer/customer data, credentials, proprietary code, or private datasets in notes/evidence.
-
-## Hosting
-Static offline-first PWA designed for GitHub Pages.
+Inside the course package, file buttons open `COURSE_MODULES/...`. On standalone GitHub Pages, Mentor copies the exact course-package path instead of pretending course files are hosted beside the app.

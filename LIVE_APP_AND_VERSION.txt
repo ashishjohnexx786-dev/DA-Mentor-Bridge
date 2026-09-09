@@ -1,6 +1,5 @@
-BR Mentor — 2026 v2.0
-Release date: 2026-09-02
-Teaching control: 16-stage v2.0 contract
-State migration: existing local progress/backup schema preserved
-AMOLED: true-black CSS patch included
-Sources: lesson-specific map generated from release control index
+DA Mentor Bridge
+Status: INTERNAL QA canonical C2B sync
+Storage key: daMentorBridge.v2 / schema 3
+Live GitHub repository: ashishjohnexx786-dev/DA-Mentor-Bridge
+Do not call FINAL until package reconciliation + intended-device/runtime checks pass.
