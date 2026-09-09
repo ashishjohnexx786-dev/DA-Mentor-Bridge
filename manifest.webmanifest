@@ -1,16 +1,13 @@
 {
-  "name": "DA Mentor Bridge - C2B",
+  "name": "DA Mentor Bridge",
   "short_name": "Mentor Bridge",
+  "description": "Course 2B DA-to-DE Bridge learning companion using the unified DE Mentor 2026 study workflow, protected review, fresh retry, mastery evidence, and an exact-timestamp study tracker.",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
-    {
-      "src": "icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    }
+    {"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
   ]
 }
