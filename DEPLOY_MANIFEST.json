@@ -1,0 +1,71 @@
+{
+  "mentor": "C2B",
+  "assetCount": 76,
+  "files": [
+    {
+      "path": "assets-pack.js",
+      "bytes": 1121543,
+      "sha256": "7279c6d80da405bca245e466f9201487d738c7bd2d958785ecfc53dc6006a73d"
+    },
+    {
+      "path": "curriculum.js",
+      "bytes": 134,
+      "sha256": "e3fba213e9a1a99bfac3f4ff186cf261a6be64517230b6bbab1863b06b98847e"
+    },
+    {
+      "path": "data-b01.js",
+      "bytes": 6028,
+      "sha256": "5584305f598090888da2015a7338ed4e0eee842693da1abc504b97e1088c55a2"
+    },
+    {
+      "path": "data-b02.js",
+      "bytes": 9071,
+      "sha256": "e3174aff6fd9a07e95d3e68965654ee0eb50476a731cdbb0b50e4714501ce89d"
+    },
+    {
+      "path": "data-b03.js",
+      "bytes": 5203,
+      "sha256": "539e00168c5279053d5c614ced30d96a0c0eb46235f6db8bab12e589f9b835a1"
+    },
+    {
+      "path": "data-b04.js",
+      "bytes": 8564,
+      "sha256": "6373585fa0fafd1660987b8cef4e4b03178a624ed25ddc2beb76ed0798e98fd7"
+    },
+    {
+      "path": "data-b05.js",
+      "bytes": 7541,
+      "sha256": "667573c06a2242a65b6fbc76facb15845d38d4796a5834121954d5cf3b8116bd"
+    },
+    {
+      "path": "data-b06.js",
+      "bytes": 2010,
+      "sha256": "9d8e0f137d006b497e03fef36ef332c4ab25b00843da398e4bab55dfb41693af"
+    },
+    {
+      "path": "icon.svg",
+      "bytes": 318,
+      "sha256": "ea6942579c16e2851acea5a693858344e971f0ce7a410cc3c532e0d3a6969c08"
+    },
+    {
+      "path": "index.html",
+      "bytes": 67308,
+      "sha256": "01bd2183789b805ce083aa6296e209434e269926d0ecaceb3dac73749db0a1d8"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 330,
+      "sha256": "3af72cfdaf084c30b59e4483198d691cb98b91e728a16118f41402a1accedd0a"
+    },
+    {
+      "path": "registry-core.js",
+      "bytes": 1240,
+      "sha256": "38238ea90adda8e8ba2373a1dd57b5f9220d7b5a48bd58c221296a1e18cb7587"
+    },
+    {
+      "path": "service-worker.js",
+      "bytes": 1042,
+      "sha256": "7282e4ca3d4ab68bd75a8b3e83a3616c2750176a4c9251892c28a38e2d584c82"
+    }
+  ]
+}

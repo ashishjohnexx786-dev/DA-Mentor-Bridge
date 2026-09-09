@@ -1,5 +1,0 @@
-DA Mentor Bridge
-Status: INTERNAL QA canonical C2B sync
-Storage key: daMentorBridge.v2 / schema 3
-Live GitHub repository: ashishjohnexx786-dev/DA-Mentor-Bridge
-Do not call FINAL until package reconciliation + intended-device/runtime checks pass.
