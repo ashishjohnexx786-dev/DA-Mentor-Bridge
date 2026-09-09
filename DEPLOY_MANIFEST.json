@@ -49,8 +49,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 67441,
-      "sha256": "2df7f2157756712379af9532eda6d2f9f8acdbebdcf323313ef9b79ad41defe0"
+      "bytes": 68286,
+      "sha256": "f48cb4adc224b3cba0f1cbf58585b3bb09b44166753dcaf86b714f986e6addd8"
     },
     {
       "path": "manifest.webmanifest",
@@ -70,5 +70,7 @@
   ],
   "runtimeFix": "LIVE_QA_STEP_RERENDER_2026_09_09",
   "mobileMarkupFix": "TEACHER_STEP_SIBLING_FIX_2026_09_09",
-  "studyNavigation": "ALL_LESSONS_OPEN_ASSESSMENTS_PROTECTED"
+  "studyNavigation": "ALL_LESSONS_OPEN_ASSESSMENTS_PROTECTED",
+  "mobileFix": "FINAL_MOBILE_TAP_FIX_2026_09_09",
+  "studyAccessMode": "OPEN_ANY_LESSON_FINAL_COMPLETION_STILL_PROTECTED"
 }
