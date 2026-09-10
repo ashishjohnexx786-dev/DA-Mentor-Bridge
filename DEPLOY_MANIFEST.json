@@ -49,13 +49,13 @@
     },
     {
       "path": "index.html",
-      "bytes": 69597,
-      "sha256": "e09210baeef978d9f48259e99206d667d165ca59d773de854506f21e8fbc5309"
+      "bytes": 70030,
+      "sha256": "10b56dc54f5979bc710e1e8effde2912dd009c36d8649f8b6507cdb08413fc8c"
     },
     {
       "path": "manifest.webmanifest",
-      "bytes": 330,
-      "sha256": "3af72cfdaf084c30b59e4483198d691cb98b91e728a16118f41402a1accedd0a"
+      "bytes": 506,
+      "sha256": "addcdfa5c43f43112691b8c85084d6ddaafbea06ffcfbecc6bd32f8858996b70"
     },
     {
       "path": "registry-core.js",
@@ -64,16 +64,17 @@
     },
     {
       "path": "service-worker.js",
-      "bytes": 1034,
-      "sha256": "ee3ed90515f0cff00966d586cd21e38409f0624cf7caa89431ac81b4e82a78b8"
+      "bytes": 1035,
+      "sha256": "c0036e6a086b2a36c7830cd9524d915b2f174672d42717769c3b205d940366d0"
     }
   ],
-  "runtimeFix": "LIVE_QA_STEP_RERENDER_2026_09_09",
+  "runtimeFix": "DE2026_FINAL_RUNTIME_2026_09_10",
   "mobileMarkupFix": "8_SIBLING_STEPS_NO_OVERLAP",
   "studyNavigation": "ALL_LESSONS_OPEN_ASSESSMENTS_PROTECTED",
   "mobileFix": "FINAL_MOBILE_TAP_FIX_2026_09_09",
   "studyAccessMode": "OPEN_ANY_LESSON_FINAL_COMPLETION_STILL_PROTECTED",
   "finalRelease": "2026-09-10",
   "reviewProtection": "GENUINE_ATTEMPT_BOOLEAN_REQUIRED",
-  "sourceLinks": "CURRENT_2026_09_10"
+  "sourceLinks": "CURRENT_2026_09_10",
+  "practiceAccess": "VISIBLE_ON_TODAY_LEARN_AND_COURSE_ROWS"
 }
