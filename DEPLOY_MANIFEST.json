@@ -34,8 +34,8 @@
     },
     {
       "path": "data-b05.js",
-      "bytes": 7561,
-      "sha256": "910e2728ef3023512ee2710872f9d581df88ca29b635852faaa68b7ebf6be288"
+      "bytes": 7541,
+      "sha256": "667573c06a2242a65b6fbc76facb15845d38d4796a5834121954d5cf3b8116bd"
     },
     {
       "path": "data-b06.js",
@@ -75,7 +75,7 @@
   "studyAccessMode": "OPEN_ANY_LESSON_FINAL_COMPLETION_STILL_PROTECTED",
   "finalRelease": "2026-09-10",
   "reviewProtection": "GENUINE_ATTEMPT_BOOLEAN_REQUIRED",
-  "sourceLinks": "CURRENT_2026_09_10",
+  "sourceLinks": "CURRENT_2026_09_10_VERIFIED",
   "practiceAccess": "VISIBLE_ON_TODAY_LEARN_AND_COURSE_ROWS",
   "manifestSync": "EXACT_CURRENT_MAIN"
 }
