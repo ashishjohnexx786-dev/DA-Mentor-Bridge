@@ -76,5 +76,6 @@
   "finalRelease": "2026-09-10",
   "reviewProtection": "GENUINE_ATTEMPT_BOOLEAN_REQUIRED",
   "sourceLinks": "CURRENT_2026_09_10",
-  "practiceAccess": "VISIBLE_ON_TODAY_LEARN_AND_COURSE_ROWS"
+  "practiceAccess": "VISIBLE_ON_TODAY_LEARN_AND_COURSE_ROWS",
+  "manifestSync": "EXACT_CURRENT_MAIN"
 }
