@@ -1,0 +1,13 @@
+-- C2B B01 MINI-LAB 1 - REVENUE RELIABILITY PACK - RC1 INTERNAL QA
+SET search_path TO c2b_b01_lab;
+-- Open only after B01-L01..L04 and B01-L06 are mastered.
+-- Hints allowed only after a genuine attempt is saved.
+-- Deliver one SQL file containing:
+-- 1) one row/order completed item revenue with explicit grain/cardinality contract;
+-- 2) named CTE stages and at least one independently validated stage;
+-- 3) deterministic region ranking + monthly LAG with missing-period note;
+-- 4) explicit KPI denominator + half-open event time window;
+-- 5) two independent reconciliations (completed revenue + distinct completed orders);
+-- 6) one intentionally unsafe join and the control that catches it;
+-- 7) 8-line handoff: purpose, inputs, output grain, assumptions, controls, risk, limitation, owner.
+-- Evidence must be reproducible and explainable.

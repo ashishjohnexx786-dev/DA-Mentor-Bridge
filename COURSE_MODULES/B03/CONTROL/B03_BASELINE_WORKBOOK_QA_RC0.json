@@ -1,0 +1,44 @@
+{
+  "workbook_duplicate_check": {
+    "sheets": {
+      "START_HERE": false,
+      "Source_Inventory": true,
+      "Model_Design": true,
+      "Relationships": true,
+      "Role_Playing_Dates": true,
+      "Date_Dimension": true,
+      "Reconciliation": true,
+      "Submission": true,
+      "QA_Summary": true
+    },
+    "finding": "All sheets except START_HERE are equivalent between main practice and old Mini-Lab.",
+    "verdict": "FAIL_FRESHNESS_REPLACE_MINILAB"
+  },
+  "gate_workbook_inspection": {
+    "A": "PASS_no_stale_lesson_ids_in_START_HERE_or_Submission",
+    "B": "PASS_no_stale_lesson_ids_in_START_HERE_or_Submission",
+    "C": "PASS_no_stale_lesson_ids_in_START_HERE_or_Submission"
+  },
+  "practice_controls": {
+    "customers": 24,
+    "services": 4,
+    "shipments": 72,
+    "shipment_events": 216,
+    "target_rows": 12,
+    "customer_tag_rows": 28,
+    "shipment_revenue_total": 26571.6,
+    "distinct_shipments_in_events": 72
+  },
+  "fresh_minilab_controls": {
+    "cities": 4,
+    "restaurants": 6,
+    "couriers": 10,
+    "courier_skill_rows": 18,
+    "deliveries": 40,
+    "delivery_events": 120,
+    "distinct_deliveries_in_events": 40,
+    "weekly_city_targets": 8,
+    "delivery_fee_total": 6770.0
+  },
+  "source_verification_date": "2026-09-10"
+}

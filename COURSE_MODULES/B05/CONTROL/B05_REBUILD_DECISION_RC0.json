@@ -1,0 +1,16 @@
+{
+  "module": "B05",
+  "baseline_lesson_count": 7,
+  "target_lesson_count": 5,
+  "target_name": "Cloud Platform Essentials",
+  "practice_domain": "Distribution Operations retained as guided case",
+  "mini_lab": "REPLACE with HomeFix Field Service independent cloud architecture case",
+  "gate_policy": "Preserve exact audited A/B/C response workbook + case ZIP bytes; regenerate reviews/routing only",
+  "c3_boundary": [
+    "No paid/live Fabric tenant is required in Bridge",
+    "Do not teach Fabric implementation workflows, Spark, pipelines or deployment here - C3-07 owns implementation",
+    "Do not reteach venv/secrets implementation from C3-00",
+    "Teach platform reasoning, identity/network/freshness/monitoring/acceptance contracts only"
+  ],
+  "release_status": "CONTROL_RC0_NOT_LEARNER_RELEASE"
+}

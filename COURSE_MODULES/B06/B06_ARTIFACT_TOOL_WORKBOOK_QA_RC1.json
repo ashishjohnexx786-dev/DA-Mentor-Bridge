@@ -1,0 +1,74 @@
+{
+  "module": "B06",
+  "tool": "artifact_tool",
+  "status": "PASS",
+  "pass_count": 13,
+  "total_checks": 13,
+  "checks": [
+    {
+      "name": "B06_CAPSTONE_EVIDENCE_WORKBOOK_RC1.xlsx:import",
+      "pass": true,
+      "detail": "18"
+    },
+    {
+      "name": "B06_CAPSTONE_EVIDENCE_WORKBOOK_RC1.xlsx:formula_error_scan",
+      "pass": true,
+      "detail": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "name": "B06_C3_ENTRY_READINESS_SCORECARD_RC1.xlsx:import",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "name": "B06_C3_ENTRY_READINESS_SCORECARD_RC1.xlsx:formula_error_scan",
+      "pass": true,
+      "detail": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "name": "B06_GATE_A_RETAIL_ORDERS_RESPONSE_WORKBOOK_RC1.xlsx:import",
+      "pass": true,
+      "detail": "18"
+    },
+    {
+      "name": "B06_GATE_A_RETAIL_ORDERS_RESPONSE_WORKBOOK_RC1.xlsx:formula_error_scan",
+      "pass": true,
+      "detail": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "name": "B06_GATE_B_SUPPORT_TICKETS_RESPONSE_WORKBOOK_RC1.xlsx:import",
+      "pass": true,
+      "detail": "18"
+    },
+    {
+      "name": "B06_GATE_B_SUPPORT_TICKETS_RESPONSE_WORKBOOK_RC1.xlsx:formula_error_scan",
+      "pass": true,
+      "detail": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "name": "B06_GATE_C_SUBSCRIPTION_BILLING_RESPONSE_WORKBOOK_RC1.xlsx:import",
+      "pass": true,
+      "detail": "18"
+    },
+    {
+      "name": "B06_GATE_C_SUBSCRIPTION_BILLING_RESPONSE_WORKBOOK_RC1.xlsx:formula_error_scan",
+      "pass": true,
+      "detail": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "name": "readiness:all_floors_plus_gate_ready",
+      "pass": true,
+      "detail": "{\"kind\":\"table\",\"sheet\":\"C3_Entry_Readiness\",\"address\":\"B5:D14\",\"rows\":10,\"cols\":3,\"values\":[[3,3,\"AT FLOOR\"],[3,3,\"AT FLOOR\"],[3,3,\"AT FLOOR\"],[3,3,\"AT FLOOR\"],[3,3,\"AT FLOOR\"],[3,3,\"AT FLOOR\"],[2,2,\"AT FLOOR\"],[2,2,\"AT FLOOR\"],[\"PASS\",\"PASS\",\"PASS\"],[null,null,\"C3 ENTRY READY\"]]}"
+    },
+    {
+      "name": "readiness:one_critical_floor_low_blocks",
+      "pass": true,
+      "detail": "{\"kind\":\"table\",\"sheet\":\"C3_Entry_Readiness\",\"address\":\"B5:D14\",\"rows\":10,\"cols\":3,\"values\":[[3,3,\"AT FLOOR\"],[3,2,\"REPAIR\"],[3,3,\"AT FLOOR\"],[3,3,\"AT FLOOR\"],[3,3,\"AT FLOOR\"],[3,3,\"AT FLOOR\"],[2,2,\"AT FLOOR\"],[2,2,\"AT FLOOR\"],[\"PASS\",\"PASS\",\"PASS\"],[null,null,\"NOT READY\"]]}"
+    },
+    {
+      "name": "capstone_scorecard:floor_formulas",
+      "pass": true,
+      "detail": "{\"kind\":\"table\",\"sheet\":\"Evidence_Scorecard\",\"address\":\"A4:D12\",\"rows\":9,\"cols\":4,\"values\":[[\"Area\",\"Floor\",\"Your score 0-4\",\"Status\"],[\"Advanced SQL\",3,3,\"AT FLOOR\"],[\"Python automation\",3,3,\"AT FLOOR\"],[\"Data modeling\",3,3,\"AT FLOOR\"],[\"Warehousing\",3,3,\"AT FLOOR\"],[\"Data quality\",3,3,\"AT FLOOR\"],[\"Independent analysis\",3,3,\"AT FLOOR\"],[\"Cloud/Fabric\",2,2,\"AT FLOOR\"],[\"Professional ownership\",2,2,\"AT FLOOR\"]]}"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "courseId": "C2B",
+  "moduleId": "B03",
+  "moduleName": "Engineering Data Modeling",
+  "releaseStatus": "INTERNAL_QA_RC1",
+  "lessonCount": 4,
+  "lessons": [
+    {
+      "id": "B03-L01",
+      "title": "Analyst semantic model to engineering dimensional contract"
+    },
+    {
+      "id": "B03-L02",
+      "title": "Key integrity, relationship paths and many-to-many bridges"
+    },
+    {
+      "id": "B03-L03",
+      "title": "Multiple grains, date roles and conformed dimensions"
+    },
+    {
+      "id": "B03-L04",
+      "title": "Model reconciliation and engineer handoff"
+    }
+  ],
+  "practice": "B03_ENGINEERING_DATA_MODELING_PRACTICE_RC1.xlsx",
+  "miniLab": "B03_FRESHROUTE_DIMENSIONAL_MODEL_MINILAB_RC1.xlsx",
+  "gateA": "Assessment/Gate_A/B03_GATE_A_FLEET_MAINTENANCE_RESPONSE_WORKBOOK_RC1.xlsx",
+  "gateB": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B03_GATE_B_EDUCATION_ENROLLMENT_RESPONSE_WORKBOOK_RC1.xlsx",
+  "gateC": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B03_GATE_C_ENERGY_METER_READINGS_RESPONSE_WORKBOOK_RC1.xlsx",
+  "c3Boundary": "C3-02 implements physical dimensional models/dbt/surrogate/SCD/CI; not hidden Bridge prerequisites."
+}

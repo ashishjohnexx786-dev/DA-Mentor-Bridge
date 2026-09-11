@@ -1,0 +1,26 @@
+{
+  "course": "C2B DA-to-DE Bridge 2026 Fast Track",
+  "module": "B01",
+  "module_name": "Engineering SQL Transition",
+  "release": "RC1_INTERNAL_QA",
+  "date": "2026-09-10",
+  "lesson_count": 8,
+  "lesson_ids": [
+    "B01-L01",
+    "B01-L02",
+    "B01-L03",
+    "B01-L04",
+    "B01-L05",
+    "B01-L06",
+    "B01-L07",
+    "B01-L08"
+  ],
+  "baseline_lesson_count": 12,
+  "target_dialect": "PostgreSQL 18-compatible analytical SQL",
+  "prerequisite": "C1 analyst SQL independently usable; exact weakness repaired in C1 if needed",
+  "study_route": "lesson -> genuine practice -> protected review -> changed retry -> Mini-Labs -> Gate A -> targeted repair -> B/C only if explicitly assigned",
+  "external_media_required": 0,
+  "gate_technical_fixtures": "Preserved from frozen 2026-09-09 baseline after traceability audit",
+  "runtime_boundary": "Live PostgreSQL execution pending in this environment",
+  "mentor_status": "Do not generate final B01 Mentor routes until B01 artifacts/page routes stabilize and B02-B06 curriculum remains compatible"
+}

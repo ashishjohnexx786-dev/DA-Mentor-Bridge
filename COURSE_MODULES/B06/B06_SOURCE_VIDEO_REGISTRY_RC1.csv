@@ -1,0 +1,3 @@
+lesson_id,class,resource,scope,status,after_watching_do,fallback
+B06-L01,COURSE_BUILT,Integrated Bridge Capstone,Synthesis of B01-B05,NO_EXTERNAL_MEDIA_REQUIRED,Build the evidence chain without adding a new tutorial dependency.,Learner book + capstone brief + workbook + prior verified module sources.
+B06-L02,INTERNAL_CONTROL,Course 3 C3-00 canonical entry boundary,12 incoming C3-00 topics,INTERNAL_CURRENT_CROSS_COURSE_CHECK_2026-09-11,Use C3_00_Preview to identify what is taught after entry.,Readiness workbook + C3 canonical materials.

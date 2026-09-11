@@ -1,0 +1,12 @@
+{
+  "module": "B05",
+  "baseline_practice": "B05_CANONICAL_PRACTICE_WORKBOOK_INTERNAL_QA.xlsx",
+  "baseline_minilab": "B05_DISTRIBUTION_CLOUD_ARCHITECTURE_MINI_LAB_INTERNAL_QA.xlsx",
+  "sheet_count_each": 15,
+  "identical_used_range_sheets": 14,
+  "nonidentical_sheets": [
+    "START_HERE"
+  ],
+  "verdict": "REJECT_BASELINE_MINILAB_AS_INDEPENDENT_ASSESSMENT",
+  "reason": "14/15 used-range sheets are identical to guided practice; independent transfer requires a fresh domain/case."
+}

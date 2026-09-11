@@ -1,0 +1,58 @@
+[
+  {
+    "incident": "Dispatch private-source bridge fails after router change",
+    "evidence": [
+      "cloud services healthy",
+      "private SQL unreachable",
+      "last successful run 17 minutes ago"
+    ],
+    "must_decide": [
+      "monitor signal",
+      "network/gateway owner",
+      "retry/backfill",
+      "stale-data message",
+      "post-recovery validation"
+    ]
+  },
+  {
+    "incident": "Technician API starts returning 429 and some pages are incomplete",
+    "evidence": [
+      "authentication valid",
+      "rate-limit headers present",
+      "partial row count below control"
+    ],
+    "must_decide": [
+      "retry/backoff owner",
+      "partial publish/block",
+      "freshness communication",
+      "reconciliation after recovery"
+    ]
+  },
+  {
+    "incident": "CRM adds emergency_contact_number field",
+    "evidence": [
+      "source schema changed",
+      "field is more sensitive than existing curated model",
+      "downstream semantic model does not need it"
+    ],
+    "must_decide": [
+      "schema/governance review",
+      "data minimization",
+      "lineage impact",
+      "allow/quarantine/drop rule"
+    ]
+  },
+  {
+    "incident": "Parts SFTP file arrives 9 hours late",
+    "evidence": [
+      "expected file absent at 05:00",
+      "prior day data remains available"
+    ],
+    "must_decide": [
+      "SLA breach owner",
+      "partial publish decision",
+      "late-file backfill",
+      "consumer notification"
+    ]
+  }
+]

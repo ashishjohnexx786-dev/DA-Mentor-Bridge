@@ -1,0 +1,11 @@
+{
+  "cities": 4,
+  "restaurants": 6,
+  "couriers": 10,
+  "courier_skill_rows": 18,
+  "deliveries": 40,
+  "delivery_events": 120,
+  "distinct_deliveries_in_events": 40,
+  "weekly_city_targets": 8,
+  "delivery_fee_total": 6770.0
+}

@@ -1,0 +1,6 @@
+lesson_id,target_title,baseline_mapping,decision,practice_evidence,gate_evidence,c3_handoff
+B05-L01,"Cloud data mental model: storage, compute, network and identity",B05-L01|B05-L02,MERGE_NEW,Requirement_Architecture + storage/compute/network/identity separation,Gate A/B/C full platform response workbooks + case ZIPs,C3-07 entry
+B05-L02,"Fabric, OneLake, lakehouse and warehouse as one concrete example",B05-L03|B05-L04,MERGE_NEW,Fabric_OneLake_Fit + workload/item/storage choice + rejected alternative,Gate A/B/C full platform response workbooks + case ZIPs,C3-07
+B05-L03,"Permissions, governance and private-source connection boundaries",B05-L05,DEEPER_PROGRESSION,Access_Connection_Boundary + least privilege + private-source bridge reasoning,Gate A/B/C full platform response workbooks + case ZIPs,C3-00-L07 / C3-07
+B05-L04,"Freshness, monitoring and failure ownership",B05-L06,GENUINELY_NEW,Freshness_Monitoring + owner + incident/recovery + consumer communication,Gate A/B/C full platform response workbooks + case ZIPs,C3-03 / C3-07 / C3-08
+B05-L05,Analyst-to-engineer platform collaboration and handoff,B05-L07,SYNTHESIS,Collaboration_Handoff + acceptance criteria + responsibility split + limitations,Gate A/B/C full platform response workbooks + case ZIPs,C3-00-L01 / C3-07

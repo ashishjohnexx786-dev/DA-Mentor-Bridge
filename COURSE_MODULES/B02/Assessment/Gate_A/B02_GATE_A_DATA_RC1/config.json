@@ -1,0 +1,7 @@
+{
+  "input_pattern": "logistics_shipments_*.csv",
+  "master_file": "carrier_master.csv",
+  "output_dir": "outputs",
+  "expected_files": 3,
+  "domain": "Logistics Shipments"
+}

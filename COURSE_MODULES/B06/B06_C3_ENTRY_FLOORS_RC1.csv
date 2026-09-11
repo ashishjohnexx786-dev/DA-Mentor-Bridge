@@ -1,0 +1,9 @@
+readiness_area,minimum_score,evidence_standard
+Advanced SQL,3,Independent grain/windows/quality/maintainability/reconciliation
+Python automation,3,Reusable logged validated reproducible workflow with recovery
+Data modeling,3,Facts/dimensions/keys/relationships/grain/history reasoning
+Warehousing,3,SCD surrogate keys ETL/ELT layers/replay reasoning
+Data quality,3,BLOCK/WARN controls plus source-to-output reconciliation
+Independent analysis,3,Scope/defend ambiguous work without solution copying
+Cloud/Fabric,2,Platform layers security/governance/monitoring awareness
+Professional ownership,2,Handoff/failures/limitations/next actions

@@ -1,0 +1,2359 @@
+{
+  "module": "B04",
+  "status": "PASS",
+  "pass_count": 470,
+  "total_checks": 470,
+  "failures": [],
+  "checks": [
+    {
+      "name": "required:B04_START_HERE_RC1.pdf",
+      "pass": true,
+      "detail": "3378"
+    },
+    {
+      "name": "required:B04_WAREHOUSING_DATA_QUALITY_FOUNDATIONS_LEARNER_BOOK_RC1.pdf",
+      "pass": true,
+      "detail": "53742"
+    },
+    {
+      "name": "required:B04_WAREHOUSING_DATA_QUALITY_PRACTICE_RC1.xlsx",
+      "pass": true,
+      "detail": "30389"
+    },
+    {
+      "name": "required:B04_WAREHOUSING_DATA_QUALITY_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
+      "pass": true,
+      "detail": "18491"
+    },
+    {
+      "name": "required:B04_CAREFLOW_WAREHOUSE_MINI_LAB_RC1.xlsx",
+      "pass": true,
+      "detail": "13534"
+    },
+    {
+      "name": "required:B04_CAREFLOW_MINILAB_DATA_RC1.zip",
+      "pass": true,
+      "detail": "6471"
+    },
+    {
+      "name": "required:B04_CAREFLOW_MINI_LAB_REVIEW_PROTECTED_RC1.pdf",
+      "pass": true,
+      "detail": "3076"
+    },
+    {
+      "name": "required:B04_CANONICAL_SPEC_RC1.json",
+      "pass": true,
+      "detail": "2998"
+    },
+    {
+      "name": "required:B04_SOURCE_VIDEO_REGISTRY_RC1.csv",
+      "pass": true,
+      "detail": "4350"
+    },
+    {
+      "name": "required:B04_PRACTICE_GATE_TRACEABILITY_RC1.csv",
+      "pass": true,
+      "detail": "2065"
+    },
+    {
+      "name": "required:README_FIRST.txt",
+      "pass": true,
+      "detail": "400"
+    },
+    {
+      "name": "required:Assessment/Gate_A/B04_GATE_A_MARKETPLACE_SELLERS_RESPONSE_WORKBOOK_RC1.xlsx",
+      "pass": true,
+      "detail": "17835"
+    },
+    {
+      "name": "required:Assessment/Gate_A/B04_GATE_A_DATA_RC1.zip",
+      "pass": true,
+      "detail": "4942"
+    },
+    {
+      "name": "required:Assessment/Reviews/B04_GATE_A_REVIEW_PROTECTED_RC1.pdf",
+      "pass": true,
+      "detail": "3100"
+    },
+    {
+      "name": "required:Assessment/RETEST_ONLY_DO_NOT_OPEN/B04_GATE_B_INVENTORY_REPLENISHMENT_RESPONSE_WORKBOOK_RC1.xlsx",
+      "pass": true,
+      "detail": "17910"
+    },
+    {
+      "name": "required:Assessment/RETEST_ONLY_DO_NOT_OPEN/B04_GATE_B_DATA_RC1.zip",
+      "pass": true,
+      "detail": "7512"
+    },
+    {
+      "name": "required:Assessment/Reviews/B04_GATE_B_REVIEW_PROTECTED_RC1.pdf",
+      "pass": true,
+      "detail": "3106"
+    },
+    {
+      "name": "required:Assessment/RETEST_ONLY_DO_NOT_OPEN/B04_GATE_C_CUSTOMER_SUCCESS_RENEWALS_RESPONSE_WORKBOOK_RC1.xlsx",
+      "pass": true,
+      "detail": "17965"
+    },
+    {
+      "name": "required:Assessment/RETEST_ONLY_DO_NOT_OPEN/B04_GATE_C_DATA_RC1.zip",
+      "pass": true,
+      "detail": "4810"
+    },
+    {
+      "name": "required:Assessment/Reviews/B04_GATE_C_REVIEW_PROTECTED_RC1.pdf",
+      "pass": true,
+      "detail": "3096"
+    },
+    {
+      "name": "required:Assessment/Remediation/B04_TARGETED_REMEDIATION_CARDS_RC1.pdf",
+      "pass": true,
+      "detail": "3977"
+    },
+    {
+      "name": "book:page_count_21",
+      "pass": true,
+      "detail": "21"
+    },
+    {
+      "name": "B04-L01:id_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:title_words_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:heading:Why it matters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:heading:What you are learning",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:heading:Prerequisite",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:heading:Picture it in your head",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:heading:New words before use",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:heading:Watch / visual source",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:heading:Follow with me once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:heading:What you should see",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:heading:Why it worked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:heading:Common beginner mistakes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:heading:If stuck",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:heading:Small version alone",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:heading:Validate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:heading:Teach it back",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:heading:Protected review + changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:heading:Evidence / mastery + next route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:transition:What you already know as an analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:transition:What changes in engineering",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:transition:Why engineers care",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:transition:Small worked example",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:transition:Real engineering version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:practice_reference",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L01:mastery_route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:id_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:title_words_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:heading:Why it matters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:heading:What you are learning",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:heading:Prerequisite",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:heading:Picture it in your head",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:heading:New words before use",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:heading:Watch / visual source",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:heading:Follow with me once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:heading:What you should see",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:heading:Why it worked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:heading:Common beginner mistakes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:heading:If stuck",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:heading:Small version alone",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:heading:Validate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:heading:Teach it back",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:heading:Protected review + changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:heading:Evidence / mastery + next route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:transition:What you already know as an analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:transition:What changes in engineering",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:transition:Why engineers care",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:transition:Small worked example",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:transition:Real engineering version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:practice_reference",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L02:mastery_route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:id_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:title_words_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:heading:Why it matters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:heading:What you are learning",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:heading:Prerequisite",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:heading:Picture it in your head",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:heading:New words before use",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:heading:Watch / visual source",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:heading:Follow with me once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:heading:What you should see",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:heading:Why it worked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:heading:Common beginner mistakes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:heading:If stuck",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:heading:Small version alone",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:heading:Validate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:heading:Teach it back",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:heading:Protected review + changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:heading:Evidence / mastery + next route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:transition:What you already know as an analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:transition:What changes in engineering",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:transition:Why engineers care",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:transition:Small worked example",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:transition:Real engineering version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:practice_reference",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L03:mastery_route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:id_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:title_words_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:heading:Why it matters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:heading:What you are learning",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:heading:Prerequisite",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:heading:Picture it in your head",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:heading:New words before use",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:heading:Watch / visual source",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:heading:Follow with me once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:heading:What you should see",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:heading:Why it worked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:heading:Common beginner mistakes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:heading:If stuck",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:heading:Small version alone",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:heading:Validate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:heading:Teach it back",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:heading:Protected review + changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:heading:Evidence / mastery + next route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:transition:What you already know as an analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:transition:What changes in engineering",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:transition:Why engineers care",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:transition:Small worked example",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:transition:Real engineering version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:practice_reference",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L04:mastery_route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:id_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:title_words_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:heading:Why it matters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:heading:What you are learning",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:heading:Prerequisite",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:heading:Picture it in your head",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:heading:New words before use",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:heading:Watch / visual source",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:heading:Follow with me once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:heading:What you should see",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:heading:Why it worked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:heading:Common beginner mistakes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:heading:If stuck",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:heading:Small version alone",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:heading:Validate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:heading:Teach it back",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:heading:Protected review + changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:heading:Evidence / mastery + next route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:transition:What you already know as an analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:transition:What changes in engineering",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:transition:Why engineers care",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:transition:Small worked example",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:transition:Real engineering version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:practice_reference",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L05:mastery_route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:id_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:title_words_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:heading:Why it matters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:heading:What you are learning",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:heading:Prerequisite",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:heading:Picture it in your head",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:heading:New words before use",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:heading:Watch / visual source",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:heading:Follow with me once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:heading:What you should see",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:heading:Why it worked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:heading:Common beginner mistakes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:heading:If stuck",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:heading:Small version alone",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:heading:Validate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:heading:Teach it back",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:heading:Protected review + changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:heading:Evidence / mastery + next route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:transition:What you already know as an analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:transition:What changes in engineering",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:transition:Why engineers care",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:transition:Small worked example",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:transition:Real engineering version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:practice_reference",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L06:mastery_route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:id_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:title_words_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:heading:Why it matters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:heading:What you are learning",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:heading:Prerequisite",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:heading:Picture it in your head",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:heading:New words before use",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:heading:Watch / visual source",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:heading:Follow with me once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:heading:What you should see",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:heading:Why it worked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:heading:Common beginner mistakes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:heading:If stuck",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:heading:Small version alone",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:heading:Validate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:heading:Teach it back",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:heading:Protected review + changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:heading:Evidence / mastery + next route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:transition:What you already know as an analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:transition:What changes in engineering",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:transition:Why engineers care",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:transition:Small worked example",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:transition:Real engineering version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:practice_reference",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L07:mastery_route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:id_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:title_words_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:heading:Why it matters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:heading:What you are learning",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:heading:Prerequisite",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:heading:Picture it in your head",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:heading:New words before use",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:heading:Watch / visual source",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:heading:Follow with me once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:heading:What you should see",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:heading:Why it worked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:heading:Common beginner mistakes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:heading:If stuck",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:heading:Small version alone",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:heading:Validate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:heading:Teach it back",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:heading:Protected review + changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:heading:Evidence / mastery + next route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:transition:What you already know as an analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:transition:What changes in engineering",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:transition:Why engineers care",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:transition:Small worked example",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:transition:Real engineering version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:practice_reference",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L08:mastery_route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:id_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:title_words_present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:heading:Why it matters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:heading:What you are learning",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:heading:Prerequisite",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:heading:Picture it in your head",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:heading:New words before use",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:heading:Watch / visual source",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:heading:Follow with me once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:heading:What you should see",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:heading:Why it worked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:heading:Common beginner mistakes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:heading:If stuck",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:heading:Small version alone",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:heading:Validate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:heading:Teach it back",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:heading:Protected review + changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:heading:Evidence / mastery + next route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:transition:What you already know as an analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:transition:What changes in engineering",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:transition:Why engineers care",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:transition:Small worked example",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:transition:Real engineering version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:practice_reference",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B04-L09:mastery_route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "contents:B04-L01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "contents:B04-L02",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "contents:B04-L03",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "contents:B04-L04",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "contents:B04-L05",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "contents:B04-L06",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "contents:B04-L07",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "contents:B04-L08",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "contents:B04-L09",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "quickref:worksheet_index",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "quickref:c3_boundary",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:embedded_links_at_least_12",
+      "pass": true,
+      "detail": "15"
+    },
+    {
+      "name": "no_placeholder:TODO",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_placeholder:TBD",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_placeholder:PLACEHOLDER",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_placeholder:lorem ipsum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_placeholder:INSERT LINK",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_placeholder:xx:xx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "practice_review:pages_10",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "name": "review:B04-L01:mapped",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L01:Unlock condition",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L01:What strong work demonstrates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L01:Common weak patterns",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L01:Targeted repair",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L01:Changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L01:Evidence check",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L01:Mastery decision",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L01:attempt_protected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L02:mapped",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L02:Unlock condition",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L02:What strong work demonstrates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L02:Common weak patterns",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L02:Targeted repair",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L02:Changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L02:Evidence check",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L02:Mastery decision",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L02:attempt_protected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L03:mapped",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L03:Unlock condition",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L03:What strong work demonstrates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L03:Common weak patterns",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L03:Targeted repair",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L03:Changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L03:Evidence check",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L03:Mastery decision",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L03:attempt_protected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L04:mapped",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L04:Unlock condition",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L04:What strong work demonstrates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L04:Common weak patterns",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L04:Targeted repair",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L04:Changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L04:Evidence check",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L04:Mastery decision",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L04:attempt_protected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L05:mapped",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L05:Unlock condition",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L05:What strong work demonstrates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L05:Common weak patterns",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L05:Targeted repair",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L05:Changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L05:Evidence check",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L05:Mastery decision",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L05:attempt_protected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L06:mapped",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L06:Unlock condition",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L06:What strong work demonstrates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L06:Common weak patterns",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L06:Targeted repair",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L06:Changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L06:Evidence check",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L06:Mastery decision",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L06:attempt_protected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L07:mapped",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L07:Unlock condition",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L07:What strong work demonstrates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L07:Common weak patterns",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L07:Targeted repair",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L07:Changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L07:Evidence check",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L07:Mastery decision",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L07:attempt_protected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L08:mapped",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L08:Unlock condition",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L08:What strong work demonstrates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L08:Common weak patterns",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L08:Targeted repair",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L08:Changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L08:Evidence check",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L08:Mastery decision",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L08:attempt_protected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L09:mapped",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L09:Unlock condition",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L09:What strong work demonstrates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L09:Common weak patterns",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L09:Targeted repair",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L09:Changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L09:Evidence check",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L09:Mastery decision",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:B04-L09:attempt_protected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "minilab_review:Unlock condition",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "minilab_review:Strong architecture evidence",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "minilab_review:Quality evidence",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "minilab_review:Recovery evidence",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "minilab_review:Reconciliation evidence",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "minilab_review:Changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "minilab_review:Pass rule",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateA:review_one_page",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "gateA:attempt_protected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateA:critical_failure",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateA:append_only",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateB:review_one_page",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "gateB:attempt_protected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateB:critical_failure",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateB:append_only",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateC:review_one_page",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "gateC:attempt_protected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateC:critical_failure",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateC:append_only",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateA:B_sealed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateB:C_sealed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateC:no_percentage_shortcut",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "remediation:one_page",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "remediation:R1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "remediation:R2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "remediation:R3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "remediation:R4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "remediation:R5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "remediation:R6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "remediation:R7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "remediation:R8",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "remediation:R9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "remediation:no_auto_unlock",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source:active_video_count_3",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "name": "source:B04-L01:exact_time",
+      "pass": true,
+      "detail": "00:00-05:22 (full concise comparison)"
+    },
+    {
+      "name": "source:B04-L01:do_after",
+      "pass": true,
+      "detail": "Write one operational and one analytical workload from your own example"
+    },
+    {
+      "name": "source:B04-L01:fallback",
+      "pass": true,
+      "detail": "Book visual + Microsoft reference"
+    },
+    {
+      "name": "source:B04-L04:exact_time",
+      "pass": true,
+      "detail": "00:36-03:19 (ETL 00:36; ELT 01:38; choice/trade-off begins 03:19)"
+    },
+    {
+      "name": "source:B04-L04:do_after",
+      "pass": true,
+      "detail": "Close the video; draw ETL and ELT as two 3-step arrows and state where raw data first becomes durable"
+    },
+    {
+      "name": "source:B04-L04:fallback",
+      "pass": true,
+      "detail": "Book ETL/ELT worked example + Microsoft load-tables guidance"
+    },
+    {
+      "name": "source:B04-L05:exact_time",
+      "pass": true,
+      "detail": "10:09-30:32"
+    },
+    {
+      "name": "source:B04-L05:do_after",
+      "pass": true,
+      "detail": "After watching, define allowed state + consumer + quality gate for Bronze/Silver/Gold"
+    },
+    {
+      "name": "source:B04-L05:fallback",
+      "pass": true,
+      "detail": "Book layer map + current Microsoft article"
+    },
+    {
+      "name": "source:L02_unverified_video_not_active",
+      "pass": true,
+      "detail": "BACKUP_NOT_ACTIVE_EXACT_SEGMENT_NOT_VERIFIED_2026-09-10"
+    },
+    {
+      "name": "source:no_required_external",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "practice_control:riders",
+      "pass": true,
+      "detail": "30 vs 30"
+    },
+    {
+      "name": "practice_control:drivers",
+      "pass": true,
+      "detail": "20 vs 20"
+    },
+    {
+      "name": "practice_control:driver_profile_change_rows",
+      "pass": true,
+      "detail": "28 vs 28"
+    },
+    {
+      "name": "practice_control:rides",
+      "pass": true,
+      "detail": "120 vs 120"
+    },
+    {
+      "name": "practice_control:completed_rides",
+      "pass": true,
+      "detail": "90 vs 90"
+    },
+    {
+      "name": "practice_control:completed_fare_total",
+      "pass": true,
+      "detail": "20754.0 vs 20754.0"
+    },
+    {
+      "name": "practice_control:payments",
+      "pass": true,
+      "detail": "90 vs 90"
+    },
+    {
+      "name": "practice_control:payment_total",
+      "pass": true,
+      "detail": "20754.0 vs 20754.0"
+    },
+    {
+      "name": "practice_control:ride_events",
+      "pass": true,
+      "detail": "450 vs 450"
+    },
+    {
+      "name": "practice_control:target_rows",
+      "pass": true,
+      "detail": "12 vs 12"
+    },
+    {
+      "name": "practice_control:driver_tag_rows",
+      "pass": true,
+      "detail": "24 vs 24"
+    },
+    {
+      "name": "minilab_control:clinics",
+      "pass": true,
+      "detail": "6 vs 6"
+    },
+    {
+      "name": "minilab_control:patients",
+      "pass": true,
+      "detail": "36 vs 36"
+    },
+    {
+      "name": "minilab_control:providers",
+      "pass": true,
+      "detail": "12 vs 12"
+    },
+    {
+      "name": "minilab_control:provider_change_rows",
+      "pass": true,
+      "detail": "18 vs 18"
+    },
+    {
+      "name": "minilab_control:appointments",
+      "pass": true,
+      "detail": "96 vs 96"
+    },
+    {
+      "name": "minilab_control:completed_appointments",
+      "pass": true,
+      "detail": "78 vs 78"
+    },
+    {
+      "name": "minilab_control:completed_billed_total",
+      "pass": true,
+      "detail": "71600.0 vs 71600.0"
+    },
+    {
+      "name": "minilab_control:appointment_events",
+      "pass": true,
+      "detail": "289 vs 289"
+    },
+    {
+      "name": "minilab_control:orphan_event_rows",
+      "pass": true,
+      "detail": "1 vs 1"
+    },
+    {
+      "name": "minilab_control:payments",
+      "pass": true,
+      "detail": "79 vs 79"
+    },
+    {
+      "name": "minilab_control:payment_total",
+      "pass": true,
+      "detail": "72599.0 vs 72599.0"
+    },
+    {
+      "name": "minilab_control:orphan_payment_rows",
+      "pass": true,
+      "detail": "1 vs 1"
+    },
+    {
+      "name": "minilab_control:target_rows",
+      "pass": true,
+      "detail": "12 vs 12"
+    },
+    {
+      "name": "minilab_control:provider_skill_rows",
+      "pass": true,
+      "detail": "16 vs 16"
+    },
+    {
+      "name": "minilab_control:bad_provider_fk_appointments",
+      "pass": true,
+      "detail": "1 vs 1"
+    },
+    {
+      "name": "minilab_control:duplicate_provider_effective_pairs",
+      "pass": true,
+      "detail": "1 vs 1"
+    },
+    {
+      "name": "minilab:fresh_domain",
+      "pass": true,
+      "detail": "CareFlow clinic schema differs from Urban Mobility and workbook bytes differ"
+    },
+    {
+      "name": "gateA:zip_crc",
+      "pass": true,
+      "detail": "None"
+    },
+    {
+      "name": "gateB:zip_crc",
+      "pass": true,
+      "detail": "None"
+    },
+    {
+      "name": "gateC:zip_crc",
+      "pass": true,
+      "detail": "None"
+    },
+    {
+      "name": "gateA_control:sellers",
+      "pass": true,
+      "detail": "24 vs 24"
+    },
+    {
+      "name": "gateA_control:seller_change_rows",
+      "pass": true,
+      "detail": "35 vs 35"
+    },
+    {
+      "name": "gateA_control:orders",
+      "pass": true,
+      "detail": "96 vs 96"
+    },
+    {
+      "name": "gateA_control:order_items",
+      "pass": true,
+      "detail": "192 vs 192"
+    },
+    {
+      "name": "gateA_control:completed_orders",
+      "pass": true,
+      "detail": "72 vs 72"
+    },
+    {
+      "name": "gateA_control:completed_item_gmv",
+      "pass": true,
+      "detail": "186000.0 vs 186000"
+    },
+    {
+      "name": "gateA_control:payout_rows",
+      "pass": true,
+      "detail": "73 vs 73"
+    },
+    {
+      "name": "gateA_control:orphan_payout_rows",
+      "pass": true,
+      "detail": "1 vs 1"
+    },
+    {
+      "name": "gateA_control:seller_tag_rows",
+      "pass": true,
+      "detail": "28 vs 28"
+    },
+    {
+      "name": "gateA_control:target_rows",
+      "pass": true,
+      "detail": "12 vs 12"
+    },
+    {
+      "name": "gateA_control:duplicate_effective_change_pairs",
+      "pass": true,
+      "detail": "1 vs 1"
+    },
+    {
+      "name": "gateB_control:warehouses",
+      "pass": true,
+      "detail": "8 vs 8"
+    },
+    {
+      "name": "gateB_control:products",
+      "pass": true,
+      "detail": "30 vs 30"
+    },
+    {
+      "name": "gateB_control:supplier_change_rows",
+      "pass": true,
+      "detail": "36 vs 36"
+    },
+    {
+      "name": "gateB_control:inventory_snapshot_rows",
+      "pass": true,
+      "detail": "720 vs 720"
+    },
+    {
+      "name": "gateB_control:inventory_on_hand_total",
+      "pass": true,
+      "detail": "41275 vs 41275"
+    },
+    {
+      "name": "gateB_control:purchase_orders",
+      "pass": true,
+      "detail": "48 vs 48"
+    },
+    {
+      "name": "gateB_control:receipt_rows",
+      "pass": true,
+      "detail": "37 vs 37"
+    },
+    {
+      "name": "gateB_control:orphan_receipts",
+      "pass": true,
+      "detail": "1 vs 1"
+    },
+    {
+      "name": "gateB_control:reorder_rule_rows",
+      "pass": true,
+      "detail": "120 vs 120"
+    },
+    {
+      "name": "gateB_control:duplicate_supplier_change_pairs",
+      "pass": true,
+      "detail": "1 vs 1"
+    },
+    {
+      "name": "gateC_control:accounts",
+      "pass": true,
+      "detail": "25 vs 25"
+    },
+    {
+      "name": "gateC_control:account_change_rows",
+      "pass": true,
+      "detail": "31 vs 31"
+    },
+    {
+      "name": "gateC_control:subscriptions",
+      "pass": true,
+      "detail": "60 vs 60"
+    },
+    {
+      "name": "gateC_control:subscription_mrr_total",
+      "pass": true,
+      "detail": "58875.0 vs 58875"
+    },
+    {
+      "name": "gateC_control:renewal_rows",
+      "pass": true,
+      "detail": "60 vs 60"
+    },
+    {
+      "name": "gateC_control:renewal_value_total",
+      "pass": true,
+      "detail": "706500.0 vs 706500"
+    },
+    {
+      "name": "gateC_control:interaction_rows",
+      "pass": true,
+      "detail": "120 vs 120"
+    },
+    {
+      "name": "gateC_control:usage_rows",
+      "pass": true,
+      "detail": "121 vs 121"
+    },
+    {
+      "name": "gateC_control:orphan_usage_rows",
+      "pass": true,
+      "detail": "1 vs 1"
+    },
+    {
+      "name": "gateC_control:target_rows",
+      "pass": true,
+      "detail": "9 vs 9"
+    },
+    {
+      "name": "gateC_control:duplicate_account_change_pairs",
+      "pass": true,
+      "detail": "1 vs 1"
+    },
+    {
+      "name": "preserve:gateA_workbook",
+      "pass": true,
+      "detail": "f48cc8b5513e f48cc8b5513e"
+    },
+    {
+      "name": "preserve:gateA_zip",
+      "pass": true,
+      "detail": "aeb5a0674a69 aeb5a0674a69"
+    },
+    {
+      "name": "preserve:gateB_workbook",
+      "pass": true,
+      "detail": "0f3feb902520 0f3feb902520"
+    },
+    {
+      "name": "preserve:gateB_zip",
+      "pass": true,
+      "detail": "867cf7664517 867cf7664517"
+    },
+    {
+      "name": "preserve:gateC_workbook",
+      "pass": true,
+      "detail": "991997d8be5c 991997d8be5c"
+    },
+    {
+      "name": "preserve:gateC_zip",
+      "pass": true,
+      "detail": "999b869f007d 999b869f007d"
+    },
+    {
+      "name": "package:no_duplicate_hash_groups",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "package:no_stale_filename_patterns",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "visual:learner_book_21_pages_200dpi_contact_and_samples",
+      "pass": true,
+      "detail": "visually inspected: no clipping/overlap/black glyphs"
+    },
+    {
+      "name": "visual:practice_review_10_pages_200dpi_contact",
+      "pass": true,
+      "detail": "visually inspected: no clipping/overlap/black glyphs"
+    },
+    {
+      "name": "visual:start_here_1_page_200dpi",
+      "pass": true,
+      "detail": "visually inspected: no clipping/overlap/black glyphs"
+    },
+    {
+      "name": "visual:gate_A_B_C_reviews_200dpi",
+      "pass": true,
+      "detail": "visually inspected: no clipping/overlap/black glyphs"
+    },
+    {
+      "name": "visual:remediation_1_page_200dpi",
+      "pass": true,
+      "detail": "visually inspected: no clipping/overlap/black glyphs"
+    },
+    {
+      "name": "visual:practice_START_HERE_artifact_render",
+      "pass": true,
+      "detail": "visually inspected: no clipping/overlap/black glyphs"
+    },
+    {
+      "name": "visual:minilab_Architecture_Decisions_artifact_render",
+      "pass": true,
+      "detail": "visually inspected: no clipping/overlap/black glyphs"
+    }
+  ]
+}

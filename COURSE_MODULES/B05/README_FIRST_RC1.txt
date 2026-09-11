@@ -1,0 +1,1 @@
+B05 Cloud Platform Essentials RC1 - INTERNAL QA. Start with B05_START_HERE_RC1.pdf. Five Bridge lessons replace seven baseline lessons. The old Distribution Mini-Lab was rejected because it duplicated guided practice; HomeFix is the independent Mini-Lab. Gate A is normal; B/C are protected retests. No paid/live Fabric tenant is required.

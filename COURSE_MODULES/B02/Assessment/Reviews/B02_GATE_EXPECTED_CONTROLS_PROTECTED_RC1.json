@@ -1,0 +1,32 @@
+{
+  "A": {
+    "domain": "Logistics Shipments",
+    "raw_rows": 120,
+    "valid_numeric_rows": 119,
+    "malformed_rows": 1,
+    "master_rows": 31,
+    "unique_master_keys": 30,
+    "duplicate_master_key": "C013",
+    "control_total": 86090.0
+  },
+  "B": {
+    "domain": "E-commerce Returns",
+    "raw_rows": 120,
+    "valid_numeric_rows": 119,
+    "malformed_rows": 1,
+    "master_rows": 31,
+    "unique_master_keys": 30,
+    "duplicate_master_key": "S013",
+    "control_total": 93090.0
+  },
+  "C": {
+    "domain": "Clinic Appointments",
+    "raw_rows": 120,
+    "valid_numeric_rows": 119,
+    "malformed_rows": 1,
+    "master_rows": 31,
+    "unique_master_keys": 30,
+    "duplicate_master_key": "P013",
+    "control_total": 89840.0
+  }
+}

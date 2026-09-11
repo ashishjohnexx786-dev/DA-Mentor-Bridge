@@ -1,0 +1,7 @@
+source,location,owner,sensitivity,freshness_sla,purpose,constraint
+Orders_DB,Private/on-prem SQL Server,Operations,Restricted,30 min,Order transactions,Private network
+Parts_Files,Cloud object storage,Procurement,Internal,Daily,Service items/parts,Batch files
+Events_API,Cloud/SaaS API,Operations,Internal,15 min,Service lifecycle events,OAuth
+Tech_CRM,Cloud SaaS,Field Ops,Confidential,Daily,Technician profile/current state,Contains PII-like employee fields
+Targets_XLSX,SharePoint Online,Finance,Confidential,Daily,Region targets,Business-owned
+Serving_Model,Fabric/Power BI,BI,Confidential,Hourly,Operations reporting,Certified consumption

@@ -1,0 +1,7 @@
+artifact,domain,decision,reason,protection
+Main practice workbook,Parcel Delivery,REBUILD_UI_AND_TASK_ROUTE,Baseline data/spine strong; workbook structure must map to four new lessons and append-only evidence.,Not protected
+Baseline Mini-Lab,Parcel Delivery,REJECT_AS_DUPLICATE,8/9 sheets semantically identical to main practice; violates fresh independent task.,Not protected
+RC1 Mini-Lab,FreshRoute Food Delivery,NEW_FRESH_CASE,Different domain/data; same four competencies.,Not protected; independent
+Gate A,Fleet Maintenance,PRESERVE_FIXTURE_AND_RESPONSE_WORKBOOK,Fresh independent domain and complete submission evidence; no old lesson ID dependency found.,Normal Gate A
+Gate B,Education Enrollment,PRESERVE_FIXTURE_AND_RESPONSE_WORKBOOK,Fresh reassessment domain; protected path.,RETEST_ONLY_DO_NOT_OPEN
+Gate C,Energy Meter Readings,PRESERVE_FIXTURE_AND_RESPONSE_WORKBOOK,Second fresh reassessment domain; protected path.,RETEST_ONLY_DO_NOT_OPEN

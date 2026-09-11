@@ -1,0 +1,7 @@
+restaurant_id,restaurant_name,city_id,cuisine
+R01,Spice Route,CT01,North Indian
+R02,Green Bowl,CT02,Healthy
+R03,Pizza Point,CT03,Italian
+R04,Biryani House,CT04,Biryani
+R05,Dosa Corner,CT01,South Indian
+R06,Wok Express,CT02,Asian

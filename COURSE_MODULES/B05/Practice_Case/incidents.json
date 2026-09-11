@@ -1,0 +1,47 @@
+[
+  {
+    "incident_id": "INC-01",
+    "symptom": "Hourly WMS ingestion failed after network maintenance",
+    "evidence": [
+      "source unreachable",
+      "previous 5 runs succeeded",
+      "no curated publish after failure"
+    ],
+    "learner_decides": [
+      "monitoring evidence",
+      "owner",
+      "retry/recovery",
+      "gateway/network boundary"
+    ]
+  },
+  {
+    "incident_id": "INC-02",
+    "symptom": "Carrier API returns 401 after credential expiry",
+    "evidence": [
+      "source network reachable",
+      "authentication failure",
+      "last successful run 29 minutes earlier"
+    ],
+    "learner_decides": [
+      "identity/secret owner",
+      "credential rotation",
+      "retry policy",
+      "consumer communication"
+    ]
+  },
+  {
+    "incident_id": "INC-03",
+    "symptom": "Vendor file adds column package_type",
+    "evidence": [
+      "raw file lands",
+      "validated schema check fails",
+      "prior curated schema has no field"
+    ],
+    "learner_decides": [
+      "schema-drift policy",
+      "quarantine vs allow",
+      "metadata/lineage",
+      "backfill"
+    ]
+  }
+]

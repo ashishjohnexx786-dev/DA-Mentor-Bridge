@@ -1,0 +1,35 @@
+{
+  "service_orders_2026_*.csv": {
+    "grain": "one row per service order",
+    "business_key": "service_order_id"
+  },
+  "service_items.csv": {
+    "grain": "one row per service-order item",
+    "business_key": "service_item_id"
+  },
+  "service_events.json": {
+    "grain": "one row per service lifecycle event",
+    "business_key": "event_id"
+  },
+  "customers.csv": {
+    "grain": "one row per current customer",
+    "business_key": "customer_id"
+  },
+  "technicians_current.csv": {
+    "grain": "one row per current technician",
+    "business_key": "technician_id"
+  },
+  "technician_profile_changes.csv": {
+    "grain": "one row per technician profile change",
+    "business_key": "technician_id",
+    "event_key": "change_id"
+  },
+  "monthly_region_targets.csv": {
+    "grain": "one row per month-region target",
+    "business_key": "month+region"
+  },
+  "technician_skills.csv": {
+    "grain": "one row per technician-skill membership",
+    "business_key": "technician_id+skill"
+  }
+}

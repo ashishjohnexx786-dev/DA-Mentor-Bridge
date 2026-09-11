@@ -1,0 +1,32 @@
+customer_id,customer_name,region,segment
+C001,Customer 001,North,Mid
+C002,Customer 002,South,Enterprise
+C003,Customer 003,East,SMB
+C004,Customer 004,West,Mid
+C005,Customer 005,North,Enterprise
+C006,Customer 006,South,SMB
+C007,Customer 007,East,Mid
+C008,Customer 008,West,Enterprise
+C009,Customer 009,North,SMB
+C010,Customer 010,South,Mid
+C011,Customer 011,East,Enterprise
+C012,Customer 012,West,SMB
+C013,Customer 013,North,Mid
+C014,Customer 014,South,Enterprise
+C015,Customer 015,East,SMB
+C016,Customer 016,West,Mid
+C017,Customer 017,North,Enterprise
+C018,Customer 018,South,SMB
+C019,Customer 019,East,Mid
+C020,Customer 020,West,Enterprise
+C021,Customer 021,North,SMB
+C022,Customer 022,South,Mid
+C023,Customer 023,East,Enterprise
+C024,Customer 024,West,SMB
+C025,Customer 025,North,Mid
+C026,Customer 026,South,Enterprise
+C027,Customer 027,East,SMB
+C028,Customer 028,West,Mid
+C029,Customer 029,North,Enterprise
+C030,Customer 030,South,SMB
+C013,Customer 013 DUP,North,SMB

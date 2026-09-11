@@ -1,0 +1,46 @@
+{
+  "A": {
+    "orders": 84,
+    "completed_orders": 63,
+    "order_items": 168,
+    "gross_item_value": 257551.0,
+    "completed_item_value": 191898.0,
+    "order_events": 232,
+    "orphan_event_rows": 1,
+    "returns": 8,
+    "customer_change_rows": 29,
+    "duplicate_effective_customer_change_pairs": 1,
+    "customer_tag_rows": 28,
+    "target_rows": 8
+  },
+  "B": {
+    "tickets": 90,
+    "closed_tickets": 60,
+    "ticket_events": 241,
+    "orphan_event_rows": 1,
+    "ticket_tag_rows": 103,
+    "duplicate_ticket_tag_business_rows": 5,
+    "csat_rows": 60,
+    "csat_score_total": 180,
+    "agent_change_rows": 23,
+    "duplicate_effective_agent_change_pairs": 1,
+    "sla_target_rows": 3,
+    "monthly_target_rows": 9
+  },
+  "C": {
+    "accounts": 22,
+    "account_change_rows": 27,
+    "subscriptions": 66,
+    "subscription_mrr_total": 61125,
+    "invoices": 72,
+    "invoice_lines": 144,
+    "invoice_line_total": 132150,
+    "paid_invoices": 36,
+    "payments": 37,
+    "orphan_payment_rows": 1,
+    "usage_rows": 110,
+    "usage_active_users_total": 2720,
+    "duplicate_effective_account_change_pairs": 1,
+    "target_rows": 9
+  }
+}

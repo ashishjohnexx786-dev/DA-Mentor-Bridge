@@ -1,0 +1,7 @@
+{
+  "budget": "Prefer managed Fabric capabilities; avoid needless data duplication or always-on low-latency compute.",
+  "security": "Least privilege; separate control-plane permissions from data access; use groups/nonhuman identities where possible.",
+  "availability": "No paid Fabric tenant is required for this course exercise; architecture must be defensible from source requirements.",
+  "governance": "Curated executive datasets need owner, certification/endorsement plan, lineage and sensitivity/access reasoning.",
+  "on_prem": "WMS_SQL is reachable only inside the private datacenter; cloud analytics must use an approved bridge/gateway/network path."
+}

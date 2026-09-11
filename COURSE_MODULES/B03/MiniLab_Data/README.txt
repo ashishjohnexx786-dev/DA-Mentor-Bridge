@@ -1,0 +1,1 @@
+FreshRoute Food Delivery independent B03 Mini-Lab RC1. State grain first. Do not join event rows to delivery fees and sum. Treat weekly targets as separate higher-grain fact, courier_skills as membership bridge, and order/pickup/delivered dates as separate date roles.

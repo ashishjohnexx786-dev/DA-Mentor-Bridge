@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Bridge Mentor icon">
+  <rect width="512" height="512" rx="96" fill="#1F2937"/>
+  <path d="M96 338h92c36 0 52-25 52-58v-48c0-33 17-58 53-58h123" fill="none" stroke="#14B8A6" stroke-width="42" stroke-linecap="round"/>
+  <path d="M344 118l72 56-72 56" fill="none" stroke="#3B82F6" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M96 128h102v160H96z" fill="#F8FAFC" opacity=".95"/>
+  <path d="M116 158h62M116 194h62M116 230h46" stroke="#1F2937" stroke-width="14" stroke-linecap="round"/>
+</svg>

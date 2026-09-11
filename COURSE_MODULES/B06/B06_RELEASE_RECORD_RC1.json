@@ -1,0 +1,29 @@
+{
+  "course": "C2B",
+  "module": "B06",
+  "name": "Bridge Capstone and Course 3 Entry",
+  "release_status": "INTERNAL_QA_RC1",
+  "lesson_count": 2,
+  "structural_content_qa": "192/192 PASS",
+  "artifact_tool_workbook_qa": "13/13 PASS",
+  "gate_control_recompute": "38/38 PASS",
+  "capstone": "Home Services Network",
+  "gate_variants": [
+    "A Retail Orders",
+    "B Support Tickets",
+    "C Subscription Billing"
+  ],
+  "readiness_rule": "Final Gate PASS + SQL/Python/modeling/warehousing/data quality/independent analysis >=3; Cloud/Fabric + professional ownership >=2; no unresolved critical blocker",
+  "c3_00_hidden_prerequisite": false,
+  "required_external_media": 0,
+  "course_level_blockers": [
+    "common Mentor generation/sync",
+    "whole-course 38-lesson route simulation",
+    "C1->C2B prerequisite parity",
+    "C2B->C3 entry parity",
+    "source/video registry reconciliation",
+    "responsive/PWA/theme/backup-restore/runtime QA",
+    "whole-course package/hash audit",
+    "COURSE_2B_HANDOFF.json"
+  ]
+}

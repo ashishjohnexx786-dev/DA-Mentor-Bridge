@@ -1,0 +1,23 @@
+{
+  "module": "B05",
+  "name": "Cloud Platform Essentials",
+  "releaseStatus": "INTERNAL_QA_RC1",
+  "lessonCount": 5,
+  "structural_qa": "211/211 PASS",
+  "artifact_tool_workbook_qa": "36/36 PASS",
+  "pdf_render_qa": "PASS at 200 DPI",
+  "miniLab": "HomeFix Field Service independent case",
+  "rejectedBaselineArtifact": "Distribution Cloud Architecture Mini-Lab - duplicated guided practice",
+  "gateByteParity": "PASS exact for A/B/C workbook+case ZIPs",
+  "externalMediaRequired": 0,
+  "knownBoundaries": [
+    "No live Fabric tenant execution claimed",
+    "C3-00 owns secrets/config/environment implementation",
+    "C3-07 owns platform provisioning/engineering implementation",
+    "Course 2B Mentor not yet regenerated"
+  ],
+  "courseFinal": false,
+  "manifestRows": 42,
+  "packageEntries": 44,
+  "zipCRC": "PASS"
+}

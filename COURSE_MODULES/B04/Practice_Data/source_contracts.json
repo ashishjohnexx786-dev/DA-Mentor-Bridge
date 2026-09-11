@@ -1,0 +1,35 @@
+{
+  "riders.csv": {
+    "grain": "one row per rider",
+    "natural_key": "rider_id"
+  },
+  "drivers.csv": {
+    "grain": "one row per current driver",
+    "natural_key": "driver_id"
+  },
+  "driver_profile_changes.csv": {
+    "grain": "one row per driver profile change",
+    "natural_key": "change_id",
+    "business_key": "driver_id"
+  },
+  "rides.csv": {
+    "grain": "one row per ride",
+    "natural_key": "ride_id"
+  },
+  "payments.csv": {
+    "grain": "one row per payment",
+    "natural_key": "payment_id"
+  },
+  "ride_events.csv": {
+    "grain": "one row per ride event",
+    "natural_key": "event_id"
+  },
+  "monthly_city_targets.csv": {
+    "grain": "one row per month-city target",
+    "natural_key": "month+city"
+  },
+  "driver_tags.csv": {
+    "grain": "one row per driver-tag membership",
+    "natural_key": "driver_id+tag"
+  }
+}

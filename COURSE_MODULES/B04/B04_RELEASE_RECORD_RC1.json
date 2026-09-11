@@ -1,0 +1,22 @@
+{
+  "course": "C2B",
+  "module": "B04",
+  "name": "Warehousing and Data Quality Foundations",
+  "release_status": "INTERNAL_QA_RC1",
+  "lesson_count": 9,
+  "baseline_lesson_count": 12,
+  "structural_data_qa": "470/470 PASS",
+  "artifact_tool_workbook_qa": "14/14 PASS",
+  "fresh_minilab": "CareFlow Clinic Warehouse",
+  "replaced_defect": "Old Urban Mobility Mini-Lab duplicated 13/15 used-range practice sheets",
+  "gate_policy": "Exact audited Gate A/B/C workbook+fixture bytes preserved; reviews regenerated; B/C remain explicit full-retest only",
+  "external_media_required": 0,
+  "active_timestamped_video_support": 3,
+  "course_level_blockers": [
+    "B05/B06 rebuild",
+    "Course 2B capstone/C3 entry parity",
+    "common Mentor generation/sync",
+    "whole-course responsive/PWA/backup-restore QA",
+    "final course package reconciliation"
+  ]
+}

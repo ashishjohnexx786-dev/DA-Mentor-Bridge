@@ -1,0 +1,15 @@
+service_order_id,customer_id,technician_id,order_date,status,region,base_fee
+8031,C019,T007,2026-03-02,Completed,East,350
+8032,C002,T012,2026-03-04,Cancelled,West,400
+8033,C009,T005,2026-03-06,Completed,North,450
+8034,C016,T010,2026-03-08,Completed,South,500
+8035,C023,T003,2026-03-10,Completed,East,550
+8036,C006,T008,2026-03-12,Cancelled,West,350
+8037,C013,T001,2026-03-14,Completed,North,400
+8038,C020,T006,2026-03-16,Completed,South,450
+8039,C003,T011,2026-03-18,Completed,East,500
+8040,C010,T004,2026-03-20,Cancelled,West,550
+8041,C017,T009,2026-03-22,Completed,North,350
+8042,C024,T002,2026-03-24,Completed,South,400
+8043,C007,T007,2026-03-26,Completed,East,450
+8044,C014,T012,2026-03-28,Cancelled,West,500

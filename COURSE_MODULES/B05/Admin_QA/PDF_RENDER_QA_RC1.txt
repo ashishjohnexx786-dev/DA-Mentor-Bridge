@@ -1,0 +1,9 @@
+B05 PDF RENDER QA RC1
+Renderer: /home/oai/skills/pdfs/scripts/render_pdf.py at 200 DPI
+Learner book: 12 pages, visually inspected via contact sheet; no clipping, overlap, black squares, or broken glyphs observed.
+Protected practice review: 6 pages, visually inspected via contact sheet; one lesson per page by design, no orphan spill page.
+Start Here: 1 page, inspected.
+HomeFix Mini-Lab protected review: 1 page, inspected.
+Gate A/B/C protected reviews: 1 page each, inspected; variant-correct routing.
+Targeted remediation: 1 page, inspected.
+PDF preflight: learner book openable, unencrypted, searchable, 12 pages.

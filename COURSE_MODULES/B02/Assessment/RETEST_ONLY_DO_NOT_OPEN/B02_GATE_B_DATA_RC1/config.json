@@ -1,0 +1,7 @@
+{
+  "input_pattern": "e_commerce_returns_*.csv",
+  "master_file": "seller_master.csv",
+  "output_dir": "outputs",
+  "expected_files": 3,
+  "domain": "E-commerce Returns"
+}

@@ -1,0 +1,11 @@
+-- C2B B01 MINI-LAB 2 - QUALITY + PLAN REVIEW - RC1 INTERNAL QA
+SET search_path TO c2b_b01_lab;
+-- Open after B01-L05..L08 are mastered and Mini-Lab 1 is saved.
+-- Deliver:
+-- 1) four quality diagnostics: duplicate business event, orphan, invalid range, history multiplicity;
+-- 2) BLOCK/WARN + rationale + owner/action for each;
+-- 3) one plausible-but-wrong result, first failing contract, repair and independent control;
+-- 4) EXPLAIN a selective query before/after one justified candidate index;
+-- 5) explicitly state that no speedup is claimed unless measured;
+-- 6) one maintainable SQL handoff with deterministic order and reconciliation;
+-- 7) explain how quality/reconciliation/plan evidence will later become pipeline/test/observability controls.

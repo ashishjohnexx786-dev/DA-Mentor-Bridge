@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-09-09T00:00:00Z",
+  "metrics": [
+    {
+      "region": "North",
+      "service_level": 0.97,
+      "tickets": 42
+    },
+    {
+      "region": "South",
+      "service_level": 0.94,
+      "tickets": 37
+    },
+    {
+      "region": "East",
+      "service_level": 0.96,
+      "tickets": 39
+    },
+    {
+      "region": "West",
+      "service_level": 0.95,
+      "tickets": 41
+    }
+  ]
+}

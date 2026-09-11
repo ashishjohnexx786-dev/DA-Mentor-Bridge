@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "courseId": "C2B",
+  "moduleId": "B04",
+  "moduleName": "Warehousing and Data Quality Foundations",
+  "releaseStatus": "INTERNAL_QA_RC1",
+  "lessonCount": 9,
+  "lessons": [
+    {
+      "id": "B04-L01",
+      "title": "Operational vs analytical workloads: OLTP and OLAP",
+      "practiceSheet": "Workload_Contract",
+      "review": "B04_WAREHOUSING_DATA_QUALITY_PRACTICE_REVIEW_PROTECTED_RC1.pdf"
+    },
+    {
+      "id": "B04-L02",
+      "title": "Warehouse, lake and lakehouse mental models",
+      "practiceSheet": "Storage_Fit",
+      "review": "B04_WAREHOUSING_DATA_QUALITY_PRACTICE_REVIEW_PROTECTED_RC1.pdf"
+    },
+    {
+      "id": "B04-L03",
+      "title": "Business keys, surrogate keys and SCD history",
+      "practiceSheet": "History_Keys",
+      "review": "B04_WAREHOUSING_DATA_QUALITY_PRACTICE_REVIEW_PROTECTED_RC1.pdf"
+    },
+    {
+      "id": "B04-L04",
+      "title": "ETL vs ELT and transformation boundaries",
+      "practiceSheet": "Transform_Boundaries",
+      "review": "B04_WAREHOUSING_DATA_QUALITY_PRACTICE_REVIEW_PROTECTED_RC1.pdf"
+    },
+    {
+      "id": "B04-L05",
+      "title": "Layered analytical systems: raw, staged, conformed and serving",
+      "practiceSheet": "Layer_Contracts",
+      "review": "B04_WAREHOUSING_DATA_QUALITY_PRACTICE_REVIEW_PROTECTED_RC1.pdf"
+    },
+    {
+      "id": "B04-L06",
+      "title": "Batch, micro-batch and streaming trade-offs",
+      "practiceSheet": "Latency_Plan",
+      "review": "B04_WAREHOUSING_DATA_QUALITY_PRACTICE_REVIEW_PROTECTED_RC1.pdf"
+    },
+    {
+      "id": "B04-L07",
+      "title": "Lineage, metadata, ownership and observability basics",
+      "practiceSheet": "Lineage_Ownership",
+      "review": "B04_WAREHOUSING_DATA_QUALITY_PRACTICE_REVIEW_PROTECTED_RC1.pdf"
+    },
+    {
+      "id": "B04-L08",
+      "title": "Data-quality contracts: block, warn and reconcile",
+      "practiceSheet": "Quality_Contract",
+      "review": "B04_WAREHOUSING_DATA_QUALITY_PRACTICE_REVIEW_PROTECTED_RC1.pdf"
+    },
+    {
+      "id": "B04-L09",
+      "title": "Replay, backfill and warehouse failure-recovery reasoning",
+      "practiceSheet": "Recovery_Runbook",
+      "review": "B04_WAREHOUSING_DATA_QUALITY_PRACTICE_REVIEW_PROTECTED_RC1.pdf"
+    }
+  ],
+  "miniLab": {
+    "name": "CareFlow Clinic Warehouse",
+    "workbook": "B04_CAREFLOW_WAREHOUSE_MINI_LAB_RC1.xlsx",
+    "data": "B04_CAREFLOW_MINILAB_DATA_RC1.zip",
+    "review": "B04_CAREFLOW_MINI_LAB_REVIEW_PROTECTED_RC1.pdf"
+  },
+  "gates": {
+    "A": "Marketplace Sellers",
+    "B": "Inventory Replenishment",
+    "C": "Customer Success Renewals"
+  },
+  "c3Boundary": [
+    "No dbt/materialization/incremental/SCD implementation in B04",
+    "No Kafka/stream-processing implementation",
+    "No paid Fabric/cloud tenant prerequisite",
+    "Linux/Git/venv/container foundations remain C3-00"
+  ],
+  "sourcePolicy": "External media is support only. Active videos require exact useful segments. Book + practice must be sufficient if a link fails."
+}

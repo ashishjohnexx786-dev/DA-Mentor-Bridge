@@ -1,0 +1,7 @@
+{
+  "budget": "Avoid copying large technician image archives unless a consumer or engine requires it; choose managed services where reasonable.",
+  "security": "Customer addresses and technician HR attributes are confidential. Contractors get only approved serving outputs.",
+  "network": "Dispatch_SQL is inside a private branch network with no public endpoint.",
+  "availability": "Dispatch and technician-location analytics matter during 06:00-22:00; daily finance can be delayed longer.",
+  "tenant": "Reasoning/evidence only; no paid/live Fabric tenant is required."
+}

@@ -1,0 +1,11 @@
+new_lesson_id,new_title,old_mapping,course1_overlap,classification,c3_handoff,practice_id,protected_review_id,practice_loop,gate_assessed
+B02-L01,From notebook task to reusable script contract,B02-L01,C1 PY0/PY9/PY10,DEEPER_ENGINEERING_PROGRESSION,C3-00-L01;C3-00-L06,P-B02-L01,Review-B02-L01,Follow -> reproduce -> change -> debug -> validate -> explain,YES
+B02-L02,"Functions, modules and decomposition for repeatable work",B02-L02,C1 PY1,DELIBERATE_REVISION_PLUS_DEEPENING,C3-00-L06,P-B02-L02,Review-B02-L02,Follow -> reproduce -> change -> debug -> validate -> explain,YES
+B02-L03,Deterministic file discovery and multi-file batches,B02-L04,C1 file loading only,GENUINELY_NEW,C3-01-L01;C3-01-L02;C3-01-L09,P-B02-L03,Review-B02-L03,Follow -> reproduce -> change -> debug -> validate -> explain,YES
+B02-L04,pandas merge and validation contracts for pipelines,B02-L03,C1 PY3/PY5,DEEPER_ENGINEERING_PROGRESSION,C3-01-L14;C3-02-L06,P-B02-L04,Review-B02-L04,Follow -> reproduce -> change -> debug -> validate -> explain,YES
+B02-L05,"CSV, JSON and Excel interfaces with explicit parsing rules",B02-L05;B02-L06,C1 PY2/PY6,MERGED_DEEPENING,C3-01-L02;C3-01-L03,P-B02-L05,Review-B02-L05,Follow -> reproduce -> change -> debug -> validate -> explain,YES
+B02-L06,HTTP API basics for data acquisition,B02-L07,No required API mastery,GENUINELY_NEW,C3-01-L05;C3-01-L06,P-B02-L06,Review-B02-L06,Follow -> reproduce -> change -> debug -> validate -> explain,YES
+B02-L07,"Error handling, failure classification and containment",B02-L08,Basic Python errors only,GENUINELY_NEW,C3-00-L08;C3-01-L07,P-B02-L07,Review-B02-L07,Follow -> reproduce -> change -> debug -> validate -> explain,YES
+B02-L08,"Logging, run evidence and validation gates",B02-L09,No engineering observability mastery,GENUINELY_NEW,C3-00-L08;C3-08,P-B02-L08,Review-B02-L08,Follow -> reproduce -> change -> debug -> validate -> explain,YES
+B02-L09,Recurring batch execution and safe rerun reasoning,B02-L10;B02-L11,C1 PY9/PY10 reproducibility,DEEPER_ENGINEERING_PROGRESSION,C3-00-L12;C3-01-L13,P-B02-L09,Review-B02-L09,Follow -> reproduce -> change -> debug -> validate -> explain,YES
+B02-L10,Build and defend a small reproducible batch pipeline,B02-L11 synthesis,C1 integrated Python workflow,BRIDGE_SYNTHESIS,C3-01 entry,P-B02-L10,Review-B02-L10,Follow -> reproduce -> change -> debug -> validate -> explain,YES

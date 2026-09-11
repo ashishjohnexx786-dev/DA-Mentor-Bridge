@@ -1,0 +1,63 @@
+{
+  "course": "C2B",
+  "module": "B03",
+  "target_name": "Engineering Data Modeling",
+  "status": "RC0_REBUILD_CONTROL",
+  "baseline_lessons": 7,
+  "target_lessons": 4,
+  "decisions": [
+    {
+      "target": "B03-L01",
+      "baseline": [
+        "B03-L01",
+        "B03-L02",
+        "B03-L03"
+      ],
+      "action": "MERGE_DEEPEN",
+      "reason": "C1 already teaches star schema; Bridge converts it to business-process + grain contract."
+    },
+    {
+      "target": "B03-L02",
+      "baseline": [
+        "B03-L04",
+        "B03-L05"
+      ],
+      "action": "MERGE_DEEPEN",
+      "reason": "C1 knows Power BI relationships; Bridge deepens to key/cardinality contract and legitimate bridges."
+    },
+    {
+      "target": "B03-L03",
+      "baseline": [
+        "B03-L06",
+        "B03-L07"
+      ],
+      "action": "MERGE_DEEPEN",
+      "reason": "Move from one semantic model to multiple facts, date roles and conformed dimensions."
+    },
+    {
+      "target": "B03-L04",
+      "baseline": [
+        "B03-L01",
+        "B03-L04",
+        "B03-L07"
+      ],
+      "action": "DEEPER_PROGRESSION",
+      "reason": "Turn model trust into raw-to-model controls and implementation-ready engineering handoff."
+    }
+  ],
+  "practice_case": "Parcel Delivery retained as guided/independent practice source because its event/target/tag grains are strong.",
+  "mini_lab": {
+    "baseline": "Parcel Delivery Mini-Lab",
+    "defect": "8 of 9 workbook sheets are identical to main practice; only START_HERE title differs.",
+    "action": "REPLACE",
+    "replacement": "FreshRoute Food Delivery independent fresh-domain Mini-Lab"
+  },
+  "gates": {
+    "A": "Fleet Maintenance preserve",
+    "B": "Education Enrollment preserve protected",
+    "C": "Energy Meter Readings preserve protected",
+    "reason": "Fresh domains already assess dimensional contract, grain, bridges/date roles/reconciliation and contain no old lesson-ID dependency in inspected learner workbook cells."
+  },
+  "c3_boundary": "Do not teach dbt implementation, surrogate-key mechanics, SCD implementation, or CI here; C3-02 owns those from its engineering phase.",
+  "powerbi_boundary": "Power BI can be used as visual/model evidence but workbook design evidence remains auditable; this Bridge module is not another Power BI UI course."
+}

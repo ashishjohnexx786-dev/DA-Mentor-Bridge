@@ -1,0 +1,40 @@
+{
+  "course": "C2B DA-to-DE Bridge",
+  "module": "B02",
+  "module_name": "Python Pipeline Transition",
+  "status": "INTERNAL_QA_RC1",
+  "lesson_count": 10,
+  "lesson_ids": [
+    "B02-L01",
+    "B02-L02",
+    "B02-L03",
+    "B02-L04",
+    "B02-L05",
+    "B02-L06",
+    "B02-L07",
+    "B02-L08",
+    "B02-L09",
+    "B02-L10"
+  ],
+  "technical_reference_baseline": {
+    "python": "3.14.7",
+    "pandas": "3.0.5",
+    "requests": "2.34.2"
+  },
+  "build_runtime_evidence": {
+    "python": "3.13.5",
+    "pandas": "2.2.3",
+    "requests": "2.32.5"
+  },
+  "c3_boundary": [
+    "Linux/WSL2, Git, venv/dependency pinning, project packaging, CLI and Docker stay in C3-00",
+    "API auth/pagination/rate limits/retries, database extraction, incrementals/CDC/state/backfills stay in C3-01"
+  ],
+  "route": "lesson -> practice attempt -> protected review -> changed retry -> Mini-Lab -> Gate A -> targeted repair -> explicit B/C only when required",
+  "gate_domains": {
+    "A": "Logistics Shipments",
+    "B": "E-commerce Returns",
+    "C": "Clinic Appointments"
+  },
+  "external_media_required": false
+}

@@ -1,0 +1,13 @@
+technician_id,technician_name,current_region,specialty
+T001,Technician 001,North,Plumbing
+T002,Technician 002,South,Appliance
+T003,Technician 003,East,HVAC
+T004,Technician 004,West,Electrical
+T005,Technician 005,North,Plumbing
+T006,Technician 006,South,Appliance
+T007,Technician 007,East,HVAC
+T008,Technician 008,West,Electrical
+T009,Technician 009,North,Plumbing
+T010,Technician 010,South,Appliance
+T011,Technician 011,East,HVAC
+T012,Technician 012,West,Electrical

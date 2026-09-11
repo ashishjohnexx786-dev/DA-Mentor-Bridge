@@ -1,0 +1,52 @@
+{
+  "case": "FreshRoute Food Delivery \u2014 independent B03 Mini-Lab",
+  "files": {
+    "cities.csv": {
+      "grain": "one row per city",
+      "key": "city_id",
+      "role_hint": "conformed dimension candidate"
+    },
+    "restaurants.csv": {
+      "grain": "one row per restaurant",
+      "key": "restaurant_id",
+      "role_hint": "dimension candidate"
+    },
+    "couriers.csv": {
+      "grain": "one row per courier",
+      "key": "courier_id",
+      "role_hint": "dimension candidate"
+    },
+    "courier_skills.csv": {
+      "grain": "one row per courier-skill membership",
+      "key": "courier_id + skill",
+      "role_hint": "bridge/factless-fact candidate"
+    },
+    "deliveries.csv": {
+      "grain": "one row per delivery",
+      "key": "delivery_id",
+      "role_hint": "transaction fact candidate",
+      "date_roles": [
+        "order_date",
+        "pickup_date",
+        "delivered_date"
+      ]
+    },
+    "delivery_events.csv": {
+      "grain": "one row per delivery event",
+      "key": "event_id",
+      "role_hint": "separate event fact candidate"
+    },
+    "weekly_city_targets.csv": {
+      "grain": "one row per week-start + city",
+      "key": "week_start + city_id",
+      "role_hint": "higher-grain target fact candidate"
+    }
+  },
+  "traps": [
+    "delivery_events multiplies delivery fees if joined then summed",
+    "targets are week-city grain",
+    "courier_skills is legitimate membership bridge",
+    "three date roles must stay explicit",
+    "city can be conformed across facts"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "clinics": 6,
+  "patients": 36,
+  "providers": 12,
+  "provider_change_rows": 18,
+  "appointments": 96,
+  "completed_appointments": 78,
+  "completed_billed_total": 71600.0,
+  "appointment_events": 289,
+  "orphan_event_rows": 1,
+  "payments": 79,
+  "payment_total": 72599.0,
+  "orphan_payment_rows": 1,
+  "target_rows": 12,
+  "provider_skill_rows": 16,
+  "bad_provider_fk_appointments": 1,
+  "duplicate_provider_effective_pairs": 1
+}

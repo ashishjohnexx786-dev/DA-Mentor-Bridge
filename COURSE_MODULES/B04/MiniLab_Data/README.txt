@@ -1,0 +1,1 @@
+CareFlow Clinic Warehouse - fresh B04 independent Mini-Lab data. Design-only Bridge exercise; no Fabric tenant required. Known traps: duplicate provider effective-time pair, one bad appointment provider FK, one orphan appointment event, one orphan payment. Use control_totals.json only for validation after your own first-pass counts.

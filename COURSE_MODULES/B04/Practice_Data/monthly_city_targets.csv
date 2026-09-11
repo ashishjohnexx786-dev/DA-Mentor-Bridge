@@ -1,0 +1,13 @@
+month,city,target_completed_rides,target_revenue
+2026-01-01,North City,29,12750
+2026-01-01,South City,30,13100
+2026-01-01,East City,31,13450
+2026-01-01,West City,32,13800
+2026-02-01,North City,30,13500
+2026-02-01,South City,31,13850
+2026-02-01,East City,32,14200
+2026-02-01,West City,33,14550
+2026-03-01,North City,31,14250
+2026-03-01,South City,32,14600
+2026-03-01,East City,33,14950
+2026-03-01,West City,34,15300

@@ -1,0 +1,10 @@
+{
+  "customers": 24,
+  "services": 4,
+  "shipments": 72,
+  "shipment_events": 216,
+  "target_rows": 12,
+  "customer_tag_rows": 28,
+  "shipment_revenue_total": 26571.6,
+  "distinct_shipments_in_events": 72
+}

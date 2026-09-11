@@ -1,0 +1,99 @@
+{
+  "orders": [
+    {
+      "order_id": "N001",
+      "customer": {
+        "id": "C001",
+        "region": "North"
+      },
+      "items": [
+        {
+          "sku": "S1A",
+          "qty": 1,
+          "unit_price": 350
+        },
+        {
+          "sku": "S1B",
+          "qty": 1,
+          "unit_price": 525
+        }
+      ]
+    },
+    {
+      "order_id": "N002",
+      "customer": {
+        "id": "C002",
+        "region": "South"
+      },
+      "items": [
+        {
+          "sku": "S2A",
+          "qty": 2,
+          "unit_price": 400
+        },
+        {
+          "sku": "S2B",
+          "qty": 1,
+          "unit_price": 550
+        }
+      ]
+    },
+    {
+      "order_id": "N003",
+      "customer": {
+        "id": "C003",
+        "region": "East"
+      },
+      "items": [
+        {
+          "sku": "S3A",
+          "qty": 3,
+          "unit_price": 450
+        },
+        {
+          "sku": "S3B",
+          "qty": 1,
+          "unit_price": 575
+        }
+      ]
+    },
+    {
+      "order_id": "N004",
+      "customer": {
+        "id": "C004",
+        "region": "West"
+      },
+      "items": [
+        {
+          "sku": "S4A",
+          "qty": 4,
+          "unit_price": 500
+        },
+        {
+          "sku": "S4B",
+          "qty": 1,
+          "unit_price": 600
+        }
+      ]
+    },
+    {
+      "order_id": "N005",
+      "customer": {
+        "id": "C005",
+        "region": "North"
+      },
+      "items": [
+        {
+          "sku": "S5A",
+          "qty": 5,
+          "unit_price": 550
+        },
+        {
+          "sku": "S5B",
+          "qty": 1,
+          "unit_price": 625
+        }
+      ]
+    }
+  ]
+}

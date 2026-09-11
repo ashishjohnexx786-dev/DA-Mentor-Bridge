@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-10",
+  "module": "B01",
+  "working_name": "Engineering SQL Transition",
+  "status": "TRACEABILITY_FROZEN_BEFORE_REBUILD",
+  "baseline_lessons": 12,
+  "target_lessons": 8,
+  "merge_map": {
+    "B01-L01": [
+      "old B01-L01"
+    ],
+    "B01-L02": [
+      "old B01-L02",
+      "old B01-L03"
+    ],
+    "B01-L03": [
+      "old B01-L04",
+      "old B01-L05",
+      "old B01-L06"
+    ],
+    "B01-L04": [
+      "old B01-L07",
+      "old B01-L08"
+    ],
+    "B01-L05": [
+      "old B01-L09"
+    ],
+    "B01-L06": [
+      "old B01-L10 plus validation controls distributed across baseline"
+    ],
+    "B01-L07": [
+      "old B01-L11"
+    ],
+    "B01-L08": [
+      "old B01-L12"
+    ]
+  },
+  "assessment_decision": "Preserve Gate A/B/C technical fixtures/prompts because all target competencies remain covered and variants are distinct; rebuild/relabel reviews only as needed for target competency language and Option B visual parity.",
+  "mini_lab_decision": "Preserve both Mini-Lab technical missions; rebuild instructions and evidence checklist to the 8-lesson vocabulary.",
+  "practice_decision": "Rebuild from 12 isolated tasks into 8 integrated tasks using follow/reproduce/change/debug/validate/explain; independent changed retry remains fresh.",
+  "source_decision": "Preserve Alex visual where semantically useful, downgrade C1 repetition to refresher/optional, use PostgreSQL 18 current docs as dialect authority, add one optional 2026 PostgreSQL EXPLAIN visual, all external media non-required.",
+  "live_runtime_blocker": "PostgreSQL server/psql is not available in this environment, so real PostgreSQL execution remains unclaimed. Static fixture integrity and objective controls are preserved pending learner-PC runtime.",
+  "next": "Rebuild B01 learner book + practice + protected review + Mini-Lab instruction wrappers from this traceability freeze, then render and route QA."
+}

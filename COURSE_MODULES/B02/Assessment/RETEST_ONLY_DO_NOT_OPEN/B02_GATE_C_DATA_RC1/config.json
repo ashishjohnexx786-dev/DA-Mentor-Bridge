@@ -1,0 +1,7 @@
+{
+  "input_pattern": "clinic_appointments_*.csv",
+  "master_file": "provider_master.csv",
+  "output_dir": "outputs",
+  "expected_files": 3,
+  "domain": "Clinic Appointments"
+}

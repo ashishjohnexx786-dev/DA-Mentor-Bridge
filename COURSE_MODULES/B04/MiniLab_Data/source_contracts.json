@@ -1,0 +1,11 @@
+{
+  "clinics.csv": "one row per clinic current master",
+  "patients.csv": "one row per patient current master",
+  "providers.csv": "one row per provider current master",
+  "provider_profile_changes.csv": "one row per provider effective-dated source change; duplicate provider_id+effective_at is invalid unless source contract explains it",
+  "appointments.csv": "one row per appointment; provider/clinic keys should resolve to valid master/history",
+  "appointment_events.csv": "one row per appointment event",
+  "payments.csv": "one row per payment record",
+  "monthly_clinic_targets.csv": "one row per month-clinic target",
+  "provider_skills.csv": "one row per provider-skill membership"
+}

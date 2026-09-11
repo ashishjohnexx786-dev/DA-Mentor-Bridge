@@ -1,0 +1,9 @@
+readiness_area,primary_bridge_source,B06_evidence,C3_entry_floor
+Advanced SQL,B01 Engineering SQL Transition,B06 SQL workspace + protected Gate,>=3/4
+Python automation,B02 Python Pipeline Transition,B06 notebook/run/recovery + protected Gate,>=3/4
+Data modeling,B03 Engineering Data Modeling,B06 model/key/history + protected Gate,>=3/4
+Warehousing,B04 Warehousing & Data Quality,B06 SCD/layer/replay + protected Gate,>=3/4
+Data quality,B04 Warehousing & Data Quality,BLOCK/WARN + independent reconciliation,>=3/4
+Cloud/Fabric,B05 Cloud Platform Essentials,source/access/freshness/monitoring design,>=2/4
+Independent analysis,Across B01-B05,fresh protected Gate + defense,>=3/4
+Professional ownership,Across B02/B04/B05,failure/recovery + handoff + owner,>=2/4

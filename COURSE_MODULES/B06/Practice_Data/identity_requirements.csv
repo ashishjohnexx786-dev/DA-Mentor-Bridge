@@ -1,0 +1,6 @@
+identity,persona,required_capability,data_access
+DE_Group,Data Engineering,Build/operate pipelines and curated tables,raw+curated write
+Ops_Analysts,Operations Analysts,Analyze curated service data,curated read/build
+Finance,Finance Analysts,Read targets/revenue curated outputs,finance curated read
+Exec,Executives,Consume certified model,serving read only
+SPN_Pipeline,Pipeline service principal,Scheduled ingestion,required sources/targets only

@@ -1,0 +1,13 @@
+{
+  "riders": 30,
+  "drivers": 20,
+  "driver_profile_change_rows": 28,
+  "rides": 120,
+  "completed_rides": 90,
+  "completed_fare_total": 20754.0,
+  "payments": 90,
+  "payment_total": 20754.0,
+  "ride_events": 450,
+  "target_rows": 12,
+  "driver_tag_rows": 24
+}

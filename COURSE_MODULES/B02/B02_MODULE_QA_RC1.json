@@ -1,0 +1,1959 @@
+{
+  "module": "B02 Python Pipeline Transition RC1",
+  "status": "PASS",
+  "passed": 312,
+  "total": 312,
+  "failures": [],
+  "checks": [
+    {
+      "check": "pdf_open_B02_PYTHON_PIPELINE_TRANSITION_LEARNER_BOOK_RC1.pdf",
+      "status": "PASS",
+      "observed": 23,
+      "expected": "pages>0"
+    },
+    {
+      "check": "pdf_searchable_B02_PYTHON_PIPELINE_TRANSITION_LEARNER_BOOK_RC1.pdf",
+      "status": "PASS",
+      "observed": 43395,
+      "expected": ">40 chars"
+    },
+    {
+      "check": "pdf_open_B02_START_HERE_RC1.pdf",
+      "status": "PASS",
+      "observed": 1,
+      "expected": "pages>0"
+    },
+    {
+      "check": "pdf_searchable_B02_START_HERE_RC1.pdf",
+      "status": "PASS",
+      "observed": 1300,
+      "expected": ">40 chars"
+    },
+    {
+      "check": "pdf_open_B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
+      "status": "PASS",
+      "observed": 11,
+      "expected": "pages>0"
+    },
+    {
+      "check": "pdf_searchable_B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
+      "status": "PASS",
+      "observed": 8477,
+      "expected": ">40 chars"
+    },
+    {
+      "check": "pdf_open_B02_GATE_C_REVIEW_PROTECTED_RC1.pdf",
+      "status": "PASS",
+      "observed": 1,
+      "expected": "pages>0"
+    },
+    {
+      "check": "pdf_searchable_B02_GATE_C_REVIEW_PROTECTED_RC1.pdf",
+      "status": "PASS",
+      "observed": 953,
+      "expected": ">40 chars"
+    },
+    {
+      "check": "pdf_open_B02_GATE_A_REVIEW_PROTECTED_RC1.pdf",
+      "status": "PASS",
+      "observed": 1,
+      "expected": "pages>0"
+    },
+    {
+      "check": "pdf_searchable_B02_GATE_A_REVIEW_PROTECTED_RC1.pdf",
+      "status": "PASS",
+      "observed": 996,
+      "expected": ">40 chars"
+    },
+    {
+      "check": "pdf_open_B02_GATE_B_REVIEW_PROTECTED_RC1.pdf",
+      "status": "PASS",
+      "observed": 1,
+      "expected": "pages>0"
+    },
+    {
+      "check": "pdf_searchable_B02_GATE_B_REVIEW_PROTECTED_RC1.pdf",
+      "status": "PASS",
+      "observed": 956,
+      "expected": ">40 chars"
+    },
+    {
+      "check": "page_count_B02_PYTHON_PIPELINE_TRANSITION_LEARNER_BOOK_RC1.pdf",
+      "status": "PASS",
+      "observed": 23,
+      "expected": 23
+    },
+    {
+      "check": "page_count_B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
+      "status": "PASS",
+      "observed": 11,
+      "expected": 11
+    },
+    {
+      "check": "page_count_B02_START_HERE_RC1.pdf",
+      "status": "PASS",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "lesson_start_B02-L01",
+      "status": "PASS",
+      "observed": [
+        3,
+        4
+      ],
+      "expected": 3
+    },
+    {
+      "check": "B02-L01_1. Why it matters",
+      "status": "PASS",
+      "observed": "1. Why it matters",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L01_2. What you are learning",
+      "status": "PASS",
+      "observed": "2. What you are learning",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L01_3. Prerequisite",
+      "status": "PASS",
+      "observed": "3. Prerequisite",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L01_4. Picture it in your head",
+      "status": "PASS",
+      "observed": "4. Picture it in your head",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L01_5. New words before we use them",
+      "status": "PASS",
+      "observed": "5. New words before we use them",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L01_6. Watch / visual source",
+      "status": "PASS",
+      "observed": "6. Watch / visual source",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L01_7. Follow with me once",
+      "status": "PASS",
+      "observed": "7. Follow with me once",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L01_8. What you should see",
+      "status": "PASS",
+      "observed": "8. What you should see",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L01_9. Why it worked",
+      "status": "PASS",
+      "observed": "9. Why it worked",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L01_10. Common beginner mistakes",
+      "status": "PASS",
+      "observed": "10. Common beginner mistakes",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L01_11. If stuck",
+      "status": "PASS",
+      "observed": "11. If stuck",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L01_12. Small version alone",
+      "status": "PASS",
+      "observed": "12. Small version alone",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L01_13. Validate",
+      "status": "PASS",
+      "observed": "13. Validate",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L01_14. Teach it back",
+      "status": "PASS",
+      "observed": "14. Teach it back",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L01_15. Protected review + changed retry",
+      "status": "PASS",
+      "observed": "15. Protected review + changed retry",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L01_16. Evidence / mastery + next route",
+      "status": "PASS",
+      "observed": "16. Evidence / mastery + next route",
+      "expected": "present"
+    },
+    {
+      "check": "lesson_start_B02-L02",
+      "status": "PASS",
+      "observed": [
+        5,
+        6
+      ],
+      "expected": 5
+    },
+    {
+      "check": "B02-L02_1. Why it matters",
+      "status": "PASS",
+      "observed": "1. Why it matters",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L02_2. What you are learning",
+      "status": "PASS",
+      "observed": "2. What you are learning",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L02_3. Prerequisite",
+      "status": "PASS",
+      "observed": "3. Prerequisite",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L02_4. Picture it in your head",
+      "status": "PASS",
+      "observed": "4. Picture it in your head",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L02_5. New words before we use them",
+      "status": "PASS",
+      "observed": "5. New words before we use them",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L02_6. Watch / visual source",
+      "status": "PASS",
+      "observed": "6. Watch / visual source",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L02_7. Follow with me once",
+      "status": "PASS",
+      "observed": "7. Follow with me once",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L02_8. What you should see",
+      "status": "PASS",
+      "observed": "8. What you should see",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L02_9. Why it worked",
+      "status": "PASS",
+      "observed": "9. Why it worked",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L02_10. Common beginner mistakes",
+      "status": "PASS",
+      "observed": "10. Common beginner mistakes",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L02_11. If stuck",
+      "status": "PASS",
+      "observed": "11. If stuck",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L02_12. Small version alone",
+      "status": "PASS",
+      "observed": "12. Small version alone",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L02_13. Validate",
+      "status": "PASS",
+      "observed": "13. Validate",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L02_14. Teach it back",
+      "status": "PASS",
+      "observed": "14. Teach it back",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L02_15. Protected review + changed retry",
+      "status": "PASS",
+      "observed": "15. Protected review + changed retry",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L02_16. Evidence / mastery + next route",
+      "status": "PASS",
+      "observed": "16. Evidence / mastery + next route",
+      "expected": "present"
+    },
+    {
+      "check": "lesson_start_B02-L03",
+      "status": "PASS",
+      "observed": [
+        7,
+        8
+      ],
+      "expected": 7
+    },
+    {
+      "check": "B02-L03_1. Why it matters",
+      "status": "PASS",
+      "observed": "1. Why it matters",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L03_2. What you are learning",
+      "status": "PASS",
+      "observed": "2. What you are learning",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L03_3. Prerequisite",
+      "status": "PASS",
+      "observed": "3. Prerequisite",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L03_4. Picture it in your head",
+      "status": "PASS",
+      "observed": "4. Picture it in your head",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L03_5. New words before we use them",
+      "status": "PASS",
+      "observed": "5. New words before we use them",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L03_6. Watch / visual source",
+      "status": "PASS",
+      "observed": "6. Watch / visual source",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L03_7. Follow with me once",
+      "status": "PASS",
+      "observed": "7. Follow with me once",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L03_8. What you should see",
+      "status": "PASS",
+      "observed": "8. What you should see",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L03_9. Why it worked",
+      "status": "PASS",
+      "observed": "9. Why it worked",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L03_10. Common beginner mistakes",
+      "status": "PASS",
+      "observed": "10. Common beginner mistakes",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L03_11. If stuck",
+      "status": "PASS",
+      "observed": "11. If stuck",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L03_12. Small version alone",
+      "status": "PASS",
+      "observed": "12. Small version alone",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L03_13. Validate",
+      "status": "PASS",
+      "observed": "13. Validate",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L03_14. Teach it back",
+      "status": "PASS",
+      "observed": "14. Teach it back",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L03_15. Protected review + changed retry",
+      "status": "PASS",
+      "observed": "15. Protected review + changed retry",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L03_16. Evidence / mastery + next route",
+      "status": "PASS",
+      "observed": "16. Evidence / mastery + next route",
+      "expected": "present"
+    },
+    {
+      "check": "lesson_start_B02-L04",
+      "status": "PASS",
+      "observed": [
+        9,
+        10
+      ],
+      "expected": 9
+    },
+    {
+      "check": "B02-L04_1. Why it matters",
+      "status": "PASS",
+      "observed": "1. Why it matters",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L04_2. What you are learning",
+      "status": "PASS",
+      "observed": "2. What you are learning",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L04_3. Prerequisite",
+      "status": "PASS",
+      "observed": "3. Prerequisite",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L04_4. Picture it in your head",
+      "status": "PASS",
+      "observed": "4. Picture it in your head",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L04_5. New words before we use them",
+      "status": "PASS",
+      "observed": "5. New words before we use them",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L04_6. Watch / visual source",
+      "status": "PASS",
+      "observed": "6. Watch / visual source",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L04_7. Follow with me once",
+      "status": "PASS",
+      "observed": "7. Follow with me once",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L04_8. What you should see",
+      "status": "PASS",
+      "observed": "8. What you should see",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L04_9. Why it worked",
+      "status": "PASS",
+      "observed": "9. Why it worked",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L04_10. Common beginner mistakes",
+      "status": "PASS",
+      "observed": "10. Common beginner mistakes",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L04_11. If stuck",
+      "status": "PASS",
+      "observed": "11. If stuck",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L04_12. Small version alone",
+      "status": "PASS",
+      "observed": "12. Small version alone",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L04_13. Validate",
+      "status": "PASS",
+      "observed": "13. Validate",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L04_14. Teach it back",
+      "status": "PASS",
+      "observed": "14. Teach it back",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L04_15. Protected review + changed retry",
+      "status": "PASS",
+      "observed": "15. Protected review + changed retry",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L04_16. Evidence / mastery + next route",
+      "status": "PASS",
+      "observed": "16. Evidence / mastery + next route",
+      "expected": "present"
+    },
+    {
+      "check": "lesson_start_B02-L05",
+      "status": "PASS",
+      "observed": [
+        11,
+        12
+      ],
+      "expected": 11
+    },
+    {
+      "check": "B02-L05_1. Why it matters",
+      "status": "PASS",
+      "observed": "1. Why it matters",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L05_2. What you are learning",
+      "status": "PASS",
+      "observed": "2. What you are learning",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L05_3. Prerequisite",
+      "status": "PASS",
+      "observed": "3. Prerequisite",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L05_4. Picture it in your head",
+      "status": "PASS",
+      "observed": "4. Picture it in your head",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L05_5. New words before we use them",
+      "status": "PASS",
+      "observed": "5. New words before we use them",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L05_6. Watch / visual source",
+      "status": "PASS",
+      "observed": "6. Watch / visual source",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L05_7. Follow with me once",
+      "status": "PASS",
+      "observed": "7. Follow with me once",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L05_8. What you should see",
+      "status": "PASS",
+      "observed": "8. What you should see",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L05_9. Why it worked",
+      "status": "PASS",
+      "observed": "9. Why it worked",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L05_10. Common beginner mistakes",
+      "status": "PASS",
+      "observed": "10. Common beginner mistakes",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L05_11. If stuck",
+      "status": "PASS",
+      "observed": "11. If stuck",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L05_12. Small version alone",
+      "status": "PASS",
+      "observed": "12. Small version alone",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L05_13. Validate",
+      "status": "PASS",
+      "observed": "13. Validate",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L05_14. Teach it back",
+      "status": "PASS",
+      "observed": "14. Teach it back",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L05_15. Protected review + changed retry",
+      "status": "PASS",
+      "observed": "15. Protected review + changed retry",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L05_16. Evidence / mastery + next route",
+      "status": "PASS",
+      "observed": "16. Evidence / mastery + next route",
+      "expected": "present"
+    },
+    {
+      "check": "lesson_start_B02-L06",
+      "status": "PASS",
+      "observed": [
+        13,
+        14
+      ],
+      "expected": 13
+    },
+    {
+      "check": "B02-L06_1. Why it matters",
+      "status": "PASS",
+      "observed": "1. Why it matters",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L06_2. What you are learning",
+      "status": "PASS",
+      "observed": "2. What you are learning",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L06_3. Prerequisite",
+      "status": "PASS",
+      "observed": "3. Prerequisite",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L06_4. Picture it in your head",
+      "status": "PASS",
+      "observed": "4. Picture it in your head",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L06_5. New words before we use them",
+      "status": "PASS",
+      "observed": "5. New words before we use them",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L06_6. Watch / visual source",
+      "status": "PASS",
+      "observed": "6. Watch / visual source",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L06_7. Follow with me once",
+      "status": "PASS",
+      "observed": "7. Follow with me once",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L06_8. What you should see",
+      "status": "PASS",
+      "observed": "8. What you should see",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L06_9. Why it worked",
+      "status": "PASS",
+      "observed": "9. Why it worked",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L06_10. Common beginner mistakes",
+      "status": "PASS",
+      "observed": "10. Common beginner mistakes",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L06_11. If stuck",
+      "status": "PASS",
+      "observed": "11. If stuck",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L06_12. Small version alone",
+      "status": "PASS",
+      "observed": "12. Small version alone",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L06_13. Validate",
+      "status": "PASS",
+      "observed": "13. Validate",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L06_14. Teach it back",
+      "status": "PASS",
+      "observed": "14. Teach it back",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L06_15. Protected review + changed retry",
+      "status": "PASS",
+      "observed": "15. Protected review + changed retry",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L06_16. Evidence / mastery + next route",
+      "status": "PASS",
+      "observed": "16. Evidence / mastery + next route",
+      "expected": "present"
+    },
+    {
+      "check": "lesson_start_B02-L07",
+      "status": "PASS",
+      "observed": [
+        15,
+        16
+      ],
+      "expected": 15
+    },
+    {
+      "check": "B02-L07_1. Why it matters",
+      "status": "PASS",
+      "observed": "1. Why it matters",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L07_2. What you are learning",
+      "status": "PASS",
+      "observed": "2. What you are learning",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L07_3. Prerequisite",
+      "status": "PASS",
+      "observed": "3. Prerequisite",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L07_4. Picture it in your head",
+      "status": "PASS",
+      "observed": "4. Picture it in your head",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L07_5. New words before we use them",
+      "status": "PASS",
+      "observed": "5. New words before we use them",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L07_6. Watch / visual source",
+      "status": "PASS",
+      "observed": "6. Watch / visual source",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L07_7. Follow with me once",
+      "status": "PASS",
+      "observed": "7. Follow with me once",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L07_8. What you should see",
+      "status": "PASS",
+      "observed": "8. What you should see",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L07_9. Why it worked",
+      "status": "PASS",
+      "observed": "9. Why it worked",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L07_10. Common beginner mistakes",
+      "status": "PASS",
+      "observed": "10. Common beginner mistakes",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L07_11. If stuck",
+      "status": "PASS",
+      "observed": "11. If stuck",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L07_12. Small version alone",
+      "status": "PASS",
+      "observed": "12. Small version alone",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L07_13. Validate",
+      "status": "PASS",
+      "observed": "13. Validate",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L07_14. Teach it back",
+      "status": "PASS",
+      "observed": "14. Teach it back",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L07_15. Protected review + changed retry",
+      "status": "PASS",
+      "observed": "15. Protected review + changed retry",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L07_16. Evidence / mastery + next route",
+      "status": "PASS",
+      "observed": "16. Evidence / mastery + next route",
+      "expected": "present"
+    },
+    {
+      "check": "lesson_start_B02-L08",
+      "status": "PASS",
+      "observed": [
+        17,
+        18
+      ],
+      "expected": 17
+    },
+    {
+      "check": "B02-L08_1. Why it matters",
+      "status": "PASS",
+      "observed": "1. Why it matters",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L08_2. What you are learning",
+      "status": "PASS",
+      "observed": "2. What you are learning",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L08_3. Prerequisite",
+      "status": "PASS",
+      "observed": "3. Prerequisite",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L08_4. Picture it in your head",
+      "status": "PASS",
+      "observed": "4. Picture it in your head",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L08_5. New words before we use them",
+      "status": "PASS",
+      "observed": "5. New words before we use them",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L08_6. Watch / visual source",
+      "status": "PASS",
+      "observed": "6. Watch / visual source",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L08_7. Follow with me once",
+      "status": "PASS",
+      "observed": "7. Follow with me once",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L08_8. What you should see",
+      "status": "PASS",
+      "observed": "8. What you should see",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L08_9. Why it worked",
+      "status": "PASS",
+      "observed": "9. Why it worked",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L08_10. Common beginner mistakes",
+      "status": "PASS",
+      "observed": "10. Common beginner mistakes",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L08_11. If stuck",
+      "status": "PASS",
+      "observed": "11. If stuck",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L08_12. Small version alone",
+      "status": "PASS",
+      "observed": "12. Small version alone",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L08_13. Validate",
+      "status": "PASS",
+      "observed": "13. Validate",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L08_14. Teach it back",
+      "status": "PASS",
+      "observed": "14. Teach it back",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L08_15. Protected review + changed retry",
+      "status": "PASS",
+      "observed": "15. Protected review + changed retry",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L08_16. Evidence / mastery + next route",
+      "status": "PASS",
+      "observed": "16. Evidence / mastery + next route",
+      "expected": "present"
+    },
+    {
+      "check": "lesson_start_B02-L09",
+      "status": "PASS",
+      "observed": [
+        19,
+        20
+      ],
+      "expected": 19
+    },
+    {
+      "check": "B02-L09_1. Why it matters",
+      "status": "PASS",
+      "observed": "1. Why it matters",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L09_2. What you are learning",
+      "status": "PASS",
+      "observed": "2. What you are learning",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L09_3. Prerequisite",
+      "status": "PASS",
+      "observed": "3. Prerequisite",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L09_4. Picture it in your head",
+      "status": "PASS",
+      "observed": "4. Picture it in your head",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L09_5. New words before we use them",
+      "status": "PASS",
+      "observed": "5. New words before we use them",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L09_6. Watch / visual source",
+      "status": "PASS",
+      "observed": "6. Watch / visual source",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L09_7. Follow with me once",
+      "status": "PASS",
+      "observed": "7. Follow with me once",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L09_8. What you should see",
+      "status": "PASS",
+      "observed": "8. What you should see",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L09_9. Why it worked",
+      "status": "PASS",
+      "observed": "9. Why it worked",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L09_10. Common beginner mistakes",
+      "status": "PASS",
+      "observed": "10. Common beginner mistakes",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L09_11. If stuck",
+      "status": "PASS",
+      "observed": "11. If stuck",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L09_12. Small version alone",
+      "status": "PASS",
+      "observed": "12. Small version alone",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L09_13. Validate",
+      "status": "PASS",
+      "observed": "13. Validate",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L09_14. Teach it back",
+      "status": "PASS",
+      "observed": "14. Teach it back",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L09_15. Protected review + changed retry",
+      "status": "PASS",
+      "observed": "15. Protected review + changed retry",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L09_16. Evidence / mastery + next route",
+      "status": "PASS",
+      "observed": "16. Evidence / mastery + next route",
+      "expected": "present"
+    },
+    {
+      "check": "lesson_start_B02-L10",
+      "status": "PASS",
+      "observed": [
+        21,
+        22
+      ],
+      "expected": 21
+    },
+    {
+      "check": "B02-L10_1. Why it matters",
+      "status": "PASS",
+      "observed": "1. Why it matters",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L10_2. What you are learning",
+      "status": "PASS",
+      "observed": "2. What you are learning",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L10_3. Prerequisite",
+      "status": "PASS",
+      "observed": "3. Prerequisite",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L10_4. Picture it in your head",
+      "status": "PASS",
+      "observed": "4. Picture it in your head",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L10_5. New words before we use them",
+      "status": "PASS",
+      "observed": "5. New words before we use them",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L10_6. Watch / visual source",
+      "status": "PASS",
+      "observed": "6. Watch / visual source",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L10_7. Follow with me once",
+      "status": "PASS",
+      "observed": "7. Follow with me once",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L10_8. What you should see",
+      "status": "PASS",
+      "observed": "8. What you should see",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L10_9. Why it worked",
+      "status": "PASS",
+      "observed": "9. Why it worked",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L10_10. Common beginner mistakes",
+      "status": "PASS",
+      "observed": "10. Common beginner mistakes",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L10_11. If stuck",
+      "status": "PASS",
+      "observed": "11. If stuck",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L10_12. Small version alone",
+      "status": "PASS",
+      "observed": "12. Small version alone",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L10_13. Validate",
+      "status": "PASS",
+      "observed": "13. Validate",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L10_14. Teach it back",
+      "status": "PASS",
+      "observed": "14. Teach it back",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L10_15. Protected review + changed retry",
+      "status": "PASS",
+      "observed": "15. Protected review + changed retry",
+      "expected": "present"
+    },
+    {
+      "check": "B02-L10_16. Evidence / mastery + next route",
+      "status": "PASS",
+      "observed": "16. Evidence / mastery + next route",
+      "expected": "present"
+    },
+    {
+      "check": "contents_B02-L01",
+      "status": "PASS",
+      "observed": "present/mapped",
+      "expected": "3"
+    },
+    {
+      "check": "contents_B02-L02",
+      "status": "PASS",
+      "observed": "present/mapped",
+      "expected": "5"
+    },
+    {
+      "check": "contents_B02-L03",
+      "status": "PASS",
+      "observed": "present/mapped",
+      "expected": "7"
+    },
+    {
+      "check": "contents_B02-L04",
+      "status": "PASS",
+      "observed": "present/mapped",
+      "expected": "9"
+    },
+    {
+      "check": "contents_B02-L05",
+      "status": "PASS",
+      "observed": "present/mapped",
+      "expected": "11"
+    },
+    {
+      "check": "contents_B02-L06",
+      "status": "PASS",
+      "observed": "present/mapped",
+      "expected": "13"
+    },
+    {
+      "check": "contents_B02-L07",
+      "status": "PASS",
+      "observed": "present/mapped",
+      "expected": "15"
+    },
+    {
+      "check": "contents_B02-L08",
+      "status": "PASS",
+      "observed": "present/mapped",
+      "expected": "17"
+    },
+    {
+      "check": "contents_B02-L09",
+      "status": "PASS",
+      "observed": "present/mapped",
+      "expected": "19"
+    },
+    {
+      "check": "contents_B02-L10",
+      "status": "PASS",
+      "observed": "present/mapped",
+      "expected": "21"
+    },
+    {
+      "check": "bridge_route_B02-L01",
+      "status": "PASS",
+      "observed": "transition labels",
+      "expected": "all 5"
+    },
+    {
+      "check": "bridge_route_B02-L02",
+      "status": "PASS",
+      "observed": "transition labels",
+      "expected": "all 5"
+    },
+    {
+      "check": "bridge_route_B02-L03",
+      "status": "PASS",
+      "observed": "transition labels",
+      "expected": "all 5"
+    },
+    {
+      "check": "bridge_route_B02-L04",
+      "status": "PASS",
+      "observed": "transition labels",
+      "expected": "all 5"
+    },
+    {
+      "check": "bridge_route_B02-L05",
+      "status": "PASS",
+      "observed": "transition labels",
+      "expected": "all 5"
+    },
+    {
+      "check": "bridge_route_B02-L06",
+      "status": "PASS",
+      "observed": "transition labels",
+      "expected": "all 5"
+    },
+    {
+      "check": "bridge_route_B02-L07",
+      "status": "PASS",
+      "observed": "transition labels",
+      "expected": "all 5"
+    },
+    {
+      "check": "bridge_route_B02-L08",
+      "status": "PASS",
+      "observed": "transition labels",
+      "expected": "all 5"
+    },
+    {
+      "check": "bridge_route_B02-L09",
+      "status": "PASS",
+      "observed": "transition labels",
+      "expected": "all 5"
+    },
+    {
+      "check": "bridge_route_B02-L10",
+      "status": "PASS",
+      "observed": "transition labels",
+      "expected": "all 5"
+    },
+    {
+      "check": "no_stale_L11_B02_START_HERE_RC1.pdf",
+      "status": "PASS",
+      "observed": false,
+      "expected": false
+    },
+    {
+      "check": "no_stale_L11_B02_PYTHON_PIPELINE_TRANSITION_LEARNER_BOOK_RC1.pdf",
+      "status": "PASS",
+      "observed": false,
+      "expected": false
+    },
+    {
+      "check": "no_stale_L11_B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
+      "status": "PASS",
+      "observed": false,
+      "expected": false
+    },
+    {
+      "check": "c3_boundary_book",
+      "status": "PASS",
+      "observed": "boundary text",
+      "expected": "present"
+    },
+    {
+      "check": "book_hyperlinks_present",
+      "status": "PASS",
+      "observed": 20,
+      "expected": ">=10"
+    },
+    {
+      "check": "book_hyperlinks_http",
+      "status": "PASS",
+      "observed": [],
+      "expected": "none"
+    },
+    {
+      "check": "source_url_shape_SRC01",
+      "status": "PASS",
+      "observed": "https://docs.python.org/3/tutorial/modules.html",
+      "expected": "https"
+    },
+    {
+      "check": "source_url_shape_SRC02",
+      "status": "PASS",
+      "observed": "https://docs.python.org/3/library/pathlib.html",
+      "expected": "https"
+    },
+    {
+      "check": "source_url_shape_SRC03",
+      "status": "PASS",
+      "observed": "https://pandas.pydata.org/docs/user_guide/",
+      "expected": "https"
+    },
+    {
+      "check": "source_url_shape_SRC04",
+      "status": "PASS",
+      "observed": "https://pandas.pydata.org/docs/reference/api/pandas.merge.html",
+      "expected": "https"
+    },
+    {
+      "check": "source_url_shape_SRC05",
+      "status": "PASS",
+      "observed": "https://pandas.pydata.org/docs/user_guide/io.html",
+      "expected": "https"
+    },
+    {
+      "check": "source_url_shape_SRC06",
+      "status": "PASS",
+      "observed": "https://docs.python.org/3/library/csv.html",
+      "expected": "https"
+    },
+    {
+      "check": "source_url_shape_SRC07",
+      "status": "PASS",
+      "observed": "https://docs.python.org/3/library/json.html",
+      "expected": "https"
+    },
+    {
+      "check": "source_url_shape_SRC08",
+      "status": "PASS",
+      "observed": "https://requests.readthedocs.io/en/latest/user/quickstart/",
+      "expected": "https"
+    },
+    {
+      "check": "source_url_shape_SRC09",
+      "status": "PASS",
+      "observed": "https://docs.python.org/3/tutorial/errors.html",
+      "expected": "https"
+    },
+    {
+      "check": "source_url_shape_SRC10",
+      "status": "PASS",
+      "observed": "https://docs.python.org/3/howto/logging.html",
+      "expected": "https"
+    },
+    {
+      "check": "source_url_shape_VID02",
+      "status": "PASS",
+      "observed": "https://www.youtube.com/watch?v=N6hyN6BW6ao",
+      "expected": "https"
+    },
+    {
+      "check": "source_url_shape_VID04",
+      "status": "PASS",
+      "observed": "https://www.youtube.com/watch?v=-ARI4Cz-awo",
+      "expected": "https"
+    },
+    {
+      "check": "source_url_shape_VID06",
+      "status": "PASS",
+      "observed": "https://realpython.com/videos/consuming-apis-get-post/",
+      "expected": "https"
+    },
+    {
+      "check": "source_url_shape_VID05",
+      "status": "PASS",
+      "observed": "https://www.youtube.com/watch?v=NIWwJbo-9_8",
+      "expected": "https"
+    },
+    {
+      "check": "api_visual_vid06_present",
+      "status": "PASS",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "api_visual_vid06_scope",
+      "status": "PASS",
+      "observed": {
+        "source_id": "VID06",
+        "role": "VIDEO_RECOMMENDED",
+        "title": "Real Python - Consuming APIs: GET and POST",
+        "url": "https://realpython.com/videos/consuming-apis-get-post/",
+        "lesson_assignment": "B02-L06",
+        "decision": "added as active focused visual after current web verification 2026-09-10; exact transcript timestamps available",
+        "useful_scope": "01:50-03:02 - requests.get(), Response, .json(), status_code/headers; stop before POST",
+        "learner_action_after": "Immediately validate Practice_Data/api_response.json, then if local HTTP is available GET the same file with timeout + raise_for_status(); prove exactly four metrics and no publish on retrieval failure.",
+        "internal_fallback": "Skip video; Requests Quickstart + offline/local fixture fully teach the lesson."
+      },
+      "expected": "recommended B02-L06 01:50-03:02"
+    },
+    {
+      "check": "api_visual_vid06_linked",
+      "status": "PASS",
+      "observed": "https://realpython.com/videos/consuming-apis-get-post/",
+      "expected": "embedded in book"
+    },
+    {
+      "check": "corey_requests_preserved_backup",
+      "status": "PASS",
+      "observed": [
+        {
+          "source_id": "VID03",
+          "role": "VIDEO_OPTIONAL_BACKUP",
+          "title": "Corey Schafer - Python Requests Tutorial",
+          "url": "https://www.youtube.com/watch?v=tb8gHvYlCFs",
+          "lesson_assignment": "B02-L06",
+          "decision": "baseline-added visual preserved as backup; replaced as active B02-L06 visual by focused timestamp-verifiable Real Python segment",
+          "useful_scope": "Backup only; exact chapter timestamps were not reliably published in the baseline audit.",
+          "learner_action_after": "Use only if the Real Python visual is unavailable; then run the same local-fixture task.",
+          "internal_fallback": "Skip video; Requests Quickstart + offline fixture."
+        }
+      ],
+      "expected": "preserved backup"
+    },
+    {
+      "check": "external_media_required_false",
+      "status": "PASS",
+      "observed": false,
+      "expected": false
+    },
+    {
+      "check": "practice_B02-L01",
+      "status": "PASS",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "practice_B02-L02",
+      "status": "PASS",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "practice_B02-L03",
+      "status": "PASS",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "practice_B02-L04",
+      "status": "PASS",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "practice_B02-L05",
+      "status": "PASS",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "practice_B02-L06",
+      "status": "PASS",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "practice_B02-L07",
+      "status": "PASS",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "practice_B02-L08",
+      "status": "PASS",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "practice_B02-L09",
+      "status": "PASS",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "practice_B02-L10",
+      "status": "PASS",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "practice_no_L11",
+      "status": "PASS",
+      "observed": false,
+      "expected": false
+    },
+    {
+      "check": "practice_code_cells",
+      "status": "PASS",
+      "observed": 10,
+      "expected": 10
+    },
+    {
+      "check": "review_B02-L01",
+      "status": "PASS",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "review_B02-L02",
+      "status": "PASS",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "review_B02-L03",
+      "status": "PASS",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "review_B02-L04",
+      "status": "PASS",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "review_B02-L05",
+      "status": "PASS",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "review_B02-L06",
+      "status": "PASS",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "review_B02-L07",
+      "status": "PASS",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "review_B02-L08",
+      "status": "PASS",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "review_B02-L09",
+      "status": "PASS",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "review_B02-L10",
+      "status": "PASS",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "check": "review_attempt_protection",
+      "status": "PASS",
+      "observed": "protected wording",
+      "expected": "present"
+    },
+    {
+      "check": "notebook_parse_B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_RC1.ipynb",
+      "status": "PASS",
+      "observed": 4,
+      "expected": 4
+    },
+    {
+      "check": "notebook_no_outputs_B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_RC1.ipynb",
+      "status": "PASS",
+      "observed": "outputs empty",
+      "expected": "true"
+    },
+    {
+      "check": "notebook_parse_B02_WEEKLY_BRIDGE_BATCH_PIPELINE_MINI_LAB_RC1.ipynb",
+      "status": "PASS",
+      "observed": 4,
+      "expected": 4
+    },
+    {
+      "check": "notebook_no_outputs_B02_WEEKLY_BRIDGE_BATCH_PIPELINE_MINI_LAB_RC1.ipynb",
+      "status": "PASS",
+      "observed": "outputs empty",
+      "expected": "true"
+    },
+    {
+      "check": "notebook_parse_B02_GATE_A_LOGISTICS_SHIPMENTS_RC1.ipynb",
+      "status": "PASS",
+      "observed": 4,
+      "expected": 4
+    },
+    {
+      "check": "notebook_no_outputs_B02_GATE_A_LOGISTICS_SHIPMENTS_RC1.ipynb",
+      "status": "PASS",
+      "observed": "outputs empty",
+      "expected": "true"
+    },
+    {
+      "check": "notebook_parse_B02_TARGETED_REMEDIATION_RC1.ipynb",
+      "status": "PASS",
+      "observed": 4,
+      "expected": 4
+    },
+    {
+      "check": "notebook_no_outputs_B02_TARGETED_REMEDIATION_RC1.ipynb",
+      "status": "PASS",
+      "observed": "outputs empty",
+      "expected": "true"
+    },
+    {
+      "check": "notebook_parse_B02_GATE_B_E_COMMERCE_RETURNS_RC1.ipynb",
+      "status": "PASS",
+      "observed": 4,
+      "expected": 4
+    },
+    {
+      "check": "notebook_no_outputs_B02_GATE_B_E_COMMERCE_RETURNS_RC1.ipynb",
+      "status": "PASS",
+      "observed": "outputs empty",
+      "expected": "true"
+    },
+    {
+      "check": "notebook_parse_B02_GATE_C_CLINIC_APPOINTMENTS_RC1.ipynb",
+      "status": "PASS",
+      "observed": 4,
+      "expected": 4
+    },
+    {
+      "check": "notebook_no_outputs_B02_GATE_C_CLINIC_APPOINTMENTS_RC1.ipynb",
+      "status": "PASS",
+      "observed": "outputs empty",
+      "expected": "true"
+    },
+    {
+      "check": "minilab_deterministically",
+      "status": "PASS",
+      "observed": "deterministically",
+      "expected": "present"
+    },
+    {
+      "check": "minilab_source_file",
+      "status": "PASS",
+      "observed": "source_file",
+      "expected": "present"
+    },
+    {
+      "check": "minilab_duplicate C013",
+      "status": "PASS",
+      "observed": "duplicate C013",
+      "expected": "present"
+    },
+    {
+      "check": "minilab_run.log",
+      "status": "PASS",
+      "observed": "run.log",
+      "expected": "present"
+    },
+    {
+      "check": "minilab_validation_results.json",
+      "status": "PASS",
+      "observed": "validation_results.json",
+      "expected": "present"
+    },
+    {
+      "check": "minilab_run_manifest.json",
+      "status": "PASS",
+      "observed": "run_manifest.json",
+      "expected": "present"
+    },
+    {
+      "check": "minilab_reruns safely",
+      "status": "PASS",
+      "observed": "reruns safely",
+      "expected": "present"
+    },
+    {
+      "check": "gate_exists_A",
+      "status": "PASS",
+      "observed": "/mnt/data/c2b_rebuild/B02_PYTHON_PIPELINE_TRANSITION_RC1_INTERNAL_QA/Assessment/Gate_A/B02_GATE_A_LOGISTICS_SHIPMENTS_RC1.ipynb",
+      "expected": "exists"
+    },
+    {
+      "check": "gate_A_deterministic multi-file discovery",
+      "status": "PASS",
+      "observed": "deterministic multi-file discovery",
+      "expected": "present"
+    },
+    {
+      "check": "gate_A_duplicate master-key detection BEFORE merge",
+      "status": "PASS",
+      "observed": "duplicate master-key detection BEFORE merge",
+      "expected": "present"
+    },
+    {
+      "check": "gate_A_logging + machine-readable validation",
+      "status": "PASS",
+      "observed": "logging + machine-readable validation",
+      "expected": "present"
+    },
+    {
+      "check": "gate_A_final output withheld",
+      "status": "PASS",
+      "observed": "final output withheld",
+      "expected": "present"
+    },
+    {
+      "check": "gate_A_safe rerun/idempotence evidence",
+      "status": "PASS",
+      "observed": "safe rerun/idempotence evidence",
+      "expected": "present"
+    },
+    {
+      "check": "gate_A_run manifest",
+      "status": "PASS",
+      "observed": "run manifest",
+      "expected": "present"
+    },
+    {
+      "check": "gate_exists_B",
+      "status": "PASS",
+      "observed": "/mnt/data/c2b_rebuild/B02_PYTHON_PIPELINE_TRANSITION_RC1_INTERNAL_QA/Assessment/RETEST_ONLY_DO_NOT_OPEN/B02_GATE_B_E_COMMERCE_RETURNS_RC1.ipynb",
+      "expected": "exists"
+    },
+    {
+      "check": "gate_B_deterministic multi-file discovery",
+      "status": "PASS",
+      "observed": "deterministic multi-file discovery",
+      "expected": "present"
+    },
+    {
+      "check": "gate_B_duplicate master-key detection BEFORE merge",
+      "status": "PASS",
+      "observed": "duplicate master-key detection BEFORE merge",
+      "expected": "present"
+    },
+    {
+      "check": "gate_B_logging + machine-readable validation",
+      "status": "PASS",
+      "observed": "logging + machine-readable validation",
+      "expected": "present"
+    },
+    {
+      "check": "gate_B_final output withheld",
+      "status": "PASS",
+      "observed": "final output withheld",
+      "expected": "present"
+    },
+    {
+      "check": "gate_B_safe rerun/idempotence evidence",
+      "status": "PASS",
+      "observed": "safe rerun/idempotence evidence",
+      "expected": "present"
+    },
+    {
+      "check": "gate_B_run manifest",
+      "status": "PASS",
+      "observed": "run manifest",
+      "expected": "present"
+    },
+    {
+      "check": "gate_exists_C",
+      "status": "PASS",
+      "observed": "/mnt/data/c2b_rebuild/B02_PYTHON_PIPELINE_TRANSITION_RC1_INTERNAL_QA/Assessment/RETEST_ONLY_DO_NOT_OPEN/B02_GATE_C_CLINIC_APPOINTMENTS_RC1.ipynb",
+      "expected": "exists"
+    },
+    {
+      "check": "gate_C_deterministic multi-file discovery",
+      "status": "PASS",
+      "observed": "deterministic multi-file discovery",
+      "expected": "present"
+    },
+    {
+      "check": "gate_C_duplicate master-key detection BEFORE merge",
+      "status": "PASS",
+      "observed": "duplicate master-key detection BEFORE merge",
+      "expected": "present"
+    },
+    {
+      "check": "gate_C_logging + machine-readable validation",
+      "status": "PASS",
+      "observed": "logging + machine-readable validation",
+      "expected": "present"
+    },
+    {
+      "check": "gate_C_final output withheld",
+      "status": "PASS",
+      "observed": "final output withheld",
+      "expected": "present"
+    },
+    {
+      "check": "gate_C_safe rerun/idempotence evidence",
+      "status": "PASS",
+      "observed": "safe rerun/idempotence evidence",
+      "expected": "present"
+    },
+    {
+      "check": "gate_C_run manifest",
+      "status": "PASS",
+      "observed": "run manifest",
+      "expected": "present"
+    },
+    {
+      "check": "gate_BC_protected",
+      "status": "PASS",
+      "observed": "B/C outside Gate_A",
+      "expected": "true"
+    },
+    {
+      "check": "gate_review_route_A",
+      "status": "PASS",
+      "observed": "variant route",
+      "expected": true
+    },
+    {
+      "check": "gate_no_percentage_shortcut_A",
+      "status": "PASS",
+      "observed": "competency rule",
+      "expected": "present"
+    },
+    {
+      "check": "gate_review_route_B",
+      "status": "PASS",
+      "observed": "variant route",
+      "expected": true
+    },
+    {
+      "check": "gate_no_percentage_shortcut_B",
+      "status": "PASS",
+      "observed": "competency rule",
+      "expected": "present"
+    },
+    {
+      "check": "gate_review_route_C",
+      "status": "PASS",
+      "observed": "variant route",
+      "expected": true
+    },
+    {
+      "check": "gate_no_percentage_shortcut_C",
+      "status": "PASS",
+      "observed": "competency rule",
+      "expected": "present"
+    },
+    {
+      "check": "fixture_parity_Practice_Data",
+      "status": "PASS",
+      "observed": {
+        "src": 11,
+        "dst": 11,
+        "mismatch": []
+      },
+      "expected": "exact"
+    },
+    {
+      "check": "fixture_parity_B02_GATE_A_DATA_INTERNAL_QA",
+      "status": "PASS",
+      "observed": {
+        "src": 5,
+        "dst": 5,
+        "mismatch": []
+      },
+      "expected": "exact"
+    },
+    {
+      "check": "fixture_parity_B02_GATE_B_DATA_INTERNAL_QA",
+      "status": "PASS",
+      "observed": {
+        "src": 5,
+        "dst": 5,
+        "mismatch": []
+      },
+      "expected": "exact"
+    },
+    {
+      "check": "fixture_parity_B02_GATE_C_DATA_INTERNAL_QA",
+      "status": "PASS",
+      "observed": {
+        "src": 5,
+        "dst": 5,
+        "mismatch": []
+      },
+      "expected": "exact"
+    },
+    {
+      "check": "zip_crc_B02_PRACTICE_DATA_RC1.zip",
+      "status": "PASS",
+      "observed": null,
+      "expected": "None"
+    },
+    {
+      "check": "zip_crc_B02_GATE_A_DATA_RC1.zip",
+      "status": "PASS",
+      "observed": null,
+      "expected": "None"
+    },
+    {
+      "check": "zip_crc_B02_GATE_B_DATA_RC1.zip",
+      "status": "PASS",
+      "observed": null,
+      "expected": "None"
+    },
+    {
+      "check": "zip_crc_B02_GATE_C_DATA_RC1.zip",
+      "status": "PASS",
+      "observed": null,
+      "expected": "None"
+    },
+    {
+      "check": "manifest_paths",
+      "status": "PASS",
+      "observed": {
+        "listed": 50,
+        "actual": 50,
+        "missing": [],
+        "extra": []
+      },
+      "expected": "exact"
+    },
+    {
+      "check": "manifest_hashes",
+      "status": "PASS",
+      "observed": "all exact",
+      "expected": "all exact"
+    },
+    {
+      "check": "duplicate_nonzip_hash_groups",
+      "status": "PASS",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "check": "no_stale_placeholders_or_L11",
+      "status": "PASS",
+      "observed": [],
+      "expected": []
+    }
+  ],
+  "release_boundary": [
+    "Target docs are Python 3.14.7 / pandas 3.0.5 / Requests 2.34.2; safe runtime fixture QA executed under Python 3.13.5 / pandas 2.2.3 / Requests 2.32.5.",
+    "Excel output execution on learner machine remains environment-dependent; supplied template bytes are preserved and not overwritten.",
+    "B02 is module-level internal QA. Whole C2B Mentor and cross-module learner simulation wait until B01-B06 are stable."
+  ]
+}

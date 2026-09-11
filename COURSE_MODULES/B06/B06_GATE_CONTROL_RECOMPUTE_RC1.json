@@ -1,0 +1,241 @@
+{
+  "module": "B06",
+  "gate_variants": [
+    "A",
+    "B",
+    "C"
+  ],
+  "status": "PASS",
+  "pass_count": 38,
+  "total_checks": 38,
+  "checks": [
+    {
+      "name": "A:orders",
+      "computed": 84,
+      "expected": 84,
+      "pass": true
+    },
+    {
+      "name": "A:completed_orders",
+      "computed": 63,
+      "expected": 63,
+      "pass": true
+    },
+    {
+      "name": "A:order_items",
+      "computed": 168,
+      "expected": 168,
+      "pass": true
+    },
+    {
+      "name": "A:gross_item_value",
+      "computed": 257551.0,
+      "expected": 257551.0,
+      "pass": true
+    },
+    {
+      "name": "A:completed_item_value",
+      "computed": 191898.0,
+      "expected": 191898.0,
+      "pass": true
+    },
+    {
+      "name": "A:order_events",
+      "computed": 232,
+      "expected": 232,
+      "pass": true
+    },
+    {
+      "name": "A:orphan_event_rows",
+      "computed": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "A:returns",
+      "computed": 8,
+      "expected": 8,
+      "pass": true
+    },
+    {
+      "name": "A:customer_change_rows",
+      "computed": 29,
+      "expected": 29,
+      "pass": true
+    },
+    {
+      "name": "A:duplicate_effective_customer_change_pairs",
+      "computed": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "A:customer_tag_rows",
+      "computed": 28,
+      "expected": 28,
+      "pass": true
+    },
+    {
+      "name": "A:target_rows",
+      "computed": 8,
+      "expected": 8,
+      "pass": true
+    },
+    {
+      "name": "B:tickets",
+      "computed": 90,
+      "expected": 90,
+      "pass": true
+    },
+    {
+      "name": "B:closed_tickets",
+      "computed": 60,
+      "expected": 60,
+      "pass": true
+    },
+    {
+      "name": "B:ticket_events",
+      "computed": 241,
+      "expected": 241,
+      "pass": true
+    },
+    {
+      "name": "B:orphan_event_rows",
+      "computed": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "B:ticket_tag_rows",
+      "computed": 103,
+      "expected": 103,
+      "pass": true
+    },
+    {
+      "name": "B:duplicate_ticket_tag_business_rows",
+      "computed": 5,
+      "expected": 5,
+      "pass": true
+    },
+    {
+      "name": "B:csat_rows",
+      "computed": 60,
+      "expected": 60,
+      "pass": true
+    },
+    {
+      "name": "B:csat_score_total",
+      "computed": 180.0,
+      "expected": 180,
+      "pass": true
+    },
+    {
+      "name": "B:agent_change_rows",
+      "computed": 23,
+      "expected": 23,
+      "pass": true
+    },
+    {
+      "name": "B:duplicate_effective_agent_change_pairs",
+      "computed": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "B:sla_target_rows",
+      "computed": 3,
+      "expected": 3,
+      "pass": true
+    },
+    {
+      "name": "B:monthly_target_rows",
+      "computed": 9,
+      "expected": 9,
+      "pass": true
+    },
+    {
+      "name": "C:accounts",
+      "computed": 22,
+      "expected": 22,
+      "pass": true
+    },
+    {
+      "name": "C:account_change_rows",
+      "computed": 27,
+      "expected": 27,
+      "pass": true
+    },
+    {
+      "name": "C:subscriptions",
+      "computed": 66,
+      "expected": 66,
+      "pass": true
+    },
+    {
+      "name": "C:subscription_mrr_total",
+      "computed": 61125.0,
+      "expected": 61125,
+      "pass": true
+    },
+    {
+      "name": "C:invoices",
+      "computed": 72,
+      "expected": 72,
+      "pass": true
+    },
+    {
+      "name": "C:invoice_lines",
+      "computed": 144,
+      "expected": 144,
+      "pass": true
+    },
+    {
+      "name": "C:invoice_line_total",
+      "computed": 132150.0,
+      "expected": 132150,
+      "pass": true
+    },
+    {
+      "name": "C:paid_invoices",
+      "computed": 36,
+      "expected": 36,
+      "pass": true
+    },
+    {
+      "name": "C:payments",
+      "computed": 37,
+      "expected": 37,
+      "pass": true
+    },
+    {
+      "name": "C:orphan_payment_rows",
+      "computed": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "C:usage_rows",
+      "computed": 110,
+      "expected": 110,
+      "pass": true
+    },
+    {
+      "name": "C:usage_active_users_total",
+      "computed": 2720.0,
+      "expected": 2720,
+      "pass": true
+    },
+    {
+      "name": "C:duplicate_effective_account_change_pairs",
+      "computed": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "C:target_rows",
+      "computed": 9,
+      "expected": 9,
+      "pass": true
+    }
+  ]
+}

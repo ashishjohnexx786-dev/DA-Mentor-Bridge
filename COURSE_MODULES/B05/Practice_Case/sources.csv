@@ -1,0 +1,7 @@
+source_id,name,technology,location,format,owner,sensitivity,freshness_sla,volume,purpose,constraint
+SRC01,WMS_SQL,On-premises SQL Server,Private datacenter,Structured,Operations,Restricted,Hourly,2.4M rows/day,Inventory + warehouse transactions,No direct public cloud endpoint
+SRC02,Carrier_API,Cloud REST API,Internet/SaaS,JSON,Logistics,Internal,30 min,80k calls/day,Shipment status,OAuth credential rotation
+SRC03,Vendor_Files,Azure Blob Storage,Cloud,CSV/Parquet,Procurement,Internal,Daily,8 GB/day,Supplier receipts,External cloud storage; shortcut/copy decision
+SRC04,Targets_XLSX,SharePoint Online,Cloud SaaS,Excel,Finance,Confidential,Daily,15 files/month,Targets/budgets,Business-owned input
+SRC05,IoT_Events,Cloud event stream,Cloud,JSON events,Operations,Internal,<5 min,1.2M events/day,Temperature/condition alerts,Low-latency operational use
+SRC06,Semantic_Model,Fabric/Power BI semantic model,Cloud,Semantic,BI,Confidential,Hourly,N/A,Executive/ops reporting,Consumes curated data

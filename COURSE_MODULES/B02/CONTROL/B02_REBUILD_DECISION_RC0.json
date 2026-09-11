@@ -1,0 +1,29 @@
+{
+  "module": "B02",
+  "working_name": "Python Pipeline Transition",
+  "old_lesson_count": 11,
+  "target_lesson_count": 10,
+  "principle": "Compress C1 repetition, retain engineering progression, do not steal C3 environment or ingestion depth.",
+  "preserve_assets": [
+    "practice CSV/JSON fixtures",
+    "monthly_report_template.xlsx",
+    "failure cases",
+    "Gate A/B/C fixture data and domain isolation"
+  ],
+  "rebuild_assets": [
+    "learner book",
+    "practice notebook",
+    "protected practice review",
+    "Mini-Lab notebook",
+    "Gate prompt wrappers/reviews",
+    "targeted remediation",
+    "Start Here",
+    "source map",
+    "manifest/QA"
+  ],
+  "removed_active_topic": {
+    "venv": "C3-00 owns virtual environments/dependency pinning; historical visual retained in audit only"
+  },
+  "runtime_boundary": "Current builder runtime Python 3.13.5 / pandas 2.2.3 may execute safe fixture checks; learner references use current Python 3.14.7 / pandas 3.0.5 / Requests 2.34.2. Version-sensitive behavior must follow current docs.",
+  "release_status": "RC0 CONTROL - NOT LEARNER RELEASE"
+}

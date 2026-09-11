@@ -1,0 +1,104 @@
+{
+  "module": "B03",
+  "status": "INTERNAL_QA_RC1",
+  "checks": [
+    {
+      "name": "practice_sheet_order",
+      "pass": true,
+      "detail": "['START_HERE', 'B03-L01', 'B03-L02', 'B03-L03', 'B03-L04', 'Source_Inventory', 'Engineering_Handoff', 'Reconciliation', 'Evidence_History']"
+    },
+    {
+      "name": "practice_formula_error_scan",
+      "pass": true,
+      "detail": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "name": "minilab_sheet_order",
+      "pass": true,
+      "detail": "['START_HERE', 'Source_Inventory', 'Dimensional_Contract', 'Reconciliation', 'Handoff_Defense', 'Evidence_History']"
+    },
+    {
+      "name": "minilab_formula_error_scan",
+      "pass": true,
+      "detail": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+    },
+    {
+      "name": "B03-L01_practice_stage_route",
+      "pass": true,
+      "detail": "['What you already know', 'Engineering change', 'Follow once', 'Reproduce', 'Change', 'Debug', 'Validate', 'Teach back', 'Changed retry']"
+    },
+    {
+      "name": "B03-L02_practice_stage_route",
+      "pass": true,
+      "detail": "['What you already know', 'Engineering change', 'Follow once', 'Reproduce', 'Change', 'Debug', 'Validate', 'Teach back', 'Changed retry']"
+    },
+    {
+      "name": "B03-L03_practice_stage_route",
+      "pass": true,
+      "detail": "['What you already know', 'Engineering change', 'Follow once', 'Reproduce', 'Change', 'Debug', 'Validate', 'Teach back', 'Changed retry']"
+    },
+    {
+      "name": "B03-L04_practice_stage_route",
+      "pass": true,
+      "detail": "['What you already know', 'Engineering change', 'Follow once', 'Reproduce', 'Change', 'Debug', 'Validate', 'Teach back', 'Changed retry']"
+    },
+    {
+      "name": "minilab_declares_fresh_domain",
+      "pass": true,
+      "detail": "B03 FreshRoute Mini-Lab RC1 Independent fresh transfer | INTERNAL QA Case FreshRoute Food Delivery \u2014 different from Parcel Delivery practice and all protected Gate domains. Rule Attempt independently with lesson/review closed. You may use only the source contracts and your own prior notes. Open B03_FRESHROUTE_MINILAB_DATA_RC1.zip -> read README.txt + source_contracts.json, then inspect CSVs. Deliverable One implementation-ready dimensional contract + reconciliation + 2-minute defense. Critical Do not join delivery_events to deliveries and then sum delivery_fee; event rows repeat each delivery. Pass floor Correct grains + key/cardinality contracts + separate higher-grain fact + legitimate bridge + date roles + reconciliation + handoff. Blockers Mixed-grain fact, unresolved fan-out, unexplained many-to-many shortcut, failed raw controls, hidden assumption. Review This Mini-Lab is not a protected Gate. If weak, repair only the failed competency and retry on changed conditions. Status Internal QA RC1 \u2014 not course FINAL."
+    },
+    {
+      "name": "minilab_attempt_independent",
+      "pass": true,
+      "detail": "B03 FreshRoute Mini-Lab RC1 Independent fresh transfer | INTERNAL QA Case FreshRoute Food Delivery \u2014 different from Parcel Delivery practice and all protected Gate domains. Rule Attempt independently with lesson/review closed. You may use only the source contracts and your own prior notes. Open B03_FRESHROUTE_MINILAB_DATA_RC1.zip -> read README.txt + source_contracts.json, then inspect CSVs. Deliverable One implementation-ready dimensional contract + reconciliation + 2-minute defense. Critical Do not join delivery_events to deliveries and then sum delivery_fee; event rows repeat each delivery. Pass floor Correct grains + key/cardinality contracts + separate higher-grain fact + legitimate bridge + date roles + reconciliation + handoff. Blockers Mixed-grain fact, unresolved fan-out, unexplained many-to-many shortcut, failed raw controls, hidden assumption. Review This Mini-Lab is not a protected Gate. If weak, repair only the failed competency and retry on changed conditions. Status Internal QA RC1 \u2014 not course FINAL."
+    },
+    {
+      "name": "gate_A_identity",
+      "pass": true,
+      "detail": "B03 Gate A - Fleet Maintenance INTERNAL QA Purpose Design and defend a grain-safe semantic/dimensional model. Rule 1 State source grain before choosing Fact / Dimension / Bridge. Rule 2 Do not solve fan-out with DISTINCT or arbitrary many-to-many relationships. Rule 3 Targets/snapshots/events at different grains may need separate fact tables. Rule 4 Relationship cardinality and filter direction mu"
+    },
+    {
+      "name": "gate_A_submission_engineering_bridge",
+      "pass": true,
+      "detail": "on/review/tutorial/AI solving closed for Gate first attempts. Status Internal QA Generated 2026-09-09 Submission evidence Your artifact / explanation One-sentence business process / model purpose Fact table(s) + grain Dimension table(s) + keys Bridge / many-to-many treatment Role-playing date treatment Relationship direction rationale Highest fan-out risk + prevention Raw-to-model reconciliation One model alternative rejected + why Power BI Desktop evidence / screenshots if used Data Engineering bridge How this model would map into warehouse fact/dimension tables / contracts. 60-90 sec defense"
+    },
+    {
+      "name": "gate_A_no_stale_lesson_ids",
+      "pass": true,
+      "detail": "No lesson IDs in Gate learner workbook"
+    },
+    {
+      "name": "gate_B_identity",
+      "pass": true,
+      "detail": "B03 Gate B - Education Enrollment INTERNAL QA Purpose Design and defend a grain-safe semantic/dimensional model. Rule 1 State source grain before choosing Fact / Dimension / Bridge. Rule 2 Do not solve fan-out with DISTINCT or arbitrary many-to-many relationships. Rule 3 Targets/snapshots/events at different grains may need separate fact tables. Rule 4 Relationship cardinality and filter direction"
+    },
+    {
+      "name": "gate_B_submission_engineering_bridge",
+      "pass": true,
+      "detail": "on/review/tutorial/AI solving closed for Gate first attempts. Status Internal QA Generated 2026-09-09 Submission evidence Your artifact / explanation One-sentence business process / model purpose Fact table(s) + grain Dimension table(s) + keys Bridge / many-to-many treatment Role-playing date treatment Relationship direction rationale Highest fan-out risk + prevention Raw-to-model reconciliation One model alternative rejected + why Power BI Desktop evidence / screenshots if used Data Engineering bridge How this model would map into warehouse fact/dimension tables / contracts. 60-90 sec defense"
+    },
+    {
+      "name": "gate_B_no_stale_lesson_ids",
+      "pass": true,
+      "detail": "No lesson IDs in Gate learner workbook"
+    },
+    {
+      "name": "gate_C_identity",
+      "pass": true,
+      "detail": "B03 Gate C - Energy Meter Readings INTERNAL QA Purpose Design and defend a grain-safe semantic/dimensional model. Rule 1 State source grain before choosing Fact / Dimension / Bridge. Rule 2 Do not solve fan-out with DISTINCT or arbitrary many-to-many relationships. Rule 3 Targets/snapshots/events at different grains may need separate fact tables. Rule 4 Relationship cardinality and filter directio"
+    },
+    {
+      "name": "gate_C_submission_engineering_bridge",
+      "pass": true,
+      "detail": "on/review/tutorial/AI solving closed for Gate first attempts. Status Internal QA Generated 2026-09-09 Submission evidence Your artifact / explanation One-sentence business process / model purpose Fact table(s) + grain Dimension table(s) + keys Bridge / many-to-many treatment Role-playing date treatment Relationship direction rationale Highest fan-out risk + prevention Raw-to-model reconciliation One model alternative rejected + why Power BI Desktop evidence / screenshots if used Data Engineering bridge How this model would map into warehouse fact/dimension tables / contracts. 60-90 sec defense"
+    },
+    {
+      "name": "gate_C_no_stale_lesson_ids",
+      "pass": true,
+      "detail": "No lesson IDs in Gate learner workbook"
+    }
+  ],
+  "pass_count": 19,
+  "total_count": 19,
+  "overall_pass": true
+}

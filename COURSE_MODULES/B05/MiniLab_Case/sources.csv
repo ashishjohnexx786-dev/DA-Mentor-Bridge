@@ -1,0 +1,8 @@
+source_id,name,technology,location,format,owner,sensitivity,freshness_sla,purpose,constraint
+HF01,Dispatch_SQL,SQL Server,On-prem/private branch network,Structured,Operations,Confidential,15 min,Work orders + status,Private network; no public endpoint
+HF02,Technician_API,Field-service SaaS API,Cloud SaaS,JSON,Operations,Internal,10 min,Technician availability/location,OAuth + rate limits
+HF03,Service_Photos,Azure Blob Storage,Cloud,Images + JSON metadata,Operations,Confidential,Hourly,Before/after service evidence,Large unstructured archive; justify copy/reference
+HF04,Customer_CRM,CRM SaaS,Cloud SaaS,Structured/JSON,Customer Success,Confidential,Hourly,Customer/account context,Contains address/contact fields
+HF05,Parts_SFTP,Vendor SFTP,External partner,CSV,Procurement,Internal,Daily 05:00,Parts availability/receipts,Late/missing file risk
+HF06,Finance_Parquet,Cloud object store,Cloud,Parquet,Finance,Confidential,Daily 07:00,Invoices/cost,Finance-owned
+HF07,Service_Model,Semantic model,Fabric/Power BI,Semantic,BI,Confidential,30 min,Operations + management reporting,Consumes curated data

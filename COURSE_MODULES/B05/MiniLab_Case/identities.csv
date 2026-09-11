@@ -1,0 +1,7 @@
+identity,persona,required_capability,data_access,constraint
+GRP-DE,Data Engineering,Build/operate ingestion and curated platform,Raw + curated write,No tenant-admin by default
+GRP-DISPATCH,Dispatch Analysts,Build operational analysis,Curated operations read/build,No finance-only detail
+GRP-FIN,Finance,Read invoice/cost outputs,Finance curated read,No raw customer contact details
+GRP-MGR,Service Managers,Consume certified KPIs,Serving read,No authoring
+SPN-HOMEFIX,Pipeline identity,Scheduled/API ingestion,Required sources/targets only,Nonhuman least privilege
+CONTRACTOR-EXT,External contractor,Read approved service summary,Serving-only selected fields,No customer address/HR data

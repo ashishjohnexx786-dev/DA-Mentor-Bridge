@@ -1,0 +1,969 @@
+{
+  "module": "B06",
+  "status": "PASS",
+  "pass_count": 192,
+  "total_checks": 192,
+  "failures": [],
+  "checks": [
+    {
+      "name": "required:B06_START_HERE_RC1.pdf",
+      "pass": true,
+      "detail": "2884"
+    },
+    {
+      "name": "required:B06_BRIDGE_CAPSTONE_C3_ENTRY_LEARNER_BOOK_RC1.pdf",
+      "pass": true,
+      "detail": "19230"
+    },
+    {
+      "name": "required:B06_INTEGRATED_CAPSTONE_BRIEF_RC1.pdf",
+      "pass": true,
+      "detail": "6392"
+    },
+    {
+      "name": "required:B06_CAPSTONE_EVIDENCE_WORKBOOK_RC1.xlsx",
+      "pass": true,
+      "detail": "24588"
+    },
+    {
+      "name": "required:B06_PRACTICE_POSTGRESQL_SETUP_RC1.sql",
+      "pass": true,
+      "detail": "476"
+    },
+    {
+      "name": "required:B06_PRACTICE_SQL_WORKSPACE_RC1.sql",
+      "pass": true,
+      "detail": "1546"
+    },
+    {
+      "name": "required:B06_PRACTICE_PIPELINE_NOTEBOOK_RC1.ipynb",
+      "pass": true,
+      "detail": "6380"
+    },
+    {
+      "name": "required:B06_PRACTICE_DATA_RC1.zip",
+      "pass": true,
+      "detail": "9276"
+    },
+    {
+      "name": "required:B06_CAPSTONE_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
+      "pass": true,
+      "detail": "5361"
+    },
+    {
+      "name": "required:B06_FINAL_GATE_RULES_RC1.pdf",
+      "pass": true,
+      "detail": "3678"
+    },
+    {
+      "name": "required:B06_C3_ENTRY_READINESS_SCORECARD_RC1.xlsx",
+      "pass": true,
+      "detail": "9462"
+    },
+    {
+      "name": "required:B06_BRIDGE_EVIDENCE_CROSSWALK_RC1.csv",
+      "pass": true,
+      "detail": "770"
+    },
+    {
+      "name": "required:B06_C3_ENTRY_FLOORS_RC1.csv",
+      "pass": true,
+      "detail": "646"
+    },
+    {
+      "name": "required:B06_CANONICAL_SPEC_RC1.json",
+      "pass": true,
+      "detail": "1079"
+    },
+    {
+      "name": "required:B06_SOURCE_VIDEO_REGISTRY_RC1.csv",
+      "pass": true,
+      "detail": "545"
+    },
+    {
+      "name": "required:README_FIRST.txt",
+      "pass": true,
+      "detail": "244"
+    },
+    {
+      "name": "required:Assessment/Gate_A/B06_GATE_A_CASE_RC1.zip",
+      "pass": true,
+      "detail": "14164"
+    },
+    {
+      "name": "required:Assessment/Gate_A/B06_GATE_A_RETAIL_ORDERS_RESPONSE_WORKBOOK_RC1.xlsx",
+      "pass": true,
+      "detail": "22535"
+    },
+    {
+      "name": "required:Assessment/Reviews/B06_GATE_A_REVIEW_PROTECTED_RC1.pdf",
+      "pass": true,
+      "detail": "3168"
+    },
+    {
+      "name": "required:Assessment/RETEST_ONLY_DO_NOT_OPEN/B06_GATE_B_CASE_RC1.zip",
+      "pass": true,
+      "detail": "12353"
+    },
+    {
+      "name": "required:Assessment/RETEST_ONLY_DO_NOT_OPEN/B06_GATE_B_SUPPORT_TICKETS_RESPONSE_WORKBOOK_RC1.xlsx",
+      "pass": true,
+      "detail": "22536"
+    },
+    {
+      "name": "required:Assessment/Reviews/B06_GATE_B_REVIEW_PROTECTED_RC1.pdf",
+      "pass": true,
+      "detail": "3177"
+    },
+    {
+      "name": "required:Assessment/RETEST_ONLY_DO_NOT_OPEN/B06_GATE_C_CASE_RC1.zip",
+      "pass": true,
+      "detail": "11973"
+    },
+    {
+      "name": "required:Assessment/RETEST_ONLY_DO_NOT_OPEN/B06_GATE_C_SUBSCRIPTION_BILLING_RESPONSE_WORKBOOK_RC1.xlsx",
+      "pass": true,
+      "detail": "22562"
+    },
+    {
+      "name": "required:Assessment/Reviews/B06_GATE_C_REVIEW_PROTECTED_RC1.pdf",
+      "pass": true,
+      "detail": "3205"
+    },
+    {
+      "name": "required:Assessment/Reviews/B06_GATE_EXPECTED_CONTROLS_PROTECTED_RC1.json",
+      "pass": true,
+      "detail": "1147"
+    },
+    {
+      "name": "required:Assessment/Remediation/B06_TARGETED_REMEDIATION_CARDS_RC1.pdf",
+      "pass": true,
+      "detail": "4064"
+    },
+    {
+      "name": "book:pages_7",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "name": "book:B06-L01:present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L01:1. Why it matters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L01:2. What you are learning",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L01:3. Prerequisite",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L01:4. Picture it in your head",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L01:5. New words before use",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L01:6. Watch / visual source",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L01:ANALYST -> ENGINEER TRANSITION",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L01:7. Follow with me once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L01:8. What you should see",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L01:9. Why it worked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L01:10. Common beginner mistakes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L01:11. If stuck",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L01:12. Small version alone",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L01:13. Validate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L01:14. Teach it back",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L01:15. Protected review + changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L01:16. Evidence / mastery + next route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L01:transition:What you already know as an analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L01:transition:What changes in engineering",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L01:transition:Why engineers care",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L01:transition:Small worked example",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L01:transition:Real engineering version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:1. Why it matters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:2. What you are learning",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:3. Prerequisite",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:4. Picture it in your head",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:5. New words before use",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:6. Watch / visual source",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:ANALYST -> ENGINEER TRANSITION",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:7. Follow with me once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:8. What you should see",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:9. Why it worked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:10. Common beginner mistakes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:11. If stuck",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:12. Small version alone",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:13. Validate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:14. Teach it back",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:15. Protected review + changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:16. Evidence / mastery + next route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:transition:What you already know as an analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:transition:What changes in engineering",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:transition:Why engineers care",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:transition:Small worked example",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:B06-L02:transition:Real engineering version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:c3boundary:Role shift",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:c3boundary:Linux/WSL2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:c3boundary:Shell pipes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:c3boundary:Git branches",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:c3boundary:virtual environments",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:c3boundary:modules, packages",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:c3boundary:Configuration, environment variables",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:c3boundary:Structured logging",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:c3boundary:Unit tests",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:c3boundary:CLI design",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:c3boundary:Docker",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:c3boundary:Idempotence",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book:no_percentage_unlock",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:pages_3",
+      "pass": true,
+      "detail": "3"
+    },
+    {
+      "name": "review:attempt_first",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:changed_transfer",
+      "pass": true,
+      "detail": "4"
+    },
+    {
+      "name": "review:1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review:no_auto_BC",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "finalgate:one_page",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "finalgate:protected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "finalgate:all_floors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "finalgate:no_auto_retest",
+      "pass": true,
+      "detail": " publish after critical quality failure; historical key/history logic answers the case\nincorrectly; rerun duplicates/destroys trusted state; hard access/network/freshness constraint ignored; failure cannot be\ndetected/recovered/explained; protected attempt contaminated by solution copying.\nPASS\nFinal Gate PASS is necessary but not sufficient by itself. Complete B06_C3_ENTRY_READINESS_SCORECARD_RC1.xlsx. C3\nENTRY READY requires every floor plus Final Gate PASS and no unresolved critical blocker.\n"
+    },
+    {
+      "name": "gateA:review_one_page",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "gateA:attempt_protected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateA:critical_blockers",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateA:route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateA:B_only_assigned",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateB:review_one_page",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "gateB:attempt_protected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateB:critical_blockers",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateB:route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateB:C_only_assigned",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateC:review_one_page",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "gateC:attempt_protected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateC:critical_blockers",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateC:route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "remediation:pages_2",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "name": "remediation:card1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "remediation:card2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "remediation:card3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "remediation:card4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "remediation:no_restart",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "notebook:nbformat4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "notebook:cells>=15",
+      "pass": true,
+      "detail": "19"
+    },
+    {
+      "name": "notebook:codecell:2:syntax",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "notebook:codecell:4:syntax",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "notebook:codecell:6:syntax",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "notebook:codecell:8:syntax",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "notebook:codecell:10:syntax",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "notebook:codecell:12:syntax",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "notebook:codecell:14:syntax",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "notebook:codecell:16:syntax",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "notebook:codecell:18:syntax",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "notebook:deterministic file discovery",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "notebook:validation_results.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "notebook:run_manifest.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "notebook:safe rerun",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "notebook:BAD_AMOUNT",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "notebook:duplicate T006",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "notebook:Platform + monitoring evidence",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "notebook:Capstone defense",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sql:FAN-OUT PROOF",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sql:ORDER-LEVEL ECONOMICS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sql:WINDOWS / TIME",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sql:QUALITY INVESTIGATION",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sql:HISTORY / MODEL HANDOFF",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sql:MAINTAINABLE HANDOFF",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "sql:EXECUTION AWARENESS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "practice_control:customers",
+      "pass": true,
+      "detail": "24 vs 24"
+    },
+    {
+      "name": "practice_control:technicians_current",
+      "pass": true,
+      "detail": "12 vs 12"
+    },
+    {
+      "name": "practice_control:technician_change_rows",
+      "pass": true,
+      "detail": "17 vs 17"
+    },
+    {
+      "name": "practice_control:orders",
+      "pass": true,
+      "detail": "72 vs 72"
+    },
+    {
+      "name": "practice_control:completed_orders",
+      "pass": true,
+      "detail": "54 vs 54"
+    },
+    {
+      "name": "practice_control:base_fee_total_completed",
+      "pass": true,
+      "detail": "24150 vs 24150"
+    },
+    {
+      "name": "practice_control:item_rows",
+      "pass": true,
+      "detail": "144 vs 144"
+    },
+    {
+      "name": "practice_control:item_value_total",
+      "pass": true,
+      "detail": "81600 vs 81600"
+    },
+    {
+      "name": "practice_control:event_rows",
+      "pass": true,
+      "detail": "271 vs 271"
+    },
+    {
+      "name": "practice_control:orphan_event_rows",
+      "pass": true,
+      "detail": "1 vs 1"
+    },
+    {
+      "name": "practice_control:target_rows",
+      "pass": true,
+      "detail": "12 vs 12"
+    },
+    {
+      "name": "practice_control:technician_skill_rows",
+      "pass": true,
+      "detail": "15 vs 15"
+    },
+    {
+      "name": "practice_control:duplicate_technician_effective_change_pairs",
+      "pass": true,
+      "detail": "1 vs 1"
+    },
+    {
+      "name": "failure:BAD_AMOUNT",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "failure:duplicate_T006",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "name": "zipcrc:B06_PRACTICE_DATA_RC1.zip",
+      "pass": true,
+      "detail": "None"
+    },
+    {
+      "name": "zipcrc:Assessment/Gate_A/B06_GATE_A_CASE_RC1.zip",
+      "pass": true,
+      "detail": "None"
+    },
+    {
+      "name": "zipcrc:Assessment/RETEST_ONLY_DO_NOT_OPEN/B06_GATE_B_CASE_RC1.zip",
+      "pass": true,
+      "detail": "None"
+    },
+    {
+      "name": "zipcrc:Assessment/RETEST_ONLY_DO_NOT_OPEN/B06_GATE_C_CASE_RC1.zip",
+      "pass": true,
+      "detail": "None"
+    },
+    {
+      "name": "preserve:Azip",
+      "pass": true,
+      "detail": "6717b9c76312 6717b9c76312"
+    },
+    {
+      "name": "preserve:Awb",
+      "pass": true,
+      "detail": "141ca98ad6c8 141ca98ad6c8"
+    },
+    {
+      "name": "preserve:Bzip",
+      "pass": true,
+      "detail": "b3c98b34ae1e b3c98b34ae1e"
+    },
+    {
+      "name": "preserve:Bwb",
+      "pass": true,
+      "detail": "ccd0cc2c36a6 ccd0cc2c36a6"
+    },
+    {
+      "name": "preserve:Czip",
+      "pass": true,
+      "detail": "78533e8d0e93 78533e8d0e93"
+    },
+    {
+      "name": "preserve:Cwb",
+      "pass": true,
+      "detail": "9f945ec261d6 9f945ec261d6"
+    },
+    {
+      "name": "source:2rows",
+      "pass": true,
+      "detail": "2"
+    },
+    {
+      "name": "source:no_external_video",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source:capstone_no_new_media",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "spec:2lessons",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "spec:percentage_false",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "spec:hidden_prereq_false",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "spec:c3topics12",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "name": "crosswalk:8rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "floors:8rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "package:no_duplicate_hash_groups",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "package:no_stale_names",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "package:no_release_placeholders",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "visual:learner_book_7_pages",
+      "pass": true,
+      "detail": "200-DPI PDF contact/sample or artifact_tool render inspected; no clipping/overlap/black glyphs observed"
+    },
+    {
+      "name": "visual:capstone_brief_3_pages",
+      "pass": true,
+      "detail": "200-DPI PDF contact/sample or artifact_tool render inspected; no clipping/overlap/black glyphs observed"
+    },
+    {
+      "name": "visual:practice_review_3_pages",
+      "pass": true,
+      "detail": "200-DPI PDF contact/sample or artifact_tool render inspected; no clipping/overlap/black glyphs observed"
+    },
+    {
+      "name": "visual:final_gate_rules_1_page",
+      "pass": true,
+      "detail": "200-DPI PDF contact/sample or artifact_tool render inspected; no clipping/overlap/black glyphs observed"
+    },
+    {
+      "name": "visual:gate_A_B_C_reviews_1_page_each",
+      "pass": true,
+      "detail": "200-DPI PDF contact/sample or artifact_tool render inspected; no clipping/overlap/black glyphs observed"
+    },
+    {
+      "name": "visual:remediation_2_pages",
+      "pass": true,
+      "detail": "200-DPI PDF contact/sample or artifact_tool render inspected; no clipping/overlap/black glyphs observed"
+    },
+    {
+      "name": "visual:start_here_1_page",
+      "pass": true,
+      "detail": "200-DPI PDF contact/sample or artifact_tool render inspected; no clipping/overlap/black glyphs observed"
+    },
+    {
+      "name": "visual:capstone_workbook_render",
+      "pass": true,
+      "detail": "200-DPI PDF contact/sample or artifact_tool render inspected; no clipping/overlap/black glyphs observed"
+    },
+    {
+      "name": "visual:readiness_workbook_render",
+      "pass": true,
+      "detail": "200-DPI PDF contact/sample or artifact_tool render inspected; no clipping/overlap/black glyphs observed"
+    }
+  ]
+}

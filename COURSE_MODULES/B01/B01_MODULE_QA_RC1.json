@@ -1,0 +1,515 @@
+{
+  "course": "C2B",
+  "module": "B01 Engineering SQL Transition",
+  "release": "RC1_INTERNAL_QA",
+  "date": "2026-09-10",
+  "checks_total": 99,
+  "passed": 99,
+  "failed": 0,
+  "checks": [
+    {
+      "control": "file_count_nonzero",
+      "status": "PASS",
+      "detail": "26 files"
+    },
+    {
+      "control": "pdf_open_B01_ENGINEERING_SQL_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
+      "status": "PASS",
+      "detail": "10 pages"
+    },
+    {
+      "control": "pdf_open_B01_ENGINEERING_SQL_TRANSITION_LEARNER_BOOK_RC1.pdf",
+      "status": "PASS",
+      "detail": "20 pages"
+    },
+    {
+      "control": "pdf_open_B01_MODULE_QA_REPORT_RC1.pdf",
+      "status": "PASS",
+      "detail": "1 pages"
+    },
+    {
+      "control": "pdf_open_B01_START_HERE_RC1.pdf",
+      "status": "PASS",
+      "detail": "1 pages"
+    },
+    {
+      "control": "pdf_open_B01_GATE_A_REVIEW_PROTECTED_RC1.pdf",
+      "status": "PASS",
+      "detail": "1 pages"
+    },
+    {
+      "control": "pdf_open_B01_GATE_C_REVIEW_PROTECTED_RC1.pdf",
+      "status": "PASS",
+      "detail": "1 pages"
+    },
+    {
+      "control": "pdf_open_B01_GATE_B_REVIEW_PROTECTED_RC1.pdf",
+      "status": "PASS",
+      "detail": "1 pages"
+    },
+    {
+      "control": "learner_book_page_count",
+      "status": "PASS",
+      "detail": "20"
+    },
+    {
+      "control": "practice_review_page_count",
+      "status": "PASS",
+      "detail": "10"
+    },
+    {
+      "control": "start_here_page_count",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "control": "canonical_lesson_count",
+      "status": "PASS",
+      "detail": "8"
+    },
+    {
+      "control": "canonical_lesson_ids",
+      "status": "PASS",
+      "detail": "['B01-L01', 'B01-L02', 'B01-L03', 'B01-L04', 'B01-L05', 'B01-L06', 'B01-L07', 'B01-L08']"
+    },
+    {
+      "control": "book_contains_B01-L01",
+      "status": "PASS",
+      "detail": "3"
+    },
+    {
+      "control": "book_contains_B01-L02",
+      "status": "PASS",
+      "detail": "2"
+    },
+    {
+      "control": "book_contains_B01-L03",
+      "status": "PASS",
+      "detail": "2"
+    },
+    {
+      "control": "book_contains_B01-L04",
+      "status": "PASS",
+      "detail": "2"
+    },
+    {
+      "control": "book_contains_B01-L05",
+      "status": "PASS",
+      "detail": "2"
+    },
+    {
+      "control": "book_contains_B01-L06",
+      "status": "PASS",
+      "detail": "2"
+    },
+    {
+      "control": "book_contains_B01-L07",
+      "status": "PASS",
+      "detail": "2"
+    },
+    {
+      "control": "book_contains_B01-L08",
+      "status": "PASS",
+      "detail": "2"
+    },
+    {
+      "control": "16_stage_B01-L01",
+      "status": "PASS",
+      "detail": "16/16"
+    },
+    {
+      "control": "16_stage_B01-L02",
+      "status": "PASS",
+      "detail": "16/16"
+    },
+    {
+      "control": "16_stage_B01-L03",
+      "status": "PASS",
+      "detail": "16/16"
+    },
+    {
+      "control": "16_stage_B01-L04",
+      "status": "PASS",
+      "detail": "16/16"
+    },
+    {
+      "control": "16_stage_B01-L05",
+      "status": "PASS",
+      "detail": "16/16"
+    },
+    {
+      "control": "16_stage_B01-L06",
+      "status": "PASS",
+      "detail": "16/16"
+    },
+    {
+      "control": "16_stage_B01-L07",
+      "status": "PASS",
+      "detail": "16/16"
+    },
+    {
+      "control": "16_stage_B01-L08",
+      "status": "PASS",
+      "detail": "16/16"
+    },
+    {
+      "control": "page_index_B01-L01",
+      "status": "PASS",
+      "detail": "expected 4, actual 4"
+    },
+    {
+      "control": "page_index_B01-L02",
+      "status": "PASS",
+      "detail": "expected 6, actual 6"
+    },
+    {
+      "control": "page_index_B01-L03",
+      "status": "PASS",
+      "detail": "expected 8, actual 8"
+    },
+    {
+      "control": "page_index_B01-L04",
+      "status": "PASS",
+      "detail": "expected 10, actual 10"
+    },
+    {
+      "control": "page_index_B01-L05",
+      "status": "PASS",
+      "detail": "expected 12, actual 12"
+    },
+    {
+      "control": "page_index_B01-L06",
+      "status": "PASS",
+      "detail": "expected 14, actual 14"
+    },
+    {
+      "control": "page_index_B01-L07",
+      "status": "PASS",
+      "detail": "expected 16, actual 16"
+    },
+    {
+      "control": "page_index_B01-L08",
+      "status": "PASS",
+      "detail": "expected 18, actual 18"
+    },
+    {
+      "control": "page_index_quick_reference",
+      "status": "PASS",
+      "detail": "expected 20, actual 20"
+    },
+    {
+      "control": "practice_P-B01-L01",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "control": "practice_P-B01-L02",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "control": "practice_P-B01-L03",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "control": "practice_P-B01-L04",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "control": "practice_P-B01-L05",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "control": "practice_P-B01-L06",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "control": "practice_P-B01-L07",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "control": "practice_P-B01-L08",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "control": "practice_task_count",
+      "status": "PASS",
+      "detail": "8"
+    },
+    {
+      "control": "review_unlock_B01-L01",
+      "status": "PASS",
+      "detail": "attempt-protected"
+    },
+    {
+      "control": "review_unlock_B01-L02",
+      "status": "PASS",
+      "detail": "attempt-protected"
+    },
+    {
+      "control": "review_unlock_B01-L03",
+      "status": "PASS",
+      "detail": "attempt-protected"
+    },
+    {
+      "control": "review_unlock_B01-L04",
+      "status": "PASS",
+      "detail": "attempt-protected"
+    },
+    {
+      "control": "review_unlock_B01-L05",
+      "status": "PASS",
+      "detail": "attempt-protected"
+    },
+    {
+      "control": "review_unlock_B01-L06",
+      "status": "PASS",
+      "detail": "attempt-protected"
+    },
+    {
+      "control": "review_unlock_B01-L07",
+      "status": "PASS",
+      "detail": "attempt-protected"
+    },
+    {
+      "control": "review_unlock_B01-L08",
+      "status": "PASS",
+      "detail": "attempt-protected"
+    },
+    {
+      "control": "review_changed_retry_count",
+      "status": "PASS",
+      "detail": "16"
+    },
+    {
+      "control": "review_append_only",
+      "status": "PASS",
+      "detail": "explicit history rule"
+    },
+    {
+      "control": "gate_A_present_normal",
+      "status": "PASS",
+      "detail": "['B01_GATE_A_RETAIL_ORDERS_RC1.sql']"
+    },
+    {
+      "control": "gate_B_sealed",
+      "status": "PASS",
+      "detail": "['B01_GATE_B_SUPPORT_TICKETS_RC1.sql']"
+    },
+    {
+      "control": "gate_C_sealed",
+      "status": "PASS",
+      "detail": "['B01_GATE_C_SUBSCRIPTION_BILLING_RC1.sql']"
+    },
+    {
+      "control": "gate_A_header",
+      "status": "PASS",
+      "detail": "-- C2B B01 GATE A - RETAIL ORDERS - PROTECTED FIRST ATTEMPT - INTERNAL QA"
+    },
+    {
+      "control": "gate_A_no_review_answer",
+      "status": "PASS",
+      "detail": "learner case contains no review controls"
+    },
+    {
+      "control": "gate_B_header",
+      "status": "PASS",
+      "detail": "-- C2B B01 GATE B - SUPPORT TICKETS - FRESH FULL RETEST ONLY - INTERNAL QA"
+    },
+    {
+      "control": "gate_B_no_review_answer",
+      "status": "PASS",
+      "detail": "learner case contains no review controls"
+    },
+    {
+      "control": "gate_C_header",
+      "status": "PASS",
+      "detail": "-- C2B B01 GATE C - SUBSCRIPTION BILLING - SECOND FRESH FULL RETEST ONLY - INTERNAL QA"
+    },
+    {
+      "control": "gate_C_no_review_answer",
+      "status": "PASS",
+      "detail": "learner case contains no review controls"
+    },
+    {
+      "control": "gate_A_review_unlock",
+      "status": "PASS",
+      "detail": "variant matched"
+    },
+    {
+      "control": "gate_B_review_unlock",
+      "status": "PASS",
+      "detail": "variant matched"
+    },
+    {
+      "control": "gate_C_review_unlock",
+      "status": "PASS",
+      "detail": "variant matched"
+    },
+    {
+      "control": "gate_B_no_stale_passing_A",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "control": "gate_C_no_stale_passing_A",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "control": "gate_C_no_auto_D",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "control": "source_registry_nonempty",
+      "status": "PASS",
+      "detail": "16"
+    },
+    {
+      "control": "no_required_external_media",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "control": "embedded_link_count",
+      "status": "PASS",
+      "detail": "14"
+    },
+    {
+      "control": "embedded_urls_registered",
+      "status": "PASS",
+      "detail": "[]"
+    },
+    {
+      "control": "pg18_source_status",
+      "status": "PASS",
+      "detail": "all PG rows dated"
+    },
+    {
+      "control": "no_placeholder_B01_MINI_LAB_2_QUALITY_PLAN_REVIEW_RC1.sql",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "control": "nonempty_sql_B01_MINI_LAB_2_QUALITY_PLAN_REVIEW_RC1.sql",
+      "status": "PASS",
+      "detail": "758"
+    },
+    {
+      "control": "no_placeholder_B01_POSTGRESQL_LAB_SETUP_RC1.sql",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "control": "nonempty_sql_B01_POSTGRESQL_LAB_SETUP_RC1.sql",
+      "status": "PASS",
+      "detail": "6917"
+    },
+    {
+      "control": "no_placeholder_B01_ENGINEERING_SQL_TRANSITION_PRACTICE_RC1.sql",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "control": "nonempty_sql_B01_ENGINEERING_SQL_TRANSITION_PRACTICE_RC1.sql",
+      "status": "PASS",
+      "detail": "6055"
+    },
+    {
+      "control": "no_placeholder_B01_MINI_LAB_1_REVENUE_RELIABILITY_RC1.sql",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "control": "nonempty_sql_B01_MINI_LAB_1_REVENUE_RELIABILITY_RC1.sql",
+      "status": "PASS",
+      "detail": "849"
+    },
+    {
+      "control": "no_placeholder_B01_GATE_A_RETAIL_ORDERS_RC1.sql",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "control": "nonempty_sql_B01_GATE_A_RETAIL_ORDERS_RC1.sql",
+      "status": "PASS",
+      "detail": "7947"
+    },
+    {
+      "control": "no_placeholder_B01_REMEDIATION_WINDOW_TIME_RC1.sql",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "control": "nonempty_sql_B01_REMEDIATION_WINDOW_TIME_RC1.sql",
+      "status": "PASS",
+      "detail": "384"
+    },
+    {
+      "control": "no_placeholder_B01_REMEDIATION_GRAIN_CARDINALITY_RC1.sql",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "control": "nonempty_sql_B01_REMEDIATION_GRAIN_CARDINALITY_RC1.sql",
+      "status": "PASS",
+      "detail": "403"
+    },
+    {
+      "control": "no_placeholder_B01_REMEDIATION_VALIDATION_EXPLAIN_RC1.sql",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "control": "nonempty_sql_B01_REMEDIATION_VALIDATION_EXPLAIN_RC1.sql",
+      "status": "PASS",
+      "detail": "375"
+    },
+    {
+      "control": "no_placeholder_B01_GATE_C_SUBSCRIPTION_BILLING_RC1.sql",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "control": "nonempty_sql_B01_GATE_C_SUBSCRIPTION_BILLING_RC1.sql",
+      "status": "PASS",
+      "detail": "5028"
+    },
+    {
+      "control": "no_placeholder_B01_GATE_B_SUPPORT_TICKETS_RC1.sql",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "control": "nonempty_sql_B01_GATE_B_SUPPORT_TICKETS_RC1.sql",
+      "status": "PASS",
+      "detail": "7183"
+    },
+    {
+      "control": "targeted_remediation_files",
+      "status": "PASS",
+      "detail": "['B01_REMEDIATION_WINDOW_TIME_RC1.sql', 'B01_REMEDIATION_GRAIN_CARDINALITY_RC1.sql', 'B01_REMEDIATION_VALIDATION_EXPLAIN_RC1.sql']"
+    },
+    {
+      "control": "no_duplicate_hash_groups",
+      "status": "PASS",
+      "detail": "{}"
+    }
+  ],
+  "runtime_boundaries": [
+    "Live PostgreSQL execution unavailable in this environment; not claimed.",
+    "Optional YouTube EXPLAIN companion not required for mastery or Gate."
+  ],
+  "release_interpretation": "Module artifact/static QA passes only if failed=0. Whole-course Mentor/C2B release remains blocked until B02-B06 and integrated QA.",
+  "zip_path": "/mnt/data/c2b_rebuild/B01_ENGINEERING_SQL_TRANSITION_RC1_INTERNAL_QA.zip",
+  "zip_entries": 26,
+  "zip_crc_bad": null,
+  "zip_sha256": "5eba40442c4f458dca5bc07af4d9fd4b5c872bbde9a5406f132b440b32726f43"
+}

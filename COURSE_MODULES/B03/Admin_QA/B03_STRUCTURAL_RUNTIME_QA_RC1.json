@@ -1,0 +1,894 @@
+{
+  "module": "B03",
+  "status": "INTERNAL_QA_RC1",
+  "pass_count": 177,
+  "total_count": 177,
+  "overall_pass": true,
+  "checks": [
+    {
+      "name": "learner_book_11_pages",
+      "pass": true,
+      "detail": "11"
+    },
+    {
+      "name": "B03-L01_present",
+      "pass": true,
+      "detail": "7"
+    },
+    {
+      "name": "B03-L01_1. Why it matters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L01_2. What you are learning",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L01_3. Prerequisite",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L01_4. Picture it in your head",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L01_5. New words before we use them",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L01_6. Watch / visual source",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L01_7. Follow with me once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L01_8. What you should see",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L01_9. Why it worked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L01_10. Common beginner mistakes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L01_11. If stuck",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L01_12. Small version alone",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L01_13. Validate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L01_14. Teach it back",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L01_15. Protected review + changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L01_16. Evidence / mastery + next route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L01_bridge_What you already know as an analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L01_bridge_What changes in engineering",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L01_bridge_Why engineers care",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L01_bridge_Small worked example",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L01_bridge_Real engineering version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L01_changed_retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L02_present",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "name": "B03-L02_1. Why it matters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L02_2. What you are learning",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L02_3. Prerequisite",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L02_4. Picture it in your head",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L02_5. New words before we use them",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L02_6. Watch / visual source",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L02_7. Follow with me once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L02_8. What you should see",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L02_9. Why it worked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L02_10. Common beginner mistakes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L02_11. If stuck",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L02_12. Small version alone",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L02_13. Validate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L02_14. Teach it back",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L02_15. Protected review + changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L02_16. Evidence / mastery + next route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L02_bridge_What you already know as an analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L02_bridge_What changes in engineering",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L02_bridge_Why engineers care",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L02_bridge_Small worked example",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L02_bridge_Real engineering version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L02_changed_retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L03_present",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "name": "B03-L03_1. Why it matters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L03_2. What you are learning",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L03_3. Prerequisite",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L03_4. Picture it in your head",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L03_5. New words before we use them",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L03_6. Watch / visual source",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L03_7. Follow with me once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L03_8. What you should see",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L03_9. Why it worked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L03_10. Common beginner mistakes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L03_11. If stuck",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L03_12. Small version alone",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L03_13. Validate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L03_14. Teach it back",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L03_15. Protected review + changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L03_16. Evidence / mastery + next route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L03_bridge_What you already know as an analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L03_bridge_What changes in engineering",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L03_bridge_Why engineers care",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L03_bridge_Small worked example",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L03_bridge_Real engineering version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L03_changed_retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L04_present",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "name": "B03-L04_1. Why it matters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L04_2. What you are learning",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L04_3. Prerequisite",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L04_4. Picture it in your head",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L04_5. New words before we use them",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L04_6. Watch / visual source",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L04_7. Follow with me once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L04_8. What you should see",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L04_9. Why it worked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L04_10. Common beginner mistakes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L04_11. If stuck",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L04_12. Small version alone",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L04_13. Validate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L04_14. Teach it back",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L04_15. Protected review + changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L04_16. Evidence / mastery + next route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L04_bridge_What you already know as an analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L04_bridge_What changes in engineering",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L04_bridge_Why engineers care",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L04_bridge_Small worked example",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L04_bridge_Real engineering version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B03-L04_changed_retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "contents_B03-L01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "contents_3\u20134",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "contents_B03-L02",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "contents_5\u20136",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "contents_B03-L03",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "contents_7\u20138",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "contents_B03-L04",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "contents_9\u201310",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "contents_Quick reference",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "contents_11",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book_has_external_links",
+      "pass": true,
+      "detail": "9"
+    },
+    {
+      "name": "book_link_https://www.youtube.com/watch?v=4ePNrdxWtY0",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book_link_https://www.youtube.com/watch?v=4pxJXwrfNKs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book_link_https://learn.microsoft.com/en-us/power-bi/guidance/relationships-many-to-many",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "book_link_https://learn.microsoft.com/en-us/power-bi/guidance/star-schema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "start_here_one_page",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "start_4 lessons",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "start_FreshRoute",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "start_Gate A Fleet Maintenance",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "start_Gate B/C remain protected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "start_C3-02",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "practice_review_5_pages",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "name": "review_B03-L01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review_B03-L02",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review_B03-L03",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review_B03-L04",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review_attempt_protection",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "review_changed_retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gate_A_review_one_page",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "gate_A_identity",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gate_A_attempt_protected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gate_B_review_one_page",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "gate_B_identity",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gate_B_attempt_protected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gate_C_review_one_page",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "gate_C_identity",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gate_C_attempt_protected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateB_explicit_assignment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateC_explicit_assignment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "remediation_one_page",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "rem_R1 Grain contract",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "rem_R2 Key/cardinality/bridge",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "rem_R3 Multiple facts/date roles",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "rem_R4 Reconciliation/handoff",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "rem_no_auto_unlock",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "minilab_control_cities",
+      "pass": true,
+      "detail": "4 vs 4"
+    },
+    {
+      "name": "minilab_control_restaurants",
+      "pass": true,
+      "detail": "6 vs 6"
+    },
+    {
+      "name": "minilab_control_couriers",
+      "pass": true,
+      "detail": "10 vs 10"
+    },
+    {
+      "name": "minilab_control_courier_skill_rows",
+      "pass": true,
+      "detail": "18 vs 18"
+    },
+    {
+      "name": "minilab_control_deliveries",
+      "pass": true,
+      "detail": "40 vs 40"
+    },
+    {
+      "name": "minilab_control_delivery_events",
+      "pass": true,
+      "detail": "120 vs 120"
+    },
+    {
+      "name": "minilab_control_distinct_deliveries_in_events",
+      "pass": true,
+      "detail": "40 vs 40"
+    },
+    {
+      "name": "minilab_control_weekly_city_targets",
+      "pass": true,
+      "detail": "8 vs 8"
+    },
+    {
+      "name": "minilab_control_delivery_fee_total",
+      "pass": true,
+      "detail": "6770.0 vs 6770.0"
+    },
+    {
+      "name": "minilab_event_fanout",
+      "pass": true,
+      "detail": "120 vs 3*40"
+    },
+    {
+      "name": "minilab_fresh_domain",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "practice_control_customers",
+      "pass": true,
+      "detail": "24 vs 24"
+    },
+    {
+      "name": "practice_control_services",
+      "pass": true,
+      "detail": "4 vs 4"
+    },
+    {
+      "name": "practice_control_shipments",
+      "pass": true,
+      "detail": "72 vs 72"
+    },
+    {
+      "name": "practice_control_shipment_events",
+      "pass": true,
+      "detail": "216 vs 216"
+    },
+    {
+      "name": "practice_control_monthly_targets",
+      "pass": true,
+      "detail": "12 vs 12"
+    },
+    {
+      "name": "practice_control_customer_tags",
+      "pass": true,
+      "detail": "28 vs 28"
+    },
+    {
+      "name": "practice_revenue_total",
+      "pass": true,
+      "detail": "26571.6"
+    },
+    {
+      "name": "gateA_wb_preserved",
+      "pass": true,
+      "detail": "2133fb6ae800a21829c8f1c74a395f2f3b4d56c76bd82efc576e712355f87435"
+    },
+    {
+      "name": "gateB_wb_preserved",
+      "pass": true,
+      "detail": "ff7275bbce9ab90c24b7878fb051511be6c4226c901e82d843d083ce40385fbc"
+    },
+    {
+      "name": "gateC_wb_preserved",
+      "pass": true,
+      "detail": "84f54a58b8d38a29b25278066735b2b8e38555eca0f2d87d1400d59750c01c56"
+    },
+    {
+      "name": "gate_A_zip_crc",
+      "pass": true,
+      "detail": "None"
+    },
+    {
+      "name": "gate_B_zip_crc",
+      "pass": true,
+      "detail": "None"
+    },
+    {
+      "name": "gate_C_zip_crc",
+      "pass": true,
+      "detail": "None"
+    },
+    {
+      "name": "gateB_protected_path",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "gateC_protected_path",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "artifact_tool_workbook_qa",
+      "pass": true,
+      "detail": "19/19"
+    },
+    {
+      "name": "old_minilab_not_shipped",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "fresh_minilab_shipped",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "practice_and_minilab_different_hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source_map_B03-L01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source_map_B03-L02",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source_map_B03-L03",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source_map_B03-L04",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source_l03_exact_timestamps",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source_l04_exact_timestamp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_zero_byte_files",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_placeholders",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "no_duplicate_byte_groups",
+      "pass": true,
+      "detail": "[]"
+    }
+  ]
+}

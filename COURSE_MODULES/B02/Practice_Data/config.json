@@ -1,0 +1,8 @@
+{
+  "input_dir": "Practice_Data",
+  "customer_master": "Practice_Data/customers.csv",
+  "output_dir": "outputs",
+  "report_name": "b02_bridge_report.xlsx",
+  "expected_month_files": 3,
+  "net_sales_tolerance": 0.01
+}

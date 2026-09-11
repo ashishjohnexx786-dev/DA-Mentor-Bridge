@@ -1,0 +1,44 @@
+{
+  "course": "C2B",
+  "module": "B06",
+  "name": "Bridge Capstone and Course 3 Entry",
+  "status": "INTERNAL_QA_RC1",
+  "lessons": [
+    {
+      "id": "B06-L01",
+      "title": "Integrated DA-to-DE bridge capstone"
+    },
+    {
+      "id": "B06-L02",
+      "title": "Course 3 entry readiness and handoff"
+    }
+  ],
+  "readiness_floors": {
+    "Advanced SQL": 3,
+    "Python automation": 3,
+    "Data modeling": 3,
+    "Warehousing": 3,
+    "Data quality": 3,
+    "Independent analysis": 3,
+    "Cloud/Fabric": 2,
+    "Professional ownership": 2
+  },
+  "final_gate_required": true,
+  "percentage_unlock_allowed": false,
+  "retest_policy": "A -> targeted repair; B/C only if explicit fresh full reassessment assigned",
+  "c3_00_hidden_prerequisites": false,
+  "incoming_c3_00_topics": [
+    "role shift",
+    "Linux/WSL2",
+    "shell",
+    "Git",
+    "venv/dependency pinning",
+    "modules/packages/project structure",
+    "configuration/secrets",
+    "structured logging/exceptions",
+    "tests",
+    "CLI design",
+    "Docker",
+    "idempotence/reproducibility/runbooks"
+  ]
+}

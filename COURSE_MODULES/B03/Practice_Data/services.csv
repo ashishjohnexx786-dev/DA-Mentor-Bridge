@@ -1,0 +1,5 @@
+service_id,service_name,service_type
+S01,Same Day,Express
+S02,Next Day,Express
+S03,Ground,Standard
+S04,Economy,Standard

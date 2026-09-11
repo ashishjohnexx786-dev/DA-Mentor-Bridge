@@ -1,0 +1,1069 @@
+{
+  "module": "B05",
+  "status": "PASS",
+  "passed": 211,
+  "total": 211,
+  "failed": [],
+  "checks": [
+    {
+      "control": "required:B05_START_HERE_RC1.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "required:B05_CLOUD_PLATFORM_ESSENTIALS_LEARNER_BOOK_RC1.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "required:B05_CLOUD_PLATFORM_PRACTICE_RC1.xlsx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "required:B05_CLOUD_PLATFORM_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "required:B05_DISTRIBUTION_PRACTICE_CASE_RC1.zip",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "required:B05_HOMEFIX_CLOUD_ARCHITECTURE_MINI_LAB_RC1.xlsx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "required:B05_HOMEFIX_CLOUD_ARCHITECTURE_MINI_LAB_REVIEW_PROTECTED_RC1.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "required:B05_HOMEFIX_MINILAB_CASE_RC1.zip",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "required:B05_CANONICAL_SPEC_RC1.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "required:B05_SOURCE_VIDEO_REGISTRY_RC1.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "required:B05_PRACTICE_GATE_TRACEABILITY_RC1.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "required:README_FIRST_RC1.txt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "required:Assessment/Gate_A/B05_GATE_A_MANUFACTURING_QUALITY_RESPONSE_WORKBOOK_RC1.xlsx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "required:Assessment/Gate_A/B05_GATE_A_MANUFACTURING_QUALITY_CASE_RC1.zip",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "required:Assessment/RETEST_ONLY_DO_NOT_OPEN/B05_GATE_B_DIGITAL_ADVERTISING_RESPONSE_WORKBOOK_RC1.xlsx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "required:Assessment/RETEST_ONLY_DO_NOT_OPEN/B05_GATE_B_DIGITAL_ADVERTISING_CASE_RC1.zip",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "required:Assessment/RETEST_ONLY_DO_NOT_OPEN/B05_GATE_C_TRAVEL_BOOKINGS_RESPONSE_WORKBOOK_RC1.xlsx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "required:Assessment/RETEST_ONLY_DO_NOT_OPEN/B05_GATE_C_TRAVEL_BOOKINGS_CASE_RC1.zip",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "required:Assessment/Reviews/B05_GATE_A_REVIEW_PROTECTED_RC1.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "required:Assessment/Reviews/B05_GATE_B_REVIEW_PROTECTED_RC1.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "required:Assessment/Reviews/B05_GATE_C_REVIEW_PROTECTED_RC1.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "required:Assessment/Remediation/B05_TARGETED_REMEDIATION_CARDS_RC1.pdf",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "book pages",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "control": "B05-L01:id both pages",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L01:heading:Why it matters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L01:heading:What you are learning",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L01:heading:Prerequisite",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L01:heading:Picture it in your head",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L01:heading:New words before use",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L01:heading:Watch / visual source",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L01:heading:Follow with me once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L01:heading:What you should see",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L01:heading:Why it worked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L01:heading:Common beginner mistakes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L01:heading:If stuck",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L01:heading:Small version alone",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L01:heading:Validate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L01:heading:Teach it back",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L01:heading:Protected review + changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L01:heading:Evidence / mastery + next route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L01:transition:What you already know as an analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L01:transition:What changes in engineering",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L01:transition:Why engineers care",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L01:transition:Small worked example",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L01:transition:Real engineering version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L01:practice sheet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:id both pages",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:heading:Why it matters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:heading:What you are learning",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:heading:Prerequisite",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:heading:Picture it in your head",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:heading:New words before use",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:heading:Watch / visual source",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:heading:Follow with me once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:heading:What you should see",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:heading:Why it worked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:heading:Common beginner mistakes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:heading:If stuck",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:heading:Small version alone",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:heading:Validate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:heading:Teach it back",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:heading:Protected review + changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:heading:Evidence / mastery + next route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:transition:What you already know as an analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:transition:What changes in engineering",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:transition:Why engineers care",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:transition:Small worked example",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:transition:Real engineering version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L02:practice sheet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:id both pages",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:heading:Why it matters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:heading:What you are learning",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:heading:Prerequisite",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:heading:Picture it in your head",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:heading:New words before use",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:heading:Watch / visual source",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:heading:Follow with me once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:heading:What you should see",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:heading:Why it worked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:heading:Common beginner mistakes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:heading:If stuck",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:heading:Small version alone",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:heading:Validate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:heading:Teach it back",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:heading:Protected review + changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:heading:Evidence / mastery + next route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:transition:What you already know as an analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:transition:What changes in engineering",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:transition:Why engineers care",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:transition:Small worked example",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:transition:Real engineering version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L03:practice sheet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:id both pages",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:heading:Why it matters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:heading:What you are learning",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:heading:Prerequisite",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:heading:Picture it in your head",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:heading:New words before use",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:heading:Watch / visual source",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:heading:Follow with me once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:heading:What you should see",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:heading:Why it worked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:heading:Common beginner mistakes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:heading:If stuck",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:heading:Small version alone",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:heading:Validate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:heading:Teach it back",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:heading:Protected review + changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:heading:Evidence / mastery + next route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:transition:What you already know as an analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:transition:What changes in engineering",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:transition:Why engineers care",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:transition:Small worked example",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:transition:Real engineering version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L04:practice sheet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:id both pages",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:heading:Why it matters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:heading:What you are learning",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:heading:Prerequisite",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:heading:Picture it in your head",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:heading:New words before use",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:heading:Watch / visual source",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:heading:Follow with me once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:heading:What you should see",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:heading:Why it worked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:heading:Common beginner mistakes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:heading:If stuck",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:heading:Small version alone",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:heading:Validate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:heading:Teach it back",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:heading:Protected review + changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:heading:Evidence / mastery + next route",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:transition:What you already know as an analyst",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:transition:What changes in engineering",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:transition:Why engineers care",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:transition:Small worked example",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:transition:Real engineering version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "B05-L05:practice sheet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "contents B05-L01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "contents pages L1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "contents B05-L02",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "contents pages L2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "contents B05-L03",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "contents pages L3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "contents B05-L04",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "contents pages L4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "contents B05-L05",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "contents pages L5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "start:B05_CLOUD_PLATFORM_PRACTICE_RC1.xlsx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "start:HomeFix",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "start:Gate A Manufacturing Quality",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "start:Gate B/C stay protected",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "start:No paid/live Fabric tenant",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "review pages",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "review attempt protection",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "review B05-L01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "review B05-L02",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "review B05-L03",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "review B05-L04",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "review B05-L05",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "review changed retry count",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "control": "append-only protection",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "minilab review:HomeFix",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "minilab review:Router change",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "minilab review:429",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "minilab review:emergency_contact_number",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "minilab review:nine hours late",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "minilab review:Changed retry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "source coverage B05-L01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "source coverage B05-L02",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "source coverage B05-L03",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "source coverage B05-L04",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "source coverage B05-L05",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "source map no required external",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "video exact scope:02:49-09:44",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "video exact scope:01:20-05:50",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "video exact scope:43:28-50:18 and 1:00:43-1:13:12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "video exact scope:18:20-24:03",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "source revalidation status",
+      "pass": true,
+      "detail": "{'REACHABLE_CHAPTERS_2026-09-10', 'REVALIDATED_2026-09-10'}"
+    },
+    {
+      "control": "gate A:attempt protection",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "gate A:critical failures",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "gate A:no percentage shortcut",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "gate B:attempt protection",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "gate B:critical failures",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "gate B:no percentage shortcut",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "gate C:attempt protection",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "gate C:critical failures",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "gate C:no percentage shortcut",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "gate A does not auto B",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "gate B explicit assignment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "gate C explicit assignment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "exact preserved:B05_GATE_A_MANUFACTURING_QUALITY_RESPONSE_WORKBOOK_RC1.xlsx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "exact preserved:B05_GATE_A_MANUFACTURING_QUALITY_CASE_RC1.zip",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "exact preserved:B05_GATE_B_DIGITAL_ADVERTISING_RESPONSE_WORKBOOK_RC1.xlsx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "exact preserved:B05_GATE_B_DIGITAL_ADVERTISING_CASE_RC1.zip",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "exact preserved:B05_GATE_C_TRAVEL_BOOKINGS_RESPONSE_WORKBOOK_RC1.xlsx",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "exact preserved:B05_GATE_C_TRAVEL_BOOKINGS_CASE_RC1.zip",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "zip CRC:B05_HOMEFIX_MINILAB_CASE_RC1.zip",
+      "pass": true,
+      "detail": "PASS"
+    },
+    {
+      "control": "zip CRC:B05_DISTRIBUTION_PRACTICE_CASE_RC1.zip",
+      "pass": true,
+      "detail": "PASS"
+    },
+    {
+      "control": "zip CRC:Assessment/Gate_A/B05_GATE_A_MANUFACTURING_QUALITY_CASE_RC1.zip",
+      "pass": true,
+      "detail": "PASS"
+    },
+    {
+      "control": "zip CRC:Assessment/RETEST_ONLY_DO_NOT_OPEN/B05_GATE_B_DIGITAL_ADVERTISING_CASE_RC1.zip",
+      "pass": true,
+      "detail": "PASS"
+    },
+    {
+      "control": "zip CRC:Assessment/RETEST_ONLY_DO_NOT_OPEN/B05_GATE_C_TRAVEL_BOOKINGS_CASE_RC1.zip",
+      "pass": true,
+      "detail": "PASS"
+    },
+    {
+      "control": "old duplicate minilab absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "fresh HomeFix workbook differs from practice",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "fresh HomeFix domain tokens",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "HomeFix not Distribution case",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "no stale:B05-L06",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "no stale:B05-L07",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "no stale:Distribution Cloud Architecture Mini-Lab",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "spec lesson count",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "control": "spec no tenant boundary",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "runtime_boundary": [
+    "No live Fabric tenant execution claimed",
+    "No C3-07 provisioning/deployment claimed",
+    "No C3-00 secrets/config implementation claimed"
+  ]
+}

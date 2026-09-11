@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "courseId": "C2B",
+  "moduleId": "B05",
+  "moduleName": "Cloud Platform Essentials",
+  "releaseStatus": "INTERNAL_QA_RC1",
+  "lessonCount": 5,
+  "lessons": [
+    {
+      "id": "B05-L01",
+      "title": "Cloud data mental model: storage, compute, network and identity"
+    },
+    {
+      "id": "B05-L02",
+      "title": "Fabric, OneLake, lakehouse and warehouse as one concrete example"
+    },
+    {
+      "id": "B05-L03",
+      "title": "Permissions, governance and private-source connection boundaries"
+    },
+    {
+      "id": "B05-L04",
+      "title": "Freshness, monitoring and failure ownership"
+    },
+    {
+      "id": "B05-L05",
+      "title": "Analyst-to-engineer platform collaboration and handoff"
+    }
+  ],
+  "practice": "B05_CLOUD_PLATFORM_PRACTICE_RC1.xlsx",
+  "miniLab": "B05_HOMEFIX_CLOUD_ARCHITECTURE_MINI_LAB_RC1.xlsx",
+  "gateA": "Assessment/Gate_A/B05_GATE_A_MANUFACTURING_QUALITY_RESPONSE_WORKBOOK_RC1.xlsx",
+  "gateB": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B05_GATE_B_DIGITAL_ADVERTISING_RESPONSE_WORKBOOK_RC1.xlsx",
+  "gateC": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B05_GATE_C_TRAVEL_BOOKINGS_RESPONSE_WORKBOOK_RC1.xlsx",
+  "c3Boundary": [
+    "No paid/live Fabric tenant required",
+    "C3-00 owns secrets/config/environment implementation",
+    "C3-07 owns Fabric/cloud implementation",
+    "B05 owns platform reasoning, access/network, freshness/monitoring and handoff contracts"
+  ]
+}

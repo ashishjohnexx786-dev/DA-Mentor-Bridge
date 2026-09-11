@@ -1,0 +1,18 @@
+{
+  "module": "B05",
+  "status": "PASS",
+  "fresh_workbook_checks": {
+    "passed": 21,
+    "total": 21,
+    "failures": []
+  },
+  "gate_workbook_checks": {
+    "passed": 15,
+    "total": 15,
+    "failures": []
+  },
+  "total_passed": 36,
+  "total": 36,
+  "tool": "artifact_tool",
+  "note": "Created/verified B05 practice and HomeFix Mini-Lab using artifact_tool; imported and verified preserved Gate workbooks. No openpyxl/pandas used."
+}

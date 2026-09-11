@@ -1,0 +1,95 @@
+{
+  "tool": "artifact_tool",
+  "workbooks": [
+    {
+      "file": "B04_WAREHOUSING_DATA_QUALITY_PRACTICE_RC1.xlsx",
+      "sheet_count": 15,
+      "formula_error_scan": "PASS"
+    },
+    {
+      "file": "B04_CAREFLOW_WAREHOUSE_MINI_LAB_RC1.xlsx",
+      "sheet_count": 7,
+      "formula_error_scan": "PASS"
+    },
+    {
+      "file": "B04_GATE_A_MARKETPLACE_SELLERS_RESPONSE_WORKBOOK_RC1.xlsx",
+      "sheet_count": 15,
+      "formula_error_scan": "PASS"
+    },
+    {
+      "file": "B04_GATE_B_INVENTORY_REPLENISHMENT_RESPONSE_WORKBOOK_RC1.xlsx",
+      "sheet_count": 15,
+      "formula_error_scan": "PASS"
+    },
+    {
+      "file": "B04_GATE_C_CUSTOMER_SUCCESS_RENEWALS_RESPONSE_WORKBOOK_RC1.xlsx",
+      "sheet_count": 15,
+      "formula_error_scan": "PASS"
+    }
+  ],
+  "checks": [
+    {
+      "name": "B04_WAREHOUSING_DATA_QUALITY_PRACTICE_RC1.xlsx:imports",
+      "pass": true
+    },
+    {
+      "name": "B04_WAREHOUSING_DATA_QUALITY_PRACTICE_RC1.xlsx:formula_errors_zero",
+      "pass": true
+    },
+    {
+      "name": "B04_CAREFLOW_WAREHOUSE_MINI_LAB_RC1.xlsx:imports",
+      "pass": true
+    },
+    {
+      "name": "B04_CAREFLOW_WAREHOUSE_MINI_LAB_RC1.xlsx:formula_errors_zero",
+      "pass": true
+    },
+    {
+      "name": "B04_GATE_A_MARKETPLACE_SELLERS_RESPONSE_WORKBOOK_RC1.xlsx:imports",
+      "pass": true
+    },
+    {
+      "name": "B04_GATE_A_MARKETPLACE_SELLERS_RESPONSE_WORKBOOK_RC1.xlsx:formula_errors_zero",
+      "pass": true
+    },
+    {
+      "name": "B04_GATE_B_INVENTORY_REPLENISHMENT_RESPONSE_WORKBOOK_RC1.xlsx:imports",
+      "pass": true
+    },
+    {
+      "name": "B04_GATE_B_INVENTORY_REPLENISHMENT_RESPONSE_WORKBOOK_RC1.xlsx:formula_errors_zero",
+      "pass": true
+    },
+    {
+      "name": "B04_GATE_C_CUSTOMER_SUCCESS_RENEWALS_RESPONSE_WORKBOOK_RC1.xlsx:imports",
+      "pass": true
+    },
+    {
+      "name": "B04_GATE_C_CUSTOMER_SUCCESS_RENEWALS_RESPONSE_WORKBOOK_RC1.xlsx:formula_errors_zero",
+      "pass": true
+    },
+    {
+      "name": "B04_WAREHOUSING_DATA_QUALITY_PRACTICE_RC1.xlsx:expected_sheets",
+      "pass": true,
+      "missing": []
+    },
+    {
+      "name": "B04_CAREFLOW_WAREHOUSE_MINI_LAB_RC1.xlsx:expected_sheets",
+      "pass": true,
+      "missing": []
+    },
+    {
+      "name": "practice_START_HERE_render_readable",
+      "pass": true,
+      "evidence": "B04_practice_start_final.png visually inspected"
+    },
+    {
+      "name": "minilab_Architecture_Decisions_render_readable",
+      "pass": true,
+      "evidence": "B04_minilab_arch_final.png visually inspected"
+    }
+  ],
+  "pass_count": 14,
+  "total_checks": 14,
+  "status": "PASS"
+}

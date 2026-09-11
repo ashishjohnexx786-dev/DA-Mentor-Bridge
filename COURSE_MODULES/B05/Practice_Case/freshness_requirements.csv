@@ -1,0 +1,7 @@
+flow,freshness_sla,schedule/window,failure_tolerance,business_reason
+WMS inventory,60 minutes,Business hours + overnight,2 hours,Inventory dashboard can tolerate 1 hour
+Carrier shipment status,30 minutes,24x7,60 minutes,Operations needs frequent refresh
+Vendor receipts,Daily 06:00,Daily,12 hours,Batch is sufficient
+Targets/budgets,Daily 07:00,Weekdays,24 hours,Finance-owned
+IoT condition events,<5 minutes,24x7,10 minutes,Operational alerting; not all events need warehouse refresh
+Executive semantic model,Hourly,06:00-22:00,2 hours,Certified consumption layer

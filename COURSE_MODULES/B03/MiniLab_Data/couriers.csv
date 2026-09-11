@@ -1,0 +1,11 @@
+courier_id,courier_name,home_city_id,vehicle_type
+C01,Courier 01,CT01,Bike
+C02,Courier 02,CT02,Bike
+C03,Courier 03,CT03,Scooter
+C04,Courier 04,CT04,Bike
+C05,Courier 05,CT01,Bike
+C06,Courier 06,CT02,Scooter
+C07,Courier 07,CT03,Bike
+C08,Courier 08,CT04,Bike
+C09,Courier 09,CT01,Scooter
+C10,Courier 10,CT02,Bike

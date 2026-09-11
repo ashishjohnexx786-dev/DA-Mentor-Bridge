@@ -1,0 +1,15 @@
+{
+  "customers": 24,
+  "technicians_current": 12,
+  "technician_change_rows": 17,
+  "orders": 72,
+  "completed_orders": 54,
+  "base_fee_total_completed": 24150,
+  "item_rows": 144,
+  "item_value_total": 81600,
+  "event_rows": 271,
+  "orphan_event_rows": 1,
+  "target_rows": 12,
+  "technician_skill_rows": 15,
+  "duplicate_technician_effective_change_pairs": 1
+}

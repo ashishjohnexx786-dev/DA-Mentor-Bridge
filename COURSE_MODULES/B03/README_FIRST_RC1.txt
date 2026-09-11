@@ -1,0 +1,1 @@
+B03 Engineering Data Modeling RC1 — INTERNAL QA. Study B03_START_HERE_RC1.pdf first. Four lessons replace seven repetitive baseline lessons. The old Parcel Delivery Mini-Lab is rejected because it duplicated practice; FreshRoute is the new independent Mini-Lab. Gate A is normal; B/C remain protected retests. Real Power BI Desktop execution is not claimed by package QA.

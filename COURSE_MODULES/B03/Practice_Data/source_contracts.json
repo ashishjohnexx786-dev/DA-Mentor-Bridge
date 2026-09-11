@@ -1,0 +1,37 @@
+{
+  "customers.csv": {
+    "grain": "one row per customer",
+    "key": "customer_id",
+    "role": "dimension candidate"
+  },
+  "services.csv": {
+    "grain": "one row per service",
+    "key": "service_id",
+    "role": "dimension candidate"
+  },
+  "shipments.csv": {
+    "grain": "one row per shipment",
+    "key": "shipment_id",
+    "role": "fact candidate",
+    "date_roles": [
+      "booking_date",
+      "pickup_date",
+      "delivery_date"
+    ]
+  },
+  "shipment_events.csv": {
+    "grain": "one row per shipment event",
+    "key": "event_id",
+    "role": "separate event fact"
+  },
+  "monthly_targets.csv": {
+    "grain": "one row per month-destination_region",
+    "key": "month+destination_region",
+    "role": "separate target fact"
+  },
+  "customer_tags.csv": {
+    "grain": "one row per customer-tag",
+    "key": "customer_id+tag",
+    "role": "bridge / many-to-many risk"
+  }
+}

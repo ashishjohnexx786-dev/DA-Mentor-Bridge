@@ -1,0 +1,10 @@
+lesson_id,target_title,baseline_mapping,decision,practice_evidence,gate_evidence,c3_handoff
+B04-L01,Operational vs analytical workloads: OLTP and OLAP,B04-L01|B04-L02,MERGE_NEW,Workload_Contract + operational/source protection decision,Gate A/B/C Submission + Reconciliation + architecture sheets,C3-01-L01 / C3-02-L01
+B04-L02,"Warehouse, lake and lakehouse mental models",B04-L03|B04-L09,MERGE_NEW,Storage_Fit + architecture choice/rejected alternative,Gate A/B/C Submission + Reconciliation + architecture sheets,C3-04 entry
+B04-L03,"Business keys, surrogate keys and SCD history",B04-L05|B04-L06,MERGE_NEW,History_Keys + effective dating/surrogate strategy,Gate A/B/C Submission + Reconciliation + architecture sheets,C3-02-L08/L12
+B04-L04,ETL vs ELT and transformation boundaries,B04-L07,GENUINELY_NEW,Transform_Boundaries + ETL/ELT/hybrid placement,Gate A/B/C Submission + Reconciliation + architecture sheets,C3-02-L01/L04
+B04-L05,"Layered analytical systems: raw, staged, conformed and serving",B04-L08,GENUINELY_NEW,Layer_Contracts + source-of-truth/replay/quality rules,Gate A/B/C Submission + Reconciliation + architecture sheets,C3-01-L01 / C3-02-L04
+B04-L06,"Batch, micro-batch and streaming trade-offs",B04-L10,GENUINELY_NEW,Latency_Plan + event/late-data/replay decision,Gate A/B/C Submission + Reconciliation + architecture sheets,C3-06 entry
+B04-L07,"Lineage, metadata, ownership and observability basics",B04-L11,GENUINELY_NEW,Lineage_Ownership + run metadata/impact/recovery evidence,Gate A/B/C Submission + Reconciliation + architecture sheets,C3-02-L10 / C3-08
+B04-L08,"Data-quality contracts: block, warn and reconcile",B04-L12,DEEPER_PROGRESSION,Quality_Contract + severity/owner/block/reconciliation,Gate A/B/C Submission + Reconciliation + architecture sheets,C3-01-L14 / C3-02-L06 / C3-08
+B04-L09,"Replay, backfill and warehouse failure-recovery reasoning",B04-L07|B04-L08|B04-L12,BRIDGE_SYNTHESIS,Recovery_Runbook + replay/backfill + post-recovery proof,Gate A/B/C Submission + Reconciliation + architecture sheets,C3-01-L13/L14

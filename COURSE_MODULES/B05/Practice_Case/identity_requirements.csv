@@ -1,0 +1,7 @@
+identity,persona,required_capability,data_access,constraint
+GRP-DE,Data Engineering,"Build/manage pipelines, lakehouse/warehouse, investigate failures",Write curated + raw,No HR/secret fields
+GRP-OPS,Operations Analysts,"Explore curated ops data, build reports",Read curated ops,No finance-confidential detail
+GRP-FIN,Finance Analysts,Read finance curated data and targets,Read finance + shared dimensions,No raw operational admin
+GRP-EXEC,Executives,Consume certified semantic model,Read serving only,No workspace authoring
+SPN-PIPE,Pipeline Service Principal,Scheduled ingestion/orchestration,Write required pipeline targets,Nonhuman identity; least privilege
+VENDOR-EXT,External Vendor User,No Fabric workspace membership,None by default,External sharing requires explicit governed design

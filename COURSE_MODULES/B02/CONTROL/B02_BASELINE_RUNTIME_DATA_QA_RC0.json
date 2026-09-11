@@ -1,0 +1,198 @@
+{
+  "runtime": {
+    "python": "3.13.5",
+    "pandas": "2.2.3",
+    "requests": "2.32.5"
+  },
+  "checks": [
+    {
+      "check": "deterministic_file_discovery",
+      "status": "PASS",
+      "observed": [
+        "sales_2026_01.csv",
+        "sales_2026_02.csv",
+        "sales_2026_03.csv"
+      ],
+      "expected": 3
+    },
+    {
+      "check": "practice_rows",
+      "status": "PASS",
+      "observed": 96,
+      "expected": 96
+    },
+    {
+      "check": "order_id_unique",
+      "status": "PASS",
+      "observed": true,
+      "expected": true
+    },
+    {
+      "check": "net_sales_reconciliation",
+      "status": "PASS",
+      "observed": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "net_sales_control_total",
+      "status": "PASS",
+      "observed": 370375.0,
+      "expected": 370375.0
+    },
+    {
+      "check": "duplicate_customer_trap",
+      "status": "PASS",
+      "observed": {
+        "rows": 31,
+        "unique": 30,
+        "dupes": [
+          "C013",
+          "C013"
+        ]
+      },
+      "expected": {
+        "rows": 31,
+        "unique": 30,
+        "duplicate": "C013"
+      }
+    },
+    {
+      "check": "many_to_one_merge_blocks_duplicate_master",
+      "status": "PASS",
+      "observed": "MergeError: Merge keys are not unique in right dataset; not a many-to-one merge",
+      "expected": "must fail"
+    },
+    {
+      "check": "bad_numeric_detected",
+      "status": "PASS",
+      "observed": [
+        {
+          "order_id": "1006",
+          "unit_price": "oops"
+        }
+      ],
+      "expected": "one malformed numeric"
+    },
+    {
+      "check": "missing_required_column_detected",
+      "status": "PASS",
+      "observed": [
+        "order_id",
+        "order_date",
+        "channel",
+        "product",
+        "quantity",
+        "unit_price",
+        "discount_pct",
+        "net_sales"
+      ],
+      "expected": "customer_id missing"
+    },
+    {
+      "check": "nested_json_grain",
+      "status": "PASS",
+      "observed": {
+        "orders": 5,
+        "items": 10
+      },
+      "expected": {
+        "orders": 5,
+        "items": 10
+      }
+    },
+    {
+      "check": "local_http_api_fixture",
+      "status": "PASS",
+      "observed": {
+        "status": 200,
+        "metrics": 4
+      },
+      "expected": {
+        "status": 200,
+        "metrics": 4
+      }
+    },
+    {
+      "check": "zip_crc_B02_PRACTICE_DATA_INTERNAL_QA.zip",
+      "status": "PASS",
+      "observed": null,
+      "expected": "None"
+    },
+    {
+      "check": "zip_crc_B02_GATE_A_DATA_INTERNAL_QA.zip",
+      "status": "PASS",
+      "observed": null,
+      "expected": "None"
+    },
+    {
+      "check": "zip_crc_B02_GATE_B_DATA_INTERNAL_QA.zip",
+      "status": "PASS",
+      "observed": null,
+      "expected": "None"
+    },
+    {
+      "check": "zip_crc_B02_GATE_C_DATA_INTERNAL_QA.zip",
+      "status": "PASS",
+      "observed": null,
+      "expected": "None"
+    },
+    {
+      "check": "notebook_parse_B02_PYTHON_AUTOMATION_PRACTICE_NOTEBOOK_INTERNAL_QA.ipynb",
+      "status": "PASS",
+      "observed": {
+        "nbformat": 4,
+        "cells": 26
+      },
+      "expected": "nbformat 4"
+    },
+    {
+      "check": "notebook_parse_B02_WEEKLY_BRIDGE_BATCH_PIPELINE_MINI_LAB_INTERNAL_QA.ipynb",
+      "status": "PASS",
+      "observed": {
+        "nbformat": 4,
+        "cells": 5
+      },
+      "expected": "nbformat 4"
+    },
+    {
+      "check": "notebook_parse_B02_TARGETED_REMEDIATION_INTERNAL_QA.ipynb",
+      "status": "PASS",
+      "observed": {
+        "nbformat": 4,
+        "cells": 23
+      },
+      "expected": "nbformat 4"
+    },
+    {
+      "check": "notebook_parse_B02_GATE_A_LOGISTICS_SHIPMENTS_INTERNAL_QA.ipynb",
+      "status": "PASS",
+      "observed": {
+        "nbformat": 4,
+        "cells": 5
+      },
+      "expected": "nbformat 4"
+    },
+    {
+      "check": "notebook_parse_B02_GATE_B_E_COMMERCE_RETURNS_INTERNAL_QA.ipynb",
+      "status": "PASS",
+      "observed": {
+        "nbformat": 4,
+        "cells": 5
+      },
+      "expected": "nbformat 4"
+    },
+    {
+      "check": "notebook_parse_B02_GATE_C_CLINIC_APPOINTMENTS_INTERNAL_QA.ipynb",
+      "status": "PASS",
+      "observed": {
+        "nbformat": 4,
+        "cells": 5
+      },
+      "expected": "nbformat 4"
+    }
+  ],
+  "passed": 21,
+  "total": 21,
+  "failures": [],
+  "interpretation": "Safe local fixture/runtime checks only. Does not certify Python 3.14.7/pandas 3.0.5 execution; current docs control target semantics."
+}
