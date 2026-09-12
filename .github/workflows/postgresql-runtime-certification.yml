@@ -1,0 +1,152 @@
+name: B01 PostgreSQL Runtime Certification 2026
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  postgresql-runtime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: c2b
+          POSTGRES_PASSWORD: c2b_runtime
+          POSTGRES_DB: c2b_runtime
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U c2b -d c2b_runtime"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 12
+    env:
+      PGHOST: localhost
+      PGPORT: 5432
+      PGUSER: c2b
+      PGPASSWORD: c2b_runtime
+      PGDATABASE: c2b_runtime
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PostgreSQL client
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq postgresql-client
+      - name: Execute canonical B01 PostgreSQL setup
+        run: psql -v ON_ERROR_STOP=1 -f COURSE_MODULES/B01/B01_POSTGRESQL_LAB_SETUP_RC1.sql
+      - name: Assert canonical raw controls and engineering SQL behavior
+        shell: bash
+        run: |
+          set -euo pipefail
+          psql -v ON_ERROR_STOP=1 <<'SQL'
+          SET search_path TO c2b_b01_lab;
+          DO $$
+          DECLARE
+            n bigint;
+            money numeric;
+          BEGIN
+            SELECT count(*) INTO n FROM customers; IF n<>10 THEN RAISE EXCEPTION 'customers count %, expected 10',n; END IF;
+            SELECT count(*) INTO n FROM orders; IF n<>24 THEN RAISE EXCEPTION 'orders count %, expected 24',n; END IF;
+            SELECT count(*) INTO n FROM order_items; IF n<>48 THEN RAISE EXCEPTION 'order_items count %, expected 48',n; END IF;
+            SELECT count(*) INTO n FROM customer_region_history; IF n<>12 THEN RAISE EXCEPTION 'history count %, expected 12',n; END IF;
+            SELECT count(*) INTO n FROM order_events; IF n<>39 THEN RAISE EXCEPTION 'events count %, expected 39',n; END IF;
+            SELECT count(DISTINCT order_id) INTO n FROM order_items; IF n<>24 THEN RAISE EXCEPTION 'orders_with_items %, expected 24',n; END IF;
+
+            -- Known duplicate business event must be detected, not hidden by DISTINCT.
+            SELECT count(*) INTO n FROM (
+              SELECT order_id,event_type,event_ts,count(*) c
+              FROM order_events GROUP BY 1,2,3 HAVING count(*)>1
+            ) q;
+            IF n<>1 THEN RAISE EXCEPTION 'duplicate-event groups %, expected 1',n; END IF;
+
+            -- Grain-safe order revenue must remain one row per order.
+            SELECT count(*) INTO n FROM (
+              SELECT o.order_id, sum(oi.qty*oi.unit_price*(1-oi.discount_pct)) revenue
+              FROM orders o JOIN order_items oi USING(order_id)
+              GROUP BY o.order_id
+            ) q;
+            IF n<>24 THEN RAISE EXCEPTION 'order revenue grain %, expected 24',n; END IF;
+
+            -- Historical join trap must actually fan out when joined incorrectly.
+            SELECT count(*) INTO n FROM orders o JOIN customer_region_history h USING(customer_id);
+            IF n<=24 THEN RAISE EXCEPTION 'history join did not fan out: %',n; END IF;
+
+            -- Current-region repair must restore one row per order.
+            SELECT count(*) INTO n FROM orders o JOIN customer_region_history h
+              ON h.customer_id=o.customer_id AND h.valid_to IS NULL;
+            IF n<>24 THEN RAISE EXCEPTION 'current-region join grain %, expected 24',n; END IF;
+
+            -- Completed order count is a stable control for downstream window/date work.
+            SELECT count(*) INTO n FROM orders WHERE status='Completed';
+            IF n<>12 THEN RAISE EXCEPTION 'completed orders %, expected 12',n; END IF;
+          END $$;
+
+          -- CTE staging + benchmark query: must execute and preserve deterministic order grain.
+          WITH base_completed_items AS (
+            SELECT o.order_id,o.booked_region,o.order_date,
+                   oi.qty*oi.unit_price*(1-oi.discount_pct) AS line_revenue
+            FROM orders o JOIN order_items oi USING(order_id)
+            WHERE o.status='Completed'
+          ), order_level AS (
+            SELECT order_id,booked_region,order_date,sum(line_revenue) AS order_revenue
+            FROM base_completed_items GROUP BY 1,2,3
+          ), benchmark AS (
+            SELECT avg(order_revenue) avg_order_revenue FROM order_level
+          )
+          SELECT count(*) AS above_average_orders
+          FROM order_level CROSS JOIN benchmark
+          WHERE order_revenue>avg_order_revenue;
+
+          -- Window functions, explicit ROWS frame and LAG must execute on real PostgreSQL.
+          WITH order_level AS (
+            SELECT o.order_id,o.booked_region,o.order_date,
+                   sum(oi.qty*oi.unit_price*(1-oi.discount_pct)) AS revenue
+            FROM orders o JOIN order_items oi USING(order_id)
+            WHERE o.status='Completed' GROUP BY 1,2,3
+          ), ranked AS (
+            SELECT *, avg(revenue) OVER(PARTITION BY booked_region) regional_avg,
+                   row_number() OVER(PARTITION BY booked_region ORDER BY revenue DESC,order_id) deterministic_rank,
+                   sum(revenue) OVER(ORDER BY order_date,order_id ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) running_revenue
+            FROM order_level
+          ), monthly AS (
+            SELECT date_trunc('month',order_date)::date AS month,sum(revenue) revenue
+            FROM order_level GROUP BY 1
+          )
+          SELECT count(*) FROM ranked;
+          WITH order_level AS (
+            SELECT o.order_id,o.order_date,sum(oi.qty*oi.unit_price*(1-oi.discount_pct)) AS revenue
+            FROM orders o JOIN order_items oi USING(order_id)
+            WHERE o.status='Completed' GROUP BY 1,2
+          ), monthly AS (
+            SELECT date_trunc('month',order_date)::date AS month,sum(revenue) revenue
+            FROM order_level GROUP BY 1
+          )
+          SELECT month,revenue,lag(revenue) OVER(ORDER BY month) previous_observed_month_revenue FROM monthly ORDER BY month;
+
+          -- Conditional aggregation and half-open timestamp boundary must execute.
+          SELECT booked_region,
+                 count(*) all_orders,
+                 count(*) FILTER (WHERE status='Completed') completed_orders,
+                 count(*) FILTER (WHERE status='Cancelled') cancelled_orders,
+                 round(count(*) FILTER (WHERE status='Completed')::numeric/count(*),4) completion_rate
+          FROM orders GROUP BY booked_region ORDER BY booked_region;
+          SELECT count(*) AS half_open_window_events
+          FROM order_events
+          WHERE event_ts >= timestamp '2026-01-15 00:00:00'
+            AND event_ts < timestamp '2026-02-01 00:00:00';
+
+          -- EXPLAIN before/after an index; result semantics must stay unchanged.
+          SELECT count(*) AS selective_result_before FROM orders
+          WHERE status='Completed' AND customer_id=4 AND order_date>=date '2026-01-01';
+          EXPLAIN SELECT * FROM orders WHERE status='Completed' AND customer_id=4 AND order_date>=date '2026-01-01';
+          CREATE INDEX idx_orders_customer_status_date ON orders(customer_id,status,order_date);
+          EXPLAIN SELECT * FROM orders WHERE status='Completed' AND customer_id=4 AND order_date>=date '2026-01-01';
+          SELECT count(*) AS selective_result_after FROM orders
+          WHERE status='Completed' AND customer_id=4 AND order_date>=date '2026-01-01';
+          SQL
+      - name: Prove setup is rerunnable
+        run: psql -v ON_ERROR_STOP=1 -f COURSE_MODULES/B01/B01_POSTGRESQL_LAB_SETUP_RC1.sql >/dev/null
+      - name: Runtime certificate summary
+        run: |
+          echo 'C2B B01 POSTGRESQL RUNTIME PASS'
+          psql -Atqc "show server_version;"
