@@ -3,16 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Mentor PDF Freshness Repair R6.1</title>
+<title>Mentor PDF Freshness Repair R6.2</title>
 <style>
 :root{color-scheme:dark;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#111827;color:#F9FAFB}*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;padding:20px;background:#111827}main{width:min(660px,100%);background:#1F2937;border:1px solid #3A475A;border-radius:18px;padding:22px}h1{font-size:1.4rem;margin:0 0 10px}p{line-height:1.55;color:#CBD5E1}.ok{color:#86EFAC}.err{color:#FCA5A5}.box{padding:12px;border-radius:12px;background:#172033;border:1px solid #3A475A;margin:14px 0}.tag{font-size:.85rem;color:#93C5FD}
 </style>
 </head>
 <body>
 <main>
-<h1>Mentor PDF freshness repair — R6.1</h1>
-<p class="tag">Build 2026-09-12-R6.1</p>
-<p>This repair makes every Mentor PDF open through a new versioned URL and bypasses Chrome's old HTTP/PDF cache. It does not delete localStorage or IndexedDB, so saved Mentor progress is preserved.</p>
+<h1>Mentor PDF freshness repair — R6.2</h1>
+<p class="tag">Build 2026-09-12-R6.2</p>
+<p>This repair makes every Mentor PDF open through a new versioned URL and bypasses Chrome's old HTTP/PDF cache. It does not clear app-shell Cache Storage, localStorage or IndexedDB, so Mentor appearance and saved progress are preserved.</p>
 <div class="box" id="status">Installing fresh-PDF protection for all five courses…</div>
 <p>Keep this page open until it says <b>5/5 active</b>.</p>
 </main>
@@ -37,7 +37,6 @@
  }
  try{
   if(!('serviceWorker' in navigator))throw new Error('Service workers are not available in this browser mode.');
-  if('caches' in window){const names=await caches.keys();await Promise.all(names.map(n=>caches.delete(n)));}
   let active=0;
   for(const [script,scope] of jobs){
    status.textContent=`Installing fresh-PDF protection ${active+1}/5…`;
@@ -47,7 +46,7 @@
    active++;
   }
   status.className='box ok';
-  status.innerHTML='<b>5/5 active.</b><br>Old Cache Storage was cleared and all five PDF paths now force a versioned, no-cache network load.<br><br>Fully close Chrome and any installed Mentor apps once. Reopen the Mentor while online and open the same PDF again.';
+  status.innerHTML='<b>5/5 active.</b><br>All five PDF paths now force a versioned, no-cache network load. App-shell caches and Mentor progress were left untouched.<br><br>Fully close Chrome and any installed Mentor apps once. Reopen the Mentor while online and open the same PDF again.';
  }catch(err){
   status.className='box err';
   status.textContent='Repair stopped: '+(err&&err.message?err.message:String(err));
