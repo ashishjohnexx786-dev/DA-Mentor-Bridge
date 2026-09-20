@@ -1,0 +1,647 @@
+{
+  "courseId": "COURSE_2B_DA_TO_DE_BRIDGE_2026",
+  "title": "DA-to-Data-Engineer Bridge 2026",
+  "shortTitle": "Bridge Mentor",
+  "edition": "ASTRA-2026",
+  "unitCount": 38,
+  "requiredUnitCount": 38,
+  "c3Entry": "All six phases + B06 capstone + Final Gate PASS + every readiness floor; no percentage shortcut.",
+  "storageKey": "course2b-bridge-2026-study-astra-v2",
+  "backupName": "Course2B_Bridge_Mentor_Progress",
+  "downloadUrl": "https://github.com/ashishjohnexx786-dev/DA-Mentor-Bridge/archive/refs/heads/main.zip",
+  "modules": [
+    {
+      "id": "B01",
+      "title": "Engineering SQL Transition",
+      "practicePath": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_PRACTICE_RC1.sql",
+      "studyDays": [
+        4,
+        8
+      ],
+      "units": [
+        {
+          "id": "B01-L01",
+          "title": "Grain and cardinality contracts for engineering SQL",
+          "bookPage": 4,
+          "watch": [
+            {
+              "name": "Instructor / official source 1",
+              "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+            }
+          ],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B01-L02",
+          "title": "Staged transformations with CTEs and subqueries",
+          "bookPage": 6,
+          "watch": [
+            {
+              "name": "Instructor / official source 1",
+              "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+            }
+          ],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B01-L03",
+          "title": "Window patterns for ranking, latest-row and sequence logic",
+          "bookPage": 8,
+          "watch": [
+            {
+              "name": "Instructor / official source 1",
+              "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+            }
+          ],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B01-L04",
+          "title": "Conditional and date transformations with explicit business rules",
+          "bookPage": 10,
+          "watch": [
+            {
+              "name": "Instructor / official source 1",
+              "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+            }
+          ],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B01-L05",
+          "title": "Data-quality investigation queries",
+          "bookPage": 12,
+          "watch": [
+            {
+              "name": "Instructor / official source 1",
+              "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+            }
+          ],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B01-L06",
+          "title": "Reconciliation and validation SQL",
+          "bookPage": 14,
+          "watch": [],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B01-L07",
+          "title": "EXPLAIN, scans and index awareness",
+          "bookPage": 16,
+          "watch": [
+            {
+              "name": "Instructor / official source 2",
+              "url": "https://www.youtube.com/watch?v=_zsCDTGvQZQ",
+              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+            }
+          ],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B01-L08",
+          "title": "Maintainable deterministic SQL handoff",
+          "bookPage": 18,
+          "watch": [
+            {
+              "name": "Instructor / official source 2",
+              "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+            }
+          ],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        }
+      ],
+      "bookPath": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_LEARNER_BOOK_RC1.pdf"
+    },
+    {
+      "id": "B02",
+      "title": "Python Pipeline Transition",
+      "practicePath": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_RC1.ipynb",
+      "studyDays": [
+        5,
+        10
+      ],
+      "units": [
+        {
+          "id": "B02-L01",
+          "title": "From notebook task to reusable script contract",
+          "bookPage": 3,
+          "watch": [],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B02-L02",
+          "title": "Functions, modules and decomposition for repeatable work",
+          "bookPage": 5,
+          "watch": [],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B02-L03",
+          "title": "Deterministic file discovery and multi-file batches",
+          "bookPage": 7,
+          "watch": [],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B02-L04",
+          "title": "pandas merge and validation contracts for pipelines",
+          "bookPage": 9,
+          "watch": [],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B02-L05",
+          "title": "CSV, JSON and Excel interfaces with explicit parsing rules",
+          "bookPage": 11,
+          "watch": [
+            {
+              "name": "Instructor / official source 3",
+              "url": "https://www.youtube.com/watch?v=N6hyN6BW6ao",
+              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+            }
+          ],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B02-L06",
+          "title": "HTTP API basics for data acquisition",
+          "bookPage": 13,
+          "watch": [
+            {
+              "name": "Instructor / official source 3",
+              "url": "https://www.youtube.com/watch?v=tb8gHvYlCFs",
+              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+            }
+          ],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B02-L07",
+          "title": "Error handling, failure classification and containment",
+          "bookPage": 15,
+          "watch": [
+            {
+              "name": "Instructor / official source 2",
+              "url": "https://www.youtube.com/watch?v=NIWwJbo-9_8",
+              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+            }
+          ],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B02-L08",
+          "title": "Logging, run evidence and validation gates",
+          "bookPage": 17,
+          "watch": [
+            {
+              "name": "Instructor / official source 2",
+              "url": "https://www.youtube.com/watch?v=-ARI4Cz-awo",
+              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+            }
+          ],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B02-L09",
+          "title": "Recurring batch execution and safe rerun reasoning",
+          "bookPage": 19,
+          "watch": [],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B02-L10",
+          "title": "Build and defend a small reproducible batch pipeline",
+          "bookPage": 21,
+          "watch": [],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        }
+      ],
+      "bookPath": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_LEARNER_BOOK_RC1.pdf"
+    },
+    {
+      "id": "B03",
+      "title": "Engineering Data Modeling",
+      "practicePath": "COURSE_MODULES/B03/B03_ENGINEERING_DATA_MODELING_PRACTICE_RC1.xlsx",
+      "studyDays": [
+        3,
+        5
+      ],
+      "units": [
+        {
+          "id": "B03-L01",
+          "title": "Analyst semantic model to engineering dimensional contract",
+          "bookPage": 3,
+          "watch": [
+            {
+              "name": "Instructor / official source 1",
+              "url": "https://www.youtube.com/watch?v=4ePNrdxWtY0",
+              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+            }
+          ],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B03-L02",
+          "title": "Key integrity, relationship paths and many-to-many bridges",
+          "bookPage": 5,
+          "watch": [
+            {
+              "name": "Instructor / official source 1",
+              "url": "https://www.youtube.com/watch?v=4ePNrdxWtY0",
+              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+            }
+          ],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B03-L03",
+          "title": "Multiple grains, date roles and conformed dimensions",
+          "bookPage": 7,
+          "watch": [
+            {
+              "name": "Instructor / official source 1",
+              "url": "https://www.youtube.com/watch?v=4pxJXwrfNKs",
+              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+            }
+          ],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B03-L04",
+          "title": "Model reconciliation and engineer handoff",
+          "bookPage": 9,
+          "watch": [
+            {
+              "name": "Instructor / official source 1",
+              "url": "https://www.youtube.com/watch?v=4ePNrdxWtY0",
+              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+            }
+          ],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        }
+      ],
+      "bookPath": "COURSE_MODULES/B03/B03_ENGINEERING_DATA_MODELING_LEARNER_BOOK_RC1.pdf"
+    },
+    {
+      "id": "B04",
+      "title": "Warehousing & Data Quality Foundations",
+      "practicePath": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_PRACTICE_RC1.xlsx",
+      "studyDays": [
+        4,
+        9
+      ],
+      "units": [
+        {
+          "id": "B04-L01",
+          "title": "Operational vs analytical workloads: OLTP and OLAP",
+          "bookPage": 3,
+          "watch": [
+            {
+              "name": "Instructor / official source 1",
+              "url": "https://www.youtube.com/watch?v=-bSkREem8dM",
+              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+            }
+          ],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B04-L02",
+          "title": "Warehouse, lake and lakehouse mental models",
+          "bookPage": 5,
+          "watch": [],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B04-L03",
+          "title": "Business keys, surrogate keys and SCD history",
+          "bookPage": 7,
+          "watch": [],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B04-L04",
+          "title": "ETL vs ELT and transformation boundaries",
+          "bookPage": 9,
+          "watch": [
+            {
+              "name": "Instructor / official source 1",
+              "url": "https://www.youtube.com/watch?v=_Nk0v9qUWk4",
+              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+            }
+          ],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B04-L05",
+          "title": "Layered analytical systems: raw, staged, conformed and serving",
+          "bookPage": 11,
+          "watch": [
+            {
+              "name": "Instructor / official source 1",
+              "url": "https://www.youtube.com/watch?v=gqTWFBzgAlg",
+              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+            }
+          ],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B04-L06",
+          "title": "Batch, micro-batch and streaming trade-offs",
+          "bookPage": 13,
+          "watch": [],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B04-L07",
+          "title": "Lineage, metadata, ownership and observability basics",
+          "bookPage": 15,
+          "watch": [],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B04-L08",
+          "title": "Data-quality contracts: block, warn and reconcile",
+          "bookPage": 17,
+          "watch": [],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B04-L09",
+          "title": "Replay, backfill and warehouse failure-recovery reasoning",
+          "bookPage": 19,
+          "watch": [],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        }
+      ],
+      "bookPath": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_FOUNDATIONS_LEARNER_BOOK_RC1.pdf"
+    },
+    {
+      "id": "B05",
+      "title": "Cloud Platform Essentials",
+      "practicePath": "COURSE_MODULES/B05/B05_CLOUD_PLATFORM_PRACTICE_RC1.xlsx",
+      "studyDays": [
+        3,
+        5
+      ],
+      "units": [
+        {
+          "id": "B05-L01",
+          "title": "Cloud data mental model: storage, compute, network and identity",
+          "bookPage": 3,
+          "watch": [
+            {
+              "name": "Instructor / official source 2",
+              "url": "https://www.youtube.com/watch?v=GbxVsi94DrE",
+              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+            }
+          ],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B05-L02",
+          "title": "Fabric, OneLake, lakehouse and warehouse as one concrete example",
+          "bookPage": 5,
+          "watch": [
+            {
+              "name": "Instructor / official source 3",
+              "url": "https://www.youtube.com/watch?v=6QusOchmSXQ",
+              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+            },
+            {
+              "name": "Instructor / official source 4",
+              "url": "https://www.youtube.com/watch?v=GbxVsi94DrE",
+              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+            }
+          ],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B05-L03",
+          "title": "Permissions, governance and private-source connection boundaries",
+          "bookPage": 7,
+          "watch": [
+            {
+              "name": "Instructor / official source 4",
+              "url": "https://www.youtube.com/watch?v=GbxVsi94DrE",
+              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+            }
+          ],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B05-L04",
+          "title": "Freshness, monitoring and failure ownership",
+          "bookPage": 9,
+          "watch": [],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B05-L05",
+          "title": "Analyst-to-engineer platform collaboration and handoff",
+          "bookPage": 11,
+          "watch": [],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        }
+      ],
+      "bookPath": "COURSE_MODULES/B05/B05_CLOUD_PLATFORM_ESSENTIALS_LEARNER_BOOK_RC1.pdf"
+    },
+    {
+      "id": "B06",
+      "title": "Bridge Capstone & C3 Entry",
+      "practicePath": "COURSE_MODULES/B06/B06_CAPSTONE_EVIDENCE_WORKBOOK_RC1.xlsx",
+      "studyDays": [
+        3,
+        5
+      ],
+      "units": [
+        {
+          "id": "B06-L01",
+          "title": "Integrated DA-to-DE bridge capstone",
+          "bookPage": 3,
+          "watch": [],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        },
+        {
+          "id": "B06-L02",
+          "title": "Course 3 entry readiness and handoff",
+          "bookPage": 5,
+          "watch": [],
+          "planningHours": [
+            3.0,
+            5.0
+          ]
+        }
+      ],
+      "bookPath": "COURSE_MODULES/B06/B06_BRIDGE_CAPSTONE_C3_ENTRY_LEARNER_BOOK_RC1.pdf"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G01",
+      "after": "B01",
+      "title": "Engineering SQL Transition",
+      "aPath": "COURSE_MODULES/B01/Assessment/Gate_A/B01_GATE_A_RETAIL_ORDERS_RC1.sql",
+      "bPath": "COURSE_MODULES/B01/Assessment/RETEST_ONLY_DO_NOT_OPEN/B01_GATE_B_SUPPORT_TICKETS_RC1.sql",
+      "practicePath": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_PRACTICE_RC1.sql"
+    },
+    {
+      "id": "G02",
+      "after": "B02",
+      "title": "Python Pipeline Transition",
+      "aPath": "COURSE_MODULES/B02/Assessment/Gate_A/B02_GATE_A_LOGISTICS_SHIPMENTS_RC1.ipynb",
+      "bPath": "COURSE_MODULES/B02/Assessment/RETEST_ONLY_DO_NOT_OPEN/B02_GATE_B_E_COMMERCE_RETURNS_RC1.ipynb",
+      "practicePath": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_RC1.ipynb"
+    },
+    {
+      "id": "G03",
+      "after": "B03",
+      "title": "Engineering Data Modeling",
+      "aPath": "COURSE_MODULES/B03/Assessment/Gate_A/B03_GATE_A_FLEET_MAINTENANCE_RESPONSE_WORKBOOK_RC1.xlsx",
+      "bPath": "COURSE_MODULES/B03/Assessment/RETEST_ONLY_DO_NOT_OPEN/B03_GATE_B_EDUCATION_ENROLLMENT_RESPONSE_WORKBOOK_RC1.xlsx",
+      "practicePath": "COURSE_MODULES/B03/B03_ENGINEERING_DATA_MODELING_PRACTICE_RC1.xlsx"
+    },
+    {
+      "id": "G04",
+      "after": "B04",
+      "title": "Warehousing & Data Quality Foundations",
+      "aPath": "COURSE_MODULES/B04/Assessment/Gate_A/B04_GATE_A_MARKETPLACE_SELLERS_RESPONSE_WORKBOOK_RC1.xlsx",
+      "bPath": "COURSE_MODULES/B04/Assessment/RETEST_ONLY_DO_NOT_OPEN/B04_GATE_B_INVENTORY_REPLENISHMENT_RESPONSE_WORKBOOK_RC1.xlsx",
+      "practicePath": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_PRACTICE_RC1.xlsx"
+    },
+    {
+      "id": "G05",
+      "after": "B05",
+      "title": "Cloud Platform Essentials",
+      "aPath": "COURSE_MODULES/B05/Assessment/Gate_A/B05_GATE_A_MANUFACTURING_QUALITY_RESPONSE_WORKBOOK_RC1.xlsx",
+      "bPath": "COURSE_MODULES/B05/Assessment/RETEST_ONLY_DO_NOT_OPEN/B05_GATE_B_DIGITAL_ADVERTISING_RESPONSE_WORKBOOK_RC1.xlsx",
+      "practicePath": "COURSE_MODULES/B05/B05_CLOUD_PLATFORM_PRACTICE_RC1.xlsx"
+    },
+    {
+      "id": "G06",
+      "after": "B06",
+      "title": "Bridge Capstone & C3 Entry",
+      "aPath": "COURSE_MODULES/B06/Assessment/Gate_A/B06_GATE_A_RETAIL_ORDERS_RESPONSE_WORKBOOK_RC1.xlsx",
+      "bPath": "COURSE_MODULES/B06/Assessment/RETEST_ONLY_DO_NOT_OPEN/B06_GATE_B_SUPPORT_TICKETS_RESPONSE_WORKBOOK_RC1.xlsx",
+      "practicePath": "COURSE_MODULES/B06/B06_CAPSTONE_EVIDENCE_WORKBOOK_RC1.xlsx"
+    }
+  ]
+}
