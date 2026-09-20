@@ -25,14 +25,19 @@
           "bookPage": 4,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Learn SQL Beginner to Advanced in Under 4 Hours",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+              "scope": "Mapped source for this lesson."
+            },
+            {
+              "name": "PostgreSQL 18 - Table Expressions / Joins",
+              "url": "https://www.postgresql.org/docs/current/queries-table-expressions.html",
+              "scope": "Mapped source for this lesson."
             }
           ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
@@ -41,14 +46,19 @@
           "bookPage": 6,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Learn SQL Beginner to Advanced in Under 4 Hours",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+              "scope": "Mapped source for this lesson."
+            },
+            {
+              "name": "PostgreSQL 18 - WITH Queries",
+              "url": "https://www.postgresql.org/docs/current/queries-with.html",
+              "scope": "Mapped source for this lesson."
             }
           ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
@@ -57,14 +67,19 @@
           "bookPage": 8,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Learn SQL Beginner to Advanced in Under 4 Hours",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+              "scope": "Mapped source for this lesson."
+            },
+            {
+              "name": "PostgreSQL 18 - Window Functions Tutorial",
+              "url": "https://www.postgresql.org/docs/current/tutorial-window.html",
+              "scope": "Mapped source for this lesson."
             }
           ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
@@ -73,14 +88,24 @@
           "bookPage": 10,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Learn SQL Beginner to Advanced in Under 4 Hours",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+              "scope": "Mapped source for this lesson."
+            },
+            {
+              "name": "PostgreSQL 18 - Conditional Expressions",
+              "url": "https://www.postgresql.org/docs/current/functions-conditional.html",
+              "scope": "Mapped source for this lesson."
+            },
+            {
+              "name": "PostgreSQL 18 - Date/Time Functions and Operators",
+              "url": "https://www.postgresql.org/docs/current/functions-datetime.html",
+              "scope": "Mapped source for this lesson."
             }
           ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
@@ -89,14 +114,14 @@
           "bookPage": 12,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Learn SQL Beginner to Advanced in Under 4 Hours",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+              "scope": "Mapped source for this lesson."
             }
           ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
@@ -105,8 +130,8 @@
           "bookPage": 14,
           "watch": [],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
@@ -115,14 +140,19 @@
           "bookPage": 16,
           "watch": [
             {
-              "name": "Instructor / official source 2",
+              "name": "PostgreSQL 18 - Using EXPLAIN",
+              "url": "https://www.postgresql.org/docs/18/using-explain.html",
+              "scope": "Mapped source for this lesson."
+            },
+            {
+              "name": "EXPLAIN ANALYZE: Read PostgreSQL Query Plans Like a Senior DBA",
               "url": "https://www.youtube.com/watch?v=_zsCDTGvQZQ",
-              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+              "scope": "Mapped source for this lesson."
             }
           ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
@@ -131,14 +161,19 @@
           "bookPage": 18,
           "watch": [
             {
-              "name": "Instructor / official source 2",
+              "name": "PostgreSQL 18 - Sorting Rows (ORDER BY)",
+              "url": "https://www.postgresql.org/docs/current/queries-order.html",
+              "scope": "Mapped source for this lesson."
+            },
+            {
+              "name": "Learn SQL Beginner to Advanced in Under 4 Hours",
               "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+              "scope": "Mapped source for this lesson."
             }
           ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         }
       ],
@@ -157,40 +192,79 @@
           "id": "B02-L01",
           "title": "From notebook task to reusable script contract",
           "bookPage": 3,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Python 3.14.7 Tutorial - Modules",
+              "url": "https://docs.python.org/3/tutorial/modules.html",
+              "scope": "Module/script entry-point and import model · After: After reading, split one notebook workflow into main()+named functions."
+            },
+            {
+              "name": "Python 3.14.7 pathlib",
+              "url": "https://docs.python.org/3/library/pathlib.html",
+              "scope": "Path objects, globbing and filesystem-safe paths · After: Replace one hard-coded filename list with sorted Path discovery."
+            }
+          ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
           "id": "B02-L02",
           "title": "Functions, modules and decomposition for repeatable work",
           "bookPage": 5,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Python 3.14.7 Tutorial - Modules",
+              "url": "https://docs.python.org/3/tutorial/modules.html",
+              "scope": "Module/script entry-point and import model · After: After reading, split one notebook workflow into main()+named functions."
+            }
+          ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
           "id": "B02-L03",
           "title": "Deterministic file discovery and multi-file batches",
           "bookPage": 7,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Python 3.14.7 pathlib",
+              "url": "https://docs.python.org/3/library/pathlib.html",
+              "scope": "Path objects, globbing and filesystem-safe paths · After: Replace one hard-coded filename list with sorted Path discovery."
+            },
+            {
+              "name": "Real Python - Introduction to File Paths and Python pathlib",
+              "url": "https://www.youtube.com/watch?v=P5rlLlztkNs",
+              "scope": "Full short orientation only; no fabricated timestamp. Official pathlib + book control the lesson. · After: If watched, immediately reproduce sorted Path.glob() on the supplied monthly files."
+            }
+          ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
           "id": "B02-L04",
           "title": "pandas merge and validation contracts for pipelines",
           "bookPage": 9,
-          "watch": [],
+          "watch": [
+            {
+              "name": "pandas 3.0.5 User Guide",
+              "url": "https://pandas.pydata.org/docs/user_guide/",
+              "scope": "Current pandas concepts and I/O context · After: Re-run the mapped practice using explicit dtypes/validation."
+            },
+            {
+              "name": "pandas 3.0.5 merge",
+              "url": "https://pandas.pydata.org/docs/reference/api/pandas.merge.html",
+              "scope": "Merge contract including validate= and null-key warning · After: Prove duplicate customer key blocks many-to-one merge before publish."
+            }
+          ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
@@ -199,14 +273,34 @@
           "bookPage": 11,
           "watch": [
             {
-              "name": "Instructor / official source 3",
+              "name": "pandas 3.0.5 User Guide",
+              "url": "https://pandas.pydata.org/docs/user_guide/",
+              "scope": "Current pandas concepts and I/O context · After: Re-run the mapped practice using explicit dtypes/validation."
+            },
+            {
+              "name": "pandas 3.0.5 IO tools",
+              "url": "https://pandas.pydata.org/docs/user_guide/io.html",
+              "scope": "CSV/JSON/Excel read-write interfaces · After: Load one CSV, one JSON and re-read one Excel output with explicit checks."
+            },
+            {
+              "name": "Python 3.14.7 csv",
+              "url": "https://docs.python.org/3/library/csv.html",
+              "scope": "CSV is a format contract, not just a dataframe shortcut · After: State delimiter/header/type assumptions before reading a changed file."
+            },
+            {
+              "name": "Python 3.14.7 json",
+              "url": "https://docs.python.org/3/library/json.html",
+              "scope": "JSON object/array semantics and parsing · After: Declare output grain before flattening nested_orders.json."
+            },
+            {
+              "name": "Corey Schafer - pandas Reading/Writing Data Sources",
               "url": "https://www.youtube.com/watch?v=N6hyN6BW6ao",
-              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+              "scope": "0:56-3:20 CSV; 6:15-12:18 Excel; 12:18-16:59 JSON · After: After each relevant segment, reproduce the same interface on supplied local fixtures and reconcile rows/totals."
             }
           ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
@@ -215,14 +309,29 @@
           "bookPage": 13,
           "watch": [
             {
-              "name": "Instructor / official source 3",
+              "name": "Python 3.14.7 json",
+              "url": "https://docs.python.org/3/library/json.html",
+              "scope": "JSON object/array semantics and parsing · After: Declare output grain before flattening nested_orders.json."
+            },
+            {
+              "name": "Requests 2.34.2 Quickstart",
+              "url": "https://requests.readthedocs.io/en/latest/user/quickstart/",
+              "scope": "Basic GET, response object, JSON and failure checking · After: Use local fixture first, then write a GET wrapper with timeout/status check."
+            },
+            {
+              "name": "Corey Schafer - Python Requests Tutorial",
               "url": "https://www.youtube.com/watch?v=tb8gHvYlCFs",
-              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+              "scope": "Backup only; exact chapter timestamps were not reliably published in the baseline audit. · After: Use only if the Real Python visual is unavailable; then run the same local-fixture task."
+            },
+            {
+              "name": "Real Python - Consuming APIs: GET and POST",
+              "url": "https://realpython.com/videos/consuming-apis-get-post/",
+              "scope": "01:50-03:02 - requests.get(), Response, .json(), status_code/headers; stop before POST · After: Immediately validate Practice_Data/api_response.json, then if local HTTP is available GET the same file with timeout + raise_for_status(); prove exactly four metrics and no publish on retrieval failure."
             }
           ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
@@ -231,14 +340,19 @@
           "bookPage": 15,
           "watch": [
             {
-              "name": "Instructor / official source 2",
+              "name": "Python 3.14.7 Errors and Exceptions",
+              "url": "https://docs.python.org/3/tutorial/errors.html",
+              "scope": "Specific exceptions, raising and contextual failure · After: Inject missing-column/bad-numeric case and prove publish is blocked."
+            },
+            {
+              "name": "Corey Schafer - Using Try/Except Blocks for Error Handling",
               "url": "https://www.youtube.com/watch?v=NIWwJbo-9_8",
-              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+              "scope": "00:00-03:00 for exception motivation and specific-vs-general handling; stop before broader syntax if already clear · After: Run the bad-numeric and missing-column fixtures; classify failures and prove publish is withheld."
             }
           ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
@@ -247,24 +361,35 @@
           "bookPage": 17,
           "watch": [
             {
-              "name": "Instructor / official source 2",
+              "name": "Python 3.14.7 Logging HOWTO",
+              "url": "https://docs.python.org/3/howto/logging.html",
+              "scope": "Log levels and run-event evidence · After: Replace print-only status with INFO/WARNING/ERROR plus saved validation results."
+            },
+            {
+              "name": "Corey Schafer - Logging Basics",
               "url": "https://www.youtube.com/watch?v=-ARI4Cz-awo",
-              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+              "scope": "Full 14:25; focus on replacing print, levels, file logging and format · After: After watching, create one run.log with INFO success and ERROR failure evidence."
             }
           ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
           "id": "B02-L09",
           "title": "Recurring batch execution and safe rerun reasoning",
           "bookPage": 19,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Python 3.14.7 pathlib",
+              "url": "https://docs.python.org/3/library/pathlib.html",
+              "scope": "Path objects, globbing and filesystem-safe paths · After: Replace one hard-coded filename list with sorted Path discovery."
+            }
+          ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
@@ -273,8 +398,8 @@
           "bookPage": 21,
           "watch": [],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         }
       ],
@@ -295,14 +420,19 @@
           "bookPage": 3,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Chandoo — Learn Data Modelling & Star Schema for Power BI in 20 minutes",
               "url": "https://www.youtube.com/watch?v=4ePNrdxWtY0",
-              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+              "scope": "02:18-09:39 · Refresh fact/dimension/star visually, then reinterpret as an engineering grain contract. · After: Write the business process and one-row grain before naming fact/dimension tables."
+            },
+            {
+              "name": "Kimball — Grain",
+              "url": "https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/grain/",
+              "scope": "Full short technique · Grain is the binding contract and different grains belong in separate fact tables. · After: Check every proposed fact/measure against the stated grain."
             }
           ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
@@ -311,14 +441,19 @@
           "bookPage": 5,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Chandoo — same data-modeling video",
               "url": "https://www.youtube.com/watch?v=4ePNrdxWtY0",
-              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+              "scope": "11:50-18:07 · See relationships, cardinality/filter propagation before converting them to key-integrity contracts. · After: For each relationship, write one-side key uniqueness, many-side FK and allowed filter path."
+            },
+            {
+              "name": "Microsoft Learn — Many-to-many relationship guidance",
+              "url": "https://learn.microsoft.com/en-us/power-bi/guidance/relationships-many-to-many",
+              "scope": "Relate dimensions; relate facts; higher-grain facts · Distinguish legitimate bridge tables from direct fact-to-fact many-to-many shortcuts. · After: Classify customer_tags/courier_skills as membership bridge; do not use DISTINCT as a fix."
             }
           ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
@@ -327,14 +462,24 @@
           "bookPage": 7,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Guy in a Cube — Handling Relationships with Multiple Fact Tables in Power BI",
               "url": "https://www.youtube.com/watch?v=4pxJXwrfNKs",
-              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+              "scope": "00:00-02:29 and 06:04-08:33 · Visualize why multiple fact tables create ambiguity and why conformed dimensions matter. · After: Sketch separate Delivery/Event/Target facts sharing Date/City dimensions; do not copy DAX implementation."
+            },
+            {
+              "name": "Kimball — Conformed Dimensions",
+              "url": "https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/conformed-dimension/",
+              "scope": "Full short technique · Shared dimensions integrate separate fact tables without mixing their grains. · After: Name which dimensions can be reused unchanged across facts."
+            },
+            {
+              "name": "Microsoft Learn — Star schema guidance",
+              "url": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema",
+              "scope": "Role-playing dimensions + star schema · Connect role-playing date ideas from semantic models to warehouse design. · After: Write order/pickup/delivered date roles and the physical warehouse interpretation."
             }
           ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
@@ -343,14 +488,19 @@
           "bookPage": 9,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Kimball — Dimensional Modeling Techniques",
+              "url": "https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/",
+              "scope": "Grain, facts, dimensions, conformed dimensions · Use as current professional reference for implementation-ready handoff vocabulary. · After: Produce a handoff contract: process, grain, keys, facts/dims, bridges, date roles, controls, assumptions."
+            },
+            {
+              "name": "Chandoo — same data-modeling video",
               "url": "https://www.youtube.com/watch?v=4ePNrdxWtY0",
-              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+              "scope": "20:19-21:32 · See why proper modeling matters; book/practice remains primary for reconciliation/handoff. · After: Write one model failure a polished dashboard cannot repair."
             }
           ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         }
       ],
@@ -371,34 +521,61 @@
           "bookPage": 3,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "What is Fabric Data Warehouse?",
+              "url": "https://learn.microsoft.com/en-us/fabric/data-warehouse/data-warehousing",
+              "scope": "Operational vs analytical purpose and warehouse role"
+            },
+            {
+              "name": "Alex The Analyst - Database vs Data Warehouse vs Data Lake",
               "url": "https://www.youtube.com/watch?v=-bSkREem8dM",
-              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+              "scope": "00:00-05:22 (full concise comparison)"
             }
           ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
           "id": "B04-L02",
           "title": "Warehouse, lake and lakehouse mental models",
           "bookPage": 5,
-          "watch": [],
+          "watch": [
+            {
+              "name": "What is Fabric Data Warehouse?",
+              "url": "https://learn.microsoft.com/en-us/fabric/data-warehouse/data-warehousing",
+              "scope": "Warehouse/lakehouse distinction in current Fabric"
+            },
+            {
+              "name": "IBM Technology - Data Lake vs Data Warehouse vs Data Lakehouse",
+              "url": "https://www.youtube.com/watch?v=PQFWQmL3fLY",
+              "scope": "Not learner-assigned in RC1; exact useful segment not independently verified"
+            }
+          ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
           "id": "B04-L03",
           "title": "Business keys, surrogate keys and SCD history",
           "bookPage": 7,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Dimensional modeling in Fabric Data Warehouse",
+              "url": "https://learn.microsoft.com/en-us/fabric/data-warehouse/dimensional-modeling-overview",
+              "scope": "Dimensional model context"
+            },
+            {
+              "name": "Load tables in a dimensional model",
+              "url": "https://learn.microsoft.com/en-us/fabric/data-warehouse/dimensional-modeling-load-tables",
+              "scope": "Dimension/fact loading, staging, audit/error recording"
+            }
+          ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
@@ -407,14 +584,19 @@
           "bookPage": 9,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Load tables in a dimensional model",
+              "url": "https://learn.microsoft.com/en-us/fabric/data-warehouse/dimensional-modeling-load-tables",
+              "scope": "ETL/staging/load boundaries"
+            },
+            {
+              "name": "Kahan Data Solutions - ETL vs ELT | Modern Data Architectures",
               "url": "https://www.youtube.com/watch?v=_Nk0v9qUWk4",
-              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+              "scope": "00:36-03:19 (ETL 00:36; ELT 01:38; choice/trade-off begins 03:19)"
             }
           ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
@@ -423,54 +605,83 @@
           "bookPage": 11,
           "watch": [
             {
-              "name": "Instructor / official source 1",
+              "name": "Understand medallion architecture for Fabric with OneLake",
+              "url": "https://learn.microsoft.com/en-us/fabric/onelake/onelake-medallion-lakehouse-architecture",
+              "scope": "Bronze/raw, silver/enriched, gold/curated layer contracts"
+            },
+            {
+              "name": "Microsoft Learn Together - Organize a Fabric lakehouse using medallion architecture",
               "url": "https://www.youtube.com/watch?v=gqTWFBzgAlg",
-              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+              "scope": "10:09-30:32"
             }
           ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
           "id": "B04-L06",
           "title": "Batch, micro-batch and streaming trade-offs",
           "bookPage": 13,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Fabric data movement decision guide",
+              "url": "https://learn.microsoft.com/en-us/fabric/data-factory/decision-guide-data-movement",
+              "scope": "Batch/continuous movement trade-offs"
+            }
+          ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
           "id": "B04-L07",
           "title": "Lineage, metadata, ownership and observability basics",
           "bookPage": 15,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Lineage in Fabric",
+              "url": "https://learn.microsoft.com/en-us/fabric/governance/lineage",
+              "scope": "Upstream/downstream impact reasoning"
+            }
+          ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
           "id": "B04-L08",
           "title": "Data-quality contracts: block, warn and reconcile",
           "bookPage": 17,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Load tables in a dimensional model",
+              "url": "https://learn.microsoft.com/en-us/fabric/data-warehouse/dimensional-modeling-load-tables",
+              "scope": "Auditing/errors/row-count controls during load"
+            }
+          ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
           "id": "B04-L09",
           "title": "Replay, backfill and warehouse failure-recovery reasoning",
           "bookPage": 19,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Understand medallion architecture for Fabric with OneLake",
+              "url": "https://learn.microsoft.com/en-us/fabric/onelake/onelake-medallion-lakehouse-architecture",
+              "scope": "Preserved raw source and layered recovery reasoning"
+            }
+          ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         }
       ],
@@ -491,14 +702,19 @@
           "bookPage": 3,
           "watch": [
             {
-              "name": "Instructor / official source 2",
+              "name": "What is Microsoft Fabric?",
+              "url": "https://learn.microsoft.com/en-us/fabric/get-started/microsoft-fabric-overview",
+              "scope": "End-to-end SaaS analytics platform; workloads + OneLake"
+            },
+            {
+              "name": "John Savill - Microsoft Fabric Overview",
               "url": "https://www.youtube.com/watch?v=GbxVsi94DrE",
-              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+              "scope": "02:49-09:44 (Fabric introduction + OneLake)"
             }
           ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
@@ -507,19 +723,29 @@
           "bookPage": 5,
           "watch": [
             {
-              "name": "Instructor / official source 3",
-              "url": "https://www.youtube.com/watch?v=6QusOchmSXQ",
-              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+              "name": "What is OneLake?",
+              "url": "https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview",
+              "scope": "OneLake hierarchy, shared storage and workload access"
             },
             {
-              "name": "Instructor / official source 4",
+              "name": "Data storage options in Microsoft Fabric",
+              "url": "https://learn.microsoft.com/en-us/fabric/fundamentals/store-data",
+              "scope": "Warehouse vs lakehouse fit and related store choices"
+            },
+            {
+              "name": "Guy in a Cube - What Microsoft Fabric Means for Guy in a Cube",
+              "url": "https://www.youtube.com/watch?v=6QusOchmSXQ",
+              "scope": "01:20-05:50 (workloads, OneLake, cross-cloud access/shortcuts)"
+            },
+            {
+              "name": "John Savill - Microsoft Fabric Overview",
               "url": "https://www.youtube.com/watch?v=GbxVsi94DrE",
-              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+              "scope": "43:28-50:18 and 1:00:43-1:13:12 (lakehouse, warehouse, comparison)"
             }
           ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
@@ -528,34 +754,71 @@
           "bookPage": 7,
           "watch": [
             {
-              "name": "Instructor / official source 4",
+              "name": "Roles in workspaces in Microsoft Fabric",
+              "url": "https://learn.microsoft.com/en-us/fabric/fundamentals/roles-workspaces",
+              "scope": "Workspace control permissions and role boundaries"
+            },
+            {
+              "name": "How OneLake security controls data access",
+              "url": "https://learn.microsoft.com/en-us/fabric/onelake/security/data-access-control-model",
+              "scope": "Data-plane access roles/scopes and interaction with workspace permissions"
+            },
+            {
+              "name": "Access on-premises data sources in Data Factory for Microsoft Fabric",
+              "url": "https://learn.microsoft.com/en-us/fabric/data-factory/how-to-access-on-premises-data",
+              "scope": "Private/on-prem source connection and gateway boundary"
+            },
+            {
+              "name": "John Savill - Microsoft Fabric Overview",
               "url": "https://www.youtube.com/watch?v=GbxVsi94DrE",
-              "scope": "Mapped lesson source; use the exact purpose/range in the final book."
+              "scope": "18:20-24:03 (workspaces)"
             }
           ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
           "id": "B05-L04",
           "title": "Freshness, monitoring and failure ownership",
           "bookPage": 9,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Use the monitoring hub to track Fabric activity",
+              "url": "https://learn.microsoft.com/en-us/fabric/admin/monitoring-hub",
+              "scope": "Run status, history, error details and operational monitoring"
+            },
+            {
+              "name": "What is an on-premises data gateway?",
+              "url": "https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem",
+              "scope": "Gateway purpose and private-source connectivity dependency"
+            }
+          ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
           "id": "B05-L05",
           "title": "Analyst-to-engineer platform collaboration and handoff",
           "bookPage": 11,
-          "watch": [],
+          "watch": [
+            {
+              "name": "What is Microsoft Fabric?",
+              "url": "https://learn.microsoft.com/en-us/fabric/get-started/microsoft-fabric-overview",
+              "scope": "Shared platform responsibilities across ingestion, engineering and reporting"
+            },
+            {
+              "name": "Lineage in Fabric",
+              "url": "https://learn.microsoft.com/en-us/fabric/governance/lineage",
+              "scope": "Impact analysis and downstream dependency context"
+            }
+          ],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         }
       ],
@@ -576,8 +839,8 @@
           "bookPage": 3,
           "watch": [],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         },
         {
@@ -586,8 +849,8 @@
           "bookPage": 5,
           "watch": [],
           "planningHours": [
-            3.0,
-            5.0
+            3,
+            5
           ]
         }
       ],
