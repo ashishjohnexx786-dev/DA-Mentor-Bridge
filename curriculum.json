@@ -128,7 +128,13 @@
           "id": "B01-L06",
           "title": "Reconciliation and validation SQL",
           "bookPage": 14,
-          "watch": [],
+          "watch": [
+            {
+              "name": "DataTalksClub DE Zoomcamp — dbt Sources",
+              "url": "https://www.youtube.com/watch?v=7CrrXazV_8k",
+              "scope": "Sources/freshness context; pair with our source-to-target reconciliation lab"
+            }
+          ],
           "planningHours": [
             3,
             5
@@ -202,6 +208,11 @@
               "name": "Python 3.14.7 pathlib",
               "url": "https://docs.python.org/3/library/pathlib.html",
               "scope": "Path objects, globbing and filesystem-safe paths · After: Replace one hard-coded filename list with sorted Path discovery."
+            },
+            {
+              "name": "DataTalksClub — Docker/PostgreSQL data-engineering workshop",
+              "url": "https://www.youtube.com/watch?v=lP8xXebHmuE",
+              "scope": "Use the matching ingestion / Python-script / PostgreSQL chapter"
             }
           ],
           "planningHours": [
@@ -218,6 +229,11 @@
               "name": "Python 3.14.7 Tutorial - Modules",
               "url": "https://docs.python.org/3/tutorial/modules.html",
               "scope": "Module/script entry-point and import model · After: After reading, split one notebook workflow into main()+named functions."
+            },
+            {
+              "name": "Luke Barousse — Python for Data Analytics",
+              "url": "https://www.youtube.com/watch?v=wUSDVGivd-8",
+              "scope": "3:12:46–3:28:16"
             }
           ],
           "planningHours": [
@@ -260,6 +276,11 @@
               "name": "pandas 3.0.5 merge",
               "url": "https://pandas.pydata.org/docs/reference/api/pandas.merge.html",
               "scope": "Merge contract including validate= and null-key warning · After: Prove duplicate customer key blocks many-to-one merge before publish."
+            },
+            {
+              "name": "Luke Barousse — pandas / Python mechanics refresher",
+              "url": "https://www.youtube.com/watch?v=wUSDVGivd-8",
+              "scope": "4:22:56–5:08:26"
             }
           ],
           "planningHours": [
@@ -385,6 +406,11 @@
               "name": "Python 3.14.7 pathlib",
               "url": "https://docs.python.org/3/library/pathlib.html",
               "scope": "Path objects, globbing and filesystem-safe paths · After: Replace one hard-coded filename list with sorted Path discovery."
+            },
+            {
+              "name": "DataTalksClub DE Zoomcamp 2026 — From APIs to Warehouses with dlt",
+              "url": "https://www.youtube.com/watch?v=5eMytPBgmVs",
+              "scope": "Long-form main class — incremental loading; book/lab proves safe rerun and watermark/state behavior"
             }
           ],
           "planningHours": [
@@ -577,6 +603,11 @@
               "name": "Load tables in a dimensional model",
               "url": "https://learn.microsoft.com/en-us/fabric/data-warehouse/dimensional-modeling-load-tables",
               "scope": "Dimension/fact loading, staging, audit/error recording"
+            },
+            {
+              "name": "TechLake — Slowly Changing Dimensions and Types",
+              "url": "https://www.youtube.com/watch?v=-XjPvozl-So",
+              "scope": "Whole focused SCD class; concentrate on Type 1 vs Type 2 history"
             }
           ],
           "planningHours": [
@@ -656,6 +687,11 @@
               "name": "Lineage in Fabric",
               "url": "https://learn.microsoft.com/en-us/fabric/governance/lineage",
               "scope": "Upstream/downstream impact reasoning"
+            },
+            {
+              "name": "Microsoft Learn Live — Microsoft Purview Data Governance",
+              "url": "https://learn.microsoft.com/en-us/shows/learn-live/fasttrack-for-azure-season-1-ep11-microsoft-purview-data-governance",
+              "scope": "1:46 overview; 3:26 permissions; 24:54 scanning; 40:03 lineage; 52:26 classification"
             }
           ],
           "planningHours": [
@@ -672,6 +708,11 @@
               "name": "Load tables in a dimensional model",
               "url": "https://learn.microsoft.com/en-us/fabric/data-warehouse/dimensional-modeling-load-tables",
               "scope": "Auditing/errors/row-count controls during load"
+            },
+            {
+              "name": "DataTalksClub DE Zoomcamp — dbt Tests",
+              "url": "https://www.youtube.com/watch?v=bvZ-rJm7uMU",
+              "scope": "Whole focused tests lesson — schema/data checks"
             }
           ],
           "planningHours": [
@@ -688,6 +729,11 @@
               "name": "Understand medallion architecture for Fabric with OneLake",
               "url": "https://learn.microsoft.com/en-us/fabric/onelake/onelake-medallion-lakehouse-architecture",
               "scope": "Preserved raw source and layered recovery reasoning"
+            },
+            {
+              "name": "DataTalksClub DE Zoomcamp 2026 — From APIs to Warehouses with dlt",
+              "url": "https://www.youtube.com/watch?v=5eMytPBgmVs",
+              "scope": "Long-form main class — incremental loading; book/lab proves safe rerun and watermark/state behavior"
             }
           ],
           "planningHours": [
@@ -804,6 +850,11 @@
               "name": "What is an on-premises data gateway?",
               "url": "https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem",
               "scope": "Gateway purpose and private-source connectivity dependency"
+            },
+            {
+              "name": "DP-700 Full Course — Monitoring & Optimization",
+              "url": "https://www.youtube.com/watch?v=KiB4eAeFRsw",
+              "scope": "4:46:53–5:43:50"
             }
           ],
           "planningHours": [
@@ -825,6 +876,11 @@
               "name": "Lineage in Fabric",
               "url": "https://learn.microsoft.com/en-us/fabric/governance/lineage",
               "scope": "Impact analysis and downstream dependency context"
+            },
+            {
+              "name": "freeCodeCamp — Git & GitHub Crash Course for Beginners [2026]",
+              "url": "https://www.youtube.com/watch?v=mAFoROnOfHs",
+              "scope": "Use clone/push/pull portions; then do clean-clone handoff"
             }
           ],
           "planningHours": [
@@ -848,7 +904,13 @@
           "id": "B06-L01",
           "title": "Integrated DA-to-DE bridge capstone",
           "bookPage": 3,
-          "watch": [],
+          "watch": [
+            {
+              "name": "DataTalksClub DE Zoomcamp — dbt video course sequence",
+              "url": "https://www.youtube.com/watch?v=2dYDS4OQbT0",
+              "scope": "Main-class review: project structure → sources → models → tests → docs; then close video and build independently"
+            }
+          ],
           "planningHours": [
             3,
             5
@@ -858,7 +920,13 @@
           "id": "B06-L02",
           "title": "Course 3 entry readiness and handoff",
           "bookPage": 5,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Luke Barousse — How I Would Learn to Be a Data Engineer (2026)",
+              "url": "https://www.youtube.com/watch?v=_-DzZeixu0w",
+              "scope": "27:38 orchestration + 30:01 terminal/bash/git + 32:36 DataOps/CI-CD + 34:10 architecture"
+            }
+          ],
           "planningHours": [
             3,
             5
