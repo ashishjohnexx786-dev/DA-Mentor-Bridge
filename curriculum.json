@@ -396,7 +396,13 @@
           "id": "B02-L10",
           "title": "Build and defend a small reproducible batch pipeline",
           "bookPage": 21,
-          "watch": [],
+          "watch": [
+            {
+              "name": "Build and defend a reliable batch pipeline - retained visual",
+              "url": "https://www.youtube.com/watch?v=2dYDS4OQbT0",
+              "scope": "OPTIONAL visual support - no independently verified bounded range. Learner book + official reference + supplied project/lab are the required route."
+            }
+          ],
           "planningHours": [
             3,
             5
@@ -629,6 +635,11 @@
               "name": "Fabric data movement decision guide",
               "url": "https://learn.microsoft.com/en-us/fabric/data-factory/decision-guide-data-movement",
               "scope": "Batch/continuous movement trade-offs"
+            },
+            {
+              "name": "Confluent Developer - Stream Processing | Apache Kafka 101 (2025 Edition)",
+              "url": "https://www.youtube.com/watch?v=vF5y17Pypds",
+              "scope": "Verified chapters 00:00-04:10: stream processing and batch/stream comparison"
             }
           ],
           "planningHours": [
