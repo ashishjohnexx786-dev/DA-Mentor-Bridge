@@ -1,0 +1,165 @@
+{
+  "A": {
+    "domain": "Retail Orders",
+    "facts": [
+      [
+        "Metric",
+        "Protected control"
+      ],
+      [
+        "Customers",
+        "24"
+      ],
+      [
+        "Orders / completed",
+        "84 / 63"
+      ],
+      [
+        "Order items",
+        "168"
+      ],
+      [
+        "Gross item value",
+        "257551.00"
+      ],
+      [
+        "Completed item value",
+        "191898.00"
+      ],
+      [
+        "Order events",
+        "232 incl. 1 orphan"
+      ],
+      [
+        "Raw item value x order events",
+        "747460.00"
+      ],
+      [
+        "Event fan-out inflation",
+        "475160.00"
+      ],
+      [
+        "Item value x customer tags",
+        "354340.00"
+      ],
+      [
+        "Tag fan-out inflation",
+        "82040.00"
+      ],
+      [
+        "Conflicting history",
+        "C010 @ 2026-04-01"
+      ]
+    ],
+    "insights": [
+      "Orders, items and events are separate grains. Raw event joins repeat order-item value.",
+      "Customer tags are legitimate membership rows but multiply value if joined before aggregation.",
+      "One orphan event must remain visible, not be deleted.",
+      "C010 has duplicate same-effective-date customer history and cannot be assigned a trusted historical version until repaired.",
+      "Private OrdersDB requires a secure private/on-prem connection path; WebEvents/Returns/SharePoint are different connection cases."
+    ]
+  },
+  "B": {
+    "domain": "Support Tickets",
+    "facts": [
+      [
+        "Metric",
+        "Protected control"
+      ],
+      [
+        "Tickets / closed",
+        "90 / 60"
+      ],
+      [
+        "Ticket events",
+        "241 incl. 1 orphan"
+      ],
+      [
+        "Ticket tags",
+        "103"
+      ],
+      [
+        "Duplicate tag business rows",
+        "5"
+      ],
+      [
+        "CSAT rows / score total",
+        "60 / 180"
+      ],
+      [
+        "CSAT x ticket events score",
+        "540"
+      ],
+      [
+        "CSAT fan-out inflation",
+        "360"
+      ],
+      [
+        "Conflicting agent history",
+        "A008 @ 2026-03-15"
+      ]
+    ],
+    "insights": [
+      "Ticket events and CSAT are separate facts; raw join through ticket repeats each CSAT score by event count.",
+      "Five duplicate ticket-tag business rows are data-quality defects, not legitimate new memberships.",
+      "One orphan event must remain in exception evidence.",
+      "Agent history has a same-date conflict and must block historical team attribution until repaired.",
+      "HR agent master is private/on-prem while Ticket SaaS and event stream are cloud sources; freshness ranges from <5 min to daily."
+    ]
+  },
+  "C": {
+    "domain": "Subscription Billing",
+    "facts": [
+      [
+        "Metric",
+        "Protected control"
+      ],
+      [
+        "Accounts / subscriptions",
+        "22 / 66"
+      ],
+      [
+        "Subscription MRR",
+        "61125.00"
+      ],
+      [
+        "Invoices / invoice lines",
+        "72 / 144"
+      ],
+      [
+        "Invoice line total",
+        "132150.00"
+      ],
+      [
+        "Paid invoices / payments",
+        "36 / 37"
+      ],
+      [
+        "Orphan payment",
+        "invoice 99999 / 700.00"
+      ],
+      [
+        "Usage rows / active users",
+        "110 / 2720"
+      ],
+      [
+        "Invoice lines x usage",
+        "800400.00"
+      ],
+      [
+        "Usage fan-out inflation",
+        "668250.00"
+      ],
+      [
+        "Conflicting account history",
+        "AC010 @ 2026-02-20"
+      ]
+    ],
+    "insights": [
+      "Invoice lines and usage are separate facts. Joining raw usage by account repeats billing value.",
+      "The orphan payment remains a BLOCK/exception until explained; deleting it is hidden data loss.",
+      "AC010 has conflicting same-date account history and cannot produce a trustworthy historical segment answer.",
+      "BillingDB is private/on-prem; Payments is a restricted cloud API; finance and customer-success personas require different detail."
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+[
+  {
+    "path": "00_ASTRA_PARITY/B01_PRACTICAL_MASTERY_CHECK_ASTRA_RC4.pdf",
+    "bytes": 3468,
+    "sha256": "142ce28d206ef4fb9cad91e7060f2ad9a146108063122579ebde0d40fed6530a"
+  },
+  {
+    "path": "00_ASTRA_PARITY/B01_PRACTICAL_MASTERY_CHECK_PROTECTED_REVIEW_ASTRA_RC4.pdf",
+    "bytes": 4301,
+    "sha256": "4d188dd95e7f3d18b0c85b372cd5a53c66d55a4f1810eddc514eaac9873a2b70"
+  },
+  {
+    "path": "00_ASTRA_PARITY/B01_QUICK_REVISION_ASTRA_RC4.pdf",
+    "bytes": 3225,
+    "sha256": "a5fbef00edd9ab8947bbaae40960abcc59678bc41f32ff0a3528ed7a05ccda6e"
+  },
+  {
+    "path": "00_ASTRA_PARITY/B01_START_HERE_ASTRA_RC4.pdf",
+    "bytes": 3100,
+    "sha256": "be10c16260006f087cd8c01bad550a171bd3dc9daf4a3badab5b55944690f71e"
+  },
+  {
+    "path": "90_CONTROL_ASTRA_RC4/B01_CANONICAL_LESSON_ROUTE_REGISTRY_ASTRA_RC4.csv",
+    "bytes": 2049,
+    "sha256": "5e90e8c85600e3f0262b647dd82fbb371bc719dac0688c497311ef49f19e0216"
+  },
+  {
+    "path": "90_CONTROL_ASTRA_RC4/B01_CHECKPOINT41_FINAL_QA.json",
+    "bytes": 738,
+    "sha256": "babb85648d6b688619ad121bd02506d95ab0aa800077b6f794fe052fc1cd55ba"
+  },
+  {
+    "path": "90_CONTROL_ASTRA_RC4/B01_GATE_DEEP_CONTROLS_ASTRA_RC4.json",
+    "bytes": 1511,
+    "sha256": "61bfbaffadcd523c52d8be08d2bfa54f8947053d44bfdd8bb6b9149792bec1b8"
+  },
+  {
+    "path": "90_CONTROL_ASTRA_RC4/B01_SOURCE_REVERIFY_2026-09-20.json",
+    "bytes": 1088,
+    "sha256": "84b09f6e328ae9e3fc08e9f23c5861b94a7a338502c428906f83fc38b091fae6"
+  },
+  {
+    "path": "Assessment/Gate_A/B01_GATE_A_RETAIL_ORDERS_RC1.sql",
+    "bytes": 7947,
+    "sha256": "cd64e87816a1ac8bf39ab43fe46100f75f501f562db9dd3ba7e02ed894e0e71d"
+  },
+  {
+    "path": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B01_GATE_B_SUPPORT_TICKETS_RC1.sql",
+    "bytes": 7183,
+    "sha256": "b1c77895c5fb59080fb0da9d67f9f56ae5cafd360dbc871eef3ead61d9e635b9"
+  },
+  {
+    "path": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B01_GATE_C_SUBSCRIPTION_BILLING_RC1.sql",
+    "bytes": 5028,
+    "sha256": "2475f262190a57a435f87863a6cf8674a168b9318bc16bfc88aa13ccb60c5657"
+  },
+  {
+    "path": "Assessment/Remediation/B01_REMEDIATION_GRAIN_CARDINALITY_RC1.sql",
+    "bytes": 403,
+    "sha256": "ac65894761f116451dd7fd257701cdc785af428cddeb81973b487a6ac3aaf177"
+  },
+  {
+    "path": "Assessment/Remediation/B01_REMEDIATION_VALIDATION_EXPLAIN_RC1.sql",
+    "bytes": 375,
+    "sha256": "53fcd9225b4b366696e71d113fea5ddd67d66eb38b3d77dd2cb0eabb5ecb69ba"
+  },
+  {
+    "path": "Assessment/Remediation/B01_REMEDIATION_WINDOW_TIME_RC1.sql",
+    "bytes": 384,
+    "sha256": "16ab6604d03482027c475567b3836bb21c8c2cc1444caf3a0ccdab4b35688280"
+  },
+  {
+    "path": "Assessment/Reviews/B01_GATE_A_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+    "bytes": 5775,
+    "sha256": "e4d0e0a7af9da2e61107ef93d22a3f6216ddbf5de38591591ad3b818a8288943"
+  },
+  {
+    "path": "Assessment/Reviews/B01_GATE_B_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+    "bytes": 5718,
+    "sha256": "1d6ee96b5ad54bf0f561ac14831a14b579cf40c2072982eb41e3ab97db8d01fa"
+  },
+  {
+    "path": "Assessment/Reviews/B01_GATE_C_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+    "bytes": 5763,
+    "sha256": "d8dfd7fddd985b198b67c0dcc8eab8df4018b33a07b66175d774c64b5412042c"
+  },
+  {
+    "path": "B01_CANONICAL_SPEC_RC1.json",
+    "bytes": 1047,
+    "sha256": "54c0329f2aaaf25a772fae788030a8b55b589f2d2d2ff772011338ed89ff5dfb"
+  },
+  {
+    "path": "B01_ENGINEERING_SQL_TRANSITION_LEARNER_BOOK_RC1.pdf",
+    "bytes": 54895,
+    "sha256": "cf6ad75a44fd4fb41698def1d02b1a427952d83f5edf2ba641b5691ffcddf1d3"
+  },
+  {
+    "path": "B01_ENGINEERING_SQL_TRANSITION_PRACTICE_RC1.sql",
+    "bytes": 6055,
+    "sha256": "12c96ca2b440eb09d284fe091e7a341ffc361be9bb7970d2fa8aa76a1bcaf3ba"
+  },
+  {
+    "path": "B01_ENGINEERING_SQL_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
+    "bytes": 21006,
+    "sha256": "243a771bc5077b5d0e05d6f7464136e83c6e394d2abb4b012d505e119a45ccc9"
+  },
+  {
+    "path": "B01_MINI_LAB_1_REVENUE_RELIABILITY_RC1.sql",
+    "bytes": 849,
+    "sha256": "04ab2ef33aac6098494fced939d55ca09f42051ca67d4f7e4d87b6fc6d546a31"
+  },
+  {
+    "path": "B01_MINI_LAB_2_QUALITY_PLAN_REVIEW_RC1.sql",
+    "bytes": 758,
+    "sha256": "53d0313ee63d68f99594845477ee49f59a72eacad79d639ffbf7d4c8b0894a37"
+  },
+  {
+    "path": "B01_MODULE_QA_RC1.json",
+    "bytes": 12448,
+    "sha256": "9af900fee9c8a7bc8ff9179ac7010ce757051dcb1c7c28644e2968af0929b5c6"
+  },
+  {
+    "path": "B01_MODULE_QA_REPORT_RC1.pdf",
+    "bytes": 4378,
+    "sha256": "cda5ff9c329842f4db00275bb29c1f5f4fb811a526fb74d64b2cb9a4a9697f94"
+  },
+  {
+    "path": "B01_POSTGRESQL_LAB_SETUP_RC1.sql",
+    "bytes": 6917,
+    "sha256": "1265dcc0650ce417452baf24ade2ce0f3e9f2bc2d8cd4d4b8009133c6a825c62"
+  },
+  {
+    "path": "B01_START_HERE_RC1.pdf",
+    "bytes": 3851,
+    "sha256": "70586bdfe68035dbf2df89774d3a7f9db2679663a9a063113ae8743f46a39ce5"
+  },
+  {
+    "path": "CONTROL/B01_ASSESSMENT_PRESERVATION_LEDGER_RC0.csv",
+    "bytes": 1531,
+    "sha256": "0fce1604a987751b7ddd5923d496f4b0b538ecd352cbe7e0c57dc6b2da16925d"
+  },
+  {
+    "path": "CONTROL/B01_PRACTICE_GATE_TRACEABILITY_RC0.csv",
+    "bytes": 3122,
+    "sha256": "be6f50f30693169c66af3fc7b6eddbc4abf3eb9283c745b8e9ad355a0ba4d171"
+  },
+  {
+    "path": "CONTROL/B01_REBUILD_DECISION_RC0.json",
+    "bytes": 1905,
+    "sha256": "b9fd996ec4eb4d280cdff48fb057a90fd36433880c806d814191c13153d18d8c"
+  },
+  {
+    "path": "CONTROL/B01_SOURCE_VIDEO_REGISTRY_RC0.csv",
+    "bytes": 7487,
+    "sha256": "3b4086c49cbf6cd7c871a7e58b2be0efecdc60668f5e6aa22121c4142427b4d4"
+  },
+  {
+    "path": "MANIFEST_RC1.csv",
+    "bytes": 2763,
+    "sha256": "d8cd81171587cc353bea8aa96ae80783fac62c63a34f3c06f786917502c85cf6"
+  },
+  {
+    "path": "README_ASTRA_RC4.txt",
+    "bytes": 484,
+    "sha256": "1bcbcb3f0ca08ca28651cf1b66ee01f3eafa818063fb3d9951fd7d9dd9c81e37"
+  },
+  {
+    "path": "README_FIRST.txt",
+    "bytes": 781,
+    "sha256": "7c48a13ce9e7f374da22918eac05430892b79e5fbb92dafb7a5ca15ab357cf59"
+  },
+  {
+    "path": "SHA256SUMS_RC1.txt",
+    "bytes": 2628,
+    "sha256": "ff756185d1e448dff7e12a4d863a04b1cebacdf580c139dd2b3455e925fdd567"
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "A": {
+    "domain": "Logistics Shipments",
+    "raw_rows": 120,
+    "valid_numeric_rows": 119,
+    "malformed_record_id": 5038,
+    "malformed_field": "unit_cost",
+    "malformed_value": "BAD",
+    "malformed_control_value": 480.0,
+    "master_rows": 31,
+    "unique_master_keys": 30,
+    "duplicate_master_key": "C013",
+    "duplicate_affected_rows": 3,
+    "duplicate_affected_control": 1080.0,
+    "valid_control_total": 86090.0,
+    "naive_valid_merge_rows": 122,
+    "naive_valid_merge_total": 87170.0,
+    "merge_inflation": 1080.0,
+    "month_rows": {
+      "2026-06": 73,
+      "2026-07": 46
+    }
+  },
+  "B": {
+    "domain": "E-commerce Returns",
+    "raw_rows": 120,
+    "valid_numeric_rows": 119,
+    "malformed_record_id": 5038,
+    "malformed_field": "refund_unit",
+    "malformed_value": "BAD",
+    "malformed_control_value": 400.0,
+    "master_rows": 31,
+    "unique_master_keys": 30,
+    "duplicate_master_key": "S013",
+    "duplicate_affected_rows": 2,
+    "duplicate_affected_control": 440.0,
+    "valid_control_total": 93090.0,
+    "naive_valid_merge_rows": 121,
+    "naive_valid_merge_total": 93530.0,
+    "merge_inflation": 440.0,
+    "month_rows": {
+      "2026-06": 83,
+      "2026-07": 36
+    }
+  },
+  "C": {
+    "domain": "Clinic Appointments",
+    "raw_rows": 120,
+    "valid_numeric_rows": 119,
+    "malformed_record_id": 5038,
+    "malformed_field": "service_rate",
+    "malformed_value": "BAD",
+    "malformed_control_value": 360.0,
+    "master_rows": 31,
+    "unique_master_keys": 30,
+    "duplicate_master_key": "P013",
+    "duplicate_affected_rows": 3,
+    "duplicate_affected_control": 2210.0,
+    "valid_control_total": 89840.0,
+    "naive_valid_merge_rows": 122,
+    "naive_valid_merge_total": 92050.0,
+    "merge_inflation": 2210.0,
+    "month_rows": {
+      "2026-06": 74,
+      "2026-07": 45
+    }
+  }
+}

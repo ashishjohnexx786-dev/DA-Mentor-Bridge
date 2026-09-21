@@ -1,0 +1,138 @@
+{
+  "A": {
+    "domain": "Marketplace Sellers",
+    "rows": "sellers 24; seller changes 35; orders 96; order items 192; completed orders 72; payouts 73; tags 28; targets 12",
+    "facts": [
+      [
+        "Metric",
+        "Protected control"
+      ],
+      [
+        "Completed item GMV",
+        "186000.00"
+      ],
+      [
+        "Completed order-item rows",
+        "144"
+      ],
+      [
+        "Naive item x seller-tag GMV",
+        "214800.00"
+      ],
+      [
+        "Tag fan-out inflation",
+        "28800.00"
+      ],
+      [
+        "Orphan payout",
+        "order 99999 / 500.00"
+      ],
+      [
+        "Conflicting history pair",
+        "S008 @ 2026-03-01 (Electronics vs Beauty)"
+      ],
+      [
+        "Beauty completed orders",
+        "0 (all 24 Beauty orders are cancelled)"
+      ]
+    ],
+    "insights": [
+      "seller_tags is legitimate membership data, but joining it before GMV aggregation multiplies transaction value.",
+      "The S008 same-day conflicting history rows create ambiguous as-of truth and must block historical attribution until resolved.",
+      "The orphan payout must remain visible in the quality exception path; matched payout total is 163680.00 and orphan amount is 500.00.",
+      "Category targets are month-category grain. Beauty has targets even though completed Beauty GMV is zero, so missing/zero actual must not be silently dropped."
+    ]
+  },
+  "B": {
+    "domain": "Inventory Replenishment",
+    "rows": "warehouses 8; products 30; supplier changes 36; inventory snapshots 720; purchase orders 48; receipts 37; reorder rules 120",
+    "facts": [
+      [
+        "Metric",
+        "Protected control"
+      ],
+      [
+        "All snapshot on-hand sum",
+        "41275"
+      ],
+      [
+        "Latest snapshot date on-hand",
+        "4105"
+      ],
+      [
+        "Snapshot dates",
+        "10 daily dates, 72 rows each"
+      ],
+      [
+        "Orphan receipt",
+        "PO 99999 / received_qty 25"
+      ],
+      [
+        "Conflicting supplier history",
+        "P012 @ 2026-04-01 (SUP01 vs SUP07)"
+      ],
+      [
+        "Closed purchase orders",
+        "36"
+      ],
+      [
+        "Matched receipt quantity",
+        "1404"
+      ]
+    ],
+    "insights": [
+      "Inventory on hand is a snapshot measure: summing 10 days to 41275 is not a valid current-stock total; the latest-day total is 4105.",
+      "P012 has two suppliers on the same effective date, so as-of supplier history is ambiguous until repaired.",
+      "The orphan receipt must not be deleted to make referential checks pass.",
+      "Reorder rules are product-warehouse grain; do not assume every possible product/warehouse pair has a rule."
+    ]
+  },
+  "C": {
+    "domain": "Customer Success Renewals",
+    "rows": "accounts 25; account changes 31; subscriptions 60; renewals 60; interactions 120; usage rows 121; targets 9",
+    "facts": [
+      [
+        "Metric",
+        "Protected control"
+      ],
+      [
+        "Renewal opportunity value",
+        "706500.00"
+      ],
+      [
+        "Naive renewal x interactions value",
+        "3556500.00"
+      ],
+      [
+        "Interaction fan-out inflation",
+        "2850000.00"
+      ],
+      [
+        "Naive renewal x usage value",
+        "3546000.00"
+      ],
+      [
+        "Usage fan-out inflation",
+        "2839500.00"
+      ],
+      [
+        "Orphan usage",
+        "A999 / 14 active users"
+      ],
+      [
+        "Conflicting account history",
+        "A010 @ 2026-02-01 (South vs East)"
+      ],
+      [
+        "Won / Lost / Open",
+        "20 / 20 / 20"
+      ]
+    ],
+    "insights": [
+      "Renewals, interactions and daily usage are separate grains. Joining them raw by account repeats renewal value many times.",
+      "Closed-opportunity renewal rate is 20/(20+20)=50%; wins divided by all 60 opportunities is 33.3%. The metric definition must name whether open opportunities are excluded.",
+      "A010 has conflicting same-day region history; current account master cannot resolve historical truth automatically.",
+      "Monthly segment targets are month-segment grain; reconcile at that grain rather than copying targets onto subscriptions or interactions."
+    ]
+  }
+}

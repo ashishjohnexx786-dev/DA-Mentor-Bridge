@@ -1,0 +1,57 @@
+{
+  "project": "C2B DA-to-DE Bridge Fast Track",
+  "module": "B06 Bridge Capstone & C3 Entry",
+  "checkpoint": 46,
+  "date": "2026-09-20",
+  "status": "PASS_CHECKPOINT46_MODULE_CLOSURE",
+  "curriculum_change": "NONE",
+  "lessons": 2,
+  "strong_capstone_and_entry_rules_preserved": true,
+  "c3_entry_floor_logic_changed": false,
+  "gate_state_machine_changed": false,
+  "notebook_checks": [
+    {
+      "path": "B06_PRACTICE_PIPELINE_NOTEBOOK_RC1.ipynb",
+      "code_cells": 9,
+      "pass": true
+    }
+  ],
+  "notebook_errors": [],
+  "pdf_count": 14,
+  "pdf_pages": 33,
+  "pdf_parse_errors": [],
+  "preserved_files_all_pass": true,
+  "preserved_file_count": 47,
+  "runtime_boundary": "No live PostgreSQL/Python/Fabric/learner-device execution PASS claimed by this static closure.",
+  "render_qa": {
+    "changed_new_pages_rendered": 15,
+    "visual_check": "PASS",
+    "clipping": 0,
+    "overlap": 0,
+    "broken_glyphs": 0
+  },
+  "nested_gate_notebook_checks": [
+    {
+      "case_zip": "B06_GATE_A_CASE_RC1.zip",
+      "notebook": "B06_GATE_A_PIPELINE_NOTEBOOK_INTERNAL_QA.ipynb",
+      "code_cells": 5,
+      "errors": [],
+      "pass": true
+    },
+    {
+      "case_zip": "B06_GATE_B_CASE_RC1.zip",
+      "notebook": "B06_GATE_B_PIPELINE_NOTEBOOK_INTERNAL_QA.ipynb",
+      "code_cells": 5,
+      "errors": [],
+      "pass": true
+    },
+    {
+      "case_zip": "B06_GATE_C_CASE_RC1.zip",
+      "notebook": "B06_GATE_C_PIPELINE_NOTEBOOK_INTERNAL_QA.ipynb",
+      "code_cells": 5,
+      "errors": [],
+      "pass": true
+    }
+  ],
+  "nested_gate_notebooks_all_pass": true
+}

@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-20",
+  "status": "PASS_WITH_HONEST_VIDEO_BOUNDARY",
+  "removed_sources": [],
+  "official_checks": [
+    {
+      "url": "https://learn.microsoft.com/en-us/fabric/data-warehouse/data-warehousing",
+      "status": "CURRENT"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/fabric/data-warehouse/dimensional-modeling-load-tables",
+      "status": "CURRENT"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/fabric/onelake/onelake-medallion-lakehouse-architecture",
+      "status": "CURRENT"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/fabric/data-factory/decision-guide-data-movement",
+      "status": "CURRENT"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/fabric/governance/lineage",
+      "status": "CURRENT"
+    }
+  ],
+  "video_checks": [
+    {
+      "url": "https://www.youtube.com/watch?v=-bSkREem8dM",
+      "status": "CURRENT_ID_TITLE_VERIFIED_2026-09-20"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=_Nk0v9qUWk4",
+      "status": "PRESERVED_FROM_VERIFIED_REGISTRY; CURRENT_FETCH_INCONCLUSIVE; OPTIONAL_NOT_LEARNER_DEPENDENT"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=gqTWFBzgAlg",
+      "status": "PRESERVED_FROM_VERIFIED_REGISTRY; CURRENT_FETCH_INCONCLUSIVE; OPTIONAL_NOT_LEARNER_DEPENDENT"
+    }
+  ]
+}

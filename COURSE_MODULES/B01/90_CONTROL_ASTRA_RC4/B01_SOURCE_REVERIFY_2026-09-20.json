@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-20",
+  "status": "PASS_CURRENT_SOURCE_IDENTITY_AND_SCOPED_SEGMENTS",
+  "checks": [
+    {
+      "source": "Alex The Analyst SQL course",
+      "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+      "status": "LIVE",
+      "evidence": "Current YouTube chapters confirm Joins 51:10, CASE 1:26:39, Subqueries 1:35:16, Window Functions 1:45:58, CTEs 1:58:55, Data Cleaning 2:42:46."
+    },
+    {
+      "source": "PostgreSQL 18 documentation",
+      "status": "CURRENT",
+      "evidence": "Current PostgreSQL 18 docs confirm query/table expressions, window functions and EXPLAIN references remain valid."
+    },
+    {
+      "source": "Dr. Ibrar Ahmed EXPLAIN ANALYZE video",
+      "url": "https://www.youtube.com/watch?v=_zsCDTGvQZQ",
+      "status": "LIVE",
+      "evidence": "Current chapters confirm 00:00 intro/cost, 02:00 cost meaning, 04:00 actual vs estimated rows, 07:00 buffers; assigned 00:00-07:00 scope remains semantically correct."
+    }
+  ],
+  "boundary": "No full-playback certification or native PostgreSQL execution is claimed by static packaging."
+}

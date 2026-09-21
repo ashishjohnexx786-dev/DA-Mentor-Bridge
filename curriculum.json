@@ -1,989 +1,1430 @@
 {
-  "courseId": "COURSE_2B_DA_TO_DE_BRIDGE_2026",
-  "title": "DA-to-Data-Engineer Bridge 2026",
-  "shortTitle": "Bridge Mentor",
-  "edition": "ASTRA-2026",
-  "unitCount": 38,
-  "requiredUnitCount": 38,
-  "c3Entry": "All six phases + B06 capstone + Final Gate PASS + every readiness floor; no percentage shortcut.",
-  "storageKey": "course2b-bridge-2026-study-astra-v2",
-  "backupName": "Course2B_Bridge_Mentor_Progress",
-  "downloadUrl": "https://github.com/ashishjohnexx786-dev/DA-Mentor-Bridge/archive/refs/heads/main.zip",
-  "modules": [
+  "version": "C2B-ASTRA-FULL-SHELL-CANDIDATE-1",
+  "course": "DA-to-Data-Engineer Bridge 2026 - Full Standalone-DE Mentor Shell Candidate",
+  "lessonCount": 38,
+  "projectPhaseCount": 0,
+  "controlledUnitCount": 38,
+  "stageCount": 6,
+  "stages": [
     {
-      "id": "B01",
-      "title": "Engineering SQL Transition",
-      "practicePath": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_PRACTICE_RC1.sql",
-      "studyDays": [
-        4,
-        8
-      ],
-      "units": [
+      "lessons": [
         {
+          "seq": 1,
           "id": "B01-L01",
           "title": "Grain and cardinality contracts for engineering SQL",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B01-L01 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Grain and cardinality contracts for engineering SQL in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Instructor / official source 1",
+          "visualSourceUrl": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+          "visualSegment": "Mapped lesson source; use the exact purpose/range in the final book.",
+          "visualKind": "VIDEO_OR_OFFICIAL_SOURCE",
+          "visualStatus": "MAPPED IN CANONICAL COURSE",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 4,
-          "watch": [
-            {
-              "name": "Learn SQL Beginner to Advanced in Under 4 Hours",
-              "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson."
-            },
-            {
-              "name": "PostgreSQL 18 - Table Expressions / Joins",
-              "url": "https://www.postgresql.org/docs/current/queries-table-expressions.html",
-              "scope": "Mapped source for this lesson."
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Grain and cardinality contracts for engineering SQL"
         },
         {
+          "seq": 2,
           "id": "B01-L02",
           "title": "Staged transformations with CTEs and subqueries",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B01-L02 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Staged transformations with CTEs and subqueries in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Instructor / official source 1",
+          "visualSourceUrl": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+          "visualSegment": "Mapped lesson source; use the exact purpose/range in the final book.",
+          "visualKind": "VIDEO_OR_OFFICIAL_SOURCE",
+          "visualStatus": "MAPPED IN CANONICAL COURSE",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 6,
-          "watch": [
-            {
-              "name": "Learn SQL Beginner to Advanced in Under 4 Hours",
-              "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson."
-            },
-            {
-              "name": "PostgreSQL 18 - WITH Queries",
-              "url": "https://www.postgresql.org/docs/current/queries-with.html",
-              "scope": "Mapped source for this lesson."
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Staged transformations with CTEs and subqueries"
         },
         {
+          "seq": 3,
           "id": "B01-L03",
           "title": "Window patterns for ranking, latest-row and sequence logic",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B01-L03 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Window patterns for ranking, latest-row and sequence logic in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Instructor / official source 1",
+          "visualSourceUrl": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+          "visualSegment": "Mapped lesson source; use the exact purpose/range in the final book.",
+          "visualKind": "VIDEO_OR_OFFICIAL_SOURCE",
+          "visualStatus": "MAPPED IN CANONICAL COURSE",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 8,
-          "watch": [
-            {
-              "name": "Learn SQL Beginner to Advanced in Under 4 Hours",
-              "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson."
-            },
-            {
-              "name": "PostgreSQL 18 - Window Functions Tutorial",
-              "url": "https://www.postgresql.org/docs/current/tutorial-window.html",
-              "scope": "Mapped source for this lesson."
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Window patterns for ranking, latest-row and sequence logic"
         },
         {
+          "seq": 4,
           "id": "B01-L04",
           "title": "Conditional and date transformations with explicit business rules",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B01-L04 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Conditional and date transformations with explicit business rules in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Instructor / official source 1",
+          "visualSourceUrl": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+          "visualSegment": "Mapped lesson source; use the exact purpose/range in the final book.",
+          "visualKind": "VIDEO_OR_OFFICIAL_SOURCE",
+          "visualStatus": "MAPPED IN CANONICAL COURSE",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 10,
-          "watch": [
-            {
-              "name": "Learn SQL Beginner to Advanced in Under 4 Hours",
-              "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson."
-            },
-            {
-              "name": "PostgreSQL 18 - Conditional Expressions",
-              "url": "https://www.postgresql.org/docs/current/functions-conditional.html",
-              "scope": "Mapped source for this lesson."
-            },
-            {
-              "name": "PostgreSQL 18 - Date/Time Functions and Operators",
-              "url": "https://www.postgresql.org/docs/current/functions-datetime.html",
-              "scope": "Mapped source for this lesson."
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Conditional and date transformations with explicit business rules"
         },
         {
+          "seq": 5,
           "id": "B01-L05",
           "title": "Data-quality investigation queries",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B01-L05 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Data-quality investigation queries in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Instructor / official source 1",
+          "visualSourceUrl": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+          "visualSegment": "Mapped lesson source; use the exact purpose/range in the final book.",
+          "visualKind": "VIDEO_OR_OFFICIAL_SOURCE",
+          "visualStatus": "MAPPED IN CANONICAL COURSE",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 12,
-          "watch": [
-            {
-              "name": "Learn SQL Beginner to Advanced in Under 4 Hours",
-              "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson."
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Data-quality investigation queries"
         },
         {
+          "seq": 6,
           "id": "B01-L06",
           "title": "Reconciliation and validation SQL",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B01-L06 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Reconciliation and validation SQL in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Course-built teaching + current official reference",
+          "visualSourceUrl": "",
+          "visualSegment": "Use the exact source/reference route stated in the learner book.",
+          "visualKind": "BOOK_LED_WITH_REFERENCE",
+          "visualStatus": "NO RANDOM VIDEO INSERTION",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 14,
-          "watch": [
-            {
-              "name": "DataTalksClub DE Zoomcamp — dbt Sources",
-              "url": "https://www.youtube.com/watch?v=7CrrXazV_8k",
-              "scope": "Sources/freshness context; pair with our source-to-target reconciliation lab"
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Reconciliation and validation SQL"
         },
         {
+          "seq": 7,
           "id": "B01-L07",
           "title": "EXPLAIN, scans and index awareness",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B01-L07 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain EXPLAIN, scans and index awareness in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Instructor / official source 2",
+          "visualSourceUrl": "https://www.youtube.com/watch?v=_zsCDTGvQZQ",
+          "visualSegment": "Mapped lesson source; use the exact purpose/range in the final book.",
+          "visualKind": "VIDEO_OR_OFFICIAL_SOURCE",
+          "visualStatus": "MAPPED IN CANONICAL COURSE",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 16,
-          "watch": [
-            {
-              "name": "PostgreSQL 18 - Using EXPLAIN",
-              "url": "https://www.postgresql.org/docs/18/using-explain.html",
-              "scope": "Mapped source for this lesson."
-            },
-            {
-              "name": "EXPLAIN ANALYZE: Read PostgreSQL Query Plans Like a Senior DBA",
-              "url": "https://www.youtube.com/watch?v=_zsCDTGvQZQ",
-              "scope": "Mapped source for this lesson."
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "EXPLAIN, scans and index awareness"
         },
         {
+          "seq": 8,
           "id": "B01-L08",
           "title": "Maintainable deterministic SQL handoff",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B01-L08 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Maintainable deterministic SQL handoff in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Instructor / official source 2",
+          "visualSourceUrl": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+          "visualSegment": "Mapped lesson source; use the exact purpose/range in the final book.",
+          "visualKind": "VIDEO_OR_OFFICIAL_SOURCE",
+          "visualStatus": "MAPPED IN CANONICAL COURSE",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 18,
-          "watch": [
-            {
-              "name": "PostgreSQL 18 - Sorting Rows (ORDER BY)",
-              "url": "https://www.postgresql.org/docs/current/queries-order.html",
-              "scope": "Mapped source for this lesson."
-            },
-            {
-              "name": "Learn SQL Beginner to Advanced in Under 4 Hours",
-              "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
-              "scope": "Mapped source for this lesson."
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Maintainable deterministic SQL handoff"
         }
       ],
-      "bookPath": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_LEARNER_BOOK_RC1.pdf"
+      "learnerPack": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_LEARNER_BOOK_RC1.pdf",
+      "reviewPack": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
+      "id": "B01",
+      "name": "Engineering SQL Transition",
+      "minH": 24.0,
+      "maxH": 40.0,
+      "lessonUnits": 8,
+      "purpose": "Bridge analyst capability into engineering-ready engineering sql transition with reproducible evidence, validation, recovery and handoff.",
+      "exitEvidence": "All 8 lessons independently reproduced with validation evidence, changed retries and explain-back; module Gate ready.",
+      "source": {
+        "name": "Canonical Course 2B Astra learner system",
+        "useRule": "Use mapped sources where assigned; the bundled learner book is authoritative for the course task and evidence contract."
+      }
     },
     {
-      "id": "B02",
-      "title": "Python Pipeline Transition",
-      "practicePath": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_RC1.ipynb",
-      "studyDays": [
-        5,
-        10
-      ],
-      "units": [
+      "lessons": [
         {
+          "seq": 1,
           "id": "B02-L01",
           "title": "From notebook task to reusable script contract",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B02-L01 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain From notebook task to reusable script contract in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Course-built teaching + current official reference",
+          "visualSourceUrl": "",
+          "visualSegment": "Use the exact source/reference route stated in the learner book.",
+          "visualKind": "BOOK_LED_WITH_REFERENCE",
+          "visualStatus": "NO RANDOM VIDEO INSERTION",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 3,
-          "watch": [
-            {
-              "name": "Python 3.14.7 Tutorial - Modules",
-              "url": "https://docs.python.org/3/tutorial/modules.html",
-              "scope": "Module/script entry-point and import model · After: After reading, split one notebook workflow into main()+named functions."
-            },
-            {
-              "name": "Python 3.14.7 pathlib",
-              "url": "https://docs.python.org/3/library/pathlib.html",
-              "scope": "Path objects, globbing and filesystem-safe paths · After: Replace one hard-coded filename list with sorted Path discovery."
-            },
-            {
-              "name": "DataTalksClub — Docker/PostgreSQL data-engineering workshop",
-              "url": "https://www.youtube.com/watch?v=lP8xXebHmuE",
-              "scope": "Use the matching ingestion / Python-script / PostgreSQL chapter"
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "From notebook task to reusable script contract"
         },
         {
+          "seq": 2,
           "id": "B02-L02",
           "title": "Functions, modules and decomposition for repeatable work",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B02-L02 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Functions, modules and decomposition for repeatable work in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Course-built teaching + current official reference",
+          "visualSourceUrl": "",
+          "visualSegment": "Use the exact source/reference route stated in the learner book.",
+          "visualKind": "BOOK_LED_WITH_REFERENCE",
+          "visualStatus": "NO RANDOM VIDEO INSERTION",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 5,
-          "watch": [
-            {
-              "name": "Python 3.14.7 Tutorial - Modules",
-              "url": "https://docs.python.org/3/tutorial/modules.html",
-              "scope": "Module/script entry-point and import model · After: After reading, split one notebook workflow into main()+named functions."
-            },
-            {
-              "name": "Luke Barousse — Python for Data Analytics",
-              "url": "https://www.youtube.com/watch?v=wUSDVGivd-8",
-              "scope": "3:12:46–3:28:16"
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Functions, modules and decomposition for repeatable work"
         },
         {
+          "seq": 3,
           "id": "B02-L03",
           "title": "Deterministic file discovery and multi-file batches",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B02-L03 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Deterministic file discovery and multi-file batches in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Course-built teaching + current official reference",
+          "visualSourceUrl": "",
+          "visualSegment": "Use the exact source/reference route stated in the learner book.",
+          "visualKind": "BOOK_LED_WITH_REFERENCE",
+          "visualStatus": "NO RANDOM VIDEO INSERTION",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 7,
-          "watch": [
-            {
-              "name": "Python 3.14.7 pathlib",
-              "url": "https://docs.python.org/3/library/pathlib.html",
-              "scope": "Path objects, globbing and filesystem-safe paths · After: Replace one hard-coded filename list with sorted Path discovery."
-            },
-            {
-              "name": "Real Python - Introduction to File Paths and Python pathlib",
-              "url": "https://www.youtube.com/watch?v=P5rlLlztkNs",
-              "scope": "Full short orientation only; no fabricated timestamp. Official pathlib + book control the lesson. · After: If watched, immediately reproduce sorted Path.glob() on the supplied monthly files."
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Deterministic file discovery and multi-file batches"
         },
         {
+          "seq": 4,
           "id": "B02-L04",
           "title": "pandas merge and validation contracts for pipelines",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B02-L04 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain pandas merge and validation contracts for pipelines in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Course-built teaching + current official reference",
+          "visualSourceUrl": "",
+          "visualSegment": "Use the exact source/reference route stated in the learner book.",
+          "visualKind": "BOOK_LED_WITH_REFERENCE",
+          "visualStatus": "NO RANDOM VIDEO INSERTION",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 9,
-          "watch": [
-            {
-              "name": "pandas 3.0.5 User Guide",
-              "url": "https://pandas.pydata.org/docs/user_guide/",
-              "scope": "Current pandas concepts and I/O context · After: Re-run the mapped practice using explicit dtypes/validation."
-            },
-            {
-              "name": "pandas 3.0.5 merge",
-              "url": "https://pandas.pydata.org/docs/reference/api/pandas.merge.html",
-              "scope": "Merge contract including validate= and null-key warning · After: Prove duplicate customer key blocks many-to-one merge before publish."
-            },
-            {
-              "name": "Luke Barousse — pandas / Python mechanics refresher",
-              "url": "https://www.youtube.com/watch?v=wUSDVGivd-8",
-              "scope": "4:22:56–5:08:26"
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "pandas merge and validation contracts for pipelines"
         },
         {
+          "seq": 5,
           "id": "B02-L05",
           "title": "CSV, JSON and Excel interfaces with explicit parsing rules",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B02-L05 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain CSV, JSON and Excel interfaces with explicit parsing rules in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Instructor / official source 3",
+          "visualSourceUrl": "https://www.youtube.com/watch?v=N6hyN6BW6ao",
+          "visualSegment": "Mapped lesson source; use the exact purpose/range in the final book.",
+          "visualKind": "VIDEO_OR_OFFICIAL_SOURCE",
+          "visualStatus": "MAPPED IN CANONICAL COURSE",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 11,
-          "watch": [
-            {
-              "name": "pandas 3.0.5 User Guide",
-              "url": "https://pandas.pydata.org/docs/user_guide/",
-              "scope": "Current pandas concepts and I/O context · After: Re-run the mapped practice using explicit dtypes/validation."
-            },
-            {
-              "name": "pandas 3.0.5 IO tools",
-              "url": "https://pandas.pydata.org/docs/user_guide/io.html",
-              "scope": "CSV/JSON/Excel read-write interfaces · After: Load one CSV, one JSON and re-read one Excel output with explicit checks."
-            },
-            {
-              "name": "Python 3.14.7 csv",
-              "url": "https://docs.python.org/3/library/csv.html",
-              "scope": "CSV is a format contract, not just a dataframe shortcut · After: State delimiter/header/type assumptions before reading a changed file."
-            },
-            {
-              "name": "Python 3.14.7 json",
-              "url": "https://docs.python.org/3/library/json.html",
-              "scope": "JSON object/array semantics and parsing · After: Declare output grain before flattening nested_orders.json."
-            },
-            {
-              "name": "Corey Schafer - pandas Reading/Writing Data Sources",
-              "url": "https://www.youtube.com/watch?v=N6hyN6BW6ao",
-              "scope": "0:56-3:20 CSV; 6:15-12:18 Excel; 12:18-16:59 JSON · After: After each relevant segment, reproduce the same interface on supplied local fixtures and reconcile rows/totals."
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "CSV, JSON and Excel interfaces with explicit parsing rules"
         },
         {
+          "seq": 6,
           "id": "B02-L06",
           "title": "HTTP API basics for data acquisition",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B02-L06 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain HTTP API basics for data acquisition in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Instructor / official source 3",
+          "visualSourceUrl": "https://www.youtube.com/watch?v=tb8gHvYlCFs",
+          "visualSegment": "Mapped lesson source; use the exact purpose/range in the final book.",
+          "visualKind": "VIDEO_OR_OFFICIAL_SOURCE",
+          "visualStatus": "MAPPED IN CANONICAL COURSE",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 13,
-          "watch": [
-            {
-              "name": "Python 3.14.7 json",
-              "url": "https://docs.python.org/3/library/json.html",
-              "scope": "JSON object/array semantics and parsing · After: Declare output grain before flattening nested_orders.json."
-            },
-            {
-              "name": "Requests 2.34.2 Quickstart",
-              "url": "https://requests.readthedocs.io/en/latest/user/quickstart/",
-              "scope": "Basic GET, response object, JSON and failure checking · After: Use local fixture first, then write a GET wrapper with timeout/status check."
-            },
-            {
-              "name": "Corey Schafer - Python Requests Tutorial",
-              "url": "https://www.youtube.com/watch?v=tb8gHvYlCFs",
-              "scope": "Backup only; exact chapter timestamps were not reliably published in the baseline audit. · After: Use only if the Real Python visual is unavailable; then run the same local-fixture task."
-            },
-            {
-              "name": "Real Python - Consuming APIs: GET and POST",
-              "url": "https://realpython.com/videos/consuming-apis-get-post/",
-              "scope": "01:50-03:02 - requests.get(), Response, .json(), status_code/headers; stop before POST · After: Immediately validate Practice_Data/api_response.json, then if local HTTP is available GET the same file with timeout + raise_for_status(); prove exactly four metrics and no publish on retrieval failure."
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "HTTP API basics for data acquisition"
         },
         {
+          "seq": 7,
           "id": "B02-L07",
           "title": "Error handling, failure classification and containment",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B02-L07 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Error handling, failure classification and containment in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Instructor / official source 2",
+          "visualSourceUrl": "https://www.youtube.com/watch?v=NIWwJbo-9_8",
+          "visualSegment": "Mapped lesson source; use the exact purpose/range in the final book.",
+          "visualKind": "VIDEO_OR_OFFICIAL_SOURCE",
+          "visualStatus": "MAPPED IN CANONICAL COURSE",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 15,
-          "watch": [
-            {
-              "name": "Python 3.14.7 Errors and Exceptions",
-              "url": "https://docs.python.org/3/tutorial/errors.html",
-              "scope": "Specific exceptions, raising and contextual failure · After: Inject missing-column/bad-numeric case and prove publish is blocked."
-            },
-            {
-              "name": "Corey Schafer - Using Try/Except Blocks for Error Handling",
-              "url": "https://www.youtube.com/watch?v=NIWwJbo-9_8",
-              "scope": "00:00-03:00 for exception motivation and specific-vs-general handling; stop before broader syntax if already clear · After: Run the bad-numeric and missing-column fixtures; classify failures and prove publish is withheld."
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Error handling, failure classification and containment"
         },
         {
+          "seq": 8,
           "id": "B02-L08",
           "title": "Logging, run evidence and validation gates",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B02-L08 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Logging, run evidence and validation gates in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Instructor / official source 2",
+          "visualSourceUrl": "https://www.youtube.com/watch?v=-ARI4Cz-awo",
+          "visualSegment": "Mapped lesson source; use the exact purpose/range in the final book.",
+          "visualKind": "VIDEO_OR_OFFICIAL_SOURCE",
+          "visualStatus": "MAPPED IN CANONICAL COURSE",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 17,
-          "watch": [
-            {
-              "name": "Python 3.14.7 Logging HOWTO",
-              "url": "https://docs.python.org/3/howto/logging.html",
-              "scope": "Log levels and run-event evidence · After: Replace print-only status with INFO/WARNING/ERROR plus saved validation results."
-            },
-            {
-              "name": "Corey Schafer - Logging Basics",
-              "url": "https://www.youtube.com/watch?v=-ARI4Cz-awo",
-              "scope": "Full 14:25; focus on replacing print, levels, file logging and format · After: After watching, create one run.log with INFO success and ERROR failure evidence."
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Logging, run evidence and validation gates"
         },
         {
+          "seq": 9,
           "id": "B02-L09",
           "title": "Recurring batch execution and safe rerun reasoning",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B02-L09 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Recurring batch execution and safe rerun reasoning in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Course-built teaching + current official reference",
+          "visualSourceUrl": "",
+          "visualSegment": "Use the exact source/reference route stated in the learner book.",
+          "visualKind": "BOOK_LED_WITH_REFERENCE",
+          "visualStatus": "NO RANDOM VIDEO INSERTION",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 19,
-          "watch": [
-            {
-              "name": "Python 3.14.7 pathlib",
-              "url": "https://docs.python.org/3/library/pathlib.html",
-              "scope": "Path objects, globbing and filesystem-safe paths · After: Replace one hard-coded filename list with sorted Path discovery."
-            },
-            {
-              "name": "DataTalksClub DE Zoomcamp 2026 — From APIs to Warehouses with dlt",
-              "url": "https://www.youtube.com/watch?v=5eMytPBgmVs",
-              "scope": "Long-form main class — incremental loading; book/lab proves safe rerun and watermark/state behavior"
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Recurring batch execution and safe rerun reasoning"
         },
         {
+          "seq": 10,
           "id": "B02-L10",
           "title": "Build and defend a small reproducible batch pipeline",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B02-L10 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Build and defend a small reproducible batch pipeline in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Course-built teaching + current official reference",
+          "visualSourceUrl": "",
+          "visualSegment": "Use the exact source/reference route stated in the learner book.",
+          "visualKind": "BOOK_LED_WITH_REFERENCE",
+          "visualStatus": "NO RANDOM VIDEO INSERTION",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 21,
-          "watch": [
-            {
-              "name": "Build and defend a reliable batch pipeline - retained visual",
-              "url": "https://www.youtube.com/watch?v=2dYDS4OQbT0",
-              "scope": "OPTIONAL visual support - no independently verified bounded range. Learner book + official reference + supplied project/lab are the required route."
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Build and defend a small reproducible batch pipeline"
         }
       ],
-      "bookPath": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_LEARNER_BOOK_RC1.pdf"
+      "learnerPack": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_LEARNER_BOOK_RC1.pdf",
+      "reviewPack": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
+      "id": "B02",
+      "name": "Python Pipeline Transition",
+      "minH": 30.0,
+      "maxH": 50.0,
+      "lessonUnits": 10,
+      "purpose": "Bridge analyst capability into engineering-ready python pipeline transition with reproducible evidence, validation, recovery and handoff.",
+      "exitEvidence": "All 10 lessons independently reproduced with validation evidence, changed retries and explain-back; module Gate ready.",
+      "source": {
+        "name": "Canonical Course 2B Astra learner system",
+        "useRule": "Use mapped sources where assigned; the bundled learner book is authoritative for the course task and evidence contract."
+      }
     },
     {
-      "id": "B03",
-      "title": "Engineering Data Modeling",
-      "practicePath": "COURSE_MODULES/B03/B03_ENGINEERING_DATA_MODELING_PRACTICE_RC1.xlsx",
-      "studyDays": [
-        3,
-        5
-      ],
-      "units": [
+      "lessons": [
         {
+          "seq": 1,
           "id": "B03-L01",
           "title": "Analyst semantic model to engineering dimensional contract",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B03-L01 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Analyst semantic model to engineering dimensional contract in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Instructor / official source 1",
+          "visualSourceUrl": "https://www.youtube.com/watch?v=4ePNrdxWtY0",
+          "visualSegment": "Mapped lesson source; use the exact purpose/range in the final book.",
+          "visualKind": "VIDEO_OR_OFFICIAL_SOURCE",
+          "visualStatus": "MAPPED IN CANONICAL COURSE",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B03/B03_ENGINEERING_DATA_MODELING_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B03/B03_ENGINEERING_DATA_MODELING_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 3,
-          "watch": [
-            {
-              "name": "Chandoo — Learn Data Modelling & Star Schema for Power BI in 20 minutes",
-              "url": "https://www.youtube.com/watch?v=4ePNrdxWtY0",
-              "scope": "02:18-09:39 · Refresh fact/dimension/star visually, then reinterpret as an engineering grain contract. · After: Write the business process and one-row grain before naming fact/dimension tables."
-            },
-            {
-              "name": "Kimball — Grain",
-              "url": "https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/grain/",
-              "scope": "Full short technique · Grain is the binding contract and different grains belong in separate fact tables. · After: Check every proposed fact/measure against the stated grain."
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Analyst semantic model to engineering dimensional contract"
         },
         {
+          "seq": 2,
           "id": "B03-L02",
           "title": "Key integrity, relationship paths and many-to-many bridges",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B03-L02 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Key integrity, relationship paths and many-to-many bridges in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Instructor / official source 1",
+          "visualSourceUrl": "https://www.youtube.com/watch?v=4ePNrdxWtY0",
+          "visualSegment": "Mapped lesson source; use the exact purpose/range in the final book.",
+          "visualKind": "VIDEO_OR_OFFICIAL_SOURCE",
+          "visualStatus": "MAPPED IN CANONICAL COURSE",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B03/B03_ENGINEERING_DATA_MODELING_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B03/B03_ENGINEERING_DATA_MODELING_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 5,
-          "watch": [
-            {
-              "name": "Chandoo — same data-modeling video",
-              "url": "https://www.youtube.com/watch?v=4ePNrdxWtY0",
-              "scope": "11:50-18:07 · See relationships, cardinality/filter propagation before converting them to key-integrity contracts. · After: For each relationship, write one-side key uniqueness, many-side FK and allowed filter path."
-            },
-            {
-              "name": "Microsoft Learn — Many-to-many relationship guidance",
-              "url": "https://learn.microsoft.com/en-us/power-bi/guidance/relationships-many-to-many",
-              "scope": "Relate dimensions; relate facts; higher-grain facts · Distinguish legitimate bridge tables from direct fact-to-fact many-to-many shortcuts. · After: Classify customer_tags/courier_skills as membership bridge; do not use DISTINCT as a fix."
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Key integrity, relationship paths and many-to-many bridges"
         },
         {
+          "seq": 3,
           "id": "B03-L03",
           "title": "Multiple grains, date roles and conformed dimensions",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B03-L03 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Multiple grains, date roles and conformed dimensions in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Instructor / official source 1",
+          "visualSourceUrl": "https://www.youtube.com/watch?v=4pxJXwrfNKs",
+          "visualSegment": "Mapped lesson source; use the exact purpose/range in the final book.",
+          "visualKind": "VIDEO_OR_OFFICIAL_SOURCE",
+          "visualStatus": "MAPPED IN CANONICAL COURSE",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B03/B03_ENGINEERING_DATA_MODELING_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B03/B03_ENGINEERING_DATA_MODELING_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 7,
-          "watch": [
-            {
-              "name": "Guy in a Cube — Handling Relationships with Multiple Fact Tables in Power BI",
-              "url": "https://www.youtube.com/watch?v=4pxJXwrfNKs",
-              "scope": "00:00-02:29 and 06:04-08:33 · Visualize why multiple fact tables create ambiguity and why conformed dimensions matter. · After: Sketch separate Delivery/Event/Target facts sharing Date/City dimensions; do not copy DAX implementation."
-            },
-            {
-              "name": "Kimball — Conformed Dimensions",
-              "url": "https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/conformed-dimension/",
-              "scope": "Full short technique · Shared dimensions integrate separate fact tables without mixing their grains. · After: Name which dimensions can be reused unchanged across facts."
-            },
-            {
-              "name": "Microsoft Learn — Star schema guidance",
-              "url": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema",
-              "scope": "Role-playing dimensions + star schema · Connect role-playing date ideas from semantic models to warehouse design. · After: Write order/pickup/delivered date roles and the physical warehouse interpretation."
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Multiple grains, date roles and conformed dimensions"
         },
         {
+          "seq": 4,
           "id": "B03-L04",
           "title": "Model reconciliation and engineer handoff",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B03-L04 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Model reconciliation and engineer handoff in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Instructor / official source 1",
+          "visualSourceUrl": "https://www.youtube.com/watch?v=4ePNrdxWtY0",
+          "visualSegment": "Mapped lesson source; use the exact purpose/range in the final book.",
+          "visualKind": "VIDEO_OR_OFFICIAL_SOURCE",
+          "visualStatus": "MAPPED IN CANONICAL COURSE",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B03/B03_ENGINEERING_DATA_MODELING_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B03/B03_ENGINEERING_DATA_MODELING_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 9,
-          "watch": [
-            {
-              "name": "Kimball — Dimensional Modeling Techniques",
-              "url": "https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/",
-              "scope": "Grain, facts, dimensions, conformed dimensions · Use as current professional reference for implementation-ready handoff vocabulary. · After: Produce a handoff contract: process, grain, keys, facts/dims, bridges, date roles, controls, assumptions."
-            },
-            {
-              "name": "Chandoo — same data-modeling video",
-              "url": "https://www.youtube.com/watch?v=4ePNrdxWtY0",
-              "scope": "20:19-21:32 · See why proper modeling matters; book/practice remains primary for reconciliation/handoff. · After: Write one model failure a polished dashboard cannot repair."
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Model reconciliation and engineer handoff"
         }
       ],
-      "bookPath": "COURSE_MODULES/B03/B03_ENGINEERING_DATA_MODELING_LEARNER_BOOK_RC1.pdf"
+      "learnerPack": "COURSE_MODULES/B03/B03_ENGINEERING_DATA_MODELING_LEARNER_BOOK_RC1.pdf",
+      "reviewPack": "COURSE_MODULES/B03/B03_ENGINEERING_DATA_MODELING_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
+      "id": "B03",
+      "name": "Engineering Data Modeling",
+      "minH": 12.0,
+      "maxH": 20.0,
+      "lessonUnits": 4,
+      "purpose": "Bridge analyst capability into engineering-ready engineering data modeling with reproducible evidence, validation, recovery and handoff.",
+      "exitEvidence": "All 4 lessons independently reproduced with validation evidence, changed retries and explain-back; module Gate ready.",
+      "source": {
+        "name": "Canonical Course 2B Astra learner system",
+        "useRule": "Use mapped sources where assigned; the bundled learner book is authoritative for the course task and evidence contract."
+      }
     },
     {
-      "id": "B04",
-      "title": "Warehousing & Data Quality Foundations",
-      "practicePath": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_PRACTICE_RC1.xlsx",
-      "studyDays": [
-        4,
-        9
-      ],
-      "units": [
+      "lessons": [
         {
+          "seq": 1,
           "id": "B04-L01",
           "title": "Operational vs analytical workloads: OLTP and OLAP",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B04-L01 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Operational vs analytical workloads: OLTP and OLAP in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Instructor / official source 1",
+          "visualSourceUrl": "https://www.youtube.com/watch?v=-bSkREem8dM",
+          "visualSegment": "Mapped lesson source; use the exact purpose/range in the final book.",
+          "visualKind": "VIDEO_OR_OFFICIAL_SOURCE",
+          "visualStatus": "MAPPED IN CANONICAL COURSE",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_FOUNDATIONS_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 3,
-          "watch": [
-            {
-              "name": "What is Fabric Data Warehouse?",
-              "url": "https://learn.microsoft.com/en-us/fabric/data-warehouse/data-warehousing",
-              "scope": "Operational vs analytical purpose and warehouse role"
-            },
-            {
-              "name": "Alex The Analyst - Database vs Data Warehouse vs Data Lake",
-              "url": "https://www.youtube.com/watch?v=-bSkREem8dM",
-              "scope": "00:00-05:22 (full concise comparison)"
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Operational vs analytical workloads: OLTP and OLAP"
         },
         {
+          "seq": 2,
           "id": "B04-L02",
           "title": "Warehouse, lake and lakehouse mental models",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B04-L02 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Warehouse, lake and lakehouse mental models in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Course-built teaching + current official reference",
+          "visualSourceUrl": "",
+          "visualSegment": "Use the exact source/reference route stated in the learner book.",
+          "visualKind": "BOOK_LED_WITH_REFERENCE",
+          "visualStatus": "NO RANDOM VIDEO INSERTION",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_FOUNDATIONS_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 5,
-          "watch": [
-            {
-              "name": "What is Fabric Data Warehouse?",
-              "url": "https://learn.microsoft.com/en-us/fabric/data-warehouse/data-warehousing",
-              "scope": "Warehouse/lakehouse distinction in current Fabric"
-            },
-            {
-              "name": "IBM Technology - Data Lake vs Data Warehouse vs Data Lakehouse",
-              "url": "https://www.youtube.com/watch?v=PQFWQmL3fLY",
-              "scope": "Not learner-assigned in RC1; exact useful segment not independently verified"
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Warehouse, lake and lakehouse mental models"
         },
         {
+          "seq": 3,
           "id": "B04-L03",
           "title": "Business keys, surrogate keys and SCD history",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B04-L03 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Business keys, surrogate keys and SCD history in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Course-built teaching + current official reference",
+          "visualSourceUrl": "",
+          "visualSegment": "Use the exact source/reference route stated in the learner book.",
+          "visualKind": "BOOK_LED_WITH_REFERENCE",
+          "visualStatus": "NO RANDOM VIDEO INSERTION",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_FOUNDATIONS_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 7,
-          "watch": [
-            {
-              "name": "Dimensional modeling in Fabric Data Warehouse",
-              "url": "https://learn.microsoft.com/en-us/fabric/data-warehouse/dimensional-modeling-overview",
-              "scope": "Dimensional model context"
-            },
-            {
-              "name": "Load tables in a dimensional model",
-              "url": "https://learn.microsoft.com/en-us/fabric/data-warehouse/dimensional-modeling-load-tables",
-              "scope": "Dimension/fact loading, staging, audit/error recording"
-            },
-            {
-              "name": "TechLake — Slowly Changing Dimensions and Types",
-              "url": "https://www.youtube.com/watch?v=-XjPvozl-So",
-              "scope": "Whole focused SCD class; concentrate on Type 1 vs Type 2 history"
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Business keys, surrogate keys and SCD history"
         },
         {
+          "seq": 4,
           "id": "B04-L04",
           "title": "ETL vs ELT and transformation boundaries",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B04-L04 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain ETL vs ELT and transformation boundaries in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Instructor / official source 1",
+          "visualSourceUrl": "https://www.youtube.com/watch?v=_Nk0v9qUWk4",
+          "visualSegment": "Mapped lesson source; use the exact purpose/range in the final book.",
+          "visualKind": "VIDEO_OR_OFFICIAL_SOURCE",
+          "visualStatus": "MAPPED IN CANONICAL COURSE",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_FOUNDATIONS_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 9,
-          "watch": [
-            {
-              "name": "Load tables in a dimensional model",
-              "url": "https://learn.microsoft.com/en-us/fabric/data-warehouse/dimensional-modeling-load-tables",
-              "scope": "ETL/staging/load boundaries"
-            },
-            {
-              "name": "Kahan Data Solutions - ETL vs ELT | Modern Data Architectures",
-              "url": "https://www.youtube.com/watch?v=_Nk0v9qUWk4",
-              "scope": "00:36-03:19 (ETL 00:36; ELT 01:38; choice/trade-off begins 03:19)"
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "ETL vs ELT and transformation boundaries"
         },
         {
+          "seq": 5,
           "id": "B04-L05",
           "title": "Layered analytical systems: raw, staged, conformed and serving",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B04-L05 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Layered analytical systems: raw, staged, conformed and serving in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Instructor / official source 1",
+          "visualSourceUrl": "https://www.youtube.com/watch?v=gqTWFBzgAlg",
+          "visualSegment": "Mapped lesson source; use the exact purpose/range in the final book.",
+          "visualKind": "VIDEO_OR_OFFICIAL_SOURCE",
+          "visualStatus": "MAPPED IN CANONICAL COURSE",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_FOUNDATIONS_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 11,
-          "watch": [
-            {
-              "name": "Understand medallion architecture for Fabric with OneLake",
-              "url": "https://learn.microsoft.com/en-us/fabric/onelake/onelake-medallion-lakehouse-architecture",
-              "scope": "Bronze/raw, silver/enriched, gold/curated layer contracts"
-            },
-            {
-              "name": "Microsoft Learn Together - Organize a Fabric lakehouse using medallion architecture",
-              "url": "https://www.youtube.com/watch?v=gqTWFBzgAlg",
-              "scope": "10:09-30:32"
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Layered analytical systems: raw, staged, conformed and serving"
         },
         {
+          "seq": 6,
           "id": "B04-L06",
           "title": "Batch, micro-batch and streaming trade-offs",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B04-L06 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Batch, micro-batch and streaming trade-offs in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Course-built teaching + current official reference",
+          "visualSourceUrl": "",
+          "visualSegment": "Use the exact source/reference route stated in the learner book.",
+          "visualKind": "BOOK_LED_WITH_REFERENCE",
+          "visualStatus": "NO RANDOM VIDEO INSERTION",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_FOUNDATIONS_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 13,
-          "watch": [
-            {
-              "name": "Fabric data movement decision guide",
-              "url": "https://learn.microsoft.com/en-us/fabric/data-factory/decision-guide-data-movement",
-              "scope": "Batch/continuous movement trade-offs"
-            },
-            {
-              "name": "Confluent Developer - Stream Processing | Apache Kafka 101 (2025 Edition)",
-              "url": "https://www.youtube.com/watch?v=vF5y17Pypds",
-              "scope": "Verified chapters 00:00-04:10: stream processing and batch/stream comparison"
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Batch, micro-batch and streaming trade-offs"
         },
         {
+          "seq": 7,
           "id": "B04-L07",
           "title": "Lineage, metadata, ownership and observability basics",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B04-L07 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Lineage, metadata, ownership and observability basics in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Course-built teaching + current official reference",
+          "visualSourceUrl": "",
+          "visualSegment": "Use the exact source/reference route stated in the learner book.",
+          "visualKind": "BOOK_LED_WITH_REFERENCE",
+          "visualStatus": "NO RANDOM VIDEO INSERTION",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_FOUNDATIONS_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 15,
-          "watch": [
-            {
-              "name": "Lineage in Fabric",
-              "url": "https://learn.microsoft.com/en-us/fabric/governance/lineage",
-              "scope": "Upstream/downstream impact reasoning"
-            },
-            {
-              "name": "Microsoft Learn Live — Microsoft Purview Data Governance",
-              "url": "https://learn.microsoft.com/en-us/shows/learn-live/fasttrack-for-azure-season-1-ep11-microsoft-purview-data-governance",
-              "scope": "1:46 overview; 3:26 permissions; 24:54 scanning; 40:03 lineage; 52:26 classification"
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Lineage, metadata, ownership and observability basics"
         },
         {
+          "seq": 8,
           "id": "B04-L08",
           "title": "Data-quality contracts: block, warn and reconcile",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B04-L08 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Data-quality contracts: block, warn and reconcile in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Course-built teaching + current official reference",
+          "visualSourceUrl": "",
+          "visualSegment": "Use the exact source/reference route stated in the learner book.",
+          "visualKind": "BOOK_LED_WITH_REFERENCE",
+          "visualStatus": "NO RANDOM VIDEO INSERTION",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_FOUNDATIONS_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 17,
-          "watch": [
-            {
-              "name": "Load tables in a dimensional model",
-              "url": "https://learn.microsoft.com/en-us/fabric/data-warehouse/dimensional-modeling-load-tables",
-              "scope": "Auditing/errors/row-count controls during load"
-            },
-            {
-              "name": "DataTalksClub DE Zoomcamp — dbt Tests",
-              "url": "https://www.youtube.com/watch?v=bvZ-rJm7uMU",
-              "scope": "Whole focused tests lesson — schema/data checks"
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Data-quality contracts: block, warn and reconcile"
         },
         {
+          "seq": 9,
           "id": "B04-L09",
           "title": "Replay, backfill and warehouse failure-recovery reasoning",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B04-L09 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Replay, backfill and warehouse failure-recovery reasoning in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Course-built teaching + current official reference",
+          "visualSourceUrl": "",
+          "visualSegment": "Use the exact source/reference route stated in the learner book.",
+          "visualKind": "BOOK_LED_WITH_REFERENCE",
+          "visualStatus": "NO RANDOM VIDEO INSERTION",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_FOUNDATIONS_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 19,
-          "watch": [
-            {
-              "name": "Understand medallion architecture for Fabric with OneLake",
-              "url": "https://learn.microsoft.com/en-us/fabric/onelake/onelake-medallion-lakehouse-architecture",
-              "scope": "Preserved raw source and layered recovery reasoning"
-            },
-            {
-              "name": "DataTalksClub DE Zoomcamp 2026 — From APIs to Warehouses with dlt",
-              "url": "https://www.youtube.com/watch?v=5eMytPBgmVs",
-              "scope": "Long-form main class — incremental loading; book/lab proves safe rerun and watermark/state behavior"
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Replay, backfill and warehouse failure-recovery reasoning"
         }
       ],
-      "bookPath": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_FOUNDATIONS_LEARNER_BOOK_RC1.pdf"
+      "learnerPack": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_FOUNDATIONS_LEARNER_BOOK_RC1.pdf",
+      "reviewPack": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
+      "id": "B04",
+      "name": "Warehousing & Data Quality Foundations",
+      "minH": 27.0,
+      "maxH": 45.0,
+      "lessonUnits": 9,
+      "purpose": "Bridge analyst capability into engineering-ready warehousing & data quality foundations with reproducible evidence, validation, recovery and handoff.",
+      "exitEvidence": "All 9 lessons independently reproduced with validation evidence, changed retries and explain-back; module Gate ready.",
+      "source": {
+        "name": "Canonical Course 2B Astra learner system",
+        "useRule": "Use mapped sources where assigned; the bundled learner book is authoritative for the course task and evidence contract."
+      }
     },
     {
-      "id": "B05",
-      "title": "Cloud Platform Essentials",
-      "practicePath": "COURSE_MODULES/B05/B05_CLOUD_PLATFORM_PRACTICE_RC1.xlsx",
-      "studyDays": [
-        3,
-        5
-      ],
-      "units": [
+      "lessons": [
         {
+          "seq": 1,
           "id": "B05-L01",
           "title": "Cloud data mental model: storage, compute, network and identity",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B05-L01 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Cloud data mental model: storage, compute, network and identity in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Instructor / official source 2",
+          "visualSourceUrl": "https://www.youtube.com/watch?v=GbxVsi94DrE",
+          "visualSegment": "Mapped lesson source; use the exact purpose/range in the final book.",
+          "visualKind": "VIDEO_OR_OFFICIAL_SOURCE",
+          "visualStatus": "MAPPED IN CANONICAL COURSE",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B05/B05_CLOUD_PLATFORM_ESSENTIALS_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B05/B05_CLOUD_PLATFORM_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 3,
-          "watch": [
-            {
-              "name": "What is Microsoft Fabric?",
-              "url": "https://learn.microsoft.com/en-us/fabric/get-started/microsoft-fabric-overview",
-              "scope": "End-to-end SaaS analytics platform; workloads + OneLake"
-            },
-            {
-              "name": "John Savill - Microsoft Fabric Overview",
-              "url": "https://www.youtube.com/watch?v=GbxVsi94DrE",
-              "scope": "02:49-09:44 (Fabric introduction + OneLake)"
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Cloud data mental model: storage, compute, network and identity"
         },
         {
+          "seq": 2,
           "id": "B05-L02",
           "title": "Fabric, OneLake, lakehouse and warehouse as one concrete example",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B05-L02 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Fabric, OneLake, lakehouse and warehouse as one concrete example in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Instructor / official source 3",
+          "visualSourceUrl": "https://www.youtube.com/watch?v=6QusOchmSXQ",
+          "visualSegment": "Mapped lesson source; use the exact purpose/range in the final book.",
+          "visualKind": "VIDEO_OR_OFFICIAL_SOURCE",
+          "visualStatus": "MAPPED IN CANONICAL COURSE",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B05/B05_CLOUD_PLATFORM_ESSENTIALS_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B05/B05_CLOUD_PLATFORM_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 5,
-          "watch": [
-            {
-              "name": "What is OneLake?",
-              "url": "https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview",
-              "scope": "OneLake hierarchy, shared storage and workload access"
-            },
-            {
-              "name": "Data storage options in Microsoft Fabric",
-              "url": "https://learn.microsoft.com/en-us/fabric/fundamentals/store-data",
-              "scope": "Warehouse vs lakehouse fit and related store choices"
-            },
-            {
-              "name": "Guy in a Cube - What Microsoft Fabric Means for Guy in a Cube",
-              "url": "https://www.youtube.com/watch?v=6QusOchmSXQ",
-              "scope": "01:20-05:50 (workloads, OneLake, cross-cloud access/shortcuts)"
-            },
-            {
-              "name": "John Savill - Microsoft Fabric Overview",
-              "url": "https://www.youtube.com/watch?v=GbxVsi94DrE",
-              "scope": "43:28-50:18 and 1:00:43-1:13:12 (lakehouse, warehouse, comparison)"
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Fabric, OneLake, lakehouse and warehouse as one concrete example"
         },
         {
+          "seq": 3,
           "id": "B05-L03",
           "title": "Permissions, governance and private-source connection boundaries",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B05-L03 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Permissions, governance and private-source connection boundaries in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Instructor / official source 4",
+          "visualSourceUrl": "https://www.youtube.com/watch?v=GbxVsi94DrE",
+          "visualSegment": "Mapped lesson source; use the exact purpose/range in the final book.",
+          "visualKind": "VIDEO_OR_OFFICIAL_SOURCE",
+          "visualStatus": "MAPPED IN CANONICAL COURSE",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B05/B05_CLOUD_PLATFORM_ESSENTIALS_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B05/B05_CLOUD_PLATFORM_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 7,
-          "watch": [
-            {
-              "name": "Roles in workspaces in Microsoft Fabric",
-              "url": "https://learn.microsoft.com/en-us/fabric/fundamentals/roles-workspaces",
-              "scope": "Workspace control permissions and role boundaries"
-            },
-            {
-              "name": "How OneLake security controls data access",
-              "url": "https://learn.microsoft.com/en-us/fabric/onelake/security/data-access-control-model",
-              "scope": "Data-plane access roles/scopes and interaction with workspace permissions"
-            },
-            {
-              "name": "Access on-premises data sources in Data Factory for Microsoft Fabric",
-              "url": "https://learn.microsoft.com/en-us/fabric/data-factory/how-to-access-on-premises-data",
-              "scope": "Private/on-prem source connection and gateway boundary"
-            },
-            {
-              "name": "John Savill - Microsoft Fabric Overview",
-              "url": "https://www.youtube.com/watch?v=GbxVsi94DrE",
-              "scope": "18:20-24:03 (workspaces)"
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Permissions, governance and private-source connection boundaries"
         },
         {
+          "seq": 4,
           "id": "B05-L04",
           "title": "Freshness, monitoring and failure ownership",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B05-L04 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Freshness, monitoring and failure ownership in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Course-built teaching + current official reference",
+          "visualSourceUrl": "",
+          "visualSegment": "Use the exact source/reference route stated in the learner book.",
+          "visualKind": "BOOK_LED_WITH_REFERENCE",
+          "visualStatus": "NO RANDOM VIDEO INSERTION",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B05/B05_CLOUD_PLATFORM_ESSENTIALS_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B05/B05_CLOUD_PLATFORM_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 9,
-          "watch": [
-            {
-              "name": "Use the monitoring hub to track Fabric activity",
-              "url": "https://learn.microsoft.com/en-us/fabric/admin/monitoring-hub",
-              "scope": "Run status, history, error details and operational monitoring"
-            },
-            {
-              "name": "What is an on-premises data gateway?",
-              "url": "https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem",
-              "scope": "Gateway purpose and private-source connectivity dependency"
-            },
-            {
-              "name": "DP-700 Full Course — Monitoring & Optimization",
-              "url": "https://www.youtube.com/watch?v=KiB4eAeFRsw",
-              "scope": "4:46:53–5:43:50"
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Freshness, monitoring and failure ownership"
         },
         {
+          "seq": 5,
           "id": "B05-L05",
           "title": "Analyst-to-engineer platform collaboration and handoff",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B05-L05 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Analyst-to-engineer platform collaboration and handoff in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Course-built teaching + current official reference",
+          "visualSourceUrl": "",
+          "visualSegment": "Use the exact source/reference route stated in the learner book.",
+          "visualKind": "BOOK_LED_WITH_REFERENCE",
+          "visualStatus": "NO RANDOM VIDEO INSERTION",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B05/B05_CLOUD_PLATFORM_ESSENTIALS_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B05/B05_CLOUD_PLATFORM_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 11,
-          "watch": [
-            {
-              "name": "What is Microsoft Fabric?",
-              "url": "https://learn.microsoft.com/en-us/fabric/get-started/microsoft-fabric-overview",
-              "scope": "Shared platform responsibilities across ingestion, engineering and reporting"
-            },
-            {
-              "name": "Lineage in Fabric",
-              "url": "https://learn.microsoft.com/en-us/fabric/governance/lineage",
-              "scope": "Impact analysis and downstream dependency context"
-            },
-            {
-              "name": "freeCodeCamp — Git & GitHub Crash Course for Beginners [2026]",
-              "url": "https://www.youtube.com/watch?v=mAFoROnOfHs",
-              "scope": "Use clone/push/pull portions; then do clean-clone handoff"
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Analyst-to-engineer platform collaboration and handoff"
         }
       ],
-      "bookPath": "COURSE_MODULES/B05/B05_CLOUD_PLATFORM_ESSENTIALS_LEARNER_BOOK_RC1.pdf"
+      "learnerPack": "COURSE_MODULES/B05/B05_CLOUD_PLATFORM_ESSENTIALS_LEARNER_BOOK_RC1.pdf",
+      "reviewPack": "COURSE_MODULES/B05/B05_CLOUD_PLATFORM_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
+      "id": "B05",
+      "name": "Cloud Platform Essentials",
+      "minH": 15.0,
+      "maxH": 25.0,
+      "lessonUnits": 5,
+      "purpose": "Bridge analyst capability into engineering-ready cloud platform essentials with reproducible evidence, validation, recovery and handoff.",
+      "exitEvidence": "All 5 lessons independently reproduced with validation evidence, changed retries and explain-back; module Gate ready.",
+      "source": {
+        "name": "Canonical Course 2B Astra learner system",
+        "useRule": "Use mapped sources where assigned; the bundled learner book is authoritative for the course task and evidence contract."
+      }
     },
     {
-      "id": "B06",
-      "title": "Bridge Capstone & C3 Entry",
-      "practicePath": "COURSE_MODULES/B06/B06_CAPSTONE_EVIDENCE_WORKBOOK_RC1.xlsx",
-      "studyDays": [
-        3,
-        5
-      ],
-      "units": [
+      "lessons": [
         {
+          "seq": 1,
           "id": "B06-L01",
           "title": "Integrated DA-to-DE bridge capstone",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B06-L01 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Integrated DA-to-DE bridge capstone in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Course-built teaching + current official reference",
+          "visualSourceUrl": "",
+          "visualSegment": "Use the exact source/reference route stated in the learner book.",
+          "visualKind": "BOOK_LED_WITH_REFERENCE",
+          "visualStatus": "NO RANDOM VIDEO INSERTION",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B06/B06_BRIDGE_CAPSTONE_C3_ENTRY_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B06/B06_CAPSTONE_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 3,
-          "watch": [
-            {
-              "name": "DataTalksClub DE Zoomcamp — dbt video course sequence",
-              "url": "https://www.youtube.com/watch?v=2dYDS4OQbT0",
-              "scope": "Main-class review: project structure → sources → models → tests → docs; then close video and build independently"
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Integrated DA-to-DE bridge capstone"
         },
         {
+          "seq": 2,
           "id": "B06-L02",
           "title": "Course 3 entry readiness and handoff",
+          "type": "Core Bridge Lesson",
+          "formal": true,
+          "load": "Standard",
+          "minH": 3.0,
+          "maxH": 5.0,
+          "studyAction": "Open mapped source/book -> follow guided example -> do alone -> save genuine attempt -> review -> fresh changed retry -> explain -> master",
+          "sourceName": "Course 2B canonical Astra learner system",
+          "sourceStatus": "Bundled",
+          "sourceOrigin": "Checkpoint49 learner freeze",
+          "proof": "Complete the B06-L02 independent task from a clean start, save the real output/error, and prove the result with an independent validation check.",
+          "english": "Explain Course 3 entry readiness and handoff in simple technical English for 60-90 seconds: what it changes, one failure risk, and how you verify it.",
+          "revision": "D+1, D+4, D+10, D+30; then reuse in the bridge capstone",
+          "device": "PC required for hands-on work; phone is fine for reading, revision and video.",
+          "visualSourceName": "Course-built teaching + current official reference",
+          "visualSourceUrl": "",
+          "visualSegment": "Use the exact source/reference route stated in the learner book.",
+          "visualKind": "BOOK_LED_WITH_REFERENCE",
+          "visualStatus": "NO RANDOM VIDEO INSERTION",
+          "visualUseRule": "Watch/read only the mapped purpose, then close it and perform the local course task yourself.",
+          "visualNote": "The learner book remains sufficient if an external source changes or is unavailable.",
+          "learnerPack": "COURSE_MODULES/B06/B06_BRIDGE_CAPSTONE_C3_ENTRY_LEARNER_BOOK_RC1.pdf",
+          "reviewPack": "COURSE_MODULES/B06/B06_CAPSTONE_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
           "bookPage": 5,
-          "watch": [
-            {
-              "name": "Luke Barousse — How I Would Learn to Be a Data Engineer (2026)",
-              "url": "https://www.youtube.com/watch?v=_-DzZeixu0w",
-              "scope": "27:38 orchestration + 30:01 terminal/bash/git + 32:36 DataOps/CI-CD + 34:10 architecture"
-            }
-          ],
-          "planningHours": [
-            3,
-            5
-          ]
+          "bookFocus": "Course 3 entry readiness and handoff"
         }
       ],
-      "bookPath": "COURSE_MODULES/B06/B06_BRIDGE_CAPSTONE_C3_ENTRY_LEARNER_BOOK_RC1.pdf"
+      "learnerPack": "COURSE_MODULES/B06/B06_BRIDGE_CAPSTONE_C3_ENTRY_LEARNER_BOOK_RC1.pdf",
+      "reviewPack": "COURSE_MODULES/B06/B06_CAPSTONE_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
+      "id": "B06",
+      "name": "Bridge Capstone & C3 Entry",
+      "minH": 6.0,
+      "maxH": 10.0,
+      "lessonUnits": 2,
+      "purpose": "Bridge analyst capability into engineering-ready bridge capstone & c3 entry with reproducible evidence, validation, recovery and handoff.",
+      "exitEvidence": "All 2 lessons independently reproduced with validation evidence, changed retries and explain-back; module Gate ready.",
+      "source": {
+        "name": "Canonical Course 2B Astra learner system",
+        "useRule": "Use mapped sources where assigned; the bundled learner book is authoritative for the course task and evidence contract."
+      }
     }
   ],
   "gates": [
     {
+      "Gate": "G01 - Engineering SQL Transition",
+      "When": "After B01 learner evidence is complete",
+      "Must prove": "Independent transfer across Engineering SQL Transition without solution help, with inspectable validation and recovery evidence.",
+      "Pass standard": "Every required competency is demonstrated with inspectable evidence; no unresolved critical failure and no percentage shortcut.",
+      "Critical fail": "Silent data corruption/fan-out, unsafe publish, fabricated evidence, exposed secrets/private data, or inability to reproduce/validate the result.",
+      "If failed": "Open the protected review only after the saved attempt, repair the exact weak competency, record a changed micro-proof, then explicitly assign a sealed fresh Gate only if required.",
+      "Job implication": "A pass is course evidence of this bridge competency, not a guarantee of employment.",
+      "endStage": "B01",
       "id": "G01",
-      "after": "B01",
-      "title": "Engineering SQL Transition",
-      "aPath": "COURSE_MODULES/B01/Assessment/Gate_A/B01_GATE_A_RETAIL_ORDERS_RC1.sql",
-      "bPath": "COURSE_MODULES/B01/Assessment/RETEST_ONLY_DO_NOT_OPEN/B01_GATE_B_SUPPORT_TICKETS_RC1.sql",
-      "practicePath": "COURSE_MODULES/B01/B01_ENGINEERING_SQL_TRANSITION_PRACTICE_RC1.sql"
+      "dimensions": [
+        "Grain and cardinality contracts for engineering SQL",
+        "Staged transformations with CTEs and subqueries",
+        "Window patterns for ranking, latest-row and sequence logic",
+        "Conditional and date transformations with explicit business rules",
+        "Data-quality investigation queries",
+        "Reconciliation and validation SQL",
+        "EXPLAIN, scans and index awareness",
+        "Maintainable deterministic SQL handoff"
+      ],
+      "passMode": "DEMONSTRATED_EVIDENCE_REVIEW",
+      "gateA": "COURSE_MODULES/B01/Assessment/Gate_A/B01_GATE_A_RETAIL_ORDERS_RC1.sql",
+      "reviewA": "COURSE_MODULES/B01/Assessment/Reviews/B01_GATE_A_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+      "gateB": "COURSE_MODULES/B01/Assessment/RETEST_ONLY_DO_NOT_OPEN/B01_GATE_B_SUPPORT_TICKETS_RC1.sql",
+      "reviewB": "COURSE_MODULES/B01/Assessment/Reviews/B01_GATE_B_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+      "gateC": "COURSE_MODULES/B01/Assessment/RETEST_ONLY_DO_NOT_OPEN/B01_GATE_C_SUBSCRIPTION_BILLING_RC1.sql",
+      "reviewC": "COURSE_MODULES/B01/Assessment/Reviews/B01_GATE_C_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+      "evidenceRecord": "Keep the original attempt, validation evidence, review/repair note, changed retry and reviewer decision.",
+      "normalVariant": "A",
+      "sealedVariants": [
+        "B",
+        "C"
+      ],
+      "appendOnlyHistory": true,
+      "fullRetestExplicitAssignmentOnly": true
     },
     {
+      "Gate": "G02 - Python Pipeline Transition",
+      "When": "After B02 learner evidence is complete",
+      "Must prove": "Independent transfer across Python Pipeline Transition without solution help, with inspectable validation and recovery evidence.",
+      "Pass standard": "Every required competency is demonstrated with inspectable evidence; no unresolved critical failure and no percentage shortcut.",
+      "Critical fail": "Silent data corruption/fan-out, unsafe publish, fabricated evidence, exposed secrets/private data, or inability to reproduce/validate the result.",
+      "If failed": "Open the protected review only after the saved attempt, repair the exact weak competency, record a changed micro-proof, then explicitly assign a sealed fresh Gate only if required.",
+      "Job implication": "A pass is course evidence of this bridge competency, not a guarantee of employment.",
+      "endStage": "B02",
       "id": "G02",
-      "after": "B02",
-      "title": "Python Pipeline Transition",
-      "aPath": "COURSE_MODULES/B02/Assessment/Gate_A/B02_GATE_A_LOGISTICS_SHIPMENTS_RC1.ipynb",
-      "bPath": "COURSE_MODULES/B02/Assessment/RETEST_ONLY_DO_NOT_OPEN/B02_GATE_B_E_COMMERCE_RETURNS_RC1.ipynb",
-      "practicePath": "COURSE_MODULES/B02/B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_RC1.ipynb"
+      "dimensions": [
+        "From notebook task to reusable script contract",
+        "Functions, modules and decomposition for repeatable work",
+        "Deterministic file discovery and multi-file batches",
+        "pandas merge and validation contracts for pipelines",
+        "CSV, JSON and Excel interfaces with explicit parsing rules",
+        "HTTP API basics for data acquisition",
+        "Error handling, failure classification and containment",
+        "Logging, run evidence and validation gates",
+        "Recurring batch execution and safe rerun reasoning",
+        "Build and defend a small reproducible batch pipeline"
+      ],
+      "passMode": "DEMONSTRATED_EVIDENCE_REVIEW",
+      "gateA": "COURSE_MODULES/B02/Assessment/Gate_A/B02_GATE_A_LOGISTICS_SHIPMENTS_RC1.ipynb",
+      "reviewA": "COURSE_MODULES/B02/Assessment/Reviews/B02_GATE_A_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+      "gateB": "COURSE_MODULES/B02/Assessment/RETEST_ONLY_DO_NOT_OPEN/B02_GATE_B_E_COMMERCE_RETURNS_RC1.ipynb",
+      "reviewB": "COURSE_MODULES/B02/Assessment/Reviews/B02_GATE_B_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+      "gateC": "COURSE_MODULES/B02/Assessment/RETEST_ONLY_DO_NOT_OPEN/B02_GATE_C_CLINIC_APPOINTMENTS_RC1.ipynb",
+      "reviewC": "COURSE_MODULES/B02/Assessment/Reviews/B02_GATE_C_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+      "evidenceRecord": "Keep the original attempt, validation evidence, review/repair note, changed retry and reviewer decision.",
+      "normalVariant": "A",
+      "sealedVariants": [
+        "B",
+        "C"
+      ],
+      "appendOnlyHistory": true,
+      "fullRetestExplicitAssignmentOnly": true
     },
     {
+      "Gate": "G03 - Engineering Data Modeling",
+      "When": "After B03 learner evidence is complete",
+      "Must prove": "Independent transfer across Engineering Data Modeling without solution help, with inspectable validation and recovery evidence.",
+      "Pass standard": "Every required competency is demonstrated with inspectable evidence; no unresolved critical failure and no percentage shortcut.",
+      "Critical fail": "Silent data corruption/fan-out, unsafe publish, fabricated evidence, exposed secrets/private data, or inability to reproduce/validate the result.",
+      "If failed": "Open the protected review only after the saved attempt, repair the exact weak competency, record a changed micro-proof, then explicitly assign a sealed fresh Gate only if required.",
+      "Job implication": "A pass is course evidence of this bridge competency, not a guarantee of employment.",
+      "endStage": "B03",
       "id": "G03",
-      "after": "B03",
-      "title": "Engineering Data Modeling",
-      "aPath": "COURSE_MODULES/B03/Assessment/Gate_A/B03_GATE_A_FLEET_MAINTENANCE_RESPONSE_WORKBOOK_RC1.xlsx",
-      "bPath": "COURSE_MODULES/B03/Assessment/RETEST_ONLY_DO_NOT_OPEN/B03_GATE_B_EDUCATION_ENROLLMENT_RESPONSE_WORKBOOK_RC1.xlsx",
-      "practicePath": "COURSE_MODULES/B03/B03_ENGINEERING_DATA_MODELING_PRACTICE_RC1.xlsx"
+      "dimensions": [
+        "Analyst semantic model to engineering dimensional contract",
+        "Key integrity, relationship paths and many-to-many bridges",
+        "Multiple grains, date roles and conformed dimensions",
+        "Model reconciliation and engineer handoff"
+      ],
+      "passMode": "DEMONSTRATED_EVIDENCE_REVIEW",
+      "gateA": "COURSE_MODULES/B03/Assessment/Gate_A/B03_GATE_A_FLEET_MAINTENANCE_RESPONSE_WORKBOOK_RC1.xlsx",
+      "reviewA": "COURSE_MODULES/B03/Assessment/Reviews/B03_GATE_A_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+      "gateB": "COURSE_MODULES/B03/Assessment/RETEST_ONLY_DO_NOT_OPEN/B03_GATE_B_EDUCATION_ENROLLMENT_RESPONSE_WORKBOOK_RC1.xlsx",
+      "reviewB": "COURSE_MODULES/B03/Assessment/Reviews/B03_GATE_B_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+      "gateC": "COURSE_MODULES/B03/Assessment/RETEST_ONLY_DO_NOT_OPEN/B03_GATE_C_ENERGY_METER_READINGS_RESPONSE_WORKBOOK_RC1.xlsx",
+      "reviewC": "COURSE_MODULES/B03/Assessment/Reviews/B03_GATE_C_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+      "evidenceRecord": "Keep the original attempt, validation evidence, review/repair note, changed retry and reviewer decision.",
+      "normalVariant": "A",
+      "sealedVariants": [
+        "B",
+        "C"
+      ],
+      "appendOnlyHistory": true,
+      "fullRetestExplicitAssignmentOnly": true
     },
     {
+      "Gate": "G04 - Warehousing & Data Quality Foundations",
+      "When": "After B04 learner evidence is complete",
+      "Must prove": "Independent transfer across Warehousing & Data Quality Foundations without solution help, with inspectable validation and recovery evidence.",
+      "Pass standard": "Every required competency is demonstrated with inspectable evidence; no unresolved critical failure and no percentage shortcut.",
+      "Critical fail": "Silent data corruption/fan-out, unsafe publish, fabricated evidence, exposed secrets/private data, or inability to reproduce/validate the result.",
+      "If failed": "Open the protected review only after the saved attempt, repair the exact weak competency, record a changed micro-proof, then explicitly assign a sealed fresh Gate only if required.",
+      "Job implication": "A pass is course evidence of this bridge competency, not a guarantee of employment.",
+      "endStage": "B04",
       "id": "G04",
-      "after": "B04",
-      "title": "Warehousing & Data Quality Foundations",
-      "aPath": "COURSE_MODULES/B04/Assessment/Gate_A/B04_GATE_A_MARKETPLACE_SELLERS_RESPONSE_WORKBOOK_RC1.xlsx",
-      "bPath": "COURSE_MODULES/B04/Assessment/RETEST_ONLY_DO_NOT_OPEN/B04_GATE_B_INVENTORY_REPLENISHMENT_RESPONSE_WORKBOOK_RC1.xlsx",
-      "practicePath": "COURSE_MODULES/B04/B04_WAREHOUSING_DATA_QUALITY_PRACTICE_RC1.xlsx"
+      "dimensions": [
+        "Operational vs analytical workloads: OLTP and OLAP",
+        "Warehouse, lake and lakehouse mental models",
+        "Business keys, surrogate keys and SCD history",
+        "ETL vs ELT and transformation boundaries",
+        "Layered analytical systems: raw, staged, conformed and serving",
+        "Batch, micro-batch and streaming trade-offs",
+        "Lineage, metadata, ownership and observability basics",
+        "Data-quality contracts: block, warn and reconcile",
+        "Replay, backfill and warehouse failure-recovery reasoning"
+      ],
+      "passMode": "DEMONSTRATED_EVIDENCE_REVIEW",
+      "gateA": "COURSE_MODULES/B04/Assessment/Gate_A/B04_GATE_A_MARKETPLACE_SELLERS_RESPONSE_WORKBOOK_RC1.xlsx",
+      "reviewA": "COURSE_MODULES/B04/Assessment/Reviews/B04_GATE_A_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+      "gateB": "COURSE_MODULES/B04/Assessment/RETEST_ONLY_DO_NOT_OPEN/B04_GATE_B_INVENTORY_REPLENISHMENT_RESPONSE_WORKBOOK_RC1.xlsx",
+      "reviewB": "COURSE_MODULES/B04/Assessment/Reviews/B04_GATE_B_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+      "gateC": "COURSE_MODULES/B04/Assessment/RETEST_ONLY_DO_NOT_OPEN/B04_GATE_C_CUSTOMER_SUCCESS_RENEWALS_RESPONSE_WORKBOOK_RC1.xlsx",
+      "reviewC": "COURSE_MODULES/B04/Assessment/Reviews/B04_GATE_C_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+      "evidenceRecord": "Keep the original attempt, validation evidence, review/repair note, changed retry and reviewer decision.",
+      "normalVariant": "A",
+      "sealedVariants": [
+        "B",
+        "C"
+      ],
+      "appendOnlyHistory": true,
+      "fullRetestExplicitAssignmentOnly": true
     },
     {
+      "Gate": "G05 - Cloud Platform Essentials",
+      "When": "After B05 learner evidence is complete",
+      "Must prove": "Independent transfer across Cloud Platform Essentials without solution help, with inspectable validation and recovery evidence.",
+      "Pass standard": "Every required competency is demonstrated with inspectable evidence; no unresolved critical failure and no percentage shortcut.",
+      "Critical fail": "Silent data corruption/fan-out, unsafe publish, fabricated evidence, exposed secrets/private data, or inability to reproduce/validate the result.",
+      "If failed": "Open the protected review only after the saved attempt, repair the exact weak competency, record a changed micro-proof, then explicitly assign a sealed fresh Gate only if required.",
+      "Job implication": "A pass is course evidence of this bridge competency, not a guarantee of employment.",
+      "endStage": "B05",
       "id": "G05",
-      "after": "B05",
-      "title": "Cloud Platform Essentials",
-      "aPath": "COURSE_MODULES/B05/Assessment/Gate_A/B05_GATE_A_MANUFACTURING_QUALITY_RESPONSE_WORKBOOK_RC1.xlsx",
-      "bPath": "COURSE_MODULES/B05/Assessment/RETEST_ONLY_DO_NOT_OPEN/B05_GATE_B_DIGITAL_ADVERTISING_RESPONSE_WORKBOOK_RC1.xlsx",
-      "practicePath": "COURSE_MODULES/B05/B05_CLOUD_PLATFORM_PRACTICE_RC1.xlsx"
+      "dimensions": [
+        "Cloud data mental model: storage, compute, network and identity",
+        "Fabric, OneLake, lakehouse and warehouse as one concrete example",
+        "Permissions, governance and private-source connection boundaries",
+        "Freshness, monitoring and failure ownership",
+        "Analyst-to-engineer platform collaboration and handoff"
+      ],
+      "passMode": "DEMONSTRATED_EVIDENCE_REVIEW",
+      "gateA": "COURSE_MODULES/B05/Assessment/Gate_A/B05_GATE_A_MANUFACTURING_QUALITY_RESPONSE_WORKBOOK_RC1.xlsx",
+      "reviewA": "COURSE_MODULES/B05/Assessment/Reviews/B05_GATE_A_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+      "gateB": "COURSE_MODULES/B05/Assessment/RETEST_ONLY_DO_NOT_OPEN/B05_GATE_B_DIGITAL_ADVERTISING_RESPONSE_WORKBOOK_RC1.xlsx",
+      "reviewB": "COURSE_MODULES/B05/Assessment/Reviews/B05_GATE_B_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+      "gateC": "COURSE_MODULES/B05/Assessment/RETEST_ONLY_DO_NOT_OPEN/B05_GATE_C_TRAVEL_BOOKINGS_RESPONSE_WORKBOOK_RC1.xlsx",
+      "reviewC": "COURSE_MODULES/B05/Assessment/Reviews/B05_GATE_C_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+      "evidenceRecord": "Keep the original attempt, validation evidence, review/repair note, changed retry and reviewer decision.",
+      "normalVariant": "A",
+      "sealedVariants": [
+        "B",
+        "C"
+      ],
+      "appendOnlyHistory": true,
+      "fullRetestExplicitAssignmentOnly": true
     },
     {
+      "Gate": "G06 - Bridge Capstone & C3 Entry",
+      "When": "After B06 learner evidence is complete",
+      "Must prove": "Independent transfer across Bridge Capstone & C3 Entry without solution help, with inspectable validation and recovery evidence.",
+      "Pass standard": "Every required competency is demonstrated with inspectable evidence; no unresolved critical failure and no percentage shortcut.",
+      "Critical fail": "Silent data corruption/fan-out, unsafe publish, fabricated evidence, exposed secrets/private data, or inability to reproduce/validate the result.",
+      "If failed": "Open the protected review only after the saved attempt, repair the exact weak competency, record a changed micro-proof, then explicitly assign a sealed fresh Gate only if required.",
+      "Job implication": "A pass is course evidence of this bridge competency, not a guarantee of employment.",
+      "endStage": "B06",
       "id": "G06",
-      "after": "B06",
-      "title": "Bridge Capstone & C3 Entry",
-      "aPath": "COURSE_MODULES/B06/Assessment/Gate_A/B06_GATE_A_RETAIL_ORDERS_RESPONSE_WORKBOOK_RC1.xlsx",
-      "bPath": "COURSE_MODULES/B06/Assessment/RETEST_ONLY_DO_NOT_OPEN/B06_GATE_B_SUPPORT_TICKETS_RESPONSE_WORKBOOK_RC1.xlsx",
-      "practicePath": "COURSE_MODULES/B06/B06_CAPSTONE_EVIDENCE_WORKBOOK_RC1.xlsx"
+      "dimensions": [
+        "Integrated DA-to-DE bridge capstone",
+        "Course 3 entry readiness and handoff"
+      ],
+      "passMode": "DEMONSTRATED_EVIDENCE_REVIEW",
+      "gateA": "COURSE_MODULES/B06/Assessment/Gate_A/B06_GATE_A_RETAIL_ORDERS_RESPONSE_WORKBOOK_RC1.xlsx",
+      "reviewA": "COURSE_MODULES/B06/Assessment/Reviews/B06_GATE_A_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+      "gateB": "COURSE_MODULES/B06/Assessment/RETEST_ONLY_DO_NOT_OPEN/B06_GATE_B_SUPPORT_TICKETS_RESPONSE_WORKBOOK_RC1.xlsx",
+      "reviewB": "COURSE_MODULES/B06/Assessment/Reviews/B06_GATE_B_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+      "gateC": "COURSE_MODULES/B06/Assessment/RETEST_ONLY_DO_NOT_OPEN/B06_GATE_C_SUBSCRIPTION_BILLING_RESPONSE_WORKBOOK_RC1.xlsx",
+      "reviewC": "COURSE_MODULES/B06/Assessment/Reviews/B06_GATE_C_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+      "evidenceRecord": "Keep the original attempt, validation evidence, review/repair note, changed retry and reviewer decision.",
+      "normalVariant": "A",
+      "sealedVariants": [
+        "B",
+        "C"
+      ],
+      "appendOnlyHistory": true,
+      "fullRetestExplicitAssignmentOnly": true
     }
-  ]
+  ],
+  "revisionRules": [
+    "D+1",
+    "D+4",
+    "D+10",
+    "D+30"
+  ],
+  "dailyEngine": "No built-in timer. Follow the next recommended lesson/repair/evidence action.",
+  "videoFirstLayer": "Mapped visual first where useful; bundled learner book is the complete fallback."
 }

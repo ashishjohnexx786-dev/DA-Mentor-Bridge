@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-20",
+  "status": "PASS_CURRENT_OFFICIAL_DOCS",
+  "removed_sources": [],
+  "verified_official": [
+    "https://learn.microsoft.com/en-us/fabric/get-started/microsoft-fabric-overview",
+    "https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview",
+    "https://learn.microsoft.com/en-us/fabric/fundamentals/store-data",
+    "https://learn.microsoft.com/en-us/fabric/fundamentals/roles-workspaces",
+    "https://learn.microsoft.com/en-us/fabric/onelake/security/data-access-control-model",
+    "https://learn.microsoft.com/en-us/fabric/admin/monitoring-hub",
+    "https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem",
+    "https://learn.microsoft.com/en-us/fabric/governance/lineage"
+  ],
+  "video_note": "Existing optional YouTube chapter mappings preserved; official docs remain sufficient and learner book is self-contained."
+}

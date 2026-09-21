@@ -1,0 +1,6 @@
+{
+  "date": "2026-09-20",
+  "status": "PASS_INTERNAL_ONLY",
+  "removed_sources": [],
+  "note": "B06 deliberately requires no new external media. B06-L01 synthesizes B01-B05; B06-L02 uses the internal C3-00 canonical entry boundary. No external-link dependency is introduced."
+}

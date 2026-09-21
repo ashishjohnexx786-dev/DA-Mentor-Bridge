@@ -1,0 +1,53 @@
+{
+  "A": {
+    "customers": 10,
+    "orders": 24,
+    "order_items": 48,
+    "order_promotions": 17,
+    "order_events": 39,
+    "completed_orders": 14,
+    "completed_item_gross": 82750.0,
+    "completed_item_net": 78432.5,
+    "all_item_gross": 149300.0,
+    "all_item_net": 141840.0,
+    "shipping_fee_order_grain": 3300.0,
+    "shipping_fee_after_item_join": 6600.0,
+    "shipping_fee_after_promo_join": 2100.0,
+    "promo_distinct_orders": 12,
+    "duplicate_promo_business_rows": 1,
+    "orphan_event_rows": 1
+  },
+  "B": {
+    "agents": 7,
+    "tickets": 26,
+    "ticket_events": 71,
+    "ticket_tags": 32,
+    "sla_targets": 3,
+    "closed_tickets": 19,
+    "avg_closed_resolution_days": 3.5789473684210527,
+    "duplicate_business_tags": 1,
+    "tagged_distinct_tickets": 26,
+    "ticket_rows_after_event_join": 71,
+    "ticket_rows_after_tag_join": 32,
+    "closed_rows_after_tag_join": 23,
+    "sla_met_closed": 13,
+    "sla_met_rate_closed": 0.6842105263157895
+  },
+  "C": {
+    "accounts": 9,
+    "invoices": 24,
+    "invoice_lines": 48,
+    "invoice_adjustments": 13,
+    "payments": 15,
+    "paid_invoices": 14,
+    "paid_invoice_value": 35300.0,
+    "all_invoice_line_value": 68500.0,
+    "orphan_payments": 1,
+    "duplicate_business_adjustments": 1,
+    "invoice_rows_after_line_join": 48,
+    "invoice_rows_after_adjustment_join": 13,
+    "line_value_after_lines_plus_adjustments_join": 19800.0,
+    "payment_total_valid_invoices": 35300.0,
+    "payment_total_including_orphan": 35800.0
+  }
+}

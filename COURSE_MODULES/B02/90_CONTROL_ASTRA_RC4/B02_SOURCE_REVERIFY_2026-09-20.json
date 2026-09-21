@@ -1,0 +1,90 @@
+{
+  "date": "2026-09-20",
+  "status": "PASS_WITH_PATCH_VERSION_REFRESH_NOTE",
+  "removed_sources": [],
+  "official": [
+    {
+      "id": "SRC01",
+      "url": "https://docs.python.org/3/tutorial/modules.html",
+      "status": "CURRENT_PYTHON_3.14.7"
+    },
+    {
+      "id": "SRC02",
+      "url": "https://docs.python.org/3/library/pathlib.html",
+      "status": "CURRENT_PYTHON_3.14.7"
+    },
+    {
+      "id": "SRC03",
+      "url": "https://pandas.pydata.org/docs/user_guide/",
+      "status": "CURRENT_DOCS_SERVE_PANDAS_3.0.6",
+      "note": "Learner book 3.0.5 label preserved as build baseline; mapped concepts remain current."
+    },
+    {
+      "id": "SRC04",
+      "url": "https://pandas.pydata.org/docs/reference/api/pandas.merge.html",
+      "status": "CURRENT_DOCS_SERVE_PANDAS_3.0.6"
+    },
+    {
+      "id": "SRC05",
+      "url": "https://pandas.pydata.org/docs/user_guide/io.html",
+      "status": "CURRENT_DOCS_SERVE_PANDAS_3.0.6"
+    },
+    {
+      "id": "SRC06",
+      "url": "https://docs.python.org/3/library/csv.html",
+      "status": "CURRENT_PYTHON_3.14.7"
+    },
+    {
+      "id": "SRC07",
+      "url": "https://docs.python.org/3/library/json.html",
+      "status": "CURRENT_PYTHON_3.14.7"
+    },
+    {
+      "id": "SRC08",
+      "url": "https://requests.readthedocs.io/en/latest/user/quickstart/",
+      "status": "CURRENT_REQUESTS_2.34.2"
+    },
+    {
+      "id": "SRC09",
+      "url": "https://docs.python.org/3/tutorial/errors.html",
+      "status": "CURRENT_PYTHON_3.14.7"
+    },
+    {
+      "id": "SRC10",
+      "url": "https://docs.python.org/3/howto/logging.html",
+      "status": "CURRENT_PYTHON_3.14.7"
+    }
+  ],
+  "visuals": [
+    {
+      "id": "VID02",
+      "url": "https://www.youtube.com/watch?v=N6hyN6BW6ao",
+      "status": "VERIFIED_TITLE_AND_PUBLISHED_TIMESTAMPS"
+    },
+    {
+      "id": "VID03",
+      "url": "https://www.youtube.com/watch?v=tb8gHvYlCFs",
+      "status": "VERIFIED_TITLE_BACKUP_ONLY"
+    },
+    {
+      "id": "VID04",
+      "url": "https://www.youtube.com/watch?v=-ARI4Cz-awo",
+      "status": "VERIFIED_TITLE"
+    },
+    {
+      "id": "VID05",
+      "url": "https://www.youtube.com/watch?v=NIWwJbo-9_8",
+      "status": "VERIFIED_TITLE"
+    },
+    {
+      "id": "VID06",
+      "url": "https://realpython.com/videos/consuming-apis-get-post/",
+      "status": "VERIFIED_CURRENT_WITH_TRANSCRIPT_TIMESTAMPS_01_50_TO_03_02"
+    },
+    {
+      "id": "VID01",
+      "url": "https://www.youtube.com/watch?v=P5rlLlztkNs",
+      "status": "OPTIONAL_BACKUP_FETCH_INCONCLUSIVE_NO_LEARNER_DEPENDENCY"
+    }
+  ]
+}

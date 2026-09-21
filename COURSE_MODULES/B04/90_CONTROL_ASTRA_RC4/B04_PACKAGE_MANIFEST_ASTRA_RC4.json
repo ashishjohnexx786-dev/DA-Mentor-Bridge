@@ -1,0 +1,302 @@
+[
+  {
+    "path": "00_ASTRA_PARITY/B04_PRACTICAL_MASTERY_CHECK_ASTRA_RC4.pdf",
+    "bytes": 4201,
+    "sha256": "3e1d14ddbe30e6ef8d346bfabbc165f12bebe3e75de406b05da7001508f25f71"
+  },
+  {
+    "path": "00_ASTRA_PARITY/B04_PRACTICAL_MASTERY_CHECK_PROTECTED_REVIEW_ASTRA_RC4.pdf",
+    "bytes": 4388,
+    "sha256": "518da5de526913adb4ffa3f6e191e5695c8d27ebd48c63efc01a0f671980a18d"
+  },
+  {
+    "path": "00_ASTRA_PARITY/B04_QUICK_REVISION_ASTRA_RC4.pdf",
+    "bytes": 3809,
+    "sha256": "30994ff559591d5f6d7e4fe218290b8b3662f3395b9d86354e1c285eac978f4c"
+  },
+  {
+    "path": "00_ASTRA_PARITY/B04_START_HERE_ASTRA_RC4.pdf",
+    "bytes": 3082,
+    "sha256": "638b4922c384718b3763add148745e573032db2a4fea6ec3dbbe4f32833d187d"
+  },
+  {
+    "path": "90_CONTROL_ASTRA_RC4/B04_CANONICAL_LESSON_ROUTE_REGISTRY_ASTRA_RC4.csv",
+    "bytes": 2294,
+    "sha256": "2500ff5c190f33d593f18e8ce07aebbe6b985717b6ce37714ffe28639e101503"
+  },
+  {
+    "path": "90_CONTROL_ASTRA_RC4/B04_CHECKPOINT44_FINAL_QA.json",
+    "bytes": 944,
+    "sha256": "71c35bb695d33592c2875b8fb8ca219fbbebdae6af7e86c90db06dc46956b0f5"
+  },
+  {
+    "path": "90_CONTROL_ASTRA_RC4/B04_GATE_DEEP_CONTROLS_ASTRA_RC4.json",
+    "bytes": 4198,
+    "sha256": "cdaf08efec8f2afb61d448faa39fa772f326d5eae62cc28da47c7a9c25184775"
+  },
+  {
+    "path": "90_CONTROL_ASTRA_RC4/B04_SOURCE_REVERIFY_2026-09-20.json",
+    "bytes": 1315,
+    "sha256": "c20cf42b49e60fa6f56aa1025676f5081f1638cd74d6c77c39dac61d2613c720"
+  },
+  {
+    "path": "Assessment/Gate_A/B04_GATE_A_DATA_RC1.zip",
+    "bytes": 4942,
+    "sha256": "aeb5a0674a6944397a3a27debccdbc49be5caad2fed1a7865ce0a0dc3e144ce2"
+  },
+  {
+    "path": "Assessment/Gate_A/B04_GATE_A_MARKETPLACE_SELLERS_RESPONSE_WORKBOOK_RC1.xlsx",
+    "bytes": 17835,
+    "sha256": "f48cc8b5513e56edd82dfe9e88f2164663f0b614f8d24799db96432d4dd5ea62"
+  },
+  {
+    "path": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B04_GATE_B_DATA_RC1.zip",
+    "bytes": 7512,
+    "sha256": "867cf76645177168bc1657909f9c8d4592cb36847646432b750ae73a42265264"
+  },
+  {
+    "path": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B04_GATE_B_INVENTORY_REPLENISHMENT_RESPONSE_WORKBOOK_RC1.xlsx",
+    "bytes": 17910,
+    "sha256": "0f3feb9025202ac93b22ae0f7ef49e79de16aedc4ca468e3214435f1d17437f8"
+  },
+  {
+    "path": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B04_GATE_C_CUSTOMER_SUCCESS_RENEWALS_RESPONSE_WORKBOOK_RC1.xlsx",
+    "bytes": 17965,
+    "sha256": "991997d8be5cd8815a2205e8bebb2c820473d5569221319758ec78dc72067ae7"
+  },
+  {
+    "path": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B04_GATE_C_DATA_RC1.zip",
+    "bytes": 4810,
+    "sha256": "999b869f007da558ce67d2360a791fe376b2e363daa18392cc1c279339c4328a"
+  },
+  {
+    "path": "Assessment/Remediation/B04_TARGETED_REMEDIATION_CARDS_RC1.pdf",
+    "bytes": 3977,
+    "sha256": "208124ff2bdc169306f18c40f974a866846991e479a9c988fa8ff9b64a0800ee"
+  },
+  {
+    "path": "Assessment/Reviews/B04_GATE_A_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+    "bytes": 6110,
+    "sha256": "5ed35ffe3abb2352f6314bbb6860ae47b305538486c73886cce792c3cc73372a"
+  },
+  {
+    "path": "Assessment/Reviews/B04_GATE_B_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+    "bytes": 6022,
+    "sha256": "736a0b5fade1151f3d75d8d632795177bd79046b301d73c8609613b437498a91"
+  },
+  {
+    "path": "Assessment/Reviews/B04_GATE_C_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+    "bytes": 6179,
+    "sha256": "cfdb906ae726c55541ff3a913ed12bcd1d91dc5925cfb012add0b6a578423dbc"
+  },
+  {
+    "path": "B04_ARTIFACT_TOOL_WORKBOOK_QA_RC1.json",
+    "bytes": 2602,
+    "sha256": "9ce3c1039d2f8dd3d08fa010680d1e524554c4dc2450d0700e4cb5032c9f82e0"
+  },
+  {
+    "path": "B04_CANONICAL_SPEC_RC1.json",
+    "bytes": 2998,
+    "sha256": "4e682e76be02259f0276b843ba636e86aa7698e096b96761165aed60ee2dcf4a"
+  },
+  {
+    "path": "B04_CAREFLOW_MINILAB_DATA_RC1.zip",
+    "bytes": 6471,
+    "sha256": "ef5c36b95a9603e694eccc875fc62b15f5c93eaa8da693895910e20d63f7fa97"
+  },
+  {
+    "path": "B04_CAREFLOW_MINI_LAB_REVIEW_PROTECTED_RC1.pdf",
+    "bytes": 3076,
+    "sha256": "c55ad303f68703ffe72996bb44dd6fb6ee673398f07c8dba3ef348ff3e7b70c8"
+  },
+  {
+    "path": "B04_CAREFLOW_WAREHOUSE_MINI_LAB_RC1.xlsx",
+    "bytes": 13534,
+    "sha256": "4296bf3a06a3a762774e79f81f944548792b75c747ff2839c66c0cc035d8c5c9"
+  },
+  {
+    "path": "B04_MODULE_QA_RC1.json",
+    "bytes": 50144,
+    "sha256": "90356b1944f16e81def1ddad79b9804690456f8b680940e93ae5cf6411a59d66"
+  },
+  {
+    "path": "B04_MODULE_QA_REPORT_RC1.pdf",
+    "bytes": 3943,
+    "sha256": "82002c0d54b8a36c0a3b6b46392435aaae99718cea4bd0187fd774f7ff399a0c"
+  },
+  {
+    "path": "B04_PRACTICE_DATA_RC1.zip",
+    "bytes": 8919,
+    "sha256": "02d9b1059cfee8129143617685152a5537cf9f1e6eed2ab1489333bb77ab519b"
+  },
+  {
+    "path": "B04_PRACTICE_GATE_TRACEABILITY_RC1.csv",
+    "bytes": 2065,
+    "sha256": "807e053a9e9ee10340bc8eb6c7b0e2c2d934576c7ab784f43f29214dbe91625b"
+  },
+  {
+    "path": "B04_RELEASE_RECORD_RC1.json",
+    "bytes": 855,
+    "sha256": "02584b05f5e52ac1f96242e53d5a8c5777a7d294bcec7e50cb46392cc1dfd622"
+  },
+  {
+    "path": "B04_SOURCE_VIDEO_REGISTRY_RC1.csv",
+    "bytes": 4350,
+    "sha256": "620348494fbbc4d08c1cf292b1dbaa5319a2b502a0463b46c8ec4c03648cdca3"
+  },
+  {
+    "path": "B04_START_HERE_RC1.pdf",
+    "bytes": 3378,
+    "sha256": "8535876e1eb62a13e3955a7ef0f8d546ca71ba5790baa5f5d81cad01a203ca27"
+  },
+  {
+    "path": "B04_WAREHOUSING_DATA_QUALITY_FOUNDATIONS_LEARNER_BOOK_RC1.pdf",
+    "bytes": 53742,
+    "sha256": "c4739bb9e5f194bceef7088e2a049a96c34a509d7d332e8b4635a506bd0d303c"
+  },
+  {
+    "path": "B04_WAREHOUSING_DATA_QUALITY_PRACTICE_RC1.xlsx",
+    "bytes": 30389,
+    "sha256": "e07f4261faf7984f812bfbdc29927599c41892d7b01e3a97a3ebcf96a3d8e1ab"
+  },
+  {
+    "path": "B04_WAREHOUSING_DATA_QUALITY_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
+    "bytes": 18491,
+    "sha256": "88edbc8b3768bc567c4875bc6c7108de2f50ccf43ac7cda27b05a33a94e8386d"
+  },
+  {
+    "path": "MANIFEST.csv",
+    "bytes": 5458,
+    "sha256": "5020bab5fdf40bdb3f3fe51a5bd92e87a8e193557ac80944dde7c8852dbe7c63"
+  },
+  {
+    "path": "MiniLab_Data/README.txt",
+    "bytes": 335,
+    "sha256": "a5d10985b52afffe466b9109870686578718b2a6fd0911583d4aa76837a2c220"
+  },
+  {
+    "path": "MiniLab_Data/appointment_events.csv",
+    "bytes": 11315,
+    "sha256": "da4b30cebe92e56c5de7205bd56fad7941f18d0b0d4f625eb8f63c2f85c27a65"
+  },
+  {
+    "path": "MiniLab_Data/appointments.csv",
+    "bytes": 5955,
+    "sha256": "ea15132c6d721344929a5c01f75222760633633781852caab1fb77c52a0f7b61"
+  },
+  {
+    "path": "MiniLab_Data/clinics.csv",
+    "bytes": 210,
+    "sha256": "de99365e13866b4cdedde3954a04d1a7b0428d5fa83df31e259c21fb5a7c9175"
+  },
+  {
+    "path": "MiniLab_Data/control_totals.json",
+    "bytes": 435,
+    "sha256": "6f0a94aeb4852aa048944196e699c40e75bf316ed8f469749545795094ba6ce4"
+  },
+  {
+    "path": "MiniLab_Data/monthly_clinic_targets.csv",
+    "bytes": 313,
+    "sha256": "71bd8e6d91fb06168f9588b62c641af0a49da16f86d40d617f8fbe2e87adb9b7"
+  },
+  {
+    "path": "MiniLab_Data/patients.csv",
+    "bytes": 790,
+    "sha256": "b88938063983ad099f6c9788b05e064a7a2ea1219cf54a4619279da7bfad3846"
+  },
+  {
+    "path": "MiniLab_Data/payments.csv",
+    "bytes": 3287,
+    "sha256": "243247656890a7a283b7f8317fc4e5246e952bb5c6f0d254714537aa0fb1b752"
+  },
+  {
+    "path": "MiniLab_Data/provider_profile_changes.csv",
+    "bytes": 673,
+    "sha256": "4d1224f82951ad3c1fab54ed52e0b156f91b38675bbc31f55eabbc30548db8a6"
+  },
+  {
+    "path": "MiniLab_Data/provider_skills.csv",
+    "bytes": 261,
+    "sha256": "ffd8108bc278a56546812688c83a27c14606e59208257ff74c05e76fa25369af"
+  },
+  {
+    "path": "MiniLab_Data/providers.csv",
+    "bytes": 470,
+    "sha256": "46f392f6fd76d741eaab344b263f4bb46dd65a978186eeb107ae818dfdb435fb"
+  },
+  {
+    "path": "MiniLab_Data/source_contracts.json",
+    "bytes": 692,
+    "sha256": "1cf1b06e2fb85dcac719628b07c8493a6cb6a5fa0aa87dd1c76c14c098065dd3"
+  },
+  {
+    "path": "Practice_Data/README.txt",
+    "bytes": 501,
+    "sha256": "42c05199dd1c6fd589747e3a6f729c28e347b8952a679d4c449a3c2dba12bf15"
+  },
+  {
+    "path": "Practice_Data/control_totals.json",
+    "bytes": 261,
+    "sha256": "6d526e29764ca295bf1799ebc4aade044ecd18915a48bbea83320c1537b62123"
+  },
+  {
+    "path": "Practice_Data/driver_profile_changes.csv",
+    "bytes": 1224,
+    "sha256": "a3c5a6e43086d77958c9c4b7e24cf8a5460ba391a81df0377dbac43d121a7a3c"
+  },
+  {
+    "path": "Practice_Data/driver_tags.csv",
+    "bytes": 410,
+    "sha256": "2b9c1d71fead13a16522740d73fe875397a0e67686bac3c0ed6d64847aa35e47"
+  },
+  {
+    "path": "Practice_Data/drivers.csv",
+    "bytes": 685,
+    "sha256": "9ce5b130d0fde626caf78bfe3c19e4c49fa26e006201d5d49e3c49f20fd8d239"
+  },
+  {
+    "path": "Practice_Data/monthly_city_targets.csv",
+    "bytes": 428,
+    "sha256": "eb1458c01c470dce000c01f7d4387581065f5478f23b8ef11d49504b03d7862d"
+  },
+  {
+    "path": "Practice_Data/payments.csv",
+    "bytes": 2797,
+    "sha256": "5f8234a2b1aacf90adb6b4c65156fee7aacff8aeb9ede24dd692d33dc7093815"
+  },
+  {
+    "path": "Practice_Data/ride_events.csv",
+    "bytes": 17570,
+    "sha256": "a3344067f912f7b931c7324025512f20678da9eaaaed19d4bd0488780075c871"
+  },
+  {
+    "path": "Practice_Data/riders.csv",
+    "bytes": 1105,
+    "sha256": "900ec13751d0febdcfd8db312e5e305ed24880623f66e28342bd3855590aaf0d"
+  },
+  {
+    "path": "Practice_Data/rides.csv",
+    "bytes": 7028,
+    "sha256": "b8789bd738a3fb32de758486e856c55540b4ce4f6145e31ebf51ac9d430139dc"
+  },
+  {
+    "path": "Practice_Data/source_contracts.json",
+    "bytes": 842,
+    "sha256": "024f467bbfdc2567f07d66499b76782b0cf7668a1d6778d66648f7930aa9d7f9"
+  },
+  {
+    "path": "README_ASTRA_RC4.txt",
+    "bytes": 308,
+    "sha256": "4dcf88cc914f62bdc78ae16fede6913a6610a1dc2dbae297f75909bb3fe1f4f8"
+  },
+  {
+    "path": "README_FIRST.txt",
+    "bytes": 400,
+    "sha256": "05944b58d273478c418cb86664b91d65c79fbb3683c9580f14c1361a2f6761af"
+  },
+  {
+    "path": "SHA256SUMS.txt",
+    "bytes": 5266,
+    "sha256": "605070a551b5bb9b129c5652faadf4914d06a1cd6a6dd2ea71c1c1d08e7a5987"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "A": {
+    "domain": "Manufacturing Quality",
+    "requirements": [
+      "Private MES and historian require an explicit secure private/on-prem connection boundary; QMS API, Azure Blob and cloud/private ERP replica must be evaluated separately.",
+      "Freshness differs by source: historian 5 min, MES 15 min, QMS 30 min, image metadata hourly, ERP cost daily, certified model hourly. Architecture must not flatten these into one schedule.",
+      "GRP-QA needs curated quality analysis, not raw secrets/admin. Plant managers are read-only consumers. SPN-MFG is a nonhuman least-privilege pipeline identity. Vendor access is exceptional, not default workspace membership.",
+      "Inspection images are large unstructured evidence; duplication must be justified.",
+      "Incidents: firewall/gateway break, token expiry, accidental Contributor grant. Each requires signal, owner, recovery, post-validation and communication."
+    ]
+  },
+  "B": {
+    "domain": "Digital Advertising",
+    "requirements": [
+      "All primary sources are cloud-accessible. Inventing an on-premises gateway is a design error unless a private/firewall requirement exists.",
+      "Clickstream is large external object storage; copy vs shortcut/reference must be justified from workload, latency, governance and cost.",
+      "External agency may see approved campaign aggregates but not CRM-identifiable detail; Contributor is not the default self-service solution.",
+      "Google/Meta 30 min, clickstream 15 min, CRM hourly, finance daily, model hourly: monitoring must preserve separate SLAs.",
+      "Incidents: API throttling, new CRM PII column, agency requests Contributor. Require backoff/partial-publish rule, governance/lineage impact and least-privilege alternative."
+    ]
+  },
+  "C": {
+    "domain": "Travel Bookings",
+    "requirements": [
+      "Booking SQL is private/on-prem and needs a secure connection boundary; flight API, partner SFTP, cloud event stream and Azure Blob do not automatically share that requirement.",
+      "Flight status has 5 min SLA and web events <5 min; booking transactions 10 min; partner/finance daily. Tightest freshness drives incident priority but not every source schedule.",
+      "Ops, finance and support require different detail; pipeline service identity is nonhuman least privilege; external partner gets no workspace by default.",
+      "Incidents: booking gateway outage, SFTP 8 hours late, flight API schema rename. Require stale-data/partial-publish decisions, schema quarantine/replay and consumer communication.",
+      "Architecture must distinguish operational availability from analytical reporting and avoid hidden paid-tenant click dependencies in the assessment."
+    ]
+  }
+}

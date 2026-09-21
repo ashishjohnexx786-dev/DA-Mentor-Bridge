@@ -1,0 +1,317 @@
+[
+  {
+    "path": "00_ASTRA_PARITY/B02_PRACTICAL_MASTERY_CHECK_ASTRA_RC4.pdf",
+    "bytes": 4532,
+    "sha256": "491c0a4e071c1745016e13280cdf44ffe328d88248d1ccd8bbebb821a0c6a096"
+  },
+  {
+    "path": "00_ASTRA_PARITY/B02_PRACTICAL_MASTERY_CHECK_PROTECTED_REVIEW_ASTRA_RC4.pdf",
+    "bytes": 4517,
+    "sha256": "df234ea6fa973e287bd353da8f637dbbd66532fcbc6ac44e5d35b59d8c0593f1"
+  },
+  {
+    "path": "00_ASTRA_PARITY/B02_QUICK_REVISION_ASTRA_RC4.pdf",
+    "bytes": 4754,
+    "sha256": "c4525b11eae82e5fa75009f12699e11f5b44bf5479e6997df8ff556b9dd62354"
+  },
+  {
+    "path": "00_ASTRA_PARITY/B02_START_HERE_ASTRA_RC4.pdf",
+    "bytes": 3254,
+    "sha256": "491bfa7038b3c0303cc04725b3ce267877eca18bd95e51f6a402ff00301c1db2"
+  },
+  {
+    "path": "90_CONTROL_ASTRA_RC4/B02_CANONICAL_LESSON_ROUTE_REGISTRY_ASTRA_RC4.csv",
+    "bytes": 2595,
+    "sha256": "e140fd6a2a8994c9dcb3d17ccbfafc9fd4301113c8737fa44d9171b0f3bab853"
+  },
+  {
+    "path": "90_CONTROL_ASTRA_RC4/B02_CHECKPOINT42_FINAL_QA.json",
+    "bytes": 2029,
+    "sha256": "7ecbc160bf261ac854c66c6d002889df86efa1a4f01657798f3cbae26a28cd4e"
+  },
+  {
+    "path": "90_CONTROL_ASTRA_RC4/B02_GATE_DEEP_CONTROLS_ASTRA_RC4.json",
+    "bytes": 1846,
+    "sha256": "69398b9f492f351722784263f2b40fd8ba101323b3bd61a05289306d54f64032"
+  },
+  {
+    "path": "90_CONTROL_ASTRA_RC4/B02_SOURCE_REVERIFY_2026-09-20.json",
+    "bytes": 2562,
+    "sha256": "9fec4a5d698be54940e83933fe9631424b94866c5c78c11ac926d87e30d172e7"
+  },
+  {
+    "path": "Assessment/Gate_A/B02_GATE_A_DATA_RC1/carrier_master.csv",
+    "bytes": 413,
+    "sha256": "5dd1e38d114a74f6d82d4b9543588d45079d71f9e21b65b27458c6107d57ff60"
+  },
+  {
+    "path": "Assessment/Gate_A/B02_GATE_A_DATA_RC1/config.json",
+    "bytes": 174,
+    "sha256": "c9cdb59fab58635f75e09f65f6c32a168b1a3d43d5f925f7e781fa1511b4c6ba"
+  },
+  {
+    "path": "Assessment/Gate_A/B02_GATE_A_DATA_RC1/logistics_shipments_1.csv",
+    "bytes": 1468,
+    "sha256": "508a67bf1b164bcb32513b6ce4dbd3317756da67f69ec2a5e382d21d89a2a466"
+  },
+  {
+    "path": "Assessment/Gate_A/B02_GATE_A_DATA_RC1/logistics_shipments_2.csv",
+    "bytes": 1460,
+    "sha256": "7c214ccc47fb79b845f63a5b9d8da915a406ece4060edc5035a6554407d9971f"
+  },
+  {
+    "path": "Assessment/Gate_A/B02_GATE_A_DATA_RC1/logistics_shipments_3.csv",
+    "bytes": 1462,
+    "sha256": "425b839b4f33fd5bad6b95461a107f7425100124e9d915e69a4a7b54fc180d8d"
+  },
+  {
+    "path": "Assessment/Gate_A/B02_GATE_A_DATA_RC1.zip",
+    "bytes": 2238,
+    "sha256": "468d684c5404567dc1656bf9676ce5c2d42dea97a6bc24c15e5dc4dcf6dbaa45"
+  },
+  {
+    "path": "Assessment/Gate_A/B02_GATE_A_LOGISTICS_SHIPMENTS_RC1.ipynb",
+    "bytes": 1952,
+    "sha256": "d7854c15ec39b70b194acb79f28fa2a2c3b3611c4cde792f396f26cbe63f7825"
+  },
+  {
+    "path": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B02_GATE_B_DATA_RC1/config.json",
+    "bytes": 171,
+    "sha256": "35a9c08e127888c8b143283908f25b30a93b9f396783d483020485fce0b11964"
+  },
+  {
+    "path": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B02_GATE_B_DATA_RC1/e_commerce_returns_1.csv",
+    "bytes": 1474,
+    "sha256": "a0269e19762de53b2bb378f7e2af7b6060dae29ff7f1f798fede7411ef337f8f"
+  },
+  {
+    "path": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B02_GATE_B_DATA_RC1/e_commerce_returns_2.csv",
+    "bytes": 1469,
+    "sha256": "2115ee152bc21bca6bde8f42d227a06ad1e257c1edddca28088071ecdcb0abdb"
+  },
+  {
+    "path": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B02_GATE_B_DATA_RC1/e_commerce_returns_3.csv",
+    "bytes": 1467,
+    "sha256": "2157779dc754b9386f3377ddfb0f01b6466d9d69161dacb9cb70aebea5f0ff31"
+  },
+  {
+    "path": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B02_GATE_B_DATA_RC1/seller_master.csv",
+    "bytes": 412,
+    "sha256": "1d5809db3e1b99e47aca79a2c46b6d1b738bf10b8f218752b9d79fa7b68082dc"
+  },
+  {
+    "path": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B02_GATE_B_DATA_RC1.zip",
+    "bytes": 2246,
+    "sha256": "44cb46c6fc9959ed2f21ce08ccd17d43141eaee292338ff61f28ca5b732177a9"
+  },
+  {
+    "path": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B02_GATE_B_E_COMMERCE_RETURNS_RC1.ipynb",
+    "bytes": 2000,
+    "sha256": "052b34f326615c4a5bcb15516be825047225a92366b2f73c46fd016235ee663b"
+  },
+  {
+    "path": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B02_GATE_C_CLINIC_APPOINTMENTS_RC1.ipynb",
+    "bytes": 2008,
+    "sha256": "b9aad8018b52d1da1a8c23854f05c8e2d4aa419ee4c473e9170417064af22346"
+  },
+  {
+    "path": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B02_GATE_C_DATA_RC1/clinic_appointments_1.csv",
+    "bytes": 1478,
+    "sha256": "dc2e9c3a4119bd20f29d69e17c08e512270c83084649952dfd790942232c346b"
+  },
+  {
+    "path": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B02_GATE_C_DATA_RC1/clinic_appointments_2.csv",
+    "bytes": 1467,
+    "sha256": "fdba79a365828d86b9967d231dc787e88131f743f5c3c17d02b4823574a4088f"
+  },
+  {
+    "path": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B02_GATE_C_DATA_RC1/clinic_appointments_3.csv",
+    "bytes": 1470,
+    "sha256": "d94b3385af8315243885e2e15feb04b2418f5123533cd4fba6aab6e9ebce22a8"
+  },
+  {
+    "path": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B02_GATE_C_DATA_RC1/config.json",
+    "bytes": 175,
+    "sha256": "96c302113d6bf797b0d7cd2fa59a86364e7a65aa4eab8b3f8860a173008773ca"
+  },
+  {
+    "path": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B02_GATE_C_DATA_RC1/provider_master.csv",
+    "bytes": 414,
+    "sha256": "29a454aac5de931ba87d359d39f847818a20e98ba0e1e2240d195c05fea5ddb3"
+  },
+  {
+    "path": "Assessment/RETEST_ONLY_DO_NOT_OPEN/B02_GATE_C_DATA_RC1.zip",
+    "bytes": 2262,
+    "sha256": "56a9fc97bcf39b1143689d5fbf15aa0375f335a8bde7a5798cf93d697468682c"
+  },
+  {
+    "path": "Assessment/Remediation/B02_TARGETED_REMEDIATION_RC1.ipynb",
+    "bytes": 5086,
+    "sha256": "22a2acbf7e802ea07eb94ea09a1ce3d533a72b1bd1ac213f36451eb8470f7229"
+  },
+  {
+    "path": "Assessment/Reviews/B02_GATE_A_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+    "bytes": 6591,
+    "sha256": "c4a580f9f0ad00e241ddb14725e786eab629ed1b34d5eb4d466594fd1210fa07"
+  },
+  {
+    "path": "Assessment/Reviews/B02_GATE_B_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+    "bytes": 6539,
+    "sha256": "6b8af0f1e965cccb4cda15cd5fc057cd1cdca2b3d4aae6a6f3e37beb8f3b14b0"
+  },
+  {
+    "path": "Assessment/Reviews/B02_GATE_C_REVIEW_PROTECTED_ASTRA_RC4.pdf",
+    "bytes": 6523,
+    "sha256": "4ae1f4fabccc0fd0cbc9ae2168be942c70e28b5cfa1443bf3aca485f6a6f7f1a"
+  },
+  {
+    "path": "Assessment/Reviews/B02_GATE_EXPECTED_CONTROLS_PROTECTED_RC1.json",
+    "bytes": 739,
+    "sha256": "61bc21a1e72125b48eacdcd4ed46b8e41bdacfd97ed4c820d1a27570824c7f87"
+  },
+  {
+    "path": "B02_CANONICAL_SPEC_RC1.json",
+    "bytes": 1093,
+    "sha256": "de7edc9be6e46b3ff3c73fce59731388000756ff3af5fb453db8ea2186d18fdd"
+  },
+  {
+    "path": "B02_MODULE_QA_RC1.json",
+    "bytes": 50714,
+    "sha256": "0eb760a37f57490ecceb9130be485ccafb8dbe5a1f208e8968dedf517b58aaec"
+  },
+  {
+    "path": "B02_MODULE_QA_REPORT_RC1.pdf",
+    "bytes": 4762,
+    "sha256": "6160d7f5bb22348ec5f14f05969de62f02de88ba2501b439873cf9b5cd307508"
+  },
+  {
+    "path": "B02_PRACTICE_DATA_RC1.zip",
+    "bytes": 9265,
+    "sha256": "c5ce006531a7bc4a0cce5d86fbbe5a697d0b7cbf6aa5a8aededc962bb357b021"
+  },
+  {
+    "path": "B02_PYTHON_PIPELINE_TRANSITION_LEARNER_BOOK_RC1.pdf",
+    "bytes": 66979,
+    "sha256": "e1b3f07db40619ecab433137eb59c35bb14682389c3e4cacb936742dde76a092"
+  },
+  {
+    "path": "B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_RC1.ipynb",
+    "bytes": 8351,
+    "sha256": "9471c04b4648612654e88247065e7acc7bf145f9e505d906a3d7c2c64c79b047"
+  },
+  {
+    "path": "B02_PYTHON_PIPELINE_TRANSITION_PRACTICE_REVIEW_PROTECTED_RC1.pdf",
+    "bytes": 19575,
+    "sha256": "1955f79aaa34419ac0f1cea4a2adf74886426c11088ade11d359edf2fa33b5e8"
+  },
+  {
+    "path": "B02_START_HERE_RC1.pdf",
+    "bytes": 3173,
+    "sha256": "7c5a350757c12d10aed24ddb1f62e7d059335885758ad1df4a3d9b506e818706"
+  },
+  {
+    "path": "B02_WEEKLY_BRIDGE_BATCH_PIPELINE_MINI_LAB_RC1.ipynb",
+    "bytes": 2110,
+    "sha256": "e2a93975ce5a05f79c69b4219571c9e57ff9ec9383823dc7ad988d43fd3a21d3"
+  },
+  {
+    "path": "CONTROL/B02_ASSESSMENT_PRESERVATION_LEDGER_RC0.csv",
+    "bytes": 1120,
+    "sha256": "2afebe1927f26af9103a15bbfdd479475ffd3bc9e733667e03bc9fe53de19825"
+  },
+  {
+    "path": "CONTROL/B02_BASELINE_RUNTIME_DATA_QA_RC0.json",
+    "bytes": 4471,
+    "sha256": "4fa94a1f8c4352419a9c290302feba7131c43d8efa12cb6d1950a4f7e7beceb9"
+  },
+  {
+    "path": "CONTROL/B02_PRACTICE_GATE_TRACEABILITY_RC0.csv",
+    "bytes": 2375,
+    "sha256": "849fa726d7ea57d1e78806004ad357f9091818e01397ae3bb04c434c6bafc592"
+  },
+  {
+    "path": "CONTROL/B02_REBUILD_DECISION_RC0.json",
+    "bytes": 1104,
+    "sha256": "57c2ea5bdfd6c892b77bd5469f4fa991336ea213ae562a2acc60eaf8b339f21b"
+  },
+  {
+    "path": "CONTROL/B02_SOURCE_VIDEO_REGISTRY_RC0.csv",
+    "bytes": 6197,
+    "sha256": "edc3cb3c240c639fd350f3ddebee6669c606043af5f5fcb04f9e27918e8fdbe9"
+  },
+  {
+    "path": "MANIFEST.csv",
+    "bytes": 6409,
+    "sha256": "36f7f947e774e5c2388f6641e856cf4d259e458ac801b69e8dafa44bebba2bab"
+  },
+  {
+    "path": "Practice_Data/api_response.json",
+    "bytes": 409,
+    "sha256": "40929e7e59d4790293a4b6bfe4154694768f83b1105e9bcb215efd38f0615c39"
+  },
+  {
+    "path": "Practice_Data/config.json",
+    "bytes": 216,
+    "sha256": "65edecc3310fc139f987643c145dcbf2ddb31b11f12442b73e696d643fe2619b"
+  },
+  {
+    "path": "Practice_Data/customers.csv",
+    "bytes": 969,
+    "sha256": "b61ffd30ace81d05d637eb7593e57d4853c441b4fb9405eb8f2347e7e6ca3c93"
+  },
+  {
+    "path": "Practice_Data/failure_cases/sales_bad_numeric.csv",
+    "bytes": 1905,
+    "sha256": "bde643d92e7c3d3d1508d695dc2514ffc500e9aeccb54dd6eb78b3b22cc2a6ef"
+  },
+  {
+    "path": "Practice_Data/failure_cases/sales_missing_column.csv",
+    "bytes": 1734,
+    "sha256": "344b983b8da4223e2a92af9b167c77a75e013df1c5199f4b85461a8c09d28715"
+  },
+  {
+    "path": "Practice_Data/monthly_report_template.xlsx",
+    "bytes": 4906,
+    "sha256": "707f801d7b4897069a3a63aceaf0dd9bace9507c56f8225cb1c0710f7c36afbb"
+  },
+  {
+    "path": "Practice_Data/nested_orders.json",
+    "bytes": 1648,
+    "sha256": "4ed3155af2ac6b58204b0001b2ac4e72b01e4fbbddf9d26c50c08ce5cdde65fd"
+  },
+  {
+    "path": "Practice_Data/sales_2026_01.csv",
+    "bytes": 1906,
+    "sha256": "e30fdf82c0ecea3df9cb03d3f005d228ebf160844bc6c597d50c2da83c73a553"
+  },
+  {
+    "path": "Practice_Data/sales_2026_02.csv",
+    "bytes": 1922,
+    "sha256": "00759b51598171ac41f439666748b88229a60f3e3b52deccc83838b8b68c3633"
+  },
+  {
+    "path": "Practice_Data/sales_2026_03.csv",
+    "bytes": 1911,
+    "sha256": "051498601a2117a049a383986974e42ca049581c272c502ed35066e01af6972a"
+  },
+  {
+    "path": "Practice_Data/service_metrics.json",
+    "bytes": 142,
+    "sha256": "d7afc7d632c534f6b818607e40af2ecbf70924b7a643daa49ff7e0565e367b2e"
+  },
+  {
+    "path": "README_ASTRA_RC4.txt",
+    "bytes": 618,
+    "sha256": "735229186d488b922cd9628f6cd711b13c49feb14f359f5e5cf4ce745edaf21f"
+  },
+  {
+    "path": "README_FIRST.txt",
+    "bytes": 363,
+    "sha256": "721bbd9273e7eab825b88a9e5ba70fb1ba16fe7faeeae36a04dc0125cd9ce5fd"
+  },
+  {
+    "path": "SHA256SUMS.txt",
+    "bytes": 6139,
+    "sha256": "8f374cbeb5c1f3d0083054cbf7d9c7fa0d052957ef780c27eb9322344a2485c1"
+  }
+]

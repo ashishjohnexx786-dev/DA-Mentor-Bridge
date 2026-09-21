@@ -1,0 +1,40 @@
+{
+  "project": "Course 2B Bridge Mentor replacement",
+  "candidate": "full-shell-1",
+  "date": "2026-09-21",
+  "status": "STATIC_QA_PASS_BROWSER_AUTOMATION_UNAVAILABLE_IN_THIS_RUNTIME",
+  "source_shell": "Standalone DE RC5 strict B01 runtime repair verified candidate",
+  "counts": {
+    "stages": 6,
+    "lessons": 38,
+    "gates": 6,
+    "unique_lessons": 38
+  },
+  "full_shell_views": [
+    "Today",
+    "Learn",
+    "Course",
+    "Repair",
+    "Evidence",
+    "Jobs",
+    "Reports",
+    "Settings"
+  ],
+  "route_refs_checked": 124,
+  "missing_route_refs": 0,
+  "ui_contract": {
+    "default_amoled": true,
+    "visible_builtin_timer": false,
+    "disabled_or_dimmed_progression_controls": false,
+    "backup_restore_present": true,
+    "protected_review_sequence": true
+  },
+  "pwa": {
+    "manifest_icons": 3,
+    "service_worker_assets": 11
+  },
+  "external_mapped_sources": 21,
+  "errors": [],
+  "warnings": [],
+  "browser_boundary": "Local browser navigation is blocked by the managed runtime (ERR_BLOCKED_BY_ADMINISTRATOR), so this candidate is not deployed/finalized on static QA alone."
+}

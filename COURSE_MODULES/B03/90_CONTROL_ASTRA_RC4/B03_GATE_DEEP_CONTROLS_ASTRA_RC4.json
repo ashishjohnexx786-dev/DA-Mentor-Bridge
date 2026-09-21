@@ -1,0 +1,34 @@
+{
+  "A": {
+    "domain": "Fleet Maintenance",
+    "rows": "vehicles 20; technicians 8; work orders 48; part lines 96; labor logs 72; certifications 25",
+    "base_total": 121350.0,
+    "parts_total": 64125.0,
+    "labor_total": 90405.0,
+    "closed": 32,
+    "naive_rows": 144,
+    "naive_base": 367200.0,
+    "naive_parts": 97000.0,
+    "naive_labor": 181755.0,
+    "bridge": "vehicle_certifications has multi-membership on 5 vehicles"
+  },
+  "B": {
+    "domain": "Education Enrollment",
+    "rows": "students 30; courses 8; enrollments 60; attendance 180; assessments 90; student-program rows 35",
+    "completed": 45,
+    "score_total": 6770.0,
+    "naive_rows": 270,
+    "naive_score": 20300.0,
+    "score_inflation": 13530.0,
+    "bridge": "student_programs has multi-program membership on 5 students"
+  },
+  "C": {
+    "domain": "Energy Meter Readings",
+    "rows": "sites 12; meters 24; readings 432; alarms 60; meter-program rows 28; target rows 8",
+    "kwh_total": 27086.4,
+    "naive_rows": 1080,
+    "naive_kwh": 67716.0,
+    "kwh_inflation": 40629.6,
+    "bridge": "meter_programs has multi-program membership on 4 meters; targets are month-region grain"
+  }
+}

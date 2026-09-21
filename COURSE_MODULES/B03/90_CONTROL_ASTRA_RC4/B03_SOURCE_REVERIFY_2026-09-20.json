@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-20",
+  "status": "PASS",
+  "removed_sources": [],
+  "checks": [
+    {
+      "url": "https://www.youtube.com/watch?v=4ePNrdxWtY0",
+      "status": "VERIFIED_ID/TITLE_REFERENCE_PRESERVED"
+    },
+    {
+      "url": "https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/grain/",
+      "status": "CURRENT"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/power-bi/guidance/relationships-many-to-many",
+      "status": "CURRENT"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=4pxJXwrfNKs",
+      "status": "VERIFIED_CURRENT_REFERENCE"
+    },
+    {
+      "url": "https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/conformed-dimension/",
+      "status": "CURRENT"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema",
+      "status": "CURRENT"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+lesson_id,lesson_title,teaching_start_page,teaching_end_page,teaching_file,practice_file,protected_review_file,protected_review_page
+B05-L01,"Cloud data mental model: storage, compute, network and identity",3,4,B05_CLOUD_PLATFORM_ESSENTIALS_LEARNER_BOOK_RC1.pdf,B05_CLOUD_PLATFORM_PRACTICE_RC1.xlsx,B05_CLOUD_PLATFORM_PRACTICE_REVIEW_PROTECTED_RC1.pdf,2
+B05-L02,"Fabric, OneLake, lakehouse and warehouse as one analytical platform",5,6,B05_CLOUD_PLATFORM_ESSENTIALS_LEARNER_BOOK_RC1.pdf,B05_CLOUD_PLATFORM_PRACTICE_RC1.xlsx,B05_CLOUD_PLATFORM_PRACTICE_REVIEW_PROTECTED_RC1.pdf,3
+B05-L03,"Permissions, governance and private-source connectivity",7,8,B05_CLOUD_PLATFORM_ESSENTIALS_LEARNER_BOOK_RC1.pdf,B05_CLOUD_PLATFORM_PRACTICE_RC1.xlsx,B05_CLOUD_PLATFORM_PRACTICE_REVIEW_PROTECTED_RC1.pdf,4
+B05-L04,"Freshness, monitoring and failure ownership",9,10,B05_CLOUD_PLATFORM_ESSENTIALS_LEARNER_BOOK_RC1.pdf,B05_CLOUD_PLATFORM_PRACTICE_RC1.xlsx,B05_CLOUD_PLATFORM_PRACTICE_REVIEW_PROTECTED_RC1.pdf,5
+B05-L05,Analyst-to-engineer platform collaboration and handoff,11,12,B05_CLOUD_PLATFORM_ESSENTIALS_LEARNER_BOOK_RC1.pdf,B05_CLOUD_PLATFORM_PRACTICE_RC1.xlsx,B05_CLOUD_PLATFORM_PRACTICE_REVIEW_PROTECTED_RC1.pdf,6
