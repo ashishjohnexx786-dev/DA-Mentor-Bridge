@@ -1,4 +1,4 @@
-name: Deploy current Bridge Mentor
+name: Deploy current Mentor only
 
 on:
   push:
@@ -21,25 +21,26 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout clean release branch
         uses: actions/checkout@v6
-      - name: Build current Mentor site
+      - name: Verify and extract audited Mentor
         shell: bash
         run: |
           set -euo pipefail
-          rm -rf _site .mentor_build
-          mkdir -p _site .mentor_build
-          cat deploy/release.part*.b64 > .mentor_build/shell.b64
-          base64 -d .mentor_build/shell.b64 > .mentor_build/shell.tar.gz
-          tar -xzf .mentor_build/shell.tar.gz -C _site
-          cp -a COURSE_MODULES _site/
+          echo "56094161c7b2f45fa2ac25334793951734e9528d8fe38b3f10fd1c0985c7c209  MENTOR_RELEASE.zip" | sha256sum -c -
+          rm -rf _extract _site
+          mkdir -p _extract _site
+          unzip -q MENTOR_RELEASE.zip -d _extract
+          root="$(find _extract -mindepth 1 -maxdepth 1 -type d -print -quit)"
+          test -n "$root"
+          cp -a "$root"/. _site/
           touch _site/.nojekyll
           test -f _site/index.html
           test -f _site/app.js
           test -f _site/curriculum.js
       - name: Configure Pages
         uses: actions/configure-pages@v5
-      - name: Upload static site
+      - name: Upload exact current Mentor site
         uses: actions/upload-pages-artifact@v4
         with:
           path: _site
