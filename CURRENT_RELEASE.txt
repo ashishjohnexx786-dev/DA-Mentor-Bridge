@@ -1,0 +1,5 @@
+Course 2B DA-to-DE Bridge Mentor — Astra full-shell replacement
+Release date: 2026-09-21
+Controlled units: 38
+Protected Gates: 6
+Old root Mentor runtime: removed from active main

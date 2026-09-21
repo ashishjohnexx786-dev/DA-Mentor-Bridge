@@ -1,4 +1,4 @@
-name: Deploy current Mentor to GitHub Pages
+name: Deploy current Bridge Mentor
 
 on:
   push:
@@ -23,12 +23,26 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+      - name: Build current Mentor site
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf _site .mentor_build
+          mkdir -p _site .mentor_build
+          cat deploy/release.part*.b64 > .mentor_build/shell.b64
+          base64 -d .mentor_build/shell.b64 > .mentor_build/shell.tar.gz
+          tar -xzf .mentor_build/shell.tar.gz -C _site
+          cp -a COURSE_MODULES _site/
+          touch _site/.nojekyll
+          test -f _site/index.html
+          test -f _site/app.js
+          test -f _site/curriculum.js
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload static site
         uses: actions/upload-pages-artifact@v4
         with:
-          path: '.'
+          path: _site
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
