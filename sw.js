@@ -1,11 +1,22 @@
 'use strict';
-const CACHE='c2b-bridge-astra-de-parity-2026-09-21';
-const SHELL=['./','index.html','styles.css?v=ASTRA-DE-PARITY-2026-09-21','app.js?v=ASTRA-DE-PARITY-2026-09-21','curriculum.json?v=ASTRA-DE-PARITY-2026-09-21','icon.svg','manifest.webmanifest'];
-self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting())));
-self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
+const CACHE='fourcourse-c2b-astra-2026-r3';
+const OWN_PREFIX='fourcourse-c2b-';
+const LEGACY=["c1-da-mentor-astra-de-parity-2026-09-21","senior-bi-mentor-2026-fullshell-candidate-v1","c2b-bridge-astra-de-parity-2026-09-21","c3-de-mentor-astra-2026-v4"];
+const SHELL=['./','index.html','styles.css?v=ASTRA-DE-PARITY-R3-2026-09-21','app.js?v=ASTRA-DE-PARITY-R3-2026-09-21','curriculum.json?v=ASTRA-DE-PARITY-R3-2026-09-21','icon.svg','manifest.webmanifest'];
+self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting())));
+self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>(k.startsWith(OWN_PREFIX)&&k!==CACHE)||LEGACY.includes(k)).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{
- if(event.request.method!=='GET')return;
- const u=new URL(event.request.url); if(u.origin!==self.location.origin)return;
- if(event.request.mode==='navigate'){event.respondWith(fetch(event.request,{cache:'no-store'}).then(r=>{const copy=r.clone();caches.open(CACHE).then(c=>c.put('./',copy));return r}).catch(()=>caches.match('./')));return;}
- event.respondWith(fetch(event.request,{cache:'no-store'}).then(r=>{if(r.ok){const copy=r.clone();caches.open(CACHE).then(c=>c.put(event.request,copy))}return r}).catch(()=>caches.match(event.request)));
+  if(event.request.method!=='GET')return;
+  const url=new URL(event.request.url),scopePath=new URL(self.registration.scope).pathname;
+  if(url.origin!==self.location.origin||!url.pathname.startsWith(scopePath))return;
+  if(url.pathname.endsWith('.zip'))return;
+  event.respondWith(fetch(event.request,{cache:'no-store'}).then(async response=>{
+    if(response.ok){try{const cache=await caches.open(CACHE);await cache.put(event.request,response.clone())}catch{}}
+    return response;
+  }).catch(async()=>{
+    const cache=await caches.open(CACHE),saved=await cache.match(event.request);
+    if(saved)return saved;
+    if(event.request.mode==='navigate')return await cache.match('index.html')||await cache.match('./')||new Response('Offline item unavailable',{status:503});
+    return new Response('This item is not saved offline. Reconnect and open it once.',{status:503,headers:{'Content-Type':'text/plain'}});
+  }));
 });
